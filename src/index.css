@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Color: "draft-night war room" -- tunnel charcoal, shot-clock amber,
+     two jersey-accent hues for the expansion franchises. */
+  --color-tunnel-950: #0c0e13;
+  --color-tunnel-900: #12141b;
+  --color-tunnel-800: #1a1e28;
+  --color-tunnel-700: #242a38;
+  --color-tunnel-600: #333c4e;
+  --color-tunnel-500: #4a5468;
+
+  --color-ink-100: #eef0f4;
+  --color-ink-300: #b8bfcc;
+  --color-ink-500: #838da0;
+
+  --color-clock-400: #f2b84d;
+  --color-clock-500: #e8a33d;
+  --color-clock-600: #c98426;
+
+  --color-seattle-400: #6fc7e8;
+  --color-seattle-500: #2fa8d6;
+  --color-vegas-400: #f0c25e;
+  --color-vegas-500: #d6a02f;
+
+  --color-protect-500: #4caf7d;
+  --color-exposed-500: #d64545;
+
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-tunnel-950);
+  color: var(--color-ink-100);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: var(--color-tunnel-600);
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: transparent;
+}

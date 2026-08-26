@@ -1,0 +1,9543 @@
+{
+  "salaryCapTotal": 165000000,
+  "teams": [
+    {
+      "id": "ATL",
+      "name": "Atlanta Hawks",
+      "abbreviation": "ATL",
+      "conference": "East",
+      "playerIds": [
+        "atl01",
+        "atl02",
+        "atl03",
+        "atl04",
+        "atl05",
+        "atl06",
+        "atl07",
+        "atl08",
+        "atl09",
+        "atl10",
+        "atl11",
+        "atl12",
+        "atl13"
+      ]
+    },
+    {
+      "id": "BOS",
+      "name": "Boston Celtics",
+      "abbreviation": "BOS",
+      "conference": "East",
+      "playerIds": [
+        "bos01",
+        "bos02",
+        "bos03",
+        "bos04",
+        "bos05",
+        "bos06",
+        "bos07",
+        "bos08",
+        "bos09",
+        "bos10",
+        "bos11",
+        "bos12",
+        "bos13"
+      ]
+    },
+    {
+      "id": "BKN",
+      "name": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "conference": "East",
+      "playerIds": [
+        "bkn01",
+        "bkn02",
+        "bkn03",
+        "bkn04",
+        "bkn05",
+        "bkn06",
+        "bkn07",
+        "bkn08",
+        "bkn09",
+        "bkn10",
+        "bkn11",
+        "bkn12",
+        "bkn13",
+        "bkn14"
+      ]
+    },
+    {
+      "id": "CHO",
+      "name": "Charlotte Hornets",
+      "abbreviation": "CHO",
+      "conference": "East",
+      "playerIds": [
+        "cho01",
+        "cho02",
+        "cho03",
+        "cho04",
+        "cho05",
+        "cho06",
+        "cho07",
+        "cho08",
+        "cho09",
+        "cho10",
+        "cho11",
+        "cho12",
+        "cho13",
+        "cho14"
+      ]
+    },
+    {
+      "id": "CHI",
+      "name": "Chicago Bulls",
+      "abbreviation": "CHI",
+      "conference": "East",
+      "playerIds": [
+        "chi01",
+        "chi02",
+        "chi03",
+        "chi04",
+        "chi05",
+        "chi06",
+        "chi07",
+        "chi08",
+        "chi09",
+        "chi10",
+        "chi11",
+        "chi13",
+        "chi14"
+      ]
+    },
+    {
+      "id": "CLE",
+      "name": "Cleveland Cavaliers",
+      "abbreviation": "CLE",
+      "conference": "East",
+      "playerIds": [
+        "cle01",
+        "cle02",
+        "cle03",
+        "cle04",
+        "cle05",
+        "cle06",
+        "cle07",
+        "cle08",
+        "cle09",
+        "cle11",
+        "cle12",
+        "cle13",
+        "cle14"
+      ]
+    },
+    {
+      "id": "DAL",
+      "name": "Dallas Mavericks",
+      "abbreviation": "DAL",
+      "conference": "West",
+      "playerIds": [
+        "dal01",
+        "dal02",
+        "dal03",
+        "dal04",
+        "dal05",
+        "dal06",
+        "dal07",
+        "dal08",
+        "dal09",
+        "dal10",
+        "dal11",
+        "dal12",
+        "dal13",
+        "dal14",
+        "dal15"
+      ]
+    },
+    {
+      "id": "DEN",
+      "name": "Denver Nuggets",
+      "abbreviation": "DEN",
+      "conference": "West",
+      "playerIds": [
+        "den01",
+        "den02",
+        "den03",
+        "den04",
+        "den05",
+        "den06",
+        "den07",
+        "den08",
+        "den09",
+        "den10",
+        "den11",
+        "den12",
+        "den13"
+      ]
+    },
+    {
+      "id": "DET",
+      "name": "Detroit Pistons",
+      "abbreviation": "DET",
+      "conference": "East",
+      "playerIds": [
+        "det01",
+        "det02",
+        "det03",
+        "det04",
+        "det05",
+        "det06",
+        "det07",
+        "det08",
+        "det09",
+        "det10",
+        "det12",
+        "det13",
+        "det11"
+      ]
+    },
+    {
+      "id": "GSW",
+      "name": "Golden State Warriors",
+      "abbreviation": "GSW",
+      "conference": "West",
+      "playerIds": [
+        "gsw01",
+        "gsw02",
+        "gsw03",
+        "gsw04",
+        "gsw06",
+        "gsw07",
+        "gsw08",
+        "gsw09",
+        "gsw10",
+        "gsw11",
+        "gsw13",
+        "gsw12",
+        "gsw05"
+      ]
+    },
+    {
+      "id": "HOU",
+      "name": "Houston Rockets",
+      "abbreviation": "HOU",
+      "conference": "West",
+      "playerIds": [
+        "hou01",
+        "hou02",
+        "hou03",
+        "hou04",
+        "hou05",
+        "hou06",
+        "hou07",
+        "hou08",
+        "hou09",
+        "hou10",
+        "hou11",
+        "hou12",
+        "hou13"
+      ]
+    },
+    {
+      "id": "IND",
+      "name": "Indiana Pacers",
+      "abbreviation": "IND",
+      "conference": "East",
+      "playerIds": [
+        "ind01",
+        "ind02",
+        "ind03",
+        "ind04",
+        "ind05",
+        "ind06",
+        "ind07",
+        "ind08",
+        "ind09",
+        "ind10",
+        "ind11",
+        "ind12",
+        "ind13"
+      ]
+    },
+    {
+      "id": "LAC",
+      "name": "LA Clippers",
+      "abbreviation": "LAC",
+      "conference": "West",
+      "playerIds": [
+        "lac01",
+        "lac02",
+        "lac03",
+        "lac04",
+        "lac05",
+        "lac06",
+        "lac07",
+        "lac08",
+        "lac09",
+        "lac10",
+        "lac11",
+        "lac12",
+        "lac13"
+      ]
+    },
+    {
+      "id": "LAL",
+      "name": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "conference": "West",
+      "playerIds": [
+        "lal01",
+        "lal02",
+        "lal03",
+        "lal04",
+        "lal05",
+        "lal06",
+        "lal07",
+        "lal08",
+        "lal09",
+        "lal10",
+        "lal11",
+        "lal12",
+        "lal13"
+      ]
+    },
+    {
+      "id": "MEM",
+      "name": "Memphis Grizzlies",
+      "abbreviation": "MEM",
+      "conference": "West",
+      "playerIds": [
+        "mem03",
+        "mem04",
+        "mem05",
+        "mem06",
+        "mem07",
+        "mem08",
+        "mem09",
+        "mem10",
+        "mem11",
+        "mem12",
+        "mem13",
+        "mem14",
+        "mem15"
+      ]
+    },
+    {
+      "id": "MIA",
+      "name": "Miami Heat",
+      "abbreviation": "MIA",
+      "conference": "East",
+      "playerIds": [
+        "mia01",
+        "mia02",
+        "mia03",
+        "mia04",
+        "mia05",
+        "mia06",
+        "mia07",
+        "mia08",
+        "mia09",
+        "mia10",
+        "mia11",
+        "mia12",
+        "mia13"
+      ]
+    },
+    {
+      "id": "MIL",
+      "name": "Milwaukee Bucks",
+      "abbreviation": "MIL",
+      "conference": "East",
+      "playerIds": [
+        "mil01",
+        "mil02",
+        "mil03",
+        "mil04",
+        "mil05",
+        "mil06",
+        "mil07",
+        "mil08",
+        "mil09",
+        "mil10",
+        "mil11",
+        "mil12",
+        "mil13"
+      ]
+    },
+    {
+      "id": "MIN",
+      "name": "Minnesota Timberwolves",
+      "abbreviation": "MIN",
+      "conference": "West",
+      "playerIds": [
+        "min01",
+        "min02",
+        "min03",
+        "min04",
+        "min05",
+        "min06",
+        "min07",
+        "min08",
+        "min09",
+        "min10",
+        "min11",
+        "min12",
+        "min13"
+      ]
+    },
+    {
+      "id": "NOP",
+      "name": "New Orleans Pelicans",
+      "abbreviation": "NOP",
+      "conference": "West",
+      "playerIds": [
+        "nop01",
+        "nop02",
+        "nop03",
+        "nop04",
+        "nop05",
+        "nop06",
+        "nop07",
+        "nop08",
+        "nop09",
+        "nop10",
+        "nop11",
+        "nop12",
+        "nop13"
+      ]
+    },
+    {
+      "id": "NYK",
+      "name": "New York Knicks",
+      "abbreviation": "NYK",
+      "conference": "East",
+      "playerIds": [
+        "nyk01",
+        "nyk02",
+        "nyk03",
+        "nyk04",
+        "nyk05",
+        "nyk06",
+        "nyk07",
+        "nyk08",
+        "nyk09",
+        "nyk10",
+        "nyk11",
+        "nyk12",
+        "nyk13"
+      ]
+    },
+    {
+      "id": "OKC",
+      "name": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "conference": "West",
+      "playerIds": [
+        "okc01",
+        "okc02",
+        "okc03",
+        "okc04",
+        "okc05",
+        "okc06",
+        "okc07",
+        "okc08",
+        "okc09",
+        "okc10",
+        "okc11",
+        "okc12",
+        "okc13"
+      ]
+    },
+    {
+      "id": "ORL",
+      "name": "Orlando Magic",
+      "abbreviation": "ORL",
+      "conference": "East",
+      "playerIds": [
+        "orl01",
+        "orl02",
+        "orl03",
+        "orl04",
+        "orl05",
+        "orl06",
+        "orl07",
+        "orl08",
+        "orl09",
+        "orl10",
+        "orl11",
+        "orl12",
+        "orl13"
+      ]
+    },
+    {
+      "id": "PHI",
+      "name": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "conference": "East",
+      "playerIds": [
+        "phi01",
+        "phi02",
+        "phi03",
+        "phi04",
+        "phi05",
+        "phi06",
+        "phi07",
+        "phi08",
+        "phi09",
+        "phi10",
+        "phi11",
+        "phi12",
+        "phi13",
+        "phi14"
+      ]
+    },
+    {
+      "id": "PHO",
+      "name": "Phoenix Suns",
+      "abbreviation": "PHO",
+      "conference": "West",
+      "playerIds": [
+        "pho01",
+        "pho02",
+        "pho03",
+        "pho04",
+        "pho05",
+        "pho06",
+        "pho07",
+        "pho08",
+        "pho09",
+        "pho10",
+        "pho11",
+        "pho12",
+        "pho13"
+      ]
+    },
+    {
+      "id": "POR",
+      "name": "Portland Trail Blazers",
+      "abbreviation": "POR",
+      "conference": "West",
+      "playerIds": [
+        "por01",
+        "por02",
+        "por03",
+        "por04",
+        "por05",
+        "por06",
+        "por07",
+        "por08",
+        "por09",
+        "por11",
+        "por12",
+        "por13",
+        "por14"
+      ]
+    },
+    {
+      "id": "SAC",
+      "name": "Sacramento Kings",
+      "abbreviation": "SAC",
+      "conference": "West",
+      "playerIds": [
+        "sac01",
+        "sac02",
+        "sac03",
+        "sac04",
+        "sac05",
+        "sac06",
+        "sac07",
+        "sac08",
+        "sac09",
+        "sac10",
+        "sac11",
+        "sac12",
+        "sac13"
+      ]
+    },
+    {
+      "id": "SAS",
+      "name": "San Antonio Spurs",
+      "abbreviation": "SAS",
+      "conference": "West",
+      "playerIds": [
+        "sas01",
+        "sas02",
+        "sas03",
+        "sas04",
+        "sas05",
+        "sas06",
+        "sas07",
+        "sas08",
+        "sas09",
+        "sas10",
+        "sas11",
+        "sas12",
+        "sas13"
+      ]
+    },
+    {
+      "id": "TOR",
+      "name": "Toronto Raptors",
+      "abbreviation": "TOR",
+      "conference": "East",
+      "playerIds": [
+        "tor01",
+        "tor02",
+        "tor03",
+        "tor04",
+        "tor05",
+        "tor06",
+        "tor07",
+        "tor08",
+        "tor09",
+        "tor10",
+        "tor11",
+        "tor12",
+        "tor13"
+      ]
+    },
+    {
+      "id": "UTA",
+      "name": "Utah Jazz",
+      "abbreviation": "UTA",
+      "conference": "West",
+      "playerIds": [
+        "uta01",
+        "uta02",
+        "uta03",
+        "uta04",
+        "uta05",
+        "uta06",
+        "uta07",
+        "uta08",
+        "uta09",
+        "uta10",
+        "uta11",
+        "uta12",
+        "uta13"
+      ]
+    },
+    {
+      "id": "WAS",
+      "name": "Washington Wizards",
+      "abbreviation": "WAS",
+      "conference": "East",
+      "playerIds": [
+        "was01",
+        "was02",
+        "was03",
+        "was04",
+        "was05",
+        "was06",
+        "was07",
+        "was08",
+        "was09",
+        "was10",
+        "was11",
+        "was12",
+        "was13"
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": "atl01",
+      "name": "Jalen Johnson",
+      "teamId": "ATL",
+      "position": "PF",
+      "stats": {
+        "pts": 22.5,
+        "reb": 10.3,
+        "ast": 7.9,
+        "fgPct": 0.489
+      },
+      "contract": {
+        "salaryByYear": [
+          30000000,
+          30000000,
+          30000000,
+          30000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "atl02",
+      "name": "Dyson Daniels",
+      "teamId": "ATL",
+      "position": "SG",
+      "stats": {
+        "pts": 11.9,
+        "reb": 6.8,
+        "ast": 5.9,
+        "fgPct": 0.517
+      },
+      "contract": {
+        "salaryByYear": [
+          25000000,
+          25000000,
+          25000000,
+          25000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "atl03",
+      "name": "CJ McCollum",
+      "teamId": "ATL",
+      "position": "PG",
+      "stats": {
+        "pts": 18.7,
+        "reb": 3.1,
+        "ast": 4.1,
+        "fgPct": 0.456
+      },
+      "contract": {
+        "salaryByYear": [
+          21000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "atl04",
+      "name": "Nickeil Alexander-Walker",
+      "teamId": "ATL",
+      "position": "PG",
+      "stats": {
+        "pts": 20.8,
+        "reb": 3.4,
+        "ast": 3.7,
+        "fgPct": 0.459
+      },
+      "contract": {
+        "salaryByYear": [
+          14403710,
+          15161800,
+          15919890
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "atl05",
+      "name": "Onyeka Okongwu",
+      "teamId": "ATL",
+      "position": "C",
+      "stats": {
+        "pts": 15.2,
+        "reb": 7.6,
+        "ast": 3.1,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          16100000,
+          16880000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "atl06",
+      "name": "Corey Kispert",
+      "teamId": "ATL",
+      "position": "SF",
+      "stats": {
+        "pts": 9.2,
+        "reb": 2.3,
+        "ast": 1.5,
+        "fgPct": 0.455
+      },
+      "contract": {
+        "salaryByYear": [
+          13975000,
+          13050000,
+          13025000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "atl07",
+      "name": "Luguentz Dort",
+      "teamId": "ATL",
+      "position": "SF",
+      "stats": {
+        "pts": 8.3,
+        "reb": 3.6,
+        "ast": 1.2,
+        "fgPct": 0.385
+      },
+      "contract": {
+        "salaryByYear": [
+          17722222
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "atl08",
+      "name": "Aaron Wiggins",
+      "teamId": "ATL",
+      "position": "SG",
+      "stats": {
+        "pts": 9.4,
+        "reb": 3.1,
+        "ast": 1.7,
+        "fgPct": 0.431
+      },
+      "contract": {
+        "salaryByYear": [
+          9028038,
+          8168226,
+          8168226
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "atl09",
+      "name": "Buddy Hield",
+      "teamId": "ATL",
+      "position": "SG",
+      "stats": {
+        "pts": 5.1,
+        "reb": 1.1,
+        "ast": 0.7,
+        "fgPct": 0.481
+      },
+      "contract": {
+        "salaryByYear": [
+          9658536,
+          10097560
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "atl10",
+      "name": "Jock Landale",
+      "teamId": "ATL",
+      "position": "C",
+      "stats": {
+        "pts": 9.1,
+        "reb": 4.1,
+        "ast": 1.7,
+        "fgPct": 0.516
+      },
+      "contract": {
+        "salaryByYear": [
+          14100000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "atl11",
+      "name": "Devin Carter",
+      "teamId": "ATL",
+      "position": "PG",
+      "stats": {
+        "pts": 8.9,
+        "reb": 3.3,
+        "ast": 2.7,
+        "fgPct": 0.414
+      },
+      "contract": {
+        "salaryByYear": [
+          5158080,
+          7370897
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "atl12",
+      "name": "Asa Newell",
+      "teamId": "ATL",
+      "position": "PF",
+      "stats": {
+        "pts": 5.2,
+        "reb": 2.2,
+        "ast": 0.6,
+        "fgPct": 0.538
+      },
+      "contract": {
+        "salaryByYear": [
+          3399480,
+          3560880,
+          6042814
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "atl13",
+      "name": "Mouhamed Gueye",
+      "teamId": "ATL",
+      "position": "C",
+      "stats": {
+        "pts": 4.4,
+        "reb": 3.6,
+        "ast": 0.9,
+        "fgPct": 0.452
+      },
+      "contract": {
+        "salaryByYear": [
+          2406205
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bos01",
+      "name": "Jayson Tatum",
+      "teamId": "BOS",
+      "position": "PF",
+      "stats": {
+        "pts": 21.8,
+        "reb": 10.0,
+        "ast": 5.3,
+        "fgPct": 0.411
+      },
+      "contract": {
+        "salaryByYear": [
+          58456566,
+          62786682,
+          67116798,
+          71446914
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "bos02",
+      "name": "Paul George",
+      "teamId": "BOS",
+      "position": "SF",
+      "stats": {
+        "pts": 17.3,
+        "reb": 5.3,
+        "ast": 3.6,
+        "fgPct": 0.439
+      },
+      "contract": {
+        "salaryByYear": [
+          54126380,
+          56586670
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bos03",
+      "name": "Derrick White",
+      "teamId": "BOS",
+      "position": "SG",
+      "stats": {
+        "pts": 16.5,
+        "reb": 4.4,
+        "ast": 5.4,
+        "fgPct": 0.394
+      },
+      "contract": {
+        "salaryByYear": [
+          30348000,
+          32596000,
+          34844000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "bos04",
+      "name": "Sam Hauser",
+      "teamId": "BOS",
+      "position": "PF",
+      "stats": {
+        "pts": 9.2,
+        "reb": 3.8,
+        "ast": 1.5,
+        "fgPct": 0.419
+      },
+      "contract": {
+        "salaryByYear": [
+          10848215,
+          11651785,
+          12455356
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "bos05",
+      "name": "Payton Pritchard",
+      "teamId": "BOS",
+      "position": "PG",
+      "stats": {
+        "pts": 17.0,
+        "reb": 3.9,
+        "ast": 5.2,
+        "fgPct": 0.464
+      },
+      "contract": {
+        "salaryByYear": [
+          7767857,
+          8303571
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bos06",
+      "name": "Hugo Gonzalez",
+      "teamId": "BOS",
+      "position": "SF",
+      "stats": {
+        "pts": 3.9,
+        "reb": 3.3,
+        "ast": 0.5,
+        "fgPct": 0.476
+      },
+      "contract": {
+        "salaryByYear": [
+          2923560,
+          3062640,
+          5528065
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "bos07",
+      "name": "Luka Garza",
+      "teamId": "BOS",
+      "position": "C",
+      "stats": {
+        "pts": 8.1,
+        "reb": 4.1,
+        "ast": 1.0,
+        "fgPct": 0.577
+      },
+      "contract": {
+        "salaryByYear": [
+          2801346
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bos08",
+      "name": "Baylor Scheierman",
+      "teamId": "BOS",
+      "position": "SG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 3.5,
+        "ast": 1.5,
+        "fgPct": 0.453
+      },
+      "contract": {
+        "salaryByYear": [
+          2744040,
+          4952993
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bos09",
+      "name": "Neemias Queta",
+      "teamId": "BOS",
+      "position": "C",
+      "stats": {
+        "pts": 10.2,
+        "reb": 8.4,
+        "ast": 1.7,
+        "fgPct": 0.653
+      },
+      "contract": {
+        "salaryByYear": [
+          2667944,
+          14000000,
+          14000000,
+          14000000,
+          14000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 5
+      }
+    },
+    {
+      "id": "bos10",
+      "name": "Ron Harper Jr.",
+      "teamId": "BOS",
+      "position": "SF",
+      "stats": {
+        "pts": 4.2,
+        "reb": 1.7,
+        "ast": 0.8,
+        "fgPct": 0.418
+      },
+      "contract": {
+        "salaryByYear": [
+          3100000,
+          3300000,
+          3500000,
+          3800000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "bos11",
+      "name": "Jordan Walsh",
+      "teamId": "BOS",
+      "position": "PF",
+      "stats": {
+        "pts": 5.4,
+        "reb": 4.0,
+        "ast": 0.8,
+        "fgPct": 0.509
+      },
+      "contract": {
+        "salaryByYear": [
+          2406205,
+          4700000,
+          5150000,
+          5900000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "bos12",
+      "name": "Mitchell Robinson",
+      "teamId": "BOS",
+      "position": "C",
+      "stats": {
+        "pts": 5.4,
+        "reb": 8.9,
+        "ast": 0.9,
+        "fgPct": 0.714
+      },
+      "contract": {
+        "salaryByYear": [
+          15044000,
+          15791000,
+          16553600
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "bos13",
+      "name": "Mike Conley Jr.",
+      "teamId": "BOS",
+      "position": "PG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 1.7,
+        "ast": 2.9,
+        "fgPct": 0.335
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cho01",
+      "name": "Brandon Miller",
+      "teamId": "CHO",
+      "position": "SF",
+      "stats": {
+        "pts": 20.2,
+        "reb": 4.9,
+        "ast": 3.3,
+        "fgPct": 0.435
+      },
+      "contract": {
+        "salaryByYear": [
+          15104626
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cho02",
+      "name": "Coby White",
+      "teamId": "CHO",
+      "position": "SG",
+      "stats": {
+        "pts": 15.6,
+        "reb": 3.0,
+        "ast": 3.0,
+        "fgPct": 0.461
+      },
+      "contract": {
+        "salaryByYear": [
+          26811593,
+          24666667,
+          22521740
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "cho03",
+      "name": "Naz Reid",
+      "teamId": "CHO",
+      "position": "C",
+      "stats": {
+        "pts": 13.6,
+        "reb": 5.5,
+        "ast": 2.2,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          23275862,
+          25000000,
+          26724138,
+          28448276
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "cho04",
+      "name": "Grayson Allen",
+      "teamId": "CHO",
+      "position": "SG",
+      "stats": {
+        "pts": 16.5,
+        "reb": 3.5,
+        "ast": 3.0,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          18100000,
+          19400000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "cho05",
+      "name": "Royce O'Neale",
+      "teamId": "CHO",
+      "position": "SF",
+      "stats": {
+        "pts": 9.8,
+        "reb": 4.8,
+        "ast": 2.7,
+        "fgPct": 0.424
+      },
+      "contract": {
+        "salaryByYear": [
+          10875000,
+          11625000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "cho06",
+      "name": "Grant Williams",
+      "teamId": "CHO",
+      "position": "PF",
+      "stats": {
+        "pts": 7.0,
+        "reb": 3.9,
+        "ast": 1.6,
+        "fgPct": 0.426
+      },
+      "contract": {
+        "salaryByYear": [
+          14265750
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cho07",
+      "name": "Kon Knueppel",
+      "teamId": "CHO",
+      "position": "SF",
+      "stats": {
+        "pts": 18.5,
+        "reb": 5.3,
+        "ast": 3.4,
+        "fgPct": 0.475
+      },
+      "contract": {
+        "salaryByYear": [
+          10516560,
+          13000000,
+          16500000
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "cho08",
+      "name": "Tidjane Salaun",
+      "teamId": "CHO",
+      "position": "PF",
+      "stats": {
+        "pts": 6.0,
+        "reb": 4.0,
+        "ast": 0.7,
+        "fgPct": 0.503
+      },
+      "contract": {
+        "salaryByYear": [
+          8237880,
+          10500000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "cho09",
+      "name": "Dennis Schroder",
+      "teamId": "CHO",
+      "position": "PG",
+      "stats": {
+        "pts": 10.8,
+        "reb": 2.7,
+        "ast": 4.9,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          14809200,
+          14809200
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "cho10",
+      "name": "Ryan Kalkbrenner",
+      "teamId": "CHO",
+      "position": "C",
+      "stats": {
+        "pts": 7.6,
+        "reb": 5.5,
+        "ast": 0.8,
+        "fgPct": 0.753
+      },
+      "contract": {
+        "salaryByYear": [
+          2400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cho11",
+      "name": "Sion James",
+      "teamId": "CHO",
+      "position": "SG",
+      "stats": {
+        "pts": 5.4,
+        "reb": 3.5,
+        "ast": 2.0,
+        "fgPct": 0.371
+      },
+      "contract": {
+        "salaryByYear": [
+          2400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cho12",
+      "name": "Pat Connaughton",
+      "teamId": "CHO",
+      "position": "SG",
+      "stats": {
+        "pts": 2.6,
+        "reb": 1.5,
+        "ast": 0.4,
+        "fgPct": 0.447
+      },
+      "contract": {
+        "salaryByYear": [
+          3800000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cho13",
+      "name": "Liam McNeeley",
+      "teamId": "CHO",
+      "position": "SF",
+      "stats": {
+        "pts": 4.3,
+        "reb": 2.4,
+        "ast": 0.8,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          2900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cho14",
+      "name": "Moussa Diabate",
+      "teamId": "CHO",
+      "position": "C",
+      "stats": {
+        "pts": 7.9,
+        "reb": 8.7,
+        "ast": 1.9,
+        "fgPct": 0.631
+      },
+      "contract": {
+        "salaryByYear": [
+          2500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "chi01",
+      "name": "Josh Giddey",
+      "teamId": "CHI",
+      "position": "PG",
+      "stats": {
+        "pts": 17.0,
+        "reb": 8.3,
+        "ast": 9.1,
+        "fgPct": 0.448
+      },
+      "contract": {
+        "salaryByYear": [
+          14000000,
+          15000000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "chi02",
+      "name": "Norman Powell",
+      "teamId": "CHI",
+      "position": "SG",
+      "stats": {
+        "pts": 21.7,
+        "reb": 3.5,
+        "ast": 2.5,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          21500000,
+          22575000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "chi03",
+      "name": "Nicolas Claxton",
+      "teamId": "CHI",
+      "position": "C",
+      "stats": {
+        "pts": 11.7,
+        "reb": 6.9,
+        "ast": 3.7,
+        "fgPct": 0.62
+      },
+      "contract": {
+        "salaryByYear": [
+          23300000,
+          21000000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "chi04",
+      "name": "Matas Buzelis",
+      "teamId": "CHI",
+      "position": "PF",
+      "stats": {
+        "pts": 16.3,
+        "reb": 5.8,
+        "ast": 2.1,
+        "fgPct": 0.463
+      },
+      "contract": {
+        "salaryByYear": [
+          9500000,
+          12500000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "chi05",
+      "name": "Isaac Okoro",
+      "teamId": "CHI",
+      "position": "SG",
+      "stats": {
+        "pts": 9.3,
+        "reb": 2.7,
+        "ast": 1.6,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          11600000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "chi06",
+      "name": "Patrick Williams",
+      "teamId": "CHI",
+      "position": "PF",
+      "stats": {
+        "pts": 7.0,
+        "reb": 3.0,
+        "ast": 1.5,
+        "fgPct": 0.372
+      },
+      "contract": {
+        "salaryByYear": [
+          17400000,
+          18700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "chi07",
+      "name": "Tre Jones",
+      "teamId": "CHI",
+      "position": "PG",
+      "stats": {
+        "pts": 14.1,
+        "reb": 3.1,
+        "ast": 5.4,
+        "fgPct": 0.553
+      },
+      "contract": {
+        "salaryByYear": [
+          7000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "chi08",
+      "name": "Jalen Smith",
+      "teamId": "CHI",
+      "position": "C",
+      "stats": {
+        "pts": 10.2,
+        "reb": 6.7,
+        "ast": 1.2,
+        "fgPct": 0.483
+      },
+      "contract": {
+        "salaryByYear": [
+          5000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "chi09",
+      "name": "Zach Collins",
+      "teamId": "CHI",
+      "position": "C",
+      "stats": {
+        "pts": 9.7,
+        "reb": 5.6,
+        "ast": 1.5,
+        "fgPct": 0.578
+      },
+      "contract": {
+        "salaryByYear": [
+          8000000,
+          8500000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "chi10",
+      "name": "Rob Dillingham",
+      "teamId": "CHI",
+      "position": "PG",
+      "stats": {
+        "pts": 9.6,
+        "reb": 3.0,
+        "ast": 2.8,
+        "fgPct": 0.428
+      },
+      "contract": {
+        "salaryByYear": [
+          7500000,
+          9800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "chi11",
+      "name": "Leonard Miller",
+      "teamId": "CHI",
+      "position": "SF",
+      "stats": {
+        "pts": 11.7,
+        "reb": 5.8,
+        "ast": 1.3,
+        "fgPct": 0.555
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "chi13",
+      "name": "Nick Richards",
+      "teamId": "CHI",
+      "position": "C",
+      "stats": {
+        "pts": 9.4,
+        "reb": 7.6,
+        "ast": 0.4,
+        "fgPct": 0.523
+      },
+      "contract": {
+        "salaryByYear": [
+          5000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cle01",
+      "name": "Donovan Mitchell",
+      "teamId": "CLE",
+      "position": "SG",
+      "stats": {
+        "pts": 27.9,
+        "reb": 4.5,
+        "ast": 5.7,
+        "fgPct": 0.483
+      },
+      "contract": {
+        "salaryByYear": [
+          42000000,
+          45000000,
+          48000000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "cle02",
+      "name": "Evan Mobley",
+      "teamId": "CLE",
+      "position": "PF",
+      "stats": {
+        "pts": 18.2,
+        "reb": 9.0,
+        "ast": 3.6,
+        "fgPct": 0.546
+      },
+      "contract": {
+        "salaryByYear": [
+          60500000,
+          65400000,
+          70600000,
+          76200000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "cle03",
+      "name": "Jarrett Allen",
+      "teamId": "CLE",
+      "position": "C",
+      "stats": {
+        "pts": 15.4,
+        "reb": 8.5,
+        "ast": 1.8,
+        "fgPct": 0.638
+      },
+      "contract": {
+        "salaryByYear": [
+          28000000,
+          30000000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "cle04",
+      "name": "James Harden",
+      "teamId": "CLE",
+      "position": "PG",
+      "stats": {
+        "pts": 20.5,
+        "reb": 4.8,
+        "ast": 7.7,
+        "fgPct": 0.466
+      },
+      "contract": {
+        "salaryByYear": [
+          18000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cle05",
+      "name": "Peyton Watson",
+      "teamId": "CLE",
+      "position": "SF",
+      "stats": {
+        "pts": 14.6,
+        "reb": 4.9,
+        "ast": 2.1,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          18600000,
+          21100000,
+          23600000,
+          24700000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "cle06",
+      "name": "Sam Merrill",
+      "teamId": "CLE",
+      "position": "SG",
+      "stats": {
+        "pts": 12.8,
+        "reb": 2.6,
+        "ast": 2.4,
+        "fgPct": 0.461
+      },
+      "contract": {
+        "salaryByYear": [
+          7500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cle07",
+      "name": "Dean Wade",
+      "teamId": "CLE",
+      "position": "PF",
+      "stats": {
+        "pts": 5.8,
+        "reb": 4.2,
+        "ast": 1.5,
+        "fgPct": 0.439
+      },
+      "contract": {
+        "salaryByYear": [
+          6500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cle08",
+      "name": "Jaylon Tyson",
+      "teamId": "CLE",
+      "position": "SG",
+      "stats": {
+        "pts": 13.2,
+        "reb": 5.1,
+        "ast": 2.2,
+        "fgPct": 0.493
+      },
+      "contract": {
+        "salaryByYear": [
+          3200000,
+          4100000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "cle09",
+      "name": "Thomas Bryant",
+      "teamId": "CLE",
+      "position": "C",
+      "stats": {
+        "pts": 6.2,
+        "reb": 3.4,
+        "ast": 0.6,
+        "fgPct": 0.506
+      },
+      "contract": {
+        "salaryByYear": [
+          2500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cle11",
+      "name": "Keon Ellis",
+      "teamId": "CLE",
+      "position": "SG",
+      "stats": {
+        "pts": 8.3,
+        "reb": 2.8,
+        "ast": 1.6,
+        "fgPct": 0.491
+      },
+      "contract": {
+        "salaryByYear": [
+          6500000,
+          6900000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "cle12",
+      "name": "Nae'Qwan Tomlin",
+      "teamId": "CLE",
+      "position": "PF",
+      "stats": {
+        "pts": 5.8,
+        "reb": 2.9,
+        "ast": 0.8,
+        "fgPct": 0.478
+      },
+      "contract": {
+        "salaryByYear": [
+          2000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cle13",
+      "name": "Craig Porter Jr.",
+      "teamId": "CLE",
+      "position": "PG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 3.4,
+        "ast": 3.2,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          2406000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "cle14",
+      "name": "Tyrese Proctor",
+      "teamId": "CLE",
+      "position": "PG",
+      "stats": {
+        "pts": 5.4,
+        "reb": 1.3,
+        "ast": 1.5,
+        "fgPct": 0.413
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000,
+          2300000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "dal01",
+      "name": "Kyrie Irving",
+      "teamId": "DAL",
+      "position": "PG",
+      "stats": {
+        "pts": 24.7,
+        "reb": 4.5,
+        "ast": 5.2,
+        "fgPct": 0.491
+      },
+      "contract": {
+        "salaryByYear": [
+          39491282
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "dal02",
+      "name": "Cooper Flagg",
+      "teamId": "DAL",
+      "position": "SF",
+      "stats": {
+        "pts": 21.0,
+        "reb": 6.7,
+        "ast": 4.5,
+        "fgPct": 0.468
+      },
+      "contract": {
+        "salaryByYear": [
+          14517480,
+          15700000,
+          17400000
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "dal03",
+      "name": "P.J. Washington",
+      "teamId": "DAL",
+      "position": "PF",
+      "stats": {
+        "pts": 14.2,
+        "reb": 7.0,
+        "ast": 1.8,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          19813044,
+          21300000,
+          22800000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "dal04",
+      "name": "Daniel Gafford",
+      "teamId": "DAL",
+      "position": "C",
+      "stats": {
+        "pts": 9.5,
+        "reb": 6.9,
+        "ast": 1.1,
+        "fgPct": 0.655
+      },
+      "contract": {
+        "salaryByYear": [
+          17263584,
+          18500000,
+          19800000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "dal05",
+      "name": "Naji Marshall",
+      "teamId": "DAL",
+      "position": "SF",
+      "stats": {
+        "pts": 15.2,
+        "reb": 4.7,
+        "ast": 3.3,
+        "fgPct": 0.51
+      },
+      "contract": {
+        "salaryByYear": [
+          9428571,
+          10100000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "dal06",
+      "name": "Max Christie",
+      "teamId": "DAL",
+      "position": "SG",
+      "stats": {
+        "pts": 12.3,
+        "reb": 3.2,
+        "ast": 2.0,
+        "fgPct": 0.441
+      },
+      "contract": {
+        "salaryByYear": [
+          8285714,
+          8900000,
+          9500000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "dal07",
+      "name": "Klay Thompson",
+      "teamId": "DAL",
+      "position": "SF",
+      "stats": {
+        "pts": 11.7,
+        "reb": 2.1,
+        "ast": 1.4,
+        "fgPct": 0.393
+      },
+      "contract": {
+        "salaryByYear": [
+          17460317
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "dal08",
+      "name": "Caleb Martin",
+      "teamId": "DAL",
+      "position": "SF",
+      "stats": {
+        "pts": 3.9,
+        "reb": 2.5,
+        "ast": 1.4,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          10001494,
+          10700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "dal09",
+      "name": "Dereck Lively II",
+      "teamId": "DAL",
+      "position": "C",
+      "stats": {
+        "pts": 4.3,
+        "reb": 5.3,
+        "ast": 1.9,
+        "fgPct": 0.611
+      },
+      "contract": {
+        "salaryByYear": [
+          7239131,
+          9500000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "dal10",
+      "name": "AJ Johnson",
+      "teamId": "DAL",
+      "position": "SG",
+      "stats": {
+        "pts": 3.9,
+        "reb": 1.0,
+        "ast": 1.1,
+        "fgPct": 0.323
+      },
+      "contract": {
+        "salaryByYear": [
+          3237120,
+          4200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "dal11",
+      "name": "Ryan Nembhard",
+      "teamId": "DAL",
+      "position": "PG",
+      "stats": {
+        "pts": 6.6,
+        "reb": 2.2,
+        "ast": 5.3,
+        "fgPct": 0.415
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "dal12",
+      "name": "Tyler Smith",
+      "teamId": "DAL",
+      "position": "PF",
+      "stats": {
+        "pts": 4.7,
+        "reb": 2.8,
+        "ast": 0.4,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          1235000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "dal13",
+      "name": "Dwight Powell",
+      "teamId": "DAL",
+      "position": "C",
+      "stats": {
+        "pts": 3.3,
+        "reb": 4.1,
+        "ast": 1.1,
+        "fgPct": 0.644
+      },
+      "contract": {
+        "salaryByYear": [
+          3500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "den01",
+      "name": "Nikola Jokic",
+      "teamId": "DEN",
+      "position": "C",
+      "stats": {
+        "pts": 27.7,
+        "reb": 12.9,
+        "ast": 10.7,
+        "fgPct": 0.569
+      },
+      "contract": {
+        "salaryByYear": [
+          59033114,
+          63500000,
+          68200000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "den02",
+      "name": "Jamal Murray",
+      "teamId": "DEN",
+      "position": "PG",
+      "stats": {
+        "pts": 25.4,
+        "reb": 4.4,
+        "ast": 7.1,
+        "fgPct": 0.483
+      },
+      "contract": {
+        "salaryByYear": [
+          50105628,
+          53800000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "den03",
+      "name": "Aaron Gordon",
+      "teamId": "DEN",
+      "position": "PF",
+      "stats": {
+        "pts": 16.2,
+        "reb": 5.8,
+        "ast": 2.7,
+        "fgPct": 0.497
+      },
+      "contract": {
+        "salaryByYear": [
+          31978037,
+          34300000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "den04",
+      "name": "Cameron Johnson",
+      "teamId": "DEN",
+      "position": "SF",
+      "stats": {
+        "pts": 12.2,
+        "reb": 3.8,
+        "ast": 2.4,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          23062500,
+          24700000,
+          26400000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "den05",
+      "name": "Christian Braun",
+      "teamId": "DEN",
+      "position": "SG",
+      "stats": {
+        "pts": 12.0,
+        "reb": 4.8,
+        "ast": 2.7,
+        "fgPct": 0.519
+      },
+      "contract": {
+        "salaryByYear": [
+          21551726,
+          23100000,
+          24800000,
+          26600000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "den06",
+      "name": "Julian Strawther",
+      "teamId": "DEN",
+      "position": "SG",
+      "stats": {
+        "pts": 7.2,
+        "reb": 2.0,
+        "ast": 1.1,
+        "fgPct": 0.467
+      },
+      "contract": {
+        "salaryByYear": [
+          4826931,
+          6200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "den07",
+      "name": "Zeke Nnaji",
+      "teamId": "DEN",
+      "position": "PF",
+      "stats": {
+        "pts": 3.7,
+        "reb": 2.6,
+        "ast": 0.6,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          7466667
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "den08",
+      "name": "DaRon Holmes II",
+      "teamId": "DEN",
+      "position": "PF",
+      "stats": {
+        "pts": 3.7,
+        "reb": 1.4,
+        "ast": 0.6,
+        "fgPct": 0.508
+      },
+      "contract": {
+        "salaryByYear": [
+          3372120,
+          4400000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "den09",
+      "name": "Jonas Valanciunas",
+      "teamId": "DEN",
+      "position": "C",
+      "stats": {
+        "pts": 8.7,
+        "reb": 5.1,
+        "ast": 1.2,
+        "fgPct": 0.582
+      },
+      "contract": {
+        "salaryByYear": [
+          4500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "den10",
+      "name": "Jalen Pickett",
+      "teamId": "DEN",
+      "position": "SG",
+      "stats": {
+        "pts": 5.2,
+        "reb": 2.3,
+        "ast": 2.3,
+        "fgPct": 0.422
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "den11",
+      "name": "Spencer Jones",
+      "teamId": "DEN",
+      "position": "SF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 3.3,
+        "ast": 0.8,
+        "fgPct": 0.504
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "den12",
+      "name": "David Roddy",
+      "teamId": "DEN",
+      "position": "PF",
+      "stats": {
+        "pts": 8.0,
+        "reb": 4.0,
+        "ast": 0.8,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "den13",
+      "name": "Hunter Tyson",
+      "teamId": "DEN",
+      "position": "PF",
+      "stats": {
+        "pts": 2.2,
+        "reb": 1.7,
+        "ast": 0.8,
+        "fgPct": 0.269
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det01",
+      "name": "Cade Cunningham",
+      "teamId": "DET",
+      "position": "PG",
+      "stats": {
+        "pts": 23.9,
+        "reb": 5.5,
+        "ast": 9.9,
+        "fgPct": 0.461
+      },
+      "contract": {
+        "salaryByYear": [
+          50105628,
+          54000000,
+          58000000,
+          62200000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "det02",
+      "name": "Jalen Duren",
+      "teamId": "DET",
+      "position": "C",
+      "stats": {
+        "pts": 19.5,
+        "reb": 10.5,
+        "ast": 2.0,
+        "fgPct": 0.65
+      },
+      "contract": {
+        "salaryByYear": [
+          19449432
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det03",
+      "name": "Ausar Thompson",
+      "teamId": "DET",
+      "position": "SF",
+      "stats": {
+        "pts": 9.9,
+        "reb": 5.7,
+        "ast": 3.1,
+        "fgPct": 0.525
+      },
+      "contract": {
+        "salaryByYear": [
+          11117925
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det04",
+      "name": "Caris LeVert",
+      "teamId": "DET",
+      "position": "SG",
+      "stats": {
+        "pts": 7.4,
+        "reb": 2.0,
+        "ast": 2.7,
+        "fgPct": 0.417
+      },
+      "contract": {
+        "salaryByYear": [
+          14809200,
+          15800000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "det06",
+      "name": "Duncan Robinson",
+      "teamId": "DET",
+      "position": "SF",
+      "stats": {
+        "pts": 12.2,
+        "reb": 2.7,
+        "ast": 2.1,
+        "fgPct": 0.456
+      },
+      "contract": {
+        "salaryByYear": [
+          15992957,
+          17100000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "det07",
+      "name": "Ron Holland II",
+      "teamId": "DET",
+      "position": "SF",
+      "stats": {
+        "pts": 8.2,
+        "reb": 4.0,
+        "ast": 1.2,
+        "fgPct": 0.432
+      },
+      "contract": {
+        "salaryByYear": [
+          9069600,
+          11900000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "det08",
+      "name": "Kevin Huerter",
+      "teamId": "DET",
+      "position": "SG",
+      "stats": {
+        "pts": 8.6,
+        "reb": 2.8,
+        "ast": 2.5,
+        "fgPct": 0.443
+      },
+      "contract": {
+        "salaryByYear": [
+          8333333
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det09",
+      "name": "Paul Reed",
+      "teamId": "DET",
+      "position": "C",
+      "stats": {
+        "pts": 7.8,
+        "reb": 4.5,
+        "ast": 1.2,
+        "fgPct": 0.617
+      },
+      "contract": {
+        "salaryByYear": [
+          5602689,
+          6000000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "det10",
+      "name": "Daniss Jenkins",
+      "teamId": "DET",
+      "position": "PG",
+      "stats": {
+        "pts": 9.3,
+        "reb": 2.3,
+        "ast": 3.9,
+        "fgPct": 0.408
+      },
+      "contract": {
+        "salaryByYear": [
+          4000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det12",
+      "name": "Chaz Lanier",
+      "teamId": "DET",
+      "position": "SG",
+      "stats": {
+        "pts": 2.4,
+        "reb": 0.7,
+        "ast": 0.5,
+        "fgPct": 0.315
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det13",
+      "name": "Tolu Smith",
+      "teamId": "DET",
+      "position": "PF",
+      "stats": {
+        "pts": 3.7,
+        "reb": 3.3,
+        "ast": 0.9,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          2411090
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw01",
+      "name": "Stephen Curry",
+      "teamId": "GSW",
+      "position": "PG",
+      "stats": {
+        "pts": 26.6,
+        "reb": 3.6,
+        "ast": 4.7,
+        "fgPct": 0.468
+      },
+      "contract": {
+        "salaryByYear": [
+          62587158
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw02",
+      "name": "Jimmy Butler",
+      "teamId": "GSW",
+      "position": "SF",
+      "stats": {
+        "pts": 20.0,
+        "reb": 5.6,
+        "ast": 4.9,
+        "fgPct": 0.519
+      },
+      "contract": {
+        "salaryByYear": [
+          56832773,
+          61200000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "gsw03",
+      "name": "Draymond Green",
+      "teamId": "GSW",
+      "position": "PF",
+      "stats": {
+        "pts": 8.4,
+        "reb": 5.5,
+        "ast": 5.5,
+        "fgPct": 0.418
+      },
+      "contract": {
+        "salaryByYear": [
+          18000000,
+          20500000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "gsw04",
+      "name": "Kristaps Porzingis",
+      "teamId": "GSW",
+      "position": "C",
+      "stats": {
+        "pts": 16.1,
+        "reb": 5.3,
+        "ast": 2.3,
+        "fgPct": 0.433
+      },
+      "contract": {
+        "salaryByYear": [
+          30700000,
+          32900000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "gsw06",
+      "name": "Moses Moody",
+      "teamId": "GSW",
+      "position": "SG",
+      "stats": {
+        "pts": 12.1,
+        "reb": 3.3,
+        "ast": 1.6,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          12500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw07",
+      "name": "Brandin Podziemski",
+      "teamId": "GSW",
+      "position": "SG",
+      "stats": {
+        "pts": 13.8,
+        "reb": 5.1,
+        "ast": 3.7,
+        "fgPct": 0.455
+      },
+      "contract": {
+        "salaryByYear": [
+          5679459,
+          6200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "gsw08",
+      "name": "Al Horford",
+      "teamId": "GSW",
+      "position": "C",
+      "stats": {
+        "pts": 8.3,
+        "reb": 4.9,
+        "ast": 2.6,
+        "fgPct": 0.426
+      },
+      "contract": {
+        "salaryByYear": [
+          6822000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw09",
+      "name": "De'Anthony Melton",
+      "teamId": "GSW",
+      "position": "PG",
+      "stats": {
+        "pts": 12.3,
+        "reb": 3.2,
+        "ast": 2.6,
+        "fgPct": 0.407
+      },
+      "contract": {
+        "salaryByYear": [
+          3451779
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw10",
+      "name": "Gui Santos",
+      "teamId": "GSW",
+      "position": "PF",
+      "stats": {
+        "pts": 9.2,
+        "reb": 3.9,
+        "ast": 2.3,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          4629630
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw11",
+      "name": "Will Richard",
+      "teamId": "GSW",
+      "position": "SG",
+      "stats": {
+        "pts": 6.4,
+        "reb": 2.5,
+        "ast": 1.3,
+        "fgPct": 0.468
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw13",
+      "name": "Gary Payton II",
+      "teamId": "GSW",
+      "position": "SG",
+      "stats": {
+        "pts": 7.5,
+        "reb": 3.6,
+        "ast": 1.7,
+        "fgPct": 0.583
+      },
+      "contract": {
+        "salaryByYear": [
+          8700000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "gsw12",
+      "name": "Trayce Jackson-Davis",
+      "teamId": "GSW",
+      "position": "C",
+      "stats": {
+        "pts": 4.2,
+        "reb": 3.1,
+        "ast": 0.9,
+        "fgPct": 0.588
+      },
+      "contract": {
+        "salaryByYear": [
+          2400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "dal14",
+      "name": "Marcus Sasser",
+      "teamId": "DAL",
+      "position": "PG",
+      "stats": {
+        "pts": 5.2,
+        "reb": 1.0,
+        "ast": 2.0,
+        "fgPct": 0.39
+      },
+      "contract": {
+        "salaryByYear": [
+          5198983
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou01",
+      "name": "Kevin Durant",
+      "teamId": "HOU",
+      "position": "SF",
+      "stats": {
+        "pts": 26.0,
+        "reb": 5.5,
+        "ast": 4.8,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          43902439
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou02",
+      "name": "Alperen Sengun",
+      "teamId": "HOU",
+      "position": "C",
+      "stats": {
+        "pts": 20.4,
+        "reb": 8.9,
+        "ast": 6.2,
+        "fgPct": 0.519
+      },
+      "contract": {
+        "salaryByYear": [
+          35642202,
+          38200000,
+          40800000,
+          43400000,
+          46000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 5
+      }
+    },
+    {
+      "id": "hou03",
+      "name": "Amen Thompson",
+      "teamId": "HOU",
+      "position": "PG",
+      "stats": {
+        "pts": 18.3,
+        "reb": 7.8,
+        "ast": 5.3,
+        "fgPct": 0.534
+      },
+      "contract": {
+        "salaryByYear": [
+          12258609
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou04",
+      "name": "Jabari Smith Jr.",
+      "teamId": "HOU",
+      "position": "PF",
+      "stats": {
+        "pts": 15.8,
+        "reb": 6.9,
+        "ast": 1.9,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          23643411,
+          25300000,
+          27000000,
+          28700000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "hou05",
+      "name": "Fred VanVleet",
+      "teamId": "HOU",
+      "position": "PG",
+      "stats": {
+        "pts": 17.4,
+        "reb": 3.8,
+        "ast": 8.1,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          25000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou06",
+      "name": "Reed Sheppard",
+      "teamId": "HOU",
+      "position": "SG",
+      "stats": {
+        "pts": 13.5,
+        "reb": 2.9,
+        "ast": 3.4,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          11108880
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou07",
+      "name": "Tari Eason",
+      "teamId": "HOU",
+      "position": "PF",
+      "stats": {
+        "pts": 10.5,
+        "reb": 6.3,
+        "ast": 1.5,
+        "fgPct": 0.416
+      },
+      "contract": {
+        "salaryByYear": [
+          8700000,
+          9400000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "hou08",
+      "name": "Steven Adams",
+      "teamId": "HOU",
+      "position": "C",
+      "stats": {
+        "pts": 5.8,
+        "reb": 8.6,
+        "ast": 1.5,
+        "fgPct": 0.504
+      },
+      "contract": {
+        "salaryByYear": [
+          13000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou09",
+      "name": "Clint Capela",
+      "teamId": "HOU",
+      "position": "C",
+      "stats": {
+        "pts": 3.8,
+        "reb": 4.6,
+        "ast": 0.7,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          10700000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou10",
+      "name": "Josh Okogie",
+      "teamId": "HOU",
+      "position": "SG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 2.6,
+        "ast": 0.9,
+        "fgPct": 0.425
+      },
+      "contract": {
+        "salaryByYear": [
+          8000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou11",
+      "name": "Aaron Holiday",
+      "teamId": "HOU",
+      "position": "PG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 1.0,
+        "ast": 1.1,
+        "fgPct": 0.417
+      },
+      "contract": {
+        "salaryByYear": [
+          2700000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou12",
+      "name": "Jae'Sean Tate",
+      "teamId": "HOU",
+      "position": "SF",
+      "stats": {
+        "pts": 2.8,
+        "reb": 1.6,
+        "ast": 0.5,
+        "fgPct": 0.514
+      },
+      "contract": {
+        "salaryByYear": [
+          4300000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "hou13",
+      "name": "JD Davison",
+      "teamId": "HOU",
+      "position": "PG",
+      "stats": {
+        "pts": 2.5,
+        "reb": 1.2,
+        "ast": 1.3,
+        "fgPct": 0.375
+      },
+      "contract": {
+        "salaryByYear": [
+          2584539
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "ind01",
+      "name": "Tyrese Haliburton",
+      "teamId": "IND",
+      "position": "PG",
+      "stats": {
+        "pts": 18.6,
+        "reb": 3.5,
+        "ast": 9.2,
+        "fgPct": 0.471
+      },
+      "contract": {
+        "salaryByYear": [
+          48924624,
+          52400000,
+          55700000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "ind02",
+      "name": "Pascal Siakam",
+      "teamId": "IND",
+      "position": "PF",
+      "stats": {
+        "pts": 24.0,
+        "reb": 6.6,
+        "ast": 3.8,
+        "fgPct": 0.484
+      },
+      "contract": {
+        "salaryByYear": [
+          48924624,
+          51400000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "ind03",
+      "name": "Ivica Zubac",
+      "teamId": "IND",
+      "position": "C",
+      "stats": {
+        "pts": 11.6,
+        "reb": 7.2,
+        "ast": 1.8,
+        "fgPct": 0.472
+      },
+      "contract": {
+        "salaryByYear": [
+          23000000,
+          24700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "ind04",
+      "name": "Andrew Nembhard",
+      "teamId": "IND",
+      "position": "PG",
+      "stats": {
+        "pts": 16.9,
+        "reb": 2.8,
+        "ast": 7.7,
+        "fgPct": 0.442
+      },
+      "contract": {
+        "salaryByYear": [
+          18000000,
+          19500000,
+          21000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "ind05",
+      "name": "Aaron Nesmith",
+      "teamId": "IND",
+      "position": "SF",
+      "stats": {
+        "pts": 13.8,
+        "reb": 4.2,
+        "ast": 1.9,
+        "fgPct": 0.414
+      },
+      "contract": {
+        "salaryByYear": [
+          11000000,
+          11800000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "ind06",
+      "name": "Obi Toppin",
+      "teamId": "IND",
+      "position": "PF",
+      "stats": {
+        "pts": 11.6,
+        "reb": 4.4,
+        "ast": 2.3,
+        "fgPct": 0.503
+      },
+      "contract": {
+        "salaryByYear": [
+          16000000,
+          17200000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "ind07",
+      "name": "Jarace Walker",
+      "teamId": "IND",
+      "position": "PF",
+      "stats": {
+        "pts": 11.6,
+        "reb": 5.1,
+        "ast": 2.5,
+        "fgPct": 0.419
+      },
+      "contract": {
+        "salaryByYear": [
+          8000000,
+          10500000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "ind08",
+      "name": "T.J. McConnell",
+      "teamId": "IND",
+      "position": "PG",
+      "stats": {
+        "pts": 9.4,
+        "reb": 2.2,
+        "ast": 5.1,
+        "fgPct": 0.538
+      },
+      "contract": {
+        "salaryByYear": [
+          9000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "ind09",
+      "name": "Micah Potter",
+      "teamId": "IND",
+      "position": "C",
+      "stats": {
+        "pts": 9.7,
+        "reb": 5.0,
+        "ast": 1.5,
+        "fgPct": 0.515
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "ind10",
+      "name": "Jay Huff",
+      "teamId": "IND",
+      "position": "C",
+      "stats": {
+        "pts": 9.5,
+        "reb": 4.0,
+        "ast": 1.5,
+        "fgPct": 0.476
+      },
+      "contract": {
+        "salaryByYear": [
+          6500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "ind11",
+      "name": "Quenton Jackson",
+      "teamId": "IND",
+      "position": "PG",
+      "stats": {
+        "pts": 9.1,
+        "reb": 2.3,
+        "ast": 2.9,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "ind12",
+      "name": "Ben Sheppard",
+      "teamId": "IND",
+      "position": "SG",
+      "stats": {
+        "pts": 7.1,
+        "reb": 3.0,
+        "ast": 1.8,
+        "fgPct": 0.434
+      },
+      "contract": {
+        "salaryByYear": [
+          3200000,
+          4100000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "ind13",
+      "name": "Johnny Furphy",
+      "teamId": "IND",
+      "position": "SG",
+      "stats": {
+        "pts": 5.1,
+        "reb": 4.4,
+        "ast": 1.2,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          3000000,
+          3800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "gsw05",
+      "name": "Seth Curry",
+      "teamId": "GSW",
+      "position": "SG",
+      "stats": {
+        "pts": 7.1,
+        "reb": 1.2,
+        "ast": 1.0,
+        "fgPct": 0.49
+      },
+      "contract": {
+        "salaryByYear": [
+          2300000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac01",
+      "name": "Darius Garland",
+      "teamId": "LAC",
+      "position": "PG",
+      "stats": {
+        "pts": 18.0,
+        "reb": 2.4,
+        "ast": 6.9,
+        "fgPct": 0.451
+      },
+      "contract": {
+        "salaryByYear": [
+          37000000,
+          39600000,
+          42200000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "lac02",
+      "name": "Brandon Ingram",
+      "teamId": "LAC",
+      "position": "SF",
+      "stats": {
+        "pts": 24.5,
+        "reb": 5.5,
+        "ast": 4.0,
+        "fgPct": 0.478
+      },
+      "contract": {
+        "salaryByYear": [
+          36200000,
+          41900000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "lac03",
+      "name": "Rui Hachimura",
+      "teamId": "LAC",
+      "position": "PF",
+      "stats": {
+        "pts": 16.0,
+        "reb": 4.5,
+        "ast": 1.8,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          17000000,
+          18200000,
+          19400000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "lac04",
+      "name": "Brook Lopez",
+      "teamId": "LAC",
+      "position": "C",
+      "stats": {
+        "pts": 12.5,
+        "reb": 5.0,
+        "ast": 1.5,
+        "fgPct": 0.49
+      },
+      "contract": {
+        "salaryByYear": [
+          9100000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac05",
+      "name": "Gradey Dick",
+      "teamId": "LAC",
+      "position": "SG",
+      "stats": {
+        "pts": 12.5,
+        "reb": 3.0,
+        "ast": 1.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          4500000,
+          5800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "lac06",
+      "name": "Derrick Jones Jr.",
+      "teamId": "LAC",
+      "position": "SF",
+      "stats": {
+        "pts": 10.5,
+        "reb": 4.0,
+        "ast": 1.2,
+        "fgPct": 0.58
+      },
+      "contract": {
+        "salaryByYear": [
+          10500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac07",
+      "name": "Kris Dunn",
+      "teamId": "LAC",
+      "position": "PG",
+      "stats": {
+        "pts": 8.0,
+        "reb": 3.0,
+        "ast": 3.5,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          5600000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac08",
+      "name": "Isaiah Jackson",
+      "teamId": "LAC",
+      "position": "C",
+      "stats": {
+        "pts": 8.0,
+        "reb": 5.0,
+        "ast": 0.8,
+        "fgPct": 0.58
+      },
+      "contract": {
+        "salaryByYear": [
+          5000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac09",
+      "name": "Cam Christie",
+      "teamId": "LAC",
+      "position": "SG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 1.5,
+        "ast": 1.2,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          2300000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac10",
+      "name": "Jordan Miller",
+      "teamId": "LAC",
+      "position": "SF",
+      "stats": {
+        "pts": 5.0,
+        "reb": 2.5,
+        "ast": 1.0,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          2400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac11",
+      "name": "Kobe Sanders",
+      "teamId": "LAC",
+      "position": "SG",
+      "stats": {
+        "pts": 4.0,
+        "reb": 1.8,
+        "ast": 1.0,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac12",
+      "name": "Yanic Konan Niederhauser",
+      "teamId": "LAC",
+      "position": "C",
+      "stats": {
+        "pts": 3.5,
+        "reb": 3.2,
+        "ast": 0.4,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal01",
+      "name": "Luka Doncic",
+      "teamId": "LAL",
+      "position": "PG",
+      "stats": {
+        "pts": 33.5,
+        "reb": 8.5,
+        "ast": 8.5,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          49500000,
+          53400000,
+          57400000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "lal02",
+      "name": "Austin Reaves",
+      "teamId": "LAL",
+      "position": "SG",
+      "stats": {
+        "pts": 23.3,
+        "reb": 5.0,
+        "ast": 5.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          41250000,
+          44300000,
+          47300000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "lal03",
+      "name": "Deandre Ayton",
+      "teamId": "LAL",
+      "position": "C",
+      "stats": {
+        "pts": 12.5,
+        "reb": 8.0,
+        "ast": 1.5,
+        "fgPct": 0.58
+      },
+      "contract": {
+        "salaryByYear": [
+          16600000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal04",
+      "name": "Jarred Vanderbilt",
+      "teamId": "LAL",
+      "position": "PF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 6.5,
+        "ast": 1.5,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          12428571,
+          13500000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "lal05",
+      "name": "Jake LaRavia",
+      "teamId": "LAL",
+      "position": "SF",
+      "stats": {
+        "pts": 8.0,
+        "reb": 4.0,
+        "ast": 2.0,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          6000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal06",
+      "name": "Dalton Knecht",
+      "teamId": "LAL",
+      "position": "SG",
+      "stats": {
+        "pts": 9.5,
+        "reb": 2.8,
+        "ast": 1.2,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          4201080,
+          5300000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "lal07",
+      "name": "Jaxson Hayes",
+      "teamId": "LAL",
+      "position": "C",
+      "stats": {
+        "pts": 6.5,
+        "reb": 4.5,
+        "ast": 0.7,
+        "fgPct": 0.62
+      },
+      "contract": {
+        "salaryByYear": [
+          4400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal08",
+      "name": "Gabe Vincent",
+      "teamId": "LAL",
+      "position": "PG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 1.8,
+        "ast": 2.2,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          5000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal09",
+      "name": "Nick Smith Jr.",
+      "teamId": "LAL",
+      "position": "PG",
+      "stats": {
+        "pts": 5.0,
+        "reb": 1.5,
+        "ast": 1.8,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          2497812
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal10",
+      "name": "Maxi Kleber",
+      "teamId": "LAL",
+      "position": "PF",
+      "stats": {
+        "pts": 4.0,
+        "reb": 3.0,
+        "ast": 0.8,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          4000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal11",
+      "name": "Luke Kennard",
+      "teamId": "LAL",
+      "position": "SG",
+      "stats": {
+        "pts": 6.0,
+        "reb": 1.5,
+        "ast": 2.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          4300000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal12",
+      "name": "Bronny James",
+      "teamId": "LAL",
+      "position": "PG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 1.5,
+        "ast": 2.0,
+        "fgPct": 0.38
+      },
+      "contract": {
+        "salaryByYear": [
+          2296271
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lal13",
+      "name": "Adou Thiero",
+      "teamId": "LAL",
+      "position": "SF",
+      "stats": {
+        "pts": 4.0,
+        "reb": 2.5,
+        "ast": 0.8,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "por14",
+      "name": "Ja Morant",
+      "teamId": "POR",
+      "position": "PG",
+      "stats": {
+        "pts": 19.5,
+        "reb": 3.3,
+        "ast": 8.1,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          42166510,
+          45000000,
+          48000000,
+          51000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "dal15",
+      "name": "Santi Aldama",
+      "teamId": "DAL",
+      "position": "PF",
+      "stats": {
+        "pts": 14.0,
+        "reb": 6.7,
+        "ast": 2.9,
+        "fgPct": 0.479
+      },
+      "contract": {
+        "salaryByYear": [
+          10500000,
+          11200000,
+          12000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "mem03",
+      "name": "Cedric Coward",
+      "teamId": "MEM",
+      "position": "SG",
+      "stats": {
+        "pts": 13.6,
+        "reb": 5.9,
+        "ast": 2.8,
+        "fgPct": 0.471
+      },
+      "contract": {
+        "salaryByYear": [
+          4200000,
+          4600000,
+          5900000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "mem04",
+      "name": "GG Jackson II",
+      "teamId": "MEM",
+      "position": "PF",
+      "stats": {
+        "pts": 12.5,
+        "reb": 4.3,
+        "ast": 1.5,
+        "fgPct": 0.496
+      },
+      "contract": {
+        "salaryByYear": [
+          2400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mem05",
+      "name": "Jaylen Wells",
+      "teamId": "MEM",
+      "position": "SG",
+      "stats": {
+        "pts": 12.5,
+        "reb": 3.2,
+        "ast": 1.6,
+        "fgPct": 0.431
+      },
+      "contract": {
+        "salaryByYear": [
+          3900000,
+          5000000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mem06",
+      "name": "Zach Edey",
+      "teamId": "MEM",
+      "position": "C",
+      "stats": {
+        "pts": 13.6,
+        "reb": 11.1,
+        "ast": 1.1,
+        "fgPct": 0.633
+      },
+      "contract": {
+        "salaryByYear": [
+          8600000,
+          11200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mem07",
+      "name": "Cam Spencer",
+      "teamId": "MEM",
+      "position": "SG",
+      "stats": {
+        "pts": 11.1,
+        "reb": 2.5,
+        "ast": 5.6,
+        "fgPct": 0.473
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mem08",
+      "name": "Scotty Pippen Jr.",
+      "teamId": "MEM",
+      "position": "PG",
+      "stats": {
+        "pts": 11.4,
+        "reb": 2.2,
+        "ast": 4.7,
+        "fgPct": 0.448
+      },
+      "contract": {
+        "salaryByYear": [
+          8500000,
+          9200000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mem09",
+      "name": "Taylor Hendricks",
+      "teamId": "MEM",
+      "position": "PF",
+      "stats": {
+        "pts": 10.6,
+        "reb": 4.7,
+        "ast": 1.2,
+        "fgPct": 0.463
+      },
+      "contract": {
+        "salaryByYear": [
+          8000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mem10",
+      "name": "Javon Small",
+      "teamId": "MEM",
+      "position": "PG",
+      "stats": {
+        "pts": 9.7,
+        "reb": 3.1,
+        "ast": 3.7,
+        "fgPct": 0.465
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mem11",
+      "name": "Kentavious Caldwell-Pope",
+      "teamId": "MEM",
+      "position": "SG",
+      "stats": {
+        "pts": 8.4,
+        "reb": 2.5,
+        "ast": 2.7,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          10500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mem12",
+      "name": "Walter Clayton Jr.",
+      "teamId": "MEM",
+      "position": "PG",
+      "stats": {
+        "pts": 9.7,
+        "reb": 2.1,
+        "ast": 5.7,
+        "fgPct": 0.366
+      },
+      "contract": {
+        "salaryByYear": [
+          4200000,
+          4400000,
+          4600000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "mem13",
+      "name": "Quinten Post",
+      "teamId": "MEM",
+      "position": "PF",
+      "stats": {
+        "pts": 7.7,
+        "reb": 4.0,
+        "ast": 1.4,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia01",
+      "name": "Giannis Antetokounmpo",
+      "teamId": "MIA",
+      "position": "PF",
+      "stats": {
+        "pts": 30.4,
+        "reb": 11.9,
+        "ast": 6.5,
+        "fgPct": 0.604
+      },
+      "contract": {
+        "salaryByYear": [
+          58456566,
+          62800000,
+          67200000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "mia02",
+      "name": "Bam Adebayo",
+      "teamId": "MIA",
+      "position": "C",
+      "stats": {
+        "pts": 18.2,
+        "reb": 9.6,
+        "ast": 4.0,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          49500000,
+          53400000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mia03",
+      "name": "Andrew Wiggins",
+      "teamId": "MIA",
+      "position": "SF",
+      "stats": {
+        "pts": 20.5,
+        "reb": 5.0,
+        "ast": 2.3,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          30169644
+        ],
+        "optionType": [
+          "player"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia04",
+      "name": "Nikola Jovic",
+      "teamId": "MIA",
+      "position": "PF",
+      "stats": {
+        "pts": 11.3,
+        "reb": 4.9,
+        "ast": 3.2,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          16200000,
+          14900000,
+          15000000,
+          16200000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "mia05",
+      "name": "Davion Mitchell",
+      "teamId": "MIA",
+      "position": "PG",
+      "stats": {
+        "pts": 9.4,
+        "reb": 3.1,
+        "ast": 5.6,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          12400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia06",
+      "name": "Bobby Portis",
+      "teamId": "MIA",
+      "position": "PF",
+      "stats": {
+        "pts": 13.9,
+        "reb": 7.4,
+        "ast": 1.4,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          14521414
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia08",
+      "name": "Tim Hardaway Jr.",
+      "teamId": "MIA",
+      "position": "SG",
+      "stats": {
+        "pts": 12.5,
+        "reb": 2.8,
+        "ast": 1.5,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          7500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia09",
+      "name": "Simone Fontecchio",
+      "teamId": "MIA",
+      "position": "SF",
+      "stats": {
+        "pts": 9.5,
+        "reb": 3.0,
+        "ast": 1.4,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          8250000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia10",
+      "name": "Pelle Larsson",
+      "teamId": "MIA",
+      "position": "SG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 2.5,
+        "ast": 2.2,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2296271
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia11",
+      "name": "Dru Smith",
+      "teamId": "MIA",
+      "position": "SG",
+      "stats": {
+        "pts": 5.6,
+        "reb": 1.8,
+        "ast": 2.6,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2584539
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia12",
+      "name": "Jahmir Young",
+      "teamId": "MIA",
+      "position": "PG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 1.5,
+        "ast": 1.8,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          2411090
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia13",
+      "name": "Myron Gardner",
+      "teamId": "MIA",
+      "position": "SF",
+      "stats": {
+        "pts": 3.5,
+        "reb": 2.0,
+        "ast": 0.8,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          2584539
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mia07",
+      "name": "Vladislav Goldin",
+      "teamId": "MIA",
+      "position": "C",
+      "stats": {
+        "pts": 6.5,
+        "reb": 5.0,
+        "ast": 0.8,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil01",
+      "name": "Tyler Herro",
+      "teamId": "MIL",
+      "position": "SG",
+      "stats": {
+        "pts": 23.5,
+        "reb": 5.0,
+        "ast": 5.3,
+        "fgPct": 0.445
+      },
+      "contract": {
+        "salaryByYear": [
+          33000000,
+          35700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mil02",
+      "name": "Myles Turner",
+      "teamId": "MIL",
+      "position": "C",
+      "stats": {
+        "pts": 17.5,
+        "reb": 6.9,
+        "ast": 1.5,
+        "fgPct": 0.525
+      },
+      "contract": {
+        "salaryByYear": [
+          27800000,
+          29200000,
+          30600000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "mil03",
+      "name": "Kel'el Ware",
+      "teamId": "MIL",
+      "position": "C",
+      "stats": {
+        "pts": 12.5,
+        "reb": 8.5,
+        "ast": 1.0,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          4200000,
+          5400000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mil04",
+      "name": "Jaime Jaquez Jr.",
+      "teamId": "MIL",
+      "position": "SF",
+      "stats": {
+        "pts": 14.5,
+        "reb": 4.2,
+        "ast": 3.1,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          5939141
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil05",
+      "name": "Gary Trent Jr.",
+      "teamId": "MIL",
+      "position": "SG",
+      "stats": {
+        "pts": 14.0,
+        "reb": 3.0,
+        "ast": 2.0,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          16400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil06",
+      "name": "Kasparas Jakucionis",
+      "teamId": "MIL",
+      "position": "PG",
+      "stats": {
+        "pts": 10.5,
+        "reb": 3.5,
+        "ast": 4.0,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          7302500,
+          7900000,
+          8500000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "mil07",
+      "name": "A.J. Green",
+      "teamId": "MIL",
+      "position": "SG",
+      "stats": {
+        "pts": 10.5,
+        "reb": 2.5,
+        "ast": 1.8,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          10000000,
+          10700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mil08",
+      "name": "Ryan Rollins",
+      "teamId": "MIL",
+      "position": "PG",
+      "stats": {
+        "pts": 11.5,
+        "reb": 3.0,
+        "ast": 4.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          4000000
+        ],
+        "optionType": [
+          "player"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil09",
+      "name": "Kevin Porter Jr.",
+      "teamId": "MIL",
+      "position": "PG",
+      "stats": {
+        "pts": 8.5,
+        "reb": 2.5,
+        "ast": 4.0,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          8000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil10",
+      "name": "Andre Jackson Jr.",
+      "teamId": "MIL",
+      "position": "SF",
+      "stats": {
+        "pts": 4.5,
+        "reb": 3.5,
+        "ast": 1.8,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          2221448
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil11",
+      "name": "Ousmane Dieng",
+      "teamId": "MIL",
+      "position": "SF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.8,
+        "ast": 1.5,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          4200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil12",
+      "name": "Nigel Hayes-Davis",
+      "teamId": "MIL",
+      "position": "PF",
+      "stats": {
+        "pts": 4.0,
+        "reb": 2.5,
+        "ast": 1.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mil13",
+      "name": "Nate Ament",
+      "teamId": "MIL",
+      "position": "SF",
+      "stats": {
+        "pts": 6.0,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          3800000,
+          4000000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "min01",
+      "name": "Anthony Edwards",
+      "teamId": "MIN",
+      "position": "SG",
+      "stats": {
+        "pts": 27.6,
+        "reb": 5.6,
+        "ast": 5.4,
+        "fgPct": 0.465
+      },
+      "contract": {
+        "salaryByYear": [
+          48924624,
+          52200000,
+          55600000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "min02",
+      "name": "LaMelo Ball",
+      "teamId": "MIN",
+      "position": "PG",
+      "stats": {
+        "pts": 24.5,
+        "reb": 4.8,
+        "ast": 7.0,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          40770520,
+          43500000,
+          46300000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "min03",
+      "name": "Rudy Gobert",
+      "teamId": "MIN",
+      "position": "C",
+      "stats": {
+        "pts": 12.0,
+        "reb": 11.5,
+        "ast": 1.4,
+        "fgPct": 0.65
+      },
+      "contract": {
+        "salaryByYear": [
+          36500000,
+          38000000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "min04",
+      "name": "Jaden McDaniels",
+      "teamId": "MIN",
+      "position": "SF",
+      "stats": {
+        "pts": 13.5,
+        "reb": 4.6,
+        "ast": 2.0,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          26200000,
+          28000000,
+          29800000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "min05",
+      "name": "Donte DiVincenzo",
+      "teamId": "MIN",
+      "position": "SG",
+      "stats": {
+        "pts": 13.5,
+        "reb": 3.6,
+        "ast": 3.3,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          11600000,
+          12400000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "min06",
+      "name": "Josh Green",
+      "teamId": "MIN",
+      "position": "SG",
+      "stats": {
+        "pts": 9.0,
+        "reb": 3.2,
+        "ast": 2.0,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          14679012,
+          15400000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "min07",
+      "name": "Terrence Shannon Jr.",
+      "teamId": "MIN",
+      "position": "SG",
+      "stats": {
+        "pts": 11.5,
+        "reb": 3.0,
+        "ast": 1.8,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          3200000,
+          4100000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "min08",
+      "name": "Joe Ingles",
+      "teamId": "MIN",
+      "position": "SF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.2,
+        "ast": 2.8,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          3500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "min09",
+      "name": "Jaylen Clark",
+      "teamId": "MIN",
+      "position": "SG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 2.2,
+        "ast": 1.0,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "min10",
+      "name": "Bones Hyland",
+      "teamId": "MIN",
+      "position": "PG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 1.8,
+        "ast": 2.5,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "min12",
+      "name": "Talen Horton-Tucker",
+      "teamId": "MIN",
+      "position": "SG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.5,
+        "ast": 1.8,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "min13",
+      "name": "Rocco Zikarsky",
+      "teamId": "MIN",
+      "position": "C",
+      "stats": {
+        "pts": 3.0,
+        "reb": 3.5,
+        "ast": 0.3,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "min11",
+      "name": "Jesse Edwards",
+      "teamId": "MIN",
+      "position": "C",
+      "stats": {
+        "pts": 4.5,
+        "reb": 3.5,
+        "ast": 0.5,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nop01",
+      "name": "Zion Williamson",
+      "teamId": "NOP",
+      "position": "PF",
+      "stats": {
+        "pts": 21.0,
+        "reb": 7.2,
+        "ast": 5.3,
+        "fgPct": 0.57
+      },
+      "contract": {
+        "salaryByYear": [
+          42166510,
+          44800000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nop02",
+      "name": "Trey Murphy III",
+      "teamId": "NOP",
+      "position": "SF",
+      "stats": {
+        "pts": 21.5,
+        "reb": 4.4,
+        "ast": 2.5,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          27000000,
+          29000000,
+          31000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "nop03",
+      "name": "Dejounte Murray",
+      "teamId": "NOP",
+      "position": "PG",
+      "stats": {
+        "pts": 16.7,
+        "reb": 4.7,
+        "ast": 6.4,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          28767536,
+          30700000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nop04",
+      "name": "Jordan Poole",
+      "teamId": "NOP",
+      "position": "SG",
+      "stats": {
+        "pts": 19.5,
+        "reb": 3.4,
+        "ast": 4.6,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          34044642
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nop05",
+      "name": "Saddiq Bey",
+      "teamId": "NOP",
+      "position": "SF",
+      "stats": {
+        "pts": 17.7,
+        "reb": 4.9,
+        "ast": 2.1,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          9500000,
+          10200000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nop06",
+      "name": "Jeremiah Fears",
+      "teamId": "NOP",
+      "position": "PG",
+      "stats": {
+        "pts": 14.3,
+        "reb": 3.5,
+        "ast": 4.0,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          8600000,
+          9000000,
+          9500000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "nop07",
+      "name": "Herb Jones",
+      "teamId": "NOP",
+      "position": "SF",
+      "stats": {
+        "pts": 11.5,
+        "reb": 4.5,
+        "ast": 2.3,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          15400000,
+          16600000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nop08",
+      "name": "Yves Missi",
+      "teamId": "NOP",
+      "position": "C",
+      "stats": {
+        "pts": 9.5,
+        "reb": 8.5,
+        "ast": 1.0,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          4800000,
+          6200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nop10",
+      "name": "Kevon Looney",
+      "teamId": "NOP",
+      "position": "C",
+      "stats": {
+        "pts": 4.5,
+        "reb": 6.5,
+        "ast": 1.5,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          3500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nop11",
+      "name": "Hunter Dickinson",
+      "teamId": "NOP",
+      "position": "C",
+      "stats": {
+        "pts": 8.5,
+        "reb": 6.0,
+        "ast": 1.0,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nop12",
+      "name": "Jordan Hawkins",
+      "teamId": "NOP",
+      "position": "SG",
+      "stats": {
+        "pts": 9.5,
+        "reb": 2.2,
+        "ast": 1.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          3900000,
+          5000000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nop13",
+      "name": "Karlo Matkovic",
+      "teamId": "NOP",
+      "position": "PF",
+      "stats": {
+        "pts": 5.0,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nop09",
+      "name": "Bryce McGowens",
+      "teamId": "NOP",
+      "position": "SG",
+      "stats": {
+        "pts": 7.5,
+        "reb": 2.5,
+        "ast": 1.8,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nyk01",
+      "name": "Jalen Brunson",
+      "teamId": "NYK",
+      "position": "PG",
+      "stats": {
+        "pts": 26.0,
+        "reb": 3.6,
+        "ast": 7.3,
+        "fgPct": 0.475
+      },
+      "contract": {
+        "salaryByYear": [
+          37739521,
+          40535041
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nyk02",
+      "name": "Karl-Anthony Towns",
+      "teamId": "NYK",
+      "position": "C",
+      "stats": {
+        "pts": 20.1,
+        "reb": 11.9,
+        "ast": 3.2,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          57100000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nyk03",
+      "name": "OG Anunoby",
+      "teamId": "NYK",
+      "position": "SF",
+      "stats": {
+        "pts": 16.7,
+        "reb": 5.6,
+        "ast": 2.1,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          42500000,
+          45400000,
+          48300000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "nyk04",
+      "name": "Mikal Bridges",
+      "teamId": "NYK",
+      "position": "SG",
+      "stats": {
+        "pts": 17.6,
+        "reb": 4.5,
+        "ast": 3.6,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          33482145,
+          36100000,
+          38800000,
+          41500000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "nyk05",
+      "name": "Josh Hart",
+      "teamId": "NYK",
+      "position": "PF",
+      "stats": {
+        "pts": 13.6,
+        "reb": 7.4,
+        "ast": 4.8,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          20923760,
+          22300000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nyk06",
+      "name": "Miles McBride",
+      "teamId": "NYK",
+      "position": "PG",
+      "stats": {
+        "pts": 10.5,
+        "reb": 2.6,
+        "ast": 3.2,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          3956523
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nyk07",
+      "name": "Jose Alvarado",
+      "teamId": "NYK",
+      "position": "PG",
+      "stats": {
+        "pts": 8.9,
+        "reb": 2.4,
+        "ast": 3.3,
+        "fgPct": 0.414
+      },
+      "contract": {
+        "salaryByYear": [
+          4500000
+        ],
+        "optionType": [
+          "player"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nyk08",
+      "name": "Landry Shamet",
+      "teamId": "NYK",
+      "position": "SG",
+      "stats": {
+        "pts": 9.3,
+        "reb": 1.8,
+        "ast": 1.4,
+        "fgPct": 0.437
+      },
+      "contract": {
+        "salaryByYear": [
+          6000000,
+          6300000,
+          6600000,
+          6900000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "nyk09",
+      "name": "Jordan Clarkson",
+      "teamId": "NYK",
+      "position": "SG",
+      "stats": {
+        "pts": 12.5,
+        "reb": 2.5,
+        "ast": 2.8,
+        "fgPct": 0.451
+      },
+      "contract": {
+        "salaryByYear": [
+          8500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nyk10",
+      "name": "Guerschon Yabusele",
+      "teamId": "NYK",
+      "position": "PF",
+      "stats": {
+        "pts": 8.5,
+        "reb": 4.0,
+        "ast": 1.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          2500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nyk11",
+      "name": "Tyler Kolek",
+      "teamId": "NYK",
+      "position": "PG",
+      "stats": {
+        "pts": 4.0,
+        "reb": 1.8,
+        "ast": 2.5,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          2296271
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "nyk12",
+      "name": "Pacome Dadiet",
+      "teamId": "NYK",
+      "position": "SG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 2.0,
+        "ast": 1.0,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          2983680,
+          3900000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "nyk13",
+      "name": "Mohamed Diawara",
+      "teamId": "NYK",
+      "position": "PF",
+      "stats": {
+        "pts": 3.5,
+        "reb": 2.8,
+        "ast": 0.6,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          5000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det05",
+      "name": "Bobi Klintman",
+      "teamId": "DET",
+      "position": "PF",
+      "stats": {
+        "pts": 5.0,
+        "reb": 2.5,
+        "ast": 0.8,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "okc01",
+      "name": "Shai Gilgeous-Alexander",
+      "teamId": "OKC",
+      "position": "PG",
+      "stats": {
+        "pts": 32.7,
+        "reb": 5.0,
+        "ast": 6.4,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          40806150,
+          60600000,
+          65400000,
+          70300000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "okc02",
+      "name": "Chet Holmgren",
+      "teamId": "OKC",
+      "position": "C",
+      "stats": {
+        "pts": 16.5,
+        "reb": 7.9,
+        "ast": 2.4,
+        "fgPct": 0.53
+      },
+      "contract": {
+        "salaryByYear": [
+          41250000,
+          44300000,
+          47400000,
+          50400000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "okc03",
+      "name": "Jalen Williams",
+      "teamId": "OKC",
+      "position": "SF",
+      "stats": {
+        "pts": 21.6,
+        "reb": 4.9,
+        "ast": 5.1,
+        "fgPct": 0.54
+      },
+      "contract": {
+        "salaryByYear": [
+          41250000,
+          44300000,
+          47400000,
+          50400000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "okc04",
+      "name": "Isaiah Hartenstein",
+      "teamId": "OKC",
+      "position": "C",
+      "stats": {
+        "pts": 8.9,
+        "reb": 8.1,
+        "ast": 3.5,
+        "fgPct": 0.58
+      },
+      "contract": {
+        "salaryByYear": [
+          23148148,
+          25000000,
+          26800000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "okc05",
+      "name": "Alex Caruso",
+      "teamId": "OKC",
+      "position": "SG",
+      "stats": {
+        "pts": 9.2,
+        "reb": 3.1,
+        "ast": 2.9,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          19550160,
+          20900000,
+          22400000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "okc06",
+      "name": "Cason Wallace",
+      "teamId": "OKC",
+      "position": "SG",
+      "stats": {
+        "pts": 8.8,
+        "reb": 3.0,
+        "ast": 2.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          7420806
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "okc07",
+      "name": "Jaylin Williams",
+      "teamId": "OKC",
+      "position": "PF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 5.0,
+        "ast": 2.2,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          7774648
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "okc08",
+      "name": "Kenrich Williams",
+      "teamId": "OKC",
+      "position": "PF",
+      "stats": {
+        "pts": 6.0,
+        "reb": 4.0,
+        "ast": 1.5,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          7200000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "okc09",
+      "name": "Nikola Topic",
+      "teamId": "OKC",
+      "position": "PG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.2,
+        "ast": 3.0,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          5429760,
+          6900000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "okc10",
+      "name": "Thomas Sorber",
+      "teamId": "OKC",
+      "position": "C",
+      "stats": {
+        "pts": 6.5,
+        "reb": 5.5,
+        "ast": 1.0,
+        "fgPct": 0.55
+      },
+      "contract": {
+        "salaryByYear": [
+          4900000,
+          6300000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "okc11",
+      "name": "Jared McCain",
+      "teamId": "OKC",
+      "position": "PG",
+      "stats": {
+        "pts": 8.5,
+        "reb": 2.0,
+        "ast": 2.8,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          4422600,
+          5700000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "okc12",
+      "name": "Ajay Mitchell",
+      "teamId": "OKC",
+      "position": "PG",
+      "stats": {
+        "pts": 7.5,
+        "reb": 2.2,
+        "ast": 2.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2850000,
+          3700000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "okc13",
+      "name": "Aday Mara",
+      "teamId": "OKC",
+      "position": "C",
+      "stats": {
+        "pts": 3.5,
+        "reb": 3.0,
+        "ast": 0.3,
+        "fgPct": 0.55
+      },
+      "contract": {
+        "salaryByYear": [
+          5800000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "orl01",
+      "name": "Paolo Banchero",
+      "teamId": "ORL",
+      "position": "PF",
+      "stats": {
+        "pts": 25.7,
+        "reb": 7.4,
+        "ast": 4.0,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          41250000,
+          44300000,
+          47400000,
+          50400000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "orl02",
+      "name": "Franz Wagner",
+      "teamId": "ORL",
+      "position": "SF",
+      "stats": {
+        "pts": 24.5,
+        "reb": 5.8,
+        "ast": 4.7,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          41754690,
+          44700000,
+          47700000,
+          50700000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "orl03",
+      "name": "Desmond Bane",
+      "teamId": "ORL",
+      "position": "SG",
+      "stats": {
+        "pts": 19.2,
+        "reb": 4.9,
+        "ast": 5.2,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          39446090,
+          42200000,
+          45000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "orl04",
+      "name": "Jalen Suggs",
+      "teamId": "ORL",
+      "position": "SG",
+      "stats": {
+        "pts": 14.5,
+        "reb": 3.6,
+        "ast": 3.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          32400000,
+          34700000,
+          37000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "orl05",
+      "name": "Wendell Carter Jr.",
+      "teamId": "ORL",
+      "position": "C",
+      "stats": {
+        "pts": 11.5,
+        "reb": 8.0,
+        "ast": 2.5,
+        "fgPct": 0.51
+      },
+      "contract": {
+        "salaryByYear": [
+          18102000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "orl06",
+      "name": "Anthony Black",
+      "teamId": "ORL",
+      "position": "PG",
+      "stats": {
+        "pts": 10.5,
+        "reb": 4.0,
+        "ast": 4.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          10106316,
+          13000000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "orl07",
+      "name": "Nikola Vucevic",
+      "teamId": "ORL",
+      "position": "C",
+      "stats": {
+        "pts": 17.5,
+        "reb": 10.5,
+        "ast": 3.2,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          3300000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "orl08",
+      "name": "Jonathan Isaac",
+      "teamId": "ORL",
+      "position": "PF",
+      "stats": {
+        "pts": 7.5,
+        "reb": 5.0,
+        "ast": 1.2,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          14500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "orl09",
+      "name": "Goga Bitadze",
+      "teamId": "ORL",
+      "position": "C",
+      "stats": {
+        "pts": 8.0,
+        "reb": 6.5,
+        "ast": 0.8,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          6600000,
+          7100000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "orl10",
+      "name": "Tristan Da Silva",
+      "teamId": "ORL",
+      "position": "SF",
+      "stats": {
+        "pts": 9.5,
+        "reb": 3.5,
+        "ast": 1.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          3991200,
+          5100000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "orl11",
+      "name": "Jase Richardson",
+      "teamId": "ORL",
+      "position": "SG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 1.8,
+        "ast": 1.5,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          3132360,
+          3300000,
+          5400000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "orl12",
+      "name": "Noah Penda",
+      "teamId": "ORL",
+      "position": "SF",
+      "stats": {
+        "pts": 4.0,
+        "reb": 2.8,
+        "ast": 1.0,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "orl13",
+      "name": "Jamal Cain",
+      "teamId": "ORL",
+      "position": "SF",
+      "stats": {
+        "pts": 3.5,
+        "reb": 2.0,
+        "ast": 0.6,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2584539
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "chi14",
+      "name": "Emanuel Miller",
+      "teamId": "CHI",
+      "position": "SF",
+      "stats": {
+        "pts": 3.0,
+        "reb": 2.0,
+        "ast": 0.6,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "lac13",
+      "name": "Trentyn Flowers",
+      "teamId": "LAC",
+      "position": "SF",
+      "stats": {
+        "pts": 3.5,
+        "reb": 2.0,
+        "ast": 0.5,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi01",
+      "name": "Joel Embiid",
+      "teamId": "PHI",
+      "position": "C",
+      "stats": {
+        "pts": 23.8,
+        "reb": 8.2,
+        "ast": 3.8,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          57985752
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi02",
+      "name": "LeBron James",
+      "teamId": "PHI",
+      "position": "SF",
+      "stats": {
+        "pts": 20.9,
+        "reb": 6.5,
+        "ast": 7.8,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          15900000,
+          16700000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "phi03",
+      "name": "Tyrese Maxey",
+      "teamId": "PHI",
+      "position": "PG",
+      "stats": {
+        "pts": 26.3,
+        "reb": 3.7,
+        "ast": 6.4,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          40770520,
+          43500000,
+          46300000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "phi04",
+      "name": "VJ Edgecombe",
+      "teamId": "PHI",
+      "position": "SG",
+      "stats": {
+        "pts": 13.5,
+        "reb": 4.5,
+        "ast": 2.8,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          11663880,
+          13800000,
+          15900000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "phi05",
+      "name": "Dominick Barlow",
+      "teamId": "PHI",
+      "position": "PF",
+      "stats": {
+        "pts": 7.0,
+        "reb": 5.0,
+        "ast": 1.2,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          3415000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi06",
+      "name": "Jabari Walker",
+      "teamId": "PHI",
+      "position": "SF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 5.5,
+        "ast": 1.0,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          2584539
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi07",
+      "name": "Trendon Watford",
+      "teamId": "PHI",
+      "position": "PF",
+      "stats": {
+        "pts": 6.0,
+        "reb": 3.5,
+        "ast": 1.8,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi08",
+      "name": "Dalen Terry",
+      "teamId": "PHI",
+      "position": "SG",
+      "stats": {
+        "pts": 3.5,
+        "reb": 1.9,
+        "ast": 1.3,
+        "fgPct": 0.441
+      },
+      "contract": {
+        "salaryByYear": [
+          2584539
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi09",
+      "name": "Justin Edwards",
+      "teamId": "PHI",
+      "position": "SG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.5,
+        "ast": 0.8,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          2411090
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi10",
+      "name": "Adem Bona",
+      "teamId": "PHI",
+      "position": "C",
+      "stats": {
+        "pts": 5.5,
+        "reb": 5.5,
+        "ast": 0.5,
+        "fgPct": 0.62
+      },
+      "contract": {
+        "salaryByYear": [
+          2296271
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi11",
+      "name": "Johni Broome",
+      "teamId": "PHI",
+      "position": "PF",
+      "stats": {
+        "pts": 4.5,
+        "reb": 3.8,
+        "ast": 0.6,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2150000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi12",
+      "name": "LaBaron Philon Jr.",
+      "teamId": "PHI",
+      "position": "PG",
+      "stats": {
+        "pts": 5.0,
+        "reb": 2.0,
+        "ast": 2.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          3500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "phi13",
+      "name": "Hunter Sallis",
+      "teamId": "PHI",
+      "position": "SG",
+      "stats": {
+        "pts": 4.0,
+        "reb": 1.8,
+        "ast": 1.0,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "pho01",
+      "name": "Devin Booker",
+      "teamId": "PHO",
+      "position": "SG",
+      "stats": {
+        "pts": 25.6,
+        "reb": 4.3,
+        "ast": 7.1,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          57078728,
+          61000000,
+          63600000
+        ],
+        "optionType": [
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "pho02",
+      "name": "Jalen Green",
+      "teamId": "PHO",
+      "position": "SG",
+      "stats": {
+        "pts": 21.0,
+        "reb": 4.4,
+        "ast": 3.1,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          36000000,
+          36000000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "pho03",
+      "name": "Miles Bridges",
+      "teamId": "PHO",
+      "position": "PF",
+      "stats": {
+        "pts": 20.9,
+        "reb": 7.3,
+        "ast": 3.4,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          22826087
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "pho04",
+      "name": "Dillon Brooks",
+      "teamId": "PHO",
+      "position": "SF",
+      "stats": {
+        "pts": 16.8,
+        "reb": 3.5,
+        "ast": 1.9,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          19992727
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "pho05",
+      "name": "Mark Williams",
+      "teamId": "PHO",
+      "position": "C",
+      "stats": {
+        "pts": 13.5,
+        "reb": 9.5,
+        "ast": 1.5,
+        "fgPct": 0.59
+      },
+      "contract": {
+        "salaryByYear": [
+          11728395
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "pho06",
+      "name": "Khaman Maluach",
+      "teamId": "PHO",
+      "position": "C",
+      "stats": {
+        "pts": 8.5,
+        "reb": 6.5,
+        "ast": 0.8,
+        "fgPct": 0.58
+      },
+      "contract": {
+        "salaryByYear": [
+          6500000,
+          7900000,
+          9500000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "pho07",
+      "name": "Rasheer Fleming",
+      "teamId": "PHO",
+      "position": "PF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 4.5,
+        "ast": 1.0,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          3900000,
+          4200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "pho08",
+      "name": "Koa Peat",
+      "teamId": "PHO",
+      "position": "PF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 4.0,
+        "ast": 1.2,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          3400000,
+          3700000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "pho10",
+      "name": "Ryan Dunn",
+      "teamId": "PHO",
+      "position": "SF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 4.0,
+        "ast": 0.9,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2900000,
+          3800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "pho11",
+      "name": "Collin Gillespie",
+      "teamId": "PHO",
+      "position": "PG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 1.8,
+        "ast": 2.8,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "pho12",
+      "name": "Oso Ighodaro",
+      "teamId": "PHO",
+      "position": "C",
+      "stats": {
+        "pts": 4.5,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "pho13",
+      "name": "Jordan Goodwin",
+      "teamId": "PHO",
+      "position": "PG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.5,
+        "ast": 2.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "pho09",
+      "name": "Vasilije Micic",
+      "teamId": "PHO",
+      "position": "PG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 1.8,
+        "ast": 3.5,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "por01",
+      "name": "Damian Lillard",
+      "teamId": "POR",
+      "position": "PG",
+      "stats": {
+        "pts": 18.5,
+        "reb": 3.5,
+        "ast": 6.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          21300000,
+          22800000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "por02",
+      "name": "Deni Avdija",
+      "teamId": "POR",
+      "position": "SF",
+      "stats": {
+        "pts": 21.9,
+        "reb": 8.5,
+        "ast": 5.0,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          18500000,
+          19900000,
+          21300000,
+          22700000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "por03",
+      "name": "Shaedon Sharpe",
+      "teamId": "POR",
+      "position": "SG",
+      "stats": {
+        "pts": 18.5,
+        "reb": 4.5,
+        "ast": 3.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          24700000,
+          26500000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "por04",
+      "name": "Donovan Clingan",
+      "teamId": "POR",
+      "position": "C",
+      "stats": {
+        "pts": 11.5,
+        "reb": 9.5,
+        "ast": 1.8,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          8300000,
+          10800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "por05",
+      "name": "Jrue Holiday",
+      "teamId": "POR",
+      "position": "PG",
+      "stats": {
+        "pts": 14.5,
+        "reb": 4.0,
+        "ast": 5.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          12000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "por06",
+      "name": "Toumani Camara",
+      "teamId": "POR",
+      "position": "PF",
+      "stats": {
+        "pts": 11.5,
+        "reb": 5.5,
+        "ast": 1.8,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000,
+          8000000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "por07",
+      "name": "Scoot Henderson",
+      "teamId": "POR",
+      "position": "PG",
+      "stats": {
+        "pts": 13.5,
+        "reb": 3.8,
+        "ast": 5.8,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          9600000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "por08",
+      "name": "Kris Murray",
+      "teamId": "POR",
+      "position": "SF",
+      "stats": {
+        "pts": 7.5,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2300000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "por09",
+      "name": "Vit Krejci",
+      "teamId": "POR",
+      "position": "SF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 3.0,
+        "ast": 2.5,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "mem14",
+      "name": "Jerami Grant",
+      "teamId": "MEM",
+      "position": "PF",
+      "stats": {
+        "pts": 16.5,
+        "reb": 3.5,
+        "ast": 2.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          29700000,
+          31700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "por11",
+      "name": "Matisse Thybulle",
+      "teamId": "POR",
+      "position": "SG",
+      "stats": {
+        "pts": 5.0,
+        "reb": 2.0,
+        "ast": 1.2,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "por12",
+      "name": "Robert Williams III",
+      "teamId": "POR",
+      "position": "C",
+      "stats": {
+        "pts": 5.5,
+        "reb": 6.5,
+        "ast": 1.5,
+        "fgPct": 0.65
+      },
+      "contract": {
+        "salaryByYear": [
+          13300000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "por13",
+      "name": "Caleb Love",
+      "teamId": "POR",
+      "position": "PG",
+      "stats": {
+        "pts": 9.5,
+        "reb": 2.5,
+        "ast": 2.8,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac01",
+      "name": "Domantas Sabonis",
+      "teamId": "SAC",
+      "position": "C",
+      "stats": {
+        "pts": 19.5,
+        "reb": 13.5,
+        "ast": 6.0,
+        "fgPct": 0.59
+      },
+      "contract": {
+        "salaryByYear": [
+          43636000,
+          46700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "sac02",
+      "name": "Zach LaVine",
+      "teamId": "SAC",
+      "position": "SG",
+      "stats": {
+        "pts": 23.5,
+        "reb": 4.5,
+        "ast": 4.5,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          47499660,
+          50500000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "sac03",
+      "name": "DeMar DeRozan",
+      "teamId": "SAC",
+      "position": "SF",
+      "stats": {
+        "pts": 22.0,
+        "reb": 4.0,
+        "ast": 4.5,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          24570000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac04",
+      "name": "Malik Monk",
+      "teamId": "SAC",
+      "position": "SG",
+      "stats": {
+        "pts": 20.5,
+        "reb": 3.0,
+        "ast": 5.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          18797618,
+          20200000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "sac05",
+      "name": "Keegan Murray",
+      "teamId": "SAC",
+      "position": "PF",
+      "stats": {
+        "pts": 14.5,
+        "reb": 5.5,
+        "ast": 1.8,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          11144093,
+          14200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "sac06",
+      "name": "Russell Westbrook",
+      "teamId": "SAC",
+      "position": "PG",
+      "stats": {
+        "pts": 11.5,
+        "reb": 4.5,
+        "ast": 6.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          2296274
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac07",
+      "name": "Maxime Raynaud",
+      "teamId": "SAC",
+      "position": "C",
+      "stats": {
+        "pts": 7.5,
+        "reb": 5.5,
+        "ast": 1.0,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          1272870
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac08",
+      "name": "Nique Clifford",
+      "teamId": "SAC",
+      "position": "SG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 3.5,
+        "ast": 1.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          3108120,
+          3300000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "sac09",
+      "name": "Precious Achiuwa",
+      "teamId": "SAC",
+      "position": "PF",
+      "stats": {
+        "pts": 8.5,
+        "reb": 6.5,
+        "ast": 1.2,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          5426000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac10",
+      "name": "Trey Lyles",
+      "teamId": "SAC",
+      "position": "PF",
+      "stats": {
+        "pts": 6.0,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          2400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac11",
+      "name": "Isaiah Stevens",
+      "teamId": "SAC",
+      "position": "PG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 1.5,
+        "ast": 2.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          2301587
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac12",
+      "name": "Colby Jones",
+      "teamId": "SAC",
+      "position": "SG",
+      "stats": {
+        "pts": 4.0,
+        "reb": 2.0,
+        "ast": 1.5,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sac13",
+      "name": "Drew Eubanks",
+      "teamId": "SAC",
+      "position": "C",
+      "stats": {
+        "pts": 4.5,
+        "reb": 4.0,
+        "ast": 0.8,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          2087519
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "det11",
+      "name": "Wendell Moore Jr.",
+      "teamId": "DET",
+      "position": "SG",
+      "stats": {
+        "pts": 3.8,
+        "reb": 1.8,
+        "ast": 1.2,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sas01",
+      "name": "Victor Wembanyama",
+      "teamId": "SAS",
+      "position": "C",
+      "stats": {
+        "pts": 24.3,
+        "reb": 11.0,
+        "ast": 3.7,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          16868246,
+          43500000,
+          46900000,
+          50400000,
+          53900000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 5
+      }
+    },
+    {
+      "id": "sas02",
+      "name": "De'Aaron Fox",
+      "teamId": "SAS",
+      "position": "PG",
+      "stats": {
+        "pts": 24.5,
+        "reb": 4.0,
+        "ast": 6.5,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          49500000,
+          53500000,
+          57900000,
+          62300000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "sas03",
+      "name": "Devin Vassell",
+      "teamId": "SAS",
+      "position": "SG",
+      "stats": {
+        "pts": 19.5,
+        "reb": 4.0,
+        "ast": 3.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          27500000,
+          29500000,
+          31500000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "sas04",
+      "name": "Stephon Castle",
+      "teamId": "SAS",
+      "position": "PG",
+      "stats": {
+        "pts": 16.5,
+        "reb": 4.5,
+        "ast": 4.8,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          10015920,
+          12800000,
+          16300000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "sas05",
+      "name": "Dylan Harper",
+      "teamId": "SAS",
+      "position": "SG",
+      "stats": {
+        "pts": 15.5,
+        "reb": 4.0,
+        "ast": 4.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          12989040,
+          13600000,
+          17400000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "sas06",
+      "name": "Tobias Harris",
+      "teamId": "SAS",
+      "position": "PF",
+      "stats": {
+        "pts": 13.3,
+        "reb": 5.1,
+        "ast": 2.5,
+        "fgPct": 0.469
+      },
+      "contract": {
+        "salaryByYear": [
+          15044000,
+          15700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "sas07",
+      "name": "Julian Champagnie",
+      "teamId": "SAS",
+      "position": "SF",
+      "stats": {
+        "pts": 11.5,
+        "reb": 4.5,
+        "ast": 1.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          15350000,
+          15000000,
+          14600000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "sas08",
+      "name": "Harrison Barnes",
+      "teamId": "SAS",
+      "position": "PF",
+      "stats": {
+        "pts": 11.0,
+        "reb": 3.5,
+        "ast": 1.5,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          8000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sas09",
+      "name": "Keldon Johnson",
+      "teamId": "SAS",
+      "position": "SF",
+      "stats": {
+        "pts": 12.5,
+        "reb": 5.0,
+        "ast": 1.8,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          18000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sas10",
+      "name": "Carter Bryant",
+      "teamId": "SAS",
+      "position": "PF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          5145360,
+          6600000,
+          8400000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "sas11",
+      "name": "Luke Kornet",
+      "teamId": "SAS",
+      "position": "C",
+      "stats": {
+        "pts": 6.5,
+        "reb": 5.5,
+        "ast": 1.5,
+        "fgPct": 0.7
+      },
+      "contract": {
+        "salaryByYear": [
+          7500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sas12",
+      "name": "David Jones-Garcia",
+      "teamId": "SAS",
+      "position": "SF",
+      "stats": {
+        "pts": 4.0,
+        "reb": 2.5,
+        "ast": 0.8,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "sas13",
+      "name": "Tarris Reed Jr.",
+      "teamId": "SAS",
+      "position": "C",
+      "stats": {
+        "pts": 4.5,
+        "reb": 4.5,
+        "ast": 0.5,
+        "fgPct": 0.56
+      },
+      "contract": {
+        "salaryByYear": [
+          3000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor01",
+      "name": "Kawhi Leonard",
+      "teamId": "TOR",
+      "position": "SF",
+      "stats": {
+        "pts": 24.5,
+        "reb": 6.1,
+        "ast": 3.6,
+        "fgPct": 0.51
+      },
+      "contract": {
+        "salaryByYear": [
+          50300000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor02",
+      "name": "Scottie Barnes",
+      "teamId": "TOR",
+      "position": "PF",
+      "stats": {
+        "pts": 19.5,
+        "reb": 7.8,
+        "ast": 6.1,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          41754690,
+          44800000,
+          47900000,
+          51000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "tor03",
+      "name": "Immanuel Quickley",
+      "teamId": "TOR",
+      "position": "PG",
+      "stats": {
+        "pts": 18.5,
+        "reb": 3.8,
+        "ast": 6.8,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          32500000,
+          32500000,
+          32500000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "tor04",
+      "name": "RJ Barrett",
+      "teamId": "TOR",
+      "position": "SG",
+      "stats": {
+        "pts": 21.5,
+        "reb": 5.5,
+        "ast": 3.8,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          29616071
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor05",
+      "name": "Jakob Poeltl",
+      "teamId": "TOR",
+      "position": "C",
+      "stats": {
+        "pts": 10.5,
+        "reb": 8.8,
+        "ast": 2.8,
+        "fgPct": 0.63
+      },
+      "contract": {
+        "salaryByYear": [
+          19500000
+        ],
+        "optionType": [
+          "player"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor06",
+      "name": "Collin Murray-Boyles",
+      "teamId": "TOR",
+      "position": "PF",
+      "stats": {
+        "pts": 8.5,
+        "reb": 5.5,
+        "ast": 1.5,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          6649560,
+          8500000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "tor07",
+      "name": "Ja'Kobe Walter",
+      "teamId": "TOR",
+      "position": "SG",
+      "stats": {
+        "pts": 7.5,
+        "reb": 2.5,
+        "ast": 1.2,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          3811800,
+          4800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "tor08",
+      "name": "Jamal Shead",
+      "teamId": "TOR",
+      "position": "PG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 2.5,
+        "ast": 4.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2296271
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor09",
+      "name": "Sandro Mamukelashvili",
+      "teamId": "TOR",
+      "position": "PF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 3.8,
+        "ast": 1.5,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor10",
+      "name": "Jamison Battle",
+      "teamId": "TOR",
+      "position": "SF",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.5,
+        "ast": 0.8,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2296271
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor11",
+      "name": "Ochai Agbaji",
+      "teamId": "TOR",
+      "position": "SG",
+      "stats": {
+        "pts": 5.5,
+        "reb": 2.2,
+        "ast": 1.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor12",
+      "name": "Jonathan Mogbo",
+      "teamId": "TOR",
+      "position": "PF",
+      "stats": {
+        "pts": 4.5,
+        "reb": 4.0,
+        "ast": 1.2,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "tor13",
+      "name": "AJ Lawson",
+      "teamId": "TOR",
+      "position": "SG",
+      "stats": {
+        "pts": 4.0,
+        "reb": 1.8,
+        "ast": 0.8,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta01",
+      "name": "Jaren Jackson Jr.",
+      "teamId": "UTA",
+      "position": "PF",
+      "stats": {
+        "pts": 22.5,
+        "reb": 5.8,
+        "ast": 1.9,
+        "fgPct": 0.475
+      },
+      "contract": {
+        "salaryByYear": [
+          49000000,
+          50500000,
+          52000000,
+          53500000
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "uta02",
+      "name": "Lauri Markkanen",
+      "teamId": "UTA",
+      "position": "SF",
+      "stats": {
+        "pts": 22.9,
+        "reb": 5.7,
+        "ast": 2.0,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          46113154,
+          49800000,
+          53500000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "uta03",
+      "name": "Ace Bailey",
+      "teamId": "UTA",
+      "position": "SG",
+      "stats": {
+        "pts": 13.5,
+        "reb": 4.5,
+        "ast": 1.8,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          9523080,
+          9900000,
+          12600000
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "uta04",
+      "name": "Walker Kessler",
+      "teamId": "UTA",
+      "position": "C",
+      "stats": {
+        "pts": 11.5,
+        "reb": 11.5,
+        "ast": 1.5,
+        "fgPct": 0.62
+      },
+      "contract": {
+        "salaryByYear": [
+          15500000,
+          16700000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "uta05",
+      "name": "Keyonte George",
+      "teamId": "UTA",
+      "position": "PG",
+      "stats": {
+        "pts": 17.5,
+        "reb": 3.5,
+        "ast": 5.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          6563925
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta06",
+      "name": "Cody Williams",
+      "teamId": "UTA",
+      "position": "SG",
+      "stats": {
+        "pts": 8.5,
+        "reb": 3.5,
+        "ast": 1.8,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          6015600
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta07",
+      "name": "Isaiah Collier",
+      "teamId": "UTA",
+      "position": "PG",
+      "stats": {
+        "pts": 9.5,
+        "reb": 3.0,
+        "ast": 5.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2763960
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta08",
+      "name": "Brice Sensabaugh",
+      "teamId": "UTA",
+      "position": "SF",
+      "stats": {
+        "pts": 12.5,
+        "reb": 3.5,
+        "ast": 1.5,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          4862237
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta09",
+      "name": "Kyle Filipowski",
+      "teamId": "UTA",
+      "position": "C",
+      "stats": {
+        "pts": 10.5,
+        "reb": 6.5,
+        "ast": 2.2,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          3000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta10",
+      "name": "John Konchar",
+      "teamId": "UTA",
+      "position": "SG",
+      "stats": {
+        "pts": 3.2,
+        "reb": 3.1,
+        "ast": 1.3,
+        "fgPct": 0.521
+      },
+      "contract": {
+        "salaryByYear": [
+          6165000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta11",
+      "name": "Svi Mykhailiuk",
+      "teamId": "UTA",
+      "position": "SG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 2.0,
+        "ast": 1.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          3850000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta12",
+      "name": "Bez Mbeng",
+      "teamId": "UTA",
+      "position": "PG",
+      "stats": {
+        "pts": 3.5,
+        "reb": 2.0,
+        "ast": 2.5,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "uta13",
+      "name": "Kevin Love",
+      "teamId": "UTA",
+      "position": "PF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 5.0,
+        "ast": 1.8,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "was01",
+      "name": "Trae Young",
+      "teamId": "WAS",
+      "position": "PG",
+      "stats": {
+        "pts": 24.2,
+        "reb": 2.8,
+        "ast": 11.6,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          49500000,
+          52200000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "was02",
+      "name": "Anthony Davis",
+      "teamId": "WAS",
+      "position": "PF",
+      "stats": {
+        "pts": 24.7,
+        "reb": 11.5,
+        "ast": 3.5,
+        "fgPct": 0.52
+      },
+      "contract": {
+        "salaryByYear": [
+          54126380,
+          56600000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "was03",
+      "name": "Alex Sarr",
+      "teamId": "WAS",
+      "position": "PF",
+      "stats": {
+        "pts": 12.5,
+        "reb": 7.5,
+        "ast": 1.5,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          12370680,
+          15700000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "was04",
+      "name": "Bilal Coulibaly",
+      "teamId": "WAS",
+      "position": "SF",
+      "stats": {
+        "pts": 13.5,
+        "reb": 4.5,
+        "ast": 3.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          9240012,
+          11800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "was05",
+      "name": "D'Angelo Russell",
+      "teamId": "WAS",
+      "position": "PG",
+      "stats": {
+        "pts": 12.5,
+        "reb": 2.8,
+        "ast": 5.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          5969250
+        ],
+        "optionType": [
+          "player"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "was06",
+      "name": "Jaden Hardy",
+      "teamId": "WAS",
+      "position": "SG",
+      "stats": {
+        "pts": 12.5,
+        "reb": 2.5,
+        "ast": 2.0,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          6000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "was07",
+      "name": "Tre Johnson",
+      "teamId": "WAS",
+      "position": "SG",
+      "stats": {
+        "pts": 11.5,
+        "reb": 2.5,
+        "ast": 1.5,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          8649600,
+          9200000,
+          11000000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "was08",
+      "name": "Bub Carrington",
+      "teamId": "WAS",
+      "position": "PG",
+      "stats": {
+        "pts": 10.5,
+        "reb": 3.0,
+        "ast": 4.5,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          4900560,
+          6200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "was09",
+      "name": "Will Riley",
+      "teamId": "WAS",
+      "position": "SF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 3.0,
+        "ast": 1.5,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          3688320,
+          4800000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "was10",
+      "name": "Kyshawn George",
+      "teamId": "WAS",
+      "position": "SG",
+      "stats": {
+        "pts": 10.5,
+        "reb": 4.0,
+        "ast": 2.8,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          3108000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "was11",
+      "name": "Justin Champagnie",
+      "teamId": "WAS",
+      "position": "SF",
+      "stats": {
+        "pts": 6.5,
+        "reb": 4.5,
+        "ast": 1.0,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2667944
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "was12",
+      "name": "Tristan Vukcevic",
+      "teamId": "WAS",
+      "position": "C",
+      "stats": {
+        "pts": 5.5,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "was13",
+      "name": "Dexter Dennis",
+      "teamId": "WAS",
+      "position": "SG",
+      "stats": {
+        "pts": 3.5,
+        "reb": 1.8,
+        "ast": 1.0,
+        "fgPct": 0.42
+      },
+      "contract": {
+        "salaryByYear": [
+          1900000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn01",
+      "name": "Michael Porter Jr.",
+      "teamId": "BKN",
+      "position": "SF",
+      "stats": {
+        "pts": 18.2,
+        "reb": 7.0,
+        "ast": 1.9,
+        "fgPct": 0.48
+      },
+      "contract": {
+        "salaryByYear": [
+          40800000,
+          43600000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bkn02",
+      "name": "Cam Thomas",
+      "teamId": "BKN",
+      "position": "SG",
+      "stats": {
+        "pts": 24.5,
+        "reb": 3.0,
+        "ast": 3.5,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          5993172
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn03",
+      "name": "Day'Ron Sharpe",
+      "teamId": "BKN",
+      "position": "C",
+      "stats": {
+        "pts": 8.5,
+        "reb": 8.5,
+        "ast": 1.5,
+        "fgPct": 0.58
+      },
+      "contract": {
+        "salaryByYear": [
+          6250000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn04",
+      "name": "Noah Clowney",
+      "teamId": "BKN",
+      "position": "PF",
+      "stats": {
+        "pts": 10.5,
+        "reb": 6.5,
+        "ast": 1.2,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          5414034
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn05",
+      "name": "Ziaire Williams",
+      "teamId": "BKN",
+      "position": "SF",
+      "stats": {
+        "pts": 12.5,
+        "reb": 4.0,
+        "ast": 2.0,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          6250000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn06",
+      "name": "Josh Minott",
+      "teamId": "BKN",
+      "position": "SF",
+      "stats": {
+        "pts": 8.5,
+        "reb": 4.5,
+        "ast": 1.8,
+        "fgPct": 0.5
+      },
+      "contract": {
+        "salaryByYear": [
+          2500000
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn07",
+      "name": "Terance Mann",
+      "teamId": "BKN",
+      "position": "SG",
+      "stats": {
+        "pts": 9.5,
+        "reb": 3.5,
+        "ast": 2.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          8500000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn08",
+      "name": "Drake Powell",
+      "teamId": "BKN",
+      "position": "SG",
+      "stats": {
+        "pts": 4.5,
+        "reb": 2.0,
+        "ast": 0.8,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          3372240,
+          4193040
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bkn09",
+      "name": "Egor Demin",
+      "teamId": "BKN",
+      "position": "PG",
+      "stats": {
+        "pts": 8.5,
+        "reb": 3.5,
+        "ast": 4.5,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          7233720,
+          7578240
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bkn10",
+      "name": "Nolan Traore",
+      "teamId": "BKN",
+      "position": "PG",
+      "stats": {
+        "pts": 6.5,
+        "reb": 2.5,
+        "ast": 4.0,
+        "fgPct": 0.41
+      },
+      "contract": {
+        "salaryByYear": [
+          4002000,
+          4193040
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bkn11",
+      "name": "Mikel Brown Jr.",
+      "teamId": "BKN",
+      "position": "PG",
+      "stats": {
+        "pts": 7.5,
+        "reb": 2.5,
+        "ast": 3.5,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          8800000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn12",
+      "name": "Danny Wolf",
+      "teamId": "BKN",
+      "position": "C",
+      "stats": {
+        "pts": 6.5,
+        "reb": 5.5,
+        "ast": 1.8,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          3540600,
+          4200000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "bkn13",
+      "name": "Jalen Wilson",
+      "teamId": "BKN",
+      "position": "SF",
+      "stats": {
+        "pts": 6.0,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          2221677
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "bkn14",
+      "name": "Julius Randle",
+      "teamId": "BKN",
+      "position": "PF",
+      "stats": {
+        "pts": 21.5,
+        "reb": 8.5,
+        "ast": 4.5,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          30000000,
+          32200000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "mem15",
+      "name": "Cameron Boozer",
+      "teamId": "MEM",
+      "position": "PF",
+      "stats": {
+        "pts": 0.0,
+        "reb": 0.0,
+        "ast": 0.0,
+        "fgPct": 0.0
+      },
+      "contract": {
+        "salaryByYear": [
+          8500000,
+          8900000,
+          11200000,
+          13500000
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "phi14",
+      "name": "Jaylen Brown",
+      "teamId": "PHI",
+      "position": "SF",
+      "stats": {
+        "pts": 28.7,
+        "reb": 6.9,
+        "ast": 5.1,
+        "fgPct": 0.477
+      },
+      "contract": {
+        "salaryByYear": [
+          57078728,
+          61015192,
+          64951656
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    }
+  ]
+}

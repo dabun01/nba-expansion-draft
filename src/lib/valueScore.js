@@ -6,7 +6,7 @@
 // value_score: blend of both -- a well-paid star and a cheap role player
 // can land close together; an overpaid, declining vet should sink.
 
-const STAT_WEIGHTS = { pts: 1.0, reb: 0.9, ast: 0.9, fgPct: 18 }; // fgPct is 0-1, scale it up
+const STAT_WEIGHTS = { pts: 1.5, reb: 0.9, ast: 0.9, fgPct: 1.0 };
 
 function mean(nums) {
   return nums.reduce((a, b) => a + b, 0) / (nums.length || 1);
@@ -54,7 +54,7 @@ export function computeValueScores(players) {
     const salaryEfficiency = production - capZ;
 
     // value_score: mostly "how good are they," tempered by "are they worth it."
-    const valueScore = 0.65 * production + 0.35 * salaryEfficiency;
+    const valueScore = 0.70 * production + 0.30 * salaryEfficiency;
 
     scores.set(p.id, {
       productionScore: round(production),

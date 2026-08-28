@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { computeValueScores } from "../../lib/valueScore";
 
 const fmtMoney = (n) => `$${(n / 1_000_000).toFixed(1)}M`;
 
@@ -20,6 +21,10 @@ const SORT_FIELDS = {
     getValue: (p) => p.contract.yearsRemaining,
     numeric: true,
   },
+  valueScore: {
+    label: "Value",
+    numeric: true,
+  },
 };
 
 /**
@@ -37,6 +42,14 @@ export default function RosterTable({
   showTeam = false,
 }) {
   const [sort, setSort] = useState({ field: null, direction: "asc" });
+  const valueScores = computeValueScores(players);
+  const sortableFields = {
+    ...SORT_FIELDS,
+    valueScore: {
+      ...SORT_FIELDS.valueScore,
+      getValue: (p) => valueScores.get(p.id)?.valueScore ?? 0,
+    },
+  };
 
   const handleSort = (field) => {
     setSort((current) => ({
@@ -46,7 +59,7 @@ export default function RosterTable({
           ? current.direction === "asc"
             ? "desc"
             : "asc"
-          : SORT_FIELDS[field].numeric
+          : sortableFields[field].numeric
             ? "desc"
             : "asc",
     }));
@@ -54,7 +67,7 @@ export default function RosterTable({
 
   const sortedPlayers = [...players].sort((a, b) => {
     if (!sort.field) return 0;
-    const field = SORT_FIELDS[sort.field];
+    const field = sortableFields[sort.field];
     const first = field.getValue(a);
     const second = field.getValue(b);
     const comparison = field.numeric
@@ -72,7 +85,7 @@ export default function RosterTable({
           onClick={() => handleSort(field)}
           className="inline-flex items-center gap-1 hover:text-ink-100"
         >
-          {SORT_FIELDS[field].label}
+          {sortableFields[field].label}
           <span aria-hidden="true" className="text-[10px]">
             {isActive ? (sort.direction === "asc" ? "▲" : "▼") : "↕"}
           </span>
@@ -112,6 +125,10 @@ export default function RosterTable({
             )}
             {renderHeader(
               "yearsRemaining",
+              "px-3 py-2.5 font-display font-medium text-right",
+            )}
+            {renderHeader(
+              "valueScore",
               "px-3 py-2.5 font-display font-medium text-right",
             )}
             {(protectedIds || onTogglePlayer) && (
@@ -160,6 +177,9 @@ export default function RosterTable({
                 </td>
                 <td className="px-3 py-2.5 text-right font-tabular text-ink-300">
                   {p.contract.yearsRemaining}
+                </td>
+                <td className="px-3 py-2.5 text-right font-mono text-clock-500">
+                  {(valueScores.get(p.id)?.valueScore ?? 0).toFixed(2)}
                 </td>
                 {(protectedIds || onTogglePlayer) && (
                   <td className="px-4 py-2.5 text-right">

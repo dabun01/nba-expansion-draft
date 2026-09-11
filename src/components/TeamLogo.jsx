@@ -10,6 +10,11 @@ const logoModules = import.meta.glob(
 
 const logoByKey = new Map();
 
+const logoAliases = {
+  LAC: "LOSANGELESCLIPPERS",
+  OKC: "OKCTHUNDER",
+};
+
 for (const [path, url] of Object.entries(logoModules)) {
   const fileName = path.split("/").pop() || "";
   const baseName = fileName.replace(/\.[^.]+$/, "");
@@ -34,6 +39,9 @@ function getTeamLogoSrc(team) {
   );
   for (const candidate of candidates) {
     if (logoByKey.has(candidate)) return logoByKey.get(candidate);
+    if (logoAliases[candidate] && logoByKey.has(logoAliases[candidate])) {
+      return logoByKey.get(logoAliases[candidate]);
+    }
   }
   return null;
 }
@@ -42,6 +50,7 @@ export default function TeamLogo({
   team,
   sizeClassName = "h-12 w-12",
   className = "",
+  showFrame = true,
 }) {
   const [hasError, setHasError] = useState(false);
   const src = getTeamLogoSrc(team);
@@ -49,7 +58,7 @@ export default function TeamLogo({
   if (hasError || !src) {
     return (
       <span
-        className={`flex ${sizeClassName} shrink-0 items-center justify-center rounded-full border border-tunnel-700 bg-tunnel-800 font-mono text-xs font-semibold text-ink-400 ${className}`}
+        className={`flex ${sizeClassName} shrink-0 items-center justify-center font-mono text-xs font-semibold text-ink-400 ${showFrame ? "rounded-full border border-tunnel-700 bg-tunnel-800" : ""} ${className}`}
       >
         {team.abbreviation || team.id}
       </span>
@@ -58,12 +67,12 @@ export default function TeamLogo({
 
   return (
     <span
-      className={`flex ${sizeClassName} shrink-0 items-center justify-center overflow-hidden rounded-full border border-tunnel-700 bg-tunnel-800 ${className}`}
+      className={`flex ${sizeClassName} shrink-0 items-center justify-center overflow-hidden ${showFrame ? "rounded-full border border-tunnel-700 bg-tunnel-800" : ""} ${className}`}
     >
       <img
         src={src}
         alt={`${team.name} logo`}
-        className="h-full w-full object-cover"
+        className="h-full w-full object-contain p-1"
         onError={() => setHasError(true)}
       />
     </span>

@@ -1,5 +1,6 @@
 import { useRef, useState } from "react";
 import { useDraftStore } from "../../store/useDraftStore";
+import { PROTECT_COUNT } from "../../lib/draftEngine";
 
 const logoModules = import.meta.glob(
   "../../assets/team-logos/*.{png,jpg,jpeg,svg,webp,gif}",
@@ -10,6 +11,11 @@ const logoModules = import.meta.glob(
 );
 
 const logoByKey = new Map();
+
+const logoAliases = {
+  LAC: "LOSANGELESCLIPPERS",
+  OKC: "OKCTHUNDER",
+};
 
 for (const [path, url] of Object.entries(logoModules)) {
   const fileName = path.split("/").pop() || "";
@@ -35,6 +41,9 @@ function getTeamLogoSrc(team) {
   );
   for (const candidate of candidates) {
     if (logoByKey.has(candidate)) return logoByKey.get(candidate);
+    if (logoAliases[candidate] && logoByKey.has(logoAliases[candidate])) {
+      return logoByKey.get(logoAliases[candidate]);
+    }
   }
   return null;
 }
@@ -59,7 +68,7 @@ function TeamLogo({ teamId, name, src, className = "" }) {
       <img
         src={src}
         alt={`${name} logo`}
-        className="h-full w-full object-cover"
+        className="h-full w-full object-contain p-1"
         onError={() => setHasError(true)}
       />
     </span>
@@ -74,6 +83,10 @@ export default function TeamSidebar() {
   const selectedTeamId = useDraftStore((s) => s.selectedTeamId);
   const setSelectedTeamId = useDraftStore((s) => s.setSelectedTeamId);
   const phase = useDraftStore((s) => s.phase);
+  const protectionModeByTeam = useDraftStore((s) => s.protectionModeByTeam);
+  const manualProtectedIdsByTeam = useDraftStore(
+    (s) => s.manualProtectedIdsByTeam,
+  );
   const filteredTeams = teams.filter((team) => {
     if (conference === "all") return true;
     return team.conference?.toLowerCase() === conference;
@@ -168,35 +181,67 @@ export default function TeamSidebar() {
         </div>
       ) : null}
       <nav className="flex-1 overflow-y-auto scrollbar-thin py-2">
-        {filteredTeams.map((team) => (
-          <button
-            key={team.id}
-            type="button"
-            onClick={() => setSelectedTeamId(team.id)}
-            onKeyDown={(event) => handleTeamKeyDown(event, team.id)}
-            ref={(element) => {
-              if (element) teamButtonRefs.current.set(team.id, element);
-              else teamButtonRefs.current.delete(team.id);
-            }}
-            title={isCollapsed ? team.name : undefined}
-            className={`flex w-full items-center py-2.5 text-left text-sm transition-colors ${
-              isCollapsed ? "justify-center px-2" : "gap-3 px-4"
-            } ${
-              selectedTeamId === team.id
-                ? "bg-tunnel-800 text-ink-100"
-                : "text-ink-500 hover:bg-tunnel-800/60 hover:text-ink-300"
-            }`}
-          >
-            <TeamLogo
-              teamId={team.id}
-              name={team.name}
-              src={getTeamLogoSrc(team)}
-            />
-            {!isCollapsed ? (
-              <span className="truncate">{team.name}</span>
-            ) : null}
-          </button>
-        ))}
+        {filteredTeams.map((team) => {
+          const mode = protectionModeByTeam[team.id] || "auto";
+          const needsProtection =
+            mode === "manual" &&
+            (manualProtectedIdsByTeam[team.id] || []).length < PROTECT_COUNT;
+
+          return (
+            <div
+              key={team.id}
+              className={`flex items-center ${
+                selectedTeamId === team.id ? "bg-tunnel-800" : ""
+              }`}
+            >
+              <button
+                type="button"
+                onClick={() => setSelectedTeamId(team.id)}
+                onKeyDown={(event) => handleTeamKeyDown(event, team.id)}
+                ref={(element) => {
+                  if (element) teamButtonRefs.current.set(team.id, element);
+                  else teamButtonRefs.current.delete(team.id);
+                }}
+                title={isCollapsed ? team.name : undefined}
+                className={`flex min-w-0 flex-1 items-center py-2.5 text-left text-sm transition-colors ${
+                  isCollapsed ? "justify-center px-2" : "gap-3 px-4"
+                } ${
+                  selectedTeamId === team.id
+                    ? "text-ink-100"
+                    : "text-ink-500 hover:bg-tunnel-800/60 hover:text-ink-300"
+                }`}
+              >
+                <TeamLogo
+                  teamId={team.id}
+                  name={team.name}
+                  src={getTeamLogoSrc(team)}
+                />
+                {!isCollapsed ? (
+                  <span className="flex min-w-0 items-center gap-2 truncate">
+                    <span className="truncate">{team.name}</span>
+                    {phase === "protection" ? (
+                      <span
+                        aria-label={
+                          needsProtection
+                            ? "Needs players protected"
+                            : "Ready for draft"
+                        }
+                        title={
+                          needsProtection
+                            ? "Needs players protected"
+                            : "Ready for draft"
+                        }
+                        className={`h-2 w-2 shrink-0 rounded-full ${
+                          needsProtection ? "bg-exposed-500" : "bg-protect-500"
+                        }`}
+                      />
+                    ) : null}
+                  </span>
+                ) : null}
+              </button>
+            </div>
+          );
+        })}
       </nav>
       {phase === "draft" || phase === "recap" ? (
         <div

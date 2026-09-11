@@ -3,6 +3,7 @@ import { useDraftStore } from "../store/useDraftStore";
 import RosterTable from "../components/roster/RosterTable";
 import CapBreakdown from "../components/roster/CapBreakdown";
 import TeamLogo from "../components/TeamLogo";
+import { getTeamColors } from "../lib/teamColors";
 
 const MODE_OPTIONS = [
   {
@@ -47,6 +48,7 @@ export default function SetupPage({
   const rosterPlayers = selectedTeam.playerIds.map((id) =>
     players.find((p) => p.id === id),
   );
+  const [teamPrimary, teamSecondary] = getTeamColors(selectedTeam);
 
   const defaultMode = protectionModeByTeam[teams[0].id] || "auto";
 
@@ -54,16 +56,39 @@ export default function SetupPage({
     <div className="min-w-0">
       <div className="space-y-6">
         <section>
-          <div className="mb-4 flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <h1 className="flex items-center gap-3 font-display text-3xl uppercase tracking-wide">
-                <TeamLogo team={selectedTeam} sizeClassName="h-20 w-20" />
-                {selectedTeam.name}
-              </h1>
+          <div
+            className="relative mb-4 overflow-hidden rounded-lg border p-5 sm:p-6"
+            style={{
+              backgroundColor: teamPrimary,
+              borderColor: teamSecondary,
+              boxShadow: `inset 0 -4px 0 ${teamSecondary}`,
+            }}
+          >
+            <div
+              className="pointer-events-none absolute -right-8 -top-12 h-40 w-40 rounded-full border-[18px] opacity-20"
+              style={{ borderColor: teamSecondary }}
+            />
+            <div className="relative flex flex-wrap items-center justify-between gap-5">
+              <div className="flex items-center gap-4">
+                <TeamLogo
+                  team={selectedTeam}
+                  sizeClassName="h-20 w-20"
+                  showFrame={false}
+                />
+                <div>
+                  <p className="mb-1 font-mono text-[10px] uppercase tracking-[0.2em] text-white/70">
+                    {selectedTeam.abbreviation} · {selectedTeam.conference}{" "}
+                    conference
+                  </p>
+                  <h1 className="font-display text-3xl uppercase tracking-wide text-white sm:text-4xl">
+                    {selectedTeam.name}
+                  </h1>
+                </div>
+              </div>
+              <p className="font-mono text-xs uppercase tracking-widest text-white/75">
+                {rosterPlayers.length} players
+              </p>
             </div>
-            <p className="text-right text-xs text-ink-500">
-              {rosterPlayers.length} players
-            </p>
           </div>
           <div className="mb-4 flex w-fit rounded-lg border border-tunnel-700 bg-tunnel-900 p-1">
             {[

@@ -1,4 +1,4 @@
-# Expansion Draft GM
+# Expansion Draft Sim
 
 MVP scaffold: simulate an NBA expansion draft (Seattle + Las Vegas) as GM.
 

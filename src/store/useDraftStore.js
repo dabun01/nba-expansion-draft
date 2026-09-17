@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import rawData from "../data/teams.json";
+
 import {
   generateProtectionList,
   buildExpansionTurnOrder,
@@ -9,7 +9,15 @@ import {
   MAX_EXPANSION_ROSTER_SIZE,
 } from "../lib/draftEngine";
 
-const playersById = new Map(rawData.players.map((p) => [p.id, p]));
+async function fetchJson(url) {
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error(`Request failed: ${url}`);
+  }
+
+  return response.json();
+}
 
 const EXPANSION_TEAMS = [
   { id: "SEA", name: "Seattle" },
@@ -18,10 +26,47 @@ const EXPANSION_TEAMS = [
 
 export const useDraftStore = create((set, get) => ({
   // ---- static data ----
-  teams: rawData.teams,
-  players: rawData.players,
-  salaryCapTotal: rawData.salaryCapTotal,
+  teams: [],
+  players: [],
+  playersById: new Map(),
+  salaryCapTotal: 0,
+  isDataLoading: true,
+  dataError: null,
   expansionTeams: EXPANSION_TEAMS,
+
+  initializeData: async () => {
+    const state = get();
+
+    if (!state.isDataLoading && state.teams.length > 0) {
+      return;
+    }
+
+    try {
+      set({ isDataLoading: true, dataError: null });
+
+      const [teams, players, config] = await Promise.all([
+        fetchJson("/api/teams"),
+        fetchJson("/api/players"),
+        fetchJson("/api/config"),
+      ]);
+
+      set({
+        teams,
+        players,
+        playersById: new Map(players.map((player) => [player.id, player])),
+        salaryCapTotal: config.salaryCapTotal,
+        selectedTeamId: teams[0]?.id || null,
+        isDataLoading: false,
+      });
+    } catch (error) {
+      console.error("Failed to load draft data:", error);
+
+      set({
+        isDataLoading: false,
+        dataError: error.message,
+      });
+    }
+  },
 
   // ---- setup ----
   phase: "setup", // setup | protection | draft | recap
@@ -29,7 +74,7 @@ export const useDraftStore = create((set, get) => ({
   userExpansionTeamId: "SEA", // which of the two the user controls
   simulatedExpansionMode: "auto", // random | preselected | auto, for the OTHER expansion team
   protectionModeByTeam: {}, // teamId -> "random" | "preselected" | "auto" | "manual"
-  selectedTeamId: rawData.teams[0].id, // sidebar team selector, for browsing rosters
+  selectedTeamId: null, // sidebar team selector, for browsing rosters
 
   setSelectedTeamId: (teamId) => set({ selectedTeamId: teamId }),
   setUserExpansionTeamId: (id) => set({ userExpansionTeamId: id }),
@@ -80,7 +125,7 @@ export const useDraftStore = create((set, get) => ({
           result[team.id] = s.manualProtectedIdsByTeam[team.id] || [];
           continue;
         }
-        const rosterPlayers = team.playerIds.map((id) => playersById.get(id));
+        const rosterPlayers = team.playerIds.map((id) => s.playersById.get(id));
         result[team.id] = generateProtectionList({ mode, rosterPlayers });
       }
       return { protectedIdsByTeam: result, phase: "draft" };
@@ -127,7 +172,7 @@ export const useDraftStore = create((set, get) => ({
     if (draftedCount >= MAX_EXPANSION_ROSTER_SIZE) return [];
     return getAvailablePoolForExpansionTeam({
       teams: s.teams,
-      playersById,
+      playersById: s.playersById,
       protectedIdsByTeam: s.protectedIdsByTeam,
       draftedPlayerIds: s.draftedPlayerIds,
       draftedFromTeamIds:
@@ -141,7 +186,13 @@ export const useDraftStore = create((set, get) => ({
   makeUserPick: (playerId) => {
     const s = get();
     const current = s.pickOrder[s.currentPickIndex];
-    if (!current || current.expansionTeamId !== s.userExpansionTeamId) return;
+    if (
+      !current ||
+      current.expansionTeamId !== s.userExpansionTeamId ||
+      s.draftedPlayerIds.has(playerId)
+    ) {
+      return;
+    }
     get()._commitPick(current, playerId);
   },
 
@@ -170,13 +221,19 @@ export const useDraftStore = create((set, get) => ({
         VGS: new Set(s.draftedFromTeamIdsByExpansionTeam.VGS),
       };
       const picks = [...s.picks];
+      const playersById = s.playersById;
       const player = playerId ? playersById.get(playerId) : null;
       const draftedCount = picks.filter(
         (pick) =>
           pick.expansionTeamId === current.expansionTeamId && pick.playerId,
       ).length;
 
-      if (draftedCount >= MAX_EXPANSION_ROSTER_SIZE) return {};
+      if (
+        draftedCount >= MAX_EXPANSION_ROSTER_SIZE ||
+        (playerId && s.draftedPlayerIds.has(playerId))
+      ) {
+        return {};
+      }
 
       if (player) {
         draftedPlayerIds.add(playerId);
@@ -201,11 +258,11 @@ export const useDraftStore = create((set, get) => ({
     }),
 
   // ---- helpers ----
-  getPlayer: (id) => playersById.get(id),
+  getPlayer: (id) => get().playersById.get(id),
   getRosterForExpansionTeam: (expansionTeamId) => {
     const s = get();
     return s.picks
       .filter((p) => p.expansionTeamId === expansionTeamId && p.playerId)
-      .map((p) => playersById.get(p.playerId));
+      .map((p) => get().playersById.get(p.playerId));
   },
 }));

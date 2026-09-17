@@ -11,6 +11,7 @@ const PICK_TIME_LIMIT = 90;
 function DraftTimer({ onExpire }) {
   const [secondsLeft, setSecondsLeft] = useState(PICK_TIME_LIMIT);
   const onExpireRef = useRef(onExpire);
+  const hasExpiredRef = useRef(false);
 
   useEffect(() => {
     onExpireRef.current = onExpire;
@@ -18,18 +19,17 @@ function DraftTimer({ onExpire }) {
 
   useEffect(() => {
     const timer = window.setInterval(() => {
-      setSecondsLeft((current) => {
-        if (current <= 1) {
-          window.clearInterval(timer);
-          onExpireRef.current();
-          return 0;
-        }
-        return current - 1;
-      });
+      setSecondsLeft((current) => Math.max(current - 1, 0));
     }, 1000);
 
     return () => window.clearInterval(timer);
   }, []);
+
+  useEffect(() => {
+    if (secondsLeft !== 0 || hasExpiredRef.current) return;
+    hasExpiredRef.current = true;
+    onExpireRef.current();
+  }, [secondsLeft]);
 
   const minutes = Math.floor(secondsLeft / 60);
   const seconds = String(secondsLeft % 60).padStart(2, "0");

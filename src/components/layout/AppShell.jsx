@@ -15,6 +15,7 @@ export default function AppShell({ children }) {
   const [searchQuery, setSearchQuery] = useState("");
   const [isSearchFocused, setIsSearchFocused] = useState(false);
   const phase = useDraftStore((s) => s.phase);
+  const showTeamSidebar = phase !== "draft";
   const teams = useDraftStore((s) => s.teams);
   const expansionTeams = useDraftStore((s) => s.expansionTeams);
   const players = useDraftStore((s) => s.players);
@@ -72,7 +73,7 @@ export default function AppShell({ children }) {
 
   return (
     <div className="flex h-screen bg-tunnel-950 text-ink-100">
-      <TeamSidebar />
+      {showTeamSidebar ? <TeamSidebar /> : null}
       <div className="flex flex-1 flex-col min-w-0">
         <header className="flex items-center justify-between border-b border-tunnel-700 bg-tunnel-900 px-6 py-4">
           <div className="min-w-0 shrink-0">

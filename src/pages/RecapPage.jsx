@@ -1,10 +1,14 @@
+import { useState } from "react";
 import { useDraftStore } from "../store/useDraftStore";
 import RosterTable from "../components/roster/RosterTable";
 import CapBreakdown from "../components/roster/CapBreakdown";
 
 export default function RecapPage() {
+  const [activeRosterViews, setActiveRosterViews] = useState({});
   const expansionTeams = useDraftStore((s) => s.expansionTeams);
-  const getRosterForExpansionTeam = useDraftStore((s) => s.getRosterForExpansionTeam);
+  const getRosterForExpansionTeam = useDraftStore(
+    (s) => s.getRosterForExpansionTeam,
+  );
   const capTotal = useDraftStore((s) => s.salaryCapTotal);
   const userExpansionTeamId = useDraftStore((s) => s.userExpansionTeamId);
   const setPhase = useDraftStore((s) => s.setPhase);
@@ -12,8 +16,12 @@ export default function RecapPage() {
   return (
     <div className="space-y-10">
       <div className="text-center">
-        <h1 className="font-display text-3xl uppercase tracking-wide">Expansion Draft Complete</h1>
-        <p className="mt-1 text-sm text-ink-500">Final rosters for both new franchises.</p>
+        <h1 className="font-display text-3xl uppercase tracking-wide">
+          Expansion Draft Complete
+        </h1>
+        <p className="mt-1 text-sm text-ink-500">
+          Final rosters for both new franchises.
+        </p>
       </div>
 
       {expansionTeams.map((team) => {
@@ -28,14 +36,45 @@ export default function RecapPage() {
                 }`}
               />
               <h2 className="font-display text-xl uppercase tracking-wide">
-                {team.name} {isUser && <span className="text-clock-500">(You)</span>}
+                {team.name}{" "}
+                {isUser && <span className="text-clock-500">(You)</span>}
               </h2>
-              <span className="text-sm text-ink-500">&middot; {roster.length} players</span>
+              <span className="text-sm text-ink-500">
+                &middot; {roster.length} players
+              </span>
             </div>
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-[minmax(0,1fr)_320px]">
-              <RosterTable players={roster} />
+            <div className="mb-4 flex w-fit rounded-lg border border-tunnel-700 bg-tunnel-900 p-1">
+              {[
+                { id: "roster", label: "Roster" },
+                { id: "cap", label: "Salary cap space" },
+              ].map((view) => (
+                <button
+                  key={view.id}
+                  type="button"
+                  onClick={() =>
+                    setActiveRosterViews((current) => ({
+                      ...current,
+                      [team.id]: view.id,
+                    }))
+                  }
+                  aria-pressed={
+                    (activeRosterViews[team.id] || "roster") === view.id
+                  }
+                  className={`rounded px-3 py-2 font-display text-xs uppercase tracking-wide transition-colors ${
+                    (activeRosterViews[team.id] || "roster") === view.id
+                      ? "bg-tunnel-700 text-ink-100"
+                      : "text-ink-500 hover:text-ink-300"
+                  }`}
+                >
+                  {view.label}
+                </button>
+              ))}
+            </div>
+            {(activeRosterViews[team.id] || "roster") === "cap" ? (
               <CapBreakdown players={roster} capTotal={capTotal} />
-            </div>
+            ) : (
+              <RosterTable players={roster} />
+            )}
           </section>
         );
       })}

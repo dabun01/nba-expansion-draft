@@ -3,17 +3,20 @@
 
 const SPARQL_URL = "https://query.wikidata.org/sparql";
 
-// "Nikola Jokić" -> "nikolajokic", "P.J. Washington" -> "pjwashington",
-// "Jabari Smith Jr." -> "jabarismith". Spaces are dropped too so
-// "P. J. Washington" and "P.J. Washington" compare equal.
+// "Nikola Jokic" (with accent) -> "nikolajokic", "P.J. Washington" ->
+// "pjwashington". Spaces are dropped so "P. J. Washington" matches too.
+//
+// Suffixes like "Jr." and "II" are kept on purpose: stripping them made
+// "Gary Payton II" match his father, and "LeBron James" match Bronny, who
+// Wikidata also lists as "LeBron James Jr.". "Jr." and "Jr" still compare
+// equal because periods are removed.
 export function normalizeName(name) {
   return name
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
-    .replace(/[.'\u2019]/g, "")
+    .replace(/[.,'\u2019]/g, "")
     .replace(/-/g, " ")
-    .replace(/\b(jr|sr|ii|iii|iv)\b/g, "")
     .replace(/\s+/g, "");
 }
 

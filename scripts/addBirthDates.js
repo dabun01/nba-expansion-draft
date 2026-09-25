@@ -5,13 +5,17 @@
 //
 // Run from the repo root with: node scripts/addBirthDates.js [--force] [--dry-run]
 //
-// Name matching is fuzzy on purpose (accents, periods, "Jr."/"II" suffixes are
-// ignored), so anything that can't be matched to exactly one player is listed
-// at the end instead of guessed. Fix those by adding them to
-// scripts/birthDateOverrides.json, e.g. { "<player id>": "YYYY-MM-DD" }, and re-run.
+// Name matching ignores accents and punctuation, so anything that can't be
+// matched to exactly one player is listed at the end instead of guessed, along
+// with a paste-ready block for scripts/birthDateOverrides.json:
+//
+//   { "<player id>": { "name": "Jayson Tatum", "birthDate": "YYYY-MM-DD" } }
+//
+// Fill in each birthDate and re-run. A bare "YYYY-MM-DD" value works too.
 
 import fs from "fs";
 import { fetchByName, lookup } from "./lib/wikidata.js";
+import { loadOverrides, overridesTemplate } from "./lib/overrides.js";
 
 const TEAMS_PATH = new URL("../src/data/teams.json", import.meta.url);
 const OVERRIDES_PATH = new URL("./birthDateOverrides.json", import.meta.url);
@@ -35,12 +39,17 @@ SELECT ?person ?name ?alias ?dob WHERE {
 async function main() {
   const raw = fs.readFileSync(TEAMS_PATH, "utf-8");
   const data = JSON.parse(raw);
-  const overrides = fs.existsSync(OVERRIDES_PATH)
-    ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, "utf-8"))
-    : {};
+  const overrides = loadOverrides(OVERRIDES_PATH, "birthDate", data.players);
+  const badDates = [...overrides].filter(([, d]) => !/^\d{4}-\d{2}-\d{2}$/.test(d));
+  if (badDates.length) {
+    throw new Error(
+      `birthDateOverrides.json needs YYYY-MM-DD dates:\n  ` +
+        badDates.map(([id, d]) => `${id}: "${d}"`).join("\n  "),
+    );
+  }
 
   const todo = data.players.filter((p) => force || !p.birthDate);
-  const byName = todo.some((p) => !overrides[p.id])
+  const byName = todo.some((p) => !overrides.has(p.id))
     ? await fetchByName(QUERY, (row) => row.dob.value.slice(0, 10))
     : new Map();
 
@@ -49,8 +58,8 @@ async function main() {
   let filled = 0;
 
   for (const player of todo) {
-    if (overrides[player.id]) {
-      player.birthDate = overrides[player.id];
+    if (overrides.has(player.id)) {
+      player.birthDate = overrides.get(player.id);
       filled++;
       continue;
     }
@@ -88,6 +97,14 @@ async function main() {
     console.log(`\nMultiple matches (${ambiguous.length}) -- pick one in birthDateOverrides.json:`);
     for (const { player, dates } of ambiguous)
       console.log(`  ${player.id}  ${player.name}: ${dates.join(", ")}`);
+  }
+  const needsDate = [...missing, ...ambiguous.map((a) => a.player)];
+  if (needsDate.length) {
+    console.log(
+      "\nPaste into scripts/birthDateOverrides.json (merge with any entries already" +
+        " there), fill in each birthDate, and re-run:\n",
+    );
+    console.log(overridesTemplate(needsDate, "birthDate"));
   }
 }
 

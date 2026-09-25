@@ -9,13 +9,18 @@
 // Run from the repo root with: node scripts/migrateToNbaIds.js [--dry-run]
 //
 // All-or-nothing: if any player can't be matched to exactly one NBA.com id,
-// nothing is written. Look those players up on nba.com (the id is the number
-// in the URL, e.g. nba.com/player/1628369/jayson-tatum), add them to
-// scripts/nbaIdOverrides.json keyed by OLD id, e.g. { "bos01": "1628369" },
-// and re-run.
+// nothing is written and the script prints a paste-ready block for
+// scripts/nbaIdOverrides.json, keyed by OLD id:
+//
+//   { "bos01": { "name": "Jayson Tatum", "nbaId": "1628369" } }
+//
+// Fill in each nbaId (the number in the player's nba.com URL, e.g.
+// nba.com/player/1628369/jayson-tatum) and re-run. The name is checked
+// against teams.json so an id pasted under the wrong key is caught.
 
 import fs from "fs";
 import { fetchByName, lookup } from "./lib/wikidata.js";
+import { loadOverrides, overridesTemplate } from "./lib/overrides.js";
 
 const TEAMS_PATH = new URL("../src/data/teams.json", import.meta.url);
 const OVERRIDES_PATH = new URL("./nbaIdOverrides.json", import.meta.url);
@@ -52,15 +57,15 @@ function rewriteIds(text, idMap) {
 async function main() {
   const raw = fs.readFileSync(TEAMS_PATH, "utf-8");
   const data = JSON.parse(raw);
-  const overrides = readJson(OVERRIDES_PATH) ?? {};
 
   const todo = data.players.filter((p) => !isNbaId(p.id));
   if (todo.length === 0) {
     console.log("All players already use NBA.com ids. Nothing to do.");
     return;
   }
+  const overrides = loadOverrides(OVERRIDES_PATH, "nbaId", data.players);
 
-  const byName = todo.some((p) => !overrides[p.id])
+  const byName = todo.some((p) => !overrides.has(p.id))
     ? await fetchByName(QUERY, (row) => row.nbaId.value)
     : new Map();
 
@@ -70,8 +75,8 @@ async function main() {
   const invalid = [];
 
   for (const player of todo) {
-    if (overrides[player.id]) {
-      const id = String(overrides[player.id]);
+    if (overrides.has(player.id)) {
+      const id = overrides.get(player.id);
       if (isNbaId(id)) idMap.set(player.id, id);
       else invalid.push({ player, id });
       continue;
@@ -97,11 +102,11 @@ async function main() {
 
   console.log(`Matched ${idMap.size} of ${todo.length} players.`);
   if (missing.length) {
-    console.log(`\nNo Wikidata match (${missing.length}) -- add to nbaIdOverrides.json:`);
+    console.log(`\nNo Wikidata match (${missing.length}):`);
     for (const p of missing) console.log(`  ${p.id}  ${p.name}`);
   }
   if (ambiguous.length) {
-    console.log(`\nMultiple matches (${ambiguous.length}) -- pick one in nbaIdOverrides.json:`);
+    console.log(`\nMultiple matches (${ambiguous.length}) -- pick one:`);
     for (const { player, ids } of ambiguous) {
       console.log(`  ${player.id}  ${player.name}:`);
       for (const id of ids) console.log(`      ${id}  https://www.nba.com/player/${id}`);
@@ -119,6 +124,14 @@ async function main() {
 
   const problems = missing.length + ambiguous.length + invalid.length + duplicates.length;
   if (problems > 0) {
+    const needsId = [...missing, ...ambiguous.map((a) => a.player)];
+    if (needsId.length) {
+      console.log(
+        "\nPaste into scripts/nbaIdOverrides.json (merge with any entries already" +
+          " there), fill in each nbaId, and re-run:\n",
+      );
+      console.log(overridesTemplate(needsId, "nbaId"));
+    }
     console.log("\nNothing written. Fix the players above and re-run.");
     process.exit(1);
   }

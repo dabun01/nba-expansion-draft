@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "data:birthdates": "node scripts/addBirthDates.js"
+    "data:birthdates": "node scripts/addBirthDates.js",
+    "data:migrate-ids": "node scripts/migrateToNbaIds.js"
   },
   "dependencies": {
     "dotenv": "^17.4.2",

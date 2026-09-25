@@ -8,13 +8,13 @@
 // Name matching is fuzzy on purpose (accents, periods, "Jr."/"II" suffixes are
 // ignored), so anything that can't be matched to exactly one player is listed
 // at the end instead of guessed. Fix those by adding them to
-// scripts/birthDateOverrides.json, e.g. { "atl13": "2002-11-28" }, and re-run.
+// scripts/birthDateOverrides.json, e.g. { "<player id>": "YYYY-MM-DD" }, and re-run.
 
 import fs from "fs";
+import { fetchByName, lookup } from "./lib/wikidata.js";
 
 const TEAMS_PATH = new URL("../src/data/teams.json", import.meta.url);
 const OVERRIDES_PATH = new URL("./birthDateOverrides.json", import.meta.url);
-const SPARQL_URL = "https://query.wikidata.org/sparql";
 
 const force = process.argv.includes("--force");
 const dryRun = process.argv.includes("--dry-run");
@@ -32,45 +32,6 @@ SELECT ?person ?name ?alias ?dob WHERE {
   OPTIONAL { ?person skos:altLabel ?alias. FILTER(LANG(?alias) = "en") }
 }`;
 
-// "Nikola Jokić" -> "nikolajokic", "P.J. Washington" -> "pjwashington",
-// "Jabari Smith Jr." -> "jabarismith". Spaces are dropped too so
-// "P. J. Washington" and "P.J. Washington" compare equal.
-function normalizeName(name) {
-  return name
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .replace(/[.'\u2019]/g, "")
-    .replace(/-/g, " ")
-    .replace(/\b(jr|sr|ii|iii|iv)\b/g, "")
-    .replace(/\s+/g, "");
-}
-
-async function fetchCandidates() {
-  const res = await fetch(`${SPARQL_URL}?query=${encodeURIComponent(QUERY)}`, {
-    headers: {
-      Accept: "application/sparql-results+json",
-      // Wikidata asks scripts to identify themselves
-      "User-Agent": "nba-expansion-draft/1.0 (birthDate import script)",
-    },
-  });
-  if (!res.ok) throw new Error(`Wikidata returned ${res.status}`);
-  const { results } = await res.json();
-
-  // normalized name -> Map(personUri -> "YYYY-MM-DD")
-  const byName = new Map();
-  for (const row of results.bindings) {
-    const dob = row.dob.value.slice(0, 10);
-    for (const label of [row.name?.value, row.alias?.value]) {
-      if (!label) continue;
-      const key = normalizeName(label);
-      if (!byName.has(key)) byName.set(key, new Map());
-      byName.get(key).set(row.person.value, dob);
-    }
-  }
-  return byName;
-}
-
 async function main() {
   const raw = fs.readFileSync(TEAMS_PATH, "utf-8");
   const data = JSON.parse(raw);
@@ -80,7 +41,7 @@ async function main() {
 
   const todo = data.players.filter((p) => force || !p.birthDate);
   const byName = todo.some((p) => !overrides[p.id])
-    ? await fetchCandidates()
+    ? await fetchByName(QUERY, (row) => row.dob.value.slice(0, 10))
     : new Map();
 
   const missing = [];
@@ -93,8 +54,7 @@ async function main() {
       filled++;
       continue;
     }
-    const matches = byName.get(normalizeName(player.name));
-    const dates = matches ? [...new Set(matches.values())] : [];
+    const dates = lookup(byName, player.name);
     if (dates.length === 1) {
       player.birthDate = dates[0];
       filled++;

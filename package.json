@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -17,7 +20,7 @@
     "mongodb": "^7.6.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-router": "^7.18.4",
+    "react-router": "^8.4.0",
     "zustand": "^5.0.15"
   },
   "devDependencies": {

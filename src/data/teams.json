@@ -7,19 +7,19 @@
       "abbreviation": "ATL",
       "conference": "East",
       "playerIds": [
-        "atl01",
-        "atl02",
-        "atl03",
-        "atl04",
-        "atl05",
-        "atl06",
-        "atl07",
-        "atl08",
-        "atl09",
-        "atl10",
-        "atl11",
-        "atl12",
-        "atl13"
+        "1630552",
+        "1630700",
+        "203468",
+        "1629638",
+        "1630168",
+        "1630557",
+        "1629652",
+        "1630598",
+        "1627741",
+        "1629111",
+        "1642269",
+        "1642854",
+        "1631243"
       ]
     },
     {
@@ -28,19 +28,19 @@
       "abbreviation": "BOS",
       "conference": "East",
       "playerIds": [
-        "bos01",
-        "bos02",
-        "bos03",
-        "bos04",
-        "bos05",
-        "bos06",
-        "bos07",
-        "bos08",
-        "bos09",
-        "bos10",
-        "bos11",
-        "bos12",
-        "bos13"
+        "1628369",
+        "202331",
+        "1628401",
+        "1630573",
+        "1630202",
+        "1642864",
+        "1630568",
+        "1631248",
+        "1629674",
+        "1631199",
+        "1641775",
+        "1629011",
+        "201144"
       ]
     },
     {
@@ -49,20 +49,20 @@
       "abbreviation": "BKN",
       "conference": "East",
       "playerIds": [
-        "bkn01",
-        "bkn02",
-        "bkn03",
-        "bkn04",
-        "bkn05",
-        "bkn06",
-        "bkn07",
-        "bkn08",
-        "bkn09",
-        "bkn10",
-        "bkn11",
-        "bkn12",
-        "bkn13",
-        "bkn14"
+        "1629008",
+        "1630560",
+        "1630549",
+        "1641730",
+        "1630533",
+        "1631169",
+        "1629611",
+        "1642962",
+        "1642856",
+        "1642849",
+        "1643414",
+        "1642874",
+        "1630592",
+        "203944"
       ]
     },
     {
@@ -71,20 +71,20 @@
       "abbreviation": "CHO",
       "conference": "East",
       "playerIds": [
-        "cho01",
-        "cho02",
-        "cho03",
-        "cho04",
-        "cho05",
-        "cho06",
-        "cho07",
-        "cho08",
-        "cho09",
-        "cho10",
-        "cho11",
-        "cho12",
-        "cho13",
-        "cho14"
+        "1641706",
+        "1629632",
+        "1629675",
+        "1628960",
+        "1626220",
+        "1629684",
+        "1642851",
+        "1642275",
+        "203471",
+        "1641750",
+        "1642883",
+        "1626192",
+        "1642862",
+        "1631217"
       ]
     },
     {
@@ -93,19 +93,19 @@
       "abbreviation": "CHI",
       "conference": "East",
       "playerIds": [
-        "chi01",
-        "chi02",
-        "chi03",
-        "chi04",
-        "chi05",
-        "chi06",
-        "chi07",
-        "chi08",
-        "chi09",
-        "chi10",
-        "chi11",
-        "chi13",
-        "chi14"
+        "1630581",
+        "1626181",
+        "1629651",
+        "1641824",
+        "1630171",
+        "1630172",
+        "1630200",
+        "1630188",
+        "1628380",
+        "1642265",
+        "1631159",
+        "1630208",
+        "1641801"
       ]
     },
     {
@@ -114,19 +114,19 @@
       "abbreviation": "CLE",
       "conference": "East",
       "playerIds": [
-        "cle01",
-        "cle02",
-        "cle03",
-        "cle04",
-        "cle05",
-        "cle06",
-        "cle07",
-        "cle08",
-        "cle09",
-        "cle11",
-        "cle12",
-        "cle13",
-        "cle14"
+        "1628378",
+        "1630596",
+        "1628386",
+        "201935",
+        "1631212",
+        "1630241",
+        "1629731",
+        "1642281",
+        "1628418",
+        "1631165",
+        "1641772",
+        "1641854",
+        "1642878"
       ]
     },
     {
@@ -135,21 +135,21 @@
       "abbreviation": "DAL",
       "conference": "West",
       "playerIds": [
-        "dal01",
-        "dal02",
-        "dal03",
-        "dal04",
-        "dal05",
-        "dal06",
-        "dal07",
-        "dal08",
-        "dal09",
-        "dal10",
-        "dal11",
-        "dal12",
-        "dal13",
-        "dal14",
-        "dal15"
+        "202681",
+        "1642843",
+        "1629023",
+        "1629655",
+        "1630230",
+        "1631108",
+        "202691",
+        "1628997",
+        "1641726",
+        "1642358",
+        "1642948",
+        "1641890",
+        "203939",
+        "1631204",
+        "1630583"
       ]
     },
     {
@@ -158,19 +158,19 @@
       "abbreviation": "DEN",
       "conference": "West",
       "playerIds": [
-        "den01",
-        "den02",
-        "den03",
-        "den04",
-        "den05",
-        "den06",
-        "den07",
-        "den08",
-        "den09",
-        "den10",
-        "den11",
-        "den12",
-        "den13"
+        "203999",
+        "1627750",
+        "203932",
+        "1629661",
+        "1631128",
+        "1631124",
+        "1630192",
+        "1641747",
+        "202685",
+        "1629618",
+        "1642461",
+        "1631223",
+        "1641816"
       ]
     },
     {
@@ -179,19 +179,19 @@
       "abbreviation": "DET",
       "conference": "East",
       "playerIds": [
-        "det01",
-        "det02",
-        "det03",
-        "det04",
-        "det05",
-        "det06",
-        "det07",
-        "det08",
-        "det09",
-        "det10",
-        "det12",
-        "det13",
-        "det11"
+        "1630595",
+        "1631105",
+        "1641709",
+        "1627747",
+        "1641752",
+        "1629130",
+        "1641842",
+        "1628989",
+        "1630194",
+        "1642450",
+        "1642404",
+        "1642449",
+        "1631111"
       ]
     },
     {
@@ -200,19 +200,19 @@
       "abbreviation": "GSW",
       "conference": "West",
       "playerIds": [
-        "gsw01",
-        "gsw02",
-        "gsw03",
-        "gsw04",
-        "gsw06",
-        "gsw07",
-        "gsw08",
-        "gsw09",
-        "gsw10",
-        "gsw11",
-        "gsw13",
-        "gsw12",
-        "gsw05"
+        "201939",
+        "202710",
+        "203110",
+        "204001",
+        "1630541",
+        "1641764",
+        "201143",
+        "1629001",
+        "1630611",
+        "1642954",
+        "1627780",
+        "1631218",
+        "203552"
       ]
     },
     {
@@ -221,19 +221,19 @@
       "abbreviation": "HOU",
       "conference": "West",
       "playerIds": [
-        "hou01",
-        "hou02",
-        "hou03",
-        "hou04",
-        "hou05",
-        "hou06",
-        "hou07",
-        "hou08",
-        "hou09",
-        "hou10",
-        "hou11",
-        "hou12",
-        "hou13"
+        "201142",
+        "1630578",
+        "1641708",
+        "1631095",
+        "1627832",
+        "1642263",
+        "1631106",
+        "203500",
+        "203991",
+        "1629006",
+        "1628988",
+        "1630256",
+        "1631120"
       ]
     },
     {
@@ -242,19 +242,19 @@
       "abbreviation": "IND",
       "conference": "East",
       "playerIds": [
-        "ind01",
-        "ind02",
-        "ind03",
-        "ind04",
-        "ind05",
-        "ind06",
-        "ind07",
-        "ind08",
-        "ind09",
-        "ind10",
-        "ind11",
-        "ind12",
-        "ind13"
+        "1630169",
+        "1627783",
+        "1627826",
+        "1629614",
+        "1630174",
+        "1630167",
+        "1641716",
+        "204456",
+        "1630695",
+        "1630643",
+        "1631245",
+        "1641767",
+        "1642277"
       ]
     },
     {
@@ -263,19 +263,19 @@
       "abbreviation": "LAC",
       "conference": "West",
       "playerIds": [
-        "lac01",
-        "lac02",
-        "lac03",
-        "lac04",
-        "lac05",
-        "lac06",
-        "lac07",
-        "lac08",
-        "lac09",
-        "lac10",
-        "lac11",
-        "lac12",
-        "lac13"
+        "1629636",
+        "1627742",
+        "1629060",
+        "201572",
+        "1641711",
+        "1627884",
+        "1627739",
+        "1630543",
+        "1642353",
+        "1641757",
+        "1642920",
+        "1642949",
+        "1642280"
       ]
     },
     {
@@ -284,19 +284,19 @@
       "abbreviation": "LAL",
       "conference": "West",
       "playerIds": [
-        "lal01",
-        "lal02",
-        "lal03",
-        "lal04",
-        "lal05",
-        "lal06",
-        "lal07",
-        "lal08",
-        "lal09",
-        "lal10",
-        "lal11",
-        "lal12",
-        "lal13"
+        "1629029",
+        "1630559",
+        "1629028",
+        "1629020",
+        "1631222",
+        "1642261",
+        "1629637",
+        "1629216",
+        "1641733",
+        "1628467",
+        "1628379",
+        "1642355",
+        "1642876"
       ]
     },
     {
@@ -305,19 +305,19 @@
       "abbreviation": "MEM",
       "conference": "West",
       "playerIds": [
-        "mem03",
-        "mem04",
-        "mem05",
-        "mem06",
-        "mem07",
-        "mem08",
-        "mem09",
-        "mem10",
-        "mem11",
-        "mem12",
-        "mem13",
-        "mem14",
-        "mem15"
+        "1642907",
+        "1641713",
+        "1642377",
+        "1641744",
+        "1642285",
+        "1630590",
+        "1641707",
+        "1642914",
+        "203484",
+        "1642383",
+        "1642366",
+        "203924",
+        "1643409"
       ]
     },
     {
@@ -326,19 +326,19 @@
       "abbreviation": "MIA",
       "conference": "East",
       "playerIds": [
-        "mia01",
-        "mia02",
-        "mia03",
-        "mia04",
-        "mia05",
-        "mia06",
-        "mia07",
-        "mia08",
-        "mia09",
-        "mia10",
-        "mia11",
-        "mia12",
-        "mia13"
+        "203507",
+        "1628389",
+        "203952",
+        "1631107",
+        "1630558",
+        "1626171",
+        "1642884",
+        "203501",
+        "1631323",
+        "1641796",
+        "1630696",
+        "1642443",
+        "1642066"
       ]
     },
     {
@@ -347,19 +347,19 @@
       "abbreviation": "MIL",
       "conference": "East",
       "playerIds": [
-        "mil01",
-        "mil02",
-        "mil03",
-        "mil04",
-        "mil05",
-        "mil06",
-        "mil07",
-        "mil08",
-        "mil09",
-        "mil10",
-        "mil11",
-        "mil12",
-        "mil13"
+        "1629639",
+        "1626167",
+        "1642276",
+        "1631170",
+        "1629018",
+        "1642857",
+        "1631260",
+        "1631157",
+        "1629645",
+        "1641748",
+        "1631172",
+        "1628502",
+        "1643417"
       ]
     },
     {
@@ -368,19 +368,19 @@
       "abbreviation": "MIN",
       "conference": "West",
       "playerIds": [
-        "min01",
-        "min02",
-        "min03",
-        "min04",
-        "min05",
-        "min06",
-        "min07",
-        "min08",
-        "min09",
-        "min10",
-        "min11",
-        "min12",
-        "min13"
+        "1630162",
+        "1630163",
+        "203497",
+        "1630183",
+        "1628978",
+        "1630182",
+        "1630545",
+        "204060",
+        "1641740",
+        "1630538",
+        "1642399",
+        "1629659",
+        "1642911"
       ]
     },
     {
@@ -389,19 +389,19 @@
       "abbreviation": "NOP",
       "conference": "West",
       "playerIds": [
-        "nop01",
-        "nop02",
-        "nop03",
-        "nop04",
-        "nop05",
-        "nop06",
-        "nop07",
-        "nop08",
-        "nop09",
-        "nop10",
-        "nop11",
-        "nop12",
-        "nop13"
+        "1629627",
+        "1630530",
+        "1627749",
+        "1629673",
+        "1630180",
+        "1642847",
+        "1630529",
+        "1642274",
+        "1631121",
+        "1626172",
+        "1630621",
+        "1641722",
+        "1631255"
       ]
     },
     {
@@ -410,19 +410,19 @@
       "abbreviation": "NYK",
       "conference": "East",
       "playerIds": [
-        "nyk01",
-        "nyk02",
-        "nyk03",
-        "nyk04",
-        "nyk05",
-        "nyk06",
-        "nyk07",
-        "nyk08",
-        "nyk09",
-        "nyk10",
-        "nyk11",
-        "nyk12",
-        "nyk13"
+        "1628973",
+        "1626157",
+        "1628384",
+        "1628969",
+        "1628404",
+        "1630540",
+        "1630631",
+        "1629013",
+        "203903",
+        "1627824",
+        "1642278",
+        "1642359",
+        "1642885"
       ]
     },
     {
@@ -431,19 +431,19 @@
       "abbreviation": "OKC",
       "conference": "West",
       "playerIds": [
-        "okc01",
-        "okc02",
-        "okc03",
-        "okc04",
-        "okc05",
-        "okc06",
-        "okc07",
-        "okc08",
-        "okc09",
-        "okc10",
-        "okc11",
-        "okc12",
-        "okc13"
+        "1628983",
+        "1631096",
+        "1631114",
+        "1628392",
+        "1627936",
+        "1641717",
+        "1631119",
+        "1629026",
+        "1642260",
+        "1642850",
+        "1642272",
+        "1642349",
+        "1643530"
       ]
     },
     {
@@ -452,19 +452,19 @@
       "abbreviation": "ORL",
       "conference": "East",
       "playerIds": [
-        "orl01",
-        "orl02",
-        "orl03",
-        "orl04",
-        "orl05",
-        "orl06",
-        "orl07",
-        "orl08",
-        "orl09",
-        "orl10",
-        "orl11",
-        "orl12",
-        "orl13"
+        "1631094",
+        "1630532",
+        "1630217",
+        "1630591",
+        "1628976",
+        "1641710",
+        "202696",
+        "1628371",
+        "1629048",
+        "1641783",
+        "1642859",
+        "1642869",
+        "1631288"
       ]
     },
     {
@@ -473,20 +473,20 @@
       "abbreviation": "PHI",
       "conference": "East",
       "playerIds": [
-        "phi01",
-        "phi02",
-        "phi03",
-        "phi04",
-        "phi05",
-        "phi06",
-        "phi07",
-        "phi08",
-        "phi09",
-        "phi10",
-        "phi11",
-        "phi12",
-        "phi13",
-        "phi14"
+        "203954",
+        "2544",
+        "1630178",
+        "1642845",
+        "1631230",
+        "1631133",
+        "1630570",
+        "1631207",
+        "1642348",
+        "1641737",
+        "1641780",
+        "1642889",
+        "1642282",
+        "1627759"
       ]
     },
     {
@@ -495,19 +495,19 @@
       "abbreviation": "PHO",
       "conference": "West",
       "playerIds": [
-        "pho01",
-        "pho02",
-        "pho03",
-        "pho04",
-        "pho05",
-        "pho06",
-        "pho07",
-        "pho08",
-        "pho09",
-        "pho10",
-        "pho11",
-        "pho12",
-        "pho13"
+        "1626164",
+        "1630224",
+        "1628970",
+        "1628415",
+        "1631109",
+        "1642863",
+        "1642853",
+        "1643520",
+        "203995",
+        "1642346",
+        "1631221",
+        "1642345",
+        "1630692"
       ]
     },
     {
@@ -516,19 +516,19 @@
       "abbreviation": "POR",
       "conference": "West",
       "playerIds": [
-        "por01",
-        "por02",
-        "por03",
-        "por04",
-        "por05",
-        "por06",
-        "por07",
-        "por08",
-        "por09",
-        "por11",
-        "por12",
-        "por13",
-        "por14"
+        "203081",
+        "1630166",
+        "1631101",
+        "1642270",
+        "201950",
+        "1641739",
+        "1630703",
+        "1631200",
+        "1630249",
+        "1629680",
+        "1629057",
+        "1631126",
+        "1629630"
       ]
     },
     {
@@ -537,19 +537,19 @@
       "abbreviation": "SAC",
       "conference": "West",
       "playerIds": [
-        "sac01",
-        "sac02",
-        "sac03",
-        "sac04",
-        "sac05",
-        "sac06",
-        "sac07",
-        "sac08",
-        "sac09",
-        "sac10",
-        "sac11",
-        "sac12",
-        "sac13"
+        "1627734",
+        "203897",
+        "201942",
+        "1628370",
+        "1631099",
+        "201566",
+        "1642875",
+        "1642363",
+        "1630173",
+        "1626168",
+        "1641815",
+        "1641732",
+        "1629234"
       ]
     },
     {
@@ -558,19 +558,19 @@
       "abbreviation": "SAS",
       "conference": "West",
       "playerIds": [
-        "sas01",
-        "sas02",
-        "sas03",
-        "sas04",
-        "sas05",
-        "sas06",
-        "sas07",
-        "sas08",
-        "sas09",
-        "sas10",
-        "sas11",
-        "sas12",
-        "sas13"
+        "1641705",
+        "1628368",
+        "1630170",
+        "1642264",
+        "1642844",
+        "202699",
+        "1630577",
+        "203084",
+        "1629640",
+        "1642868",
+        "1628436",
+        "1642357",
+        "1643542"
       ]
     },
     {
@@ -579,19 +579,19 @@
       "abbreviation": "TOR",
       "conference": "East",
       "playerIds": [
-        "tor01",
-        "tor02",
-        "tor03",
-        "tor04",
-        "tor05",
-        "tor06",
-        "tor07",
-        "tor08",
-        "tor09",
-        "tor10",
-        "tor11",
-        "tor12",
-        "tor13"
+        "202695",
+        "1630567",
+        "1630193",
+        "1629628",
+        "1627751",
+        "1642867",
+        "1642266",
+        "1642347",
+        "1630572",
+        "1642419",
+        "1630534",
+        "1642367",
+        "1630639"
       ]
     },
     {
@@ -600,19 +600,19 @@
       "abbreviation": "UTA",
       "conference": "West",
       "playerIds": [
-        "uta01",
-        "uta02",
-        "uta03",
-        "uta04",
-        "uta05",
-        "uta06",
-        "uta07",
-        "uta08",
-        "uta09",
-        "uta10",
-        "uta11",
-        "uta12",
-        "uta13"
+        "1628991",
+        "1628374",
+        "1642846",
+        "1631117",
+        "1641718",
+        "1642262",
+        "1642268",
+        "1641729",
+        "1642271",
+        "1629723",
+        "1629004",
+        "1643016",
+        "201567"
       ]
     },
     {
@@ -621,25 +621,25 @@
       "abbreviation": "WAS",
       "conference": "East",
       "playerIds": [
-        "was01",
-        "was02",
-        "was03",
-        "was04",
-        "was05",
-        "was06",
-        "was07",
-        "was08",
-        "was09",
-        "was10",
-        "was11",
-        "was12",
-        "was13"
+        "1629027",
+        "203076",
+        "1642259",
+        "1641731",
+        "1626156",
+        "1630702",
+        "1642848",
+        "1642267",
+        "1642860",
+        "1642273",
+        "1630551",
+        "1641774",
+        "1641926"
       ]
     }
   ],
   "players": [
     {
-      "id": "atl01",
+      "id": "1630552",
       "name": "Jalen Johnson",
       "teamId": "ATL",
       "position": "PF",
@@ -667,7 +667,7 @@
       }
     },
     {
-      "id": "atl02",
+      "id": "1630700",
       "name": "Dyson Daniels",
       "teamId": "ATL",
       "position": "SG",
@@ -695,7 +695,7 @@
       }
     },
     {
-      "id": "atl03",
+      "id": "203468",
       "name": "CJ McCollum",
       "teamId": "ATL",
       "position": "PG",
@@ -717,7 +717,7 @@
       }
     },
     {
-      "id": "atl04",
+      "id": "1629638",
       "name": "Nickeil Alexander-Walker",
       "teamId": "ATL",
       "position": "PG",
@@ -743,7 +743,7 @@
       }
     },
     {
-      "id": "atl05",
+      "id": "1630168",
       "name": "Onyeka Okongwu",
       "teamId": "ATL",
       "position": "C",
@@ -767,7 +767,7 @@
       }
     },
     {
-      "id": "atl06",
+      "id": "1630557",
       "name": "Corey Kispert",
       "teamId": "ATL",
       "position": "SF",
@@ -793,7 +793,7 @@
       }
     },
     {
-      "id": "atl07",
+      "id": "1629652",
       "name": "Luguentz Dort",
       "teamId": "ATL",
       "position": "SF",
@@ -815,7 +815,7 @@
       }
     },
     {
-      "id": "atl08",
+      "id": "1630598",
       "name": "Aaron Wiggins",
       "teamId": "ATL",
       "position": "SG",
@@ -841,7 +841,7 @@
       }
     },
     {
-      "id": "atl09",
+      "id": "1627741",
       "name": "Buddy Hield",
       "teamId": "ATL",
       "position": "SG",
@@ -865,7 +865,7 @@
       }
     },
     {
-      "id": "atl10",
+      "id": "1629111",
       "name": "Jock Landale",
       "teamId": "ATL",
       "position": "C",
@@ -887,7 +887,7 @@
       }
     },
     {
-      "id": "atl11",
+      "id": "1642269",
       "name": "Devin Carter",
       "teamId": "ATL",
       "position": "PG",
@@ -911,7 +911,7 @@
       }
     },
     {
-      "id": "atl12",
+      "id": "1642854",
       "name": "Asa Newell",
       "teamId": "ATL",
       "position": "PF",
@@ -937,7 +937,7 @@
       }
     },
     {
-      "id": "atl13",
+      "id": "1631243",
       "name": "Mouhamed Gueye",
       "teamId": "ATL",
       "position": "C",
@@ -959,7 +959,7 @@
       }
     },
     {
-      "id": "bos01",
+      "id": "1628369",
       "name": "Jayson Tatum",
       "teamId": "BOS",
       "position": "PF",
@@ -987,7 +987,7 @@
       }
     },
     {
-      "id": "bos02",
+      "id": "202331",
       "name": "Paul George",
       "teamId": "BOS",
       "position": "SF",
@@ -1011,7 +1011,7 @@
       }
     },
     {
-      "id": "bos03",
+      "id": "1628401",
       "name": "Derrick White",
       "teamId": "BOS",
       "position": "SG",
@@ -1037,7 +1037,7 @@
       }
     },
     {
-      "id": "bos04",
+      "id": "1630573",
       "name": "Sam Hauser",
       "teamId": "BOS",
       "position": "PF",
@@ -1063,7 +1063,7 @@
       }
     },
     {
-      "id": "bos05",
+      "id": "1630202",
       "name": "Payton Pritchard",
       "teamId": "BOS",
       "position": "PG",
@@ -1087,7 +1087,7 @@
       }
     },
     {
-      "id": "bos06",
+      "id": "1642864",
       "name": "Hugo Gonzalez",
       "teamId": "BOS",
       "position": "SF",
@@ -1113,7 +1113,7 @@
       }
     },
     {
-      "id": "bos07",
+      "id": "1630568",
       "name": "Luka Garza",
       "teamId": "BOS",
       "position": "C",
@@ -1135,7 +1135,7 @@
       }
     },
     {
-      "id": "bos08",
+      "id": "1631248",
       "name": "Baylor Scheierman",
       "teamId": "BOS",
       "position": "SG",
@@ -1159,7 +1159,7 @@
       }
     },
     {
-      "id": "bos09",
+      "id": "1629674",
       "name": "Neemias Queta",
       "teamId": "BOS",
       "position": "C",
@@ -1189,7 +1189,7 @@
       }
     },
     {
-      "id": "bos10",
+      "id": "1631199",
       "name": "Ron Harper Jr.",
       "teamId": "BOS",
       "position": "SF",
@@ -1217,7 +1217,7 @@
       }
     },
     {
-      "id": "bos11",
+      "id": "1641775",
       "name": "Jordan Walsh",
       "teamId": "BOS",
       "position": "PF",
@@ -1245,7 +1245,7 @@
       }
     },
     {
-      "id": "bos12",
+      "id": "1629011",
       "name": "Mitchell Robinson",
       "teamId": "BOS",
       "position": "C",
@@ -1271,7 +1271,7 @@
       }
     },
     {
-      "id": "bos13",
+      "id": "201144",
       "name": "Mike Conley Jr.",
       "teamId": "BOS",
       "position": "PG",
@@ -1293,7 +1293,7 @@
       }
     },
     {
-      "id": "cho01",
+      "id": "1641706",
       "name": "Brandon Miller",
       "teamId": "CHO",
       "position": "SF",
@@ -1315,7 +1315,7 @@
       }
     },
     {
-      "id": "cho02",
+      "id": "1629632",
       "name": "Coby White",
       "teamId": "CHO",
       "position": "SG",
@@ -1341,7 +1341,7 @@
       }
     },
     {
-      "id": "cho03",
+      "id": "1629675",
       "name": "Naz Reid",
       "teamId": "CHO",
       "position": "C",
@@ -1369,7 +1369,7 @@
       }
     },
     {
-      "id": "cho04",
+      "id": "1628960",
       "name": "Grayson Allen",
       "teamId": "CHO",
       "position": "SG",
@@ -1393,7 +1393,7 @@
       }
     },
     {
-      "id": "cho05",
+      "id": "1626220",
       "name": "Royce O'Neale",
       "teamId": "CHO",
       "position": "SF",
@@ -1417,7 +1417,7 @@
       }
     },
     {
-      "id": "cho06",
+      "id": "1629684",
       "name": "Grant Williams",
       "teamId": "CHO",
       "position": "PF",
@@ -1439,7 +1439,7 @@
       }
     },
     {
-      "id": "cho07",
+      "id": "1642851",
       "name": "Kon Knueppel",
       "teamId": "CHO",
       "position": "SF",
@@ -1465,7 +1465,7 @@
       }
     },
     {
-      "id": "cho08",
+      "id": "1642275",
       "name": "Tidjane Salaun",
       "teamId": "CHO",
       "position": "PF",
@@ -1489,7 +1489,7 @@
       }
     },
     {
-      "id": "cho09",
+      "id": "203471",
       "name": "Dennis Schroder",
       "teamId": "CHO",
       "position": "PG",
@@ -1513,7 +1513,7 @@
       }
     },
     {
-      "id": "cho10",
+      "id": "1641750",
       "name": "Ryan Kalkbrenner",
       "teamId": "CHO",
       "position": "C",
@@ -1535,7 +1535,7 @@
       }
     },
     {
-      "id": "cho11",
+      "id": "1642883",
       "name": "Sion James",
       "teamId": "CHO",
       "position": "SG",
@@ -1557,7 +1557,7 @@
       }
     },
     {
-      "id": "cho12",
+      "id": "1626192",
       "name": "Pat Connaughton",
       "teamId": "CHO",
       "position": "SG",
@@ -1579,7 +1579,7 @@
       }
     },
     {
-      "id": "cho13",
+      "id": "1642862",
       "name": "Liam McNeeley",
       "teamId": "CHO",
       "position": "SF",
@@ -1601,7 +1601,7 @@
       }
     },
     {
-      "id": "cho14",
+      "id": "1631217",
       "name": "Moussa Diabate",
       "teamId": "CHO",
       "position": "C",
@@ -1623,7 +1623,7 @@
       }
     },
     {
-      "id": "chi01",
+      "id": "1630581",
       "name": "Josh Giddey",
       "teamId": "CHI",
       "position": "PG",
@@ -1647,7 +1647,7 @@
       }
     },
     {
-      "id": "chi02",
+      "id": "1626181",
       "name": "Norman Powell",
       "teamId": "CHI",
       "position": "SG",
@@ -1671,7 +1671,7 @@
       }
     },
     {
-      "id": "chi03",
+      "id": "1629651",
       "name": "Nicolas Claxton",
       "teamId": "CHI",
       "position": "C",
@@ -1695,7 +1695,7 @@
       }
     },
     {
-      "id": "chi04",
+      "id": "1641824",
       "name": "Matas Buzelis",
       "teamId": "CHI",
       "position": "PF",
@@ -1719,7 +1719,7 @@
       }
     },
     {
-      "id": "chi05",
+      "id": "1630171",
       "name": "Isaac Okoro",
       "teamId": "CHI",
       "position": "SG",
@@ -1741,7 +1741,7 @@
       }
     },
     {
-      "id": "chi06",
+      "id": "1630172",
       "name": "Patrick Williams",
       "teamId": "CHI",
       "position": "PF",
@@ -1765,7 +1765,7 @@
       }
     },
     {
-      "id": "chi07",
+      "id": "1630200",
       "name": "Tre Jones",
       "teamId": "CHI",
       "position": "PG",
@@ -1787,7 +1787,7 @@
       }
     },
     {
-      "id": "chi08",
+      "id": "1630188",
       "name": "Jalen Smith",
       "teamId": "CHI",
       "position": "C",
@@ -1809,7 +1809,7 @@
       }
     },
     {
-      "id": "chi09",
+      "id": "1628380",
       "name": "Zach Collins",
       "teamId": "CHI",
       "position": "C",
@@ -1833,7 +1833,7 @@
       }
     },
     {
-      "id": "chi10",
+      "id": "1642265",
       "name": "Rob Dillingham",
       "teamId": "CHI",
       "position": "PG",
@@ -1857,7 +1857,7 @@
       }
     },
     {
-      "id": "chi11",
+      "id": "1631159",
       "name": "Leonard Miller",
       "teamId": "CHI",
       "position": "SF",
@@ -1879,7 +1879,7 @@
       }
     },
     {
-      "id": "chi13",
+      "id": "1630208",
       "name": "Nick Richards",
       "teamId": "CHI",
       "position": "C",
@@ -1901,7 +1901,7 @@
       }
     },
     {
-      "id": "cle01",
+      "id": "1628378",
       "name": "Donovan Mitchell",
       "teamId": "CLE",
       "position": "SG",
@@ -1927,7 +1927,7 @@
       }
     },
     {
-      "id": "cle02",
+      "id": "1630596",
       "name": "Evan Mobley",
       "teamId": "CLE",
       "position": "PF",
@@ -1955,7 +1955,7 @@
       }
     },
     {
-      "id": "cle03",
+      "id": "1628386",
       "name": "Jarrett Allen",
       "teamId": "CLE",
       "position": "C",
@@ -1979,7 +1979,7 @@
       }
     },
     {
-      "id": "cle04",
+      "id": "201935",
       "name": "James Harden",
       "teamId": "CLE",
       "position": "PG",
@@ -2001,7 +2001,7 @@
       }
     },
     {
-      "id": "cle05",
+      "id": "1631212",
       "name": "Peyton Watson",
       "teamId": "CLE",
       "position": "SF",
@@ -2029,7 +2029,7 @@
       }
     },
     {
-      "id": "cle06",
+      "id": "1630241",
       "name": "Sam Merrill",
       "teamId": "CLE",
       "position": "SG",
@@ -2051,7 +2051,7 @@
       }
     },
     {
-      "id": "cle07",
+      "id": "1629731",
       "name": "Dean Wade",
       "teamId": "CLE",
       "position": "PF",
@@ -2073,7 +2073,7 @@
       }
     },
     {
-      "id": "cle08",
+      "id": "1642281",
       "name": "Jaylon Tyson",
       "teamId": "CLE",
       "position": "SG",
@@ -2097,7 +2097,7 @@
       }
     },
     {
-      "id": "cle09",
+      "id": "1628418",
       "name": "Thomas Bryant",
       "teamId": "CLE",
       "position": "C",
@@ -2119,7 +2119,7 @@
       }
     },
     {
-      "id": "cle11",
+      "id": "1631165",
       "name": "Keon Ellis",
       "teamId": "CLE",
       "position": "SG",
@@ -2143,7 +2143,7 @@
       }
     },
     {
-      "id": "cle12",
+      "id": "1641772",
       "name": "Nae'Qwan Tomlin",
       "teamId": "CLE",
       "position": "PF",
@@ -2165,7 +2165,7 @@
       }
     },
     {
-      "id": "cle13",
+      "id": "1641854",
       "name": "Craig Porter Jr.",
       "teamId": "CLE",
       "position": "PG",
@@ -2187,7 +2187,7 @@
       }
     },
     {
-      "id": "cle14",
+      "id": "1642878",
       "name": "Tyrese Proctor",
       "teamId": "CLE",
       "position": "PG",
@@ -2211,7 +2211,7 @@
       }
     },
     {
-      "id": "dal01",
+      "id": "202681",
       "name": "Kyrie Irving",
       "teamId": "DAL",
       "position": "PG",
@@ -2233,7 +2233,7 @@
       }
     },
     {
-      "id": "dal02",
+      "id": "1642843",
       "name": "Cooper Flagg",
       "teamId": "DAL",
       "position": "SF",
@@ -2259,7 +2259,7 @@
       }
     },
     {
-      "id": "dal03",
+      "id": "1629023",
       "name": "P.J. Washington",
       "teamId": "DAL",
       "position": "PF",
@@ -2285,7 +2285,7 @@
       }
     },
     {
-      "id": "dal04",
+      "id": "1629655",
       "name": "Daniel Gafford",
       "teamId": "DAL",
       "position": "C",
@@ -2311,7 +2311,7 @@
       }
     },
     {
-      "id": "dal05",
+      "id": "1630230",
       "name": "Naji Marshall",
       "teamId": "DAL",
       "position": "SF",
@@ -2335,7 +2335,7 @@
       }
     },
     {
-      "id": "dal06",
+      "id": "1631108",
       "name": "Max Christie",
       "teamId": "DAL",
       "position": "SG",
@@ -2361,7 +2361,7 @@
       }
     },
     {
-      "id": "dal07",
+      "id": "202691",
       "name": "Klay Thompson",
       "teamId": "DAL",
       "position": "SF",
@@ -2383,7 +2383,7 @@
       }
     },
     {
-      "id": "dal08",
+      "id": "1628997",
       "name": "Caleb Martin",
       "teamId": "DAL",
       "position": "SF",
@@ -2407,7 +2407,7 @@
       }
     },
     {
-      "id": "dal09",
+      "id": "1641726",
       "name": "Dereck Lively II",
       "teamId": "DAL",
       "position": "C",
@@ -2431,7 +2431,7 @@
       }
     },
     {
-      "id": "dal10",
+      "id": "1642358",
       "name": "AJ Johnson",
       "teamId": "DAL",
       "position": "SG",
@@ -2455,7 +2455,7 @@
       }
     },
     {
-      "id": "dal11",
+      "id": "1642948",
       "name": "Ryan Nembhard",
       "teamId": "DAL",
       "position": "PG",
@@ -2477,7 +2477,7 @@
       }
     },
     {
-      "id": "dal12",
+      "id": "1641890",
       "name": "Tyler Smith",
       "teamId": "DAL",
       "position": "PF",
@@ -2499,7 +2499,7 @@
       }
     },
     {
-      "id": "dal13",
+      "id": "203939",
       "name": "Dwight Powell",
       "teamId": "DAL",
       "position": "C",
@@ -2521,7 +2521,7 @@
       }
     },
     {
-      "id": "den01",
+      "id": "203999",
       "name": "Nikola Jokic",
       "teamId": "DEN",
       "position": "C",
@@ -2547,7 +2547,7 @@
       }
     },
     {
-      "id": "den02",
+      "id": "1627750",
       "name": "Jamal Murray",
       "teamId": "DEN",
       "position": "PG",
@@ -2571,7 +2571,7 @@
       }
     },
     {
-      "id": "den03",
+      "id": "203932",
       "name": "Aaron Gordon",
       "teamId": "DEN",
       "position": "PF",
@@ -2595,7 +2595,7 @@
       }
     },
     {
-      "id": "den04",
+      "id": "1629661",
       "name": "Cameron Johnson",
       "teamId": "DEN",
       "position": "SF",
@@ -2621,7 +2621,7 @@
       }
     },
     {
-      "id": "den05",
+      "id": "1631128",
       "name": "Christian Braun",
       "teamId": "DEN",
       "position": "SG",
@@ -2649,7 +2649,7 @@
       }
     },
     {
-      "id": "den06",
+      "id": "1631124",
       "name": "Julian Strawther",
       "teamId": "DEN",
       "position": "SG",
@@ -2673,7 +2673,7 @@
       }
     },
     {
-      "id": "den07",
+      "id": "1630192",
       "name": "Zeke Nnaji",
       "teamId": "DEN",
       "position": "PF",
@@ -2695,7 +2695,7 @@
       }
     },
     {
-      "id": "den08",
+      "id": "1641747",
       "name": "DaRon Holmes II",
       "teamId": "DEN",
       "position": "PF",
@@ -2719,7 +2719,7 @@
       }
     },
     {
-      "id": "den09",
+      "id": "202685",
       "name": "Jonas Valanciunas",
       "teamId": "DEN",
       "position": "C",
@@ -2741,7 +2741,7 @@
       }
     },
     {
-      "id": "den10",
+      "id": "1629618",
       "name": "Jalen Pickett",
       "teamId": "DEN",
       "position": "SG",
@@ -2763,7 +2763,7 @@
       }
     },
     {
-      "id": "den11",
+      "id": "1642461",
       "name": "Spencer Jones",
       "teamId": "DEN",
       "position": "SF",
@@ -2785,7 +2785,7 @@
       }
     },
     {
-      "id": "den12",
+      "id": "1631223",
       "name": "David Roddy",
       "teamId": "DEN",
       "position": "PF",
@@ -2807,7 +2807,7 @@
       }
     },
     {
-      "id": "den13",
+      "id": "1641816",
       "name": "Hunter Tyson",
       "teamId": "DEN",
       "position": "PF",
@@ -2829,7 +2829,7 @@
       }
     },
     {
-      "id": "det01",
+      "id": "1630595",
       "name": "Cade Cunningham",
       "teamId": "DET",
       "position": "PG",
@@ -2857,7 +2857,7 @@
       }
     },
     {
-      "id": "det02",
+      "id": "1631105",
       "name": "Jalen Duren",
       "teamId": "DET",
       "position": "C",
@@ -2879,7 +2879,7 @@
       }
     },
     {
-      "id": "det03",
+      "id": "1641709",
       "name": "Ausar Thompson",
       "teamId": "DET",
       "position": "SF",
@@ -2901,7 +2901,7 @@
       }
     },
     {
-      "id": "det04",
+      "id": "1627747",
       "name": "Caris LeVert",
       "teamId": "DET",
       "position": "SG",
@@ -2925,7 +2925,7 @@
       }
     },
     {
-      "id": "det06",
+      "id": "1629130",
       "name": "Duncan Robinson",
       "teamId": "DET",
       "position": "SF",
@@ -2949,7 +2949,7 @@
       }
     },
     {
-      "id": "det07",
+      "id": "1641842",
       "name": "Ron Holland II",
       "teamId": "DET",
       "position": "SF",
@@ -2973,7 +2973,7 @@
       }
     },
     {
-      "id": "det08",
+      "id": "1628989",
       "name": "Kevin Huerter",
       "teamId": "DET",
       "position": "SG",
@@ -2995,7 +2995,7 @@
       }
     },
     {
-      "id": "det09",
+      "id": "1630194",
       "name": "Paul Reed",
       "teamId": "DET",
       "position": "C",
@@ -3019,7 +3019,7 @@
       }
     },
     {
-      "id": "det10",
+      "id": "1642450",
       "name": "Daniss Jenkins",
       "teamId": "DET",
       "position": "PG",
@@ -3041,7 +3041,7 @@
       }
     },
     {
-      "id": "det12",
+      "id": "1642404",
       "name": "Chaz Lanier",
       "teamId": "DET",
       "position": "SG",
@@ -3063,7 +3063,7 @@
       }
     },
     {
-      "id": "det13",
+      "id": "1642449",
       "name": "Tolu Smith",
       "teamId": "DET",
       "position": "PF",
@@ -3085,7 +3085,7 @@
       }
     },
     {
-      "id": "gsw01",
+      "id": "201939",
       "name": "Stephen Curry",
       "teamId": "GSW",
       "position": "PG",
@@ -3107,7 +3107,7 @@
       }
     },
     {
-      "id": "gsw02",
+      "id": "202710",
       "name": "Jimmy Butler",
       "teamId": "GSW",
       "position": "SF",
@@ -3131,7 +3131,7 @@
       }
     },
     {
-      "id": "gsw03",
+      "id": "203110",
       "name": "Draymond Green",
       "teamId": "GSW",
       "position": "PF",
@@ -3155,7 +3155,7 @@
       }
     },
     {
-      "id": "gsw04",
+      "id": "204001",
       "name": "Kristaps Porzingis",
       "teamId": "GSW",
       "position": "C",
@@ -3179,7 +3179,7 @@
       }
     },
     {
-      "id": "gsw06",
+      "id": "1630541",
       "name": "Moses Moody",
       "teamId": "GSW",
       "position": "SG",
@@ -3201,7 +3201,7 @@
       }
     },
     {
-      "id": "gsw07",
+      "id": "1641764",
       "name": "Brandin Podziemski",
       "teamId": "GSW",
       "position": "SG",
@@ -3225,7 +3225,7 @@
       }
     },
     {
-      "id": "gsw08",
+      "id": "201143",
       "name": "Al Horford",
       "teamId": "GSW",
       "position": "C",
@@ -3247,7 +3247,7 @@
       }
     },
     {
-      "id": "gsw09",
+      "id": "1629001",
       "name": "De'Anthony Melton",
       "teamId": "GSW",
       "position": "PG",
@@ -3269,7 +3269,7 @@
       }
     },
     {
-      "id": "gsw10",
+      "id": "1630611",
       "name": "Gui Santos",
       "teamId": "GSW",
       "position": "PF",
@@ -3291,7 +3291,7 @@
       }
     },
     {
-      "id": "gsw11",
+      "id": "1642954",
       "name": "Will Richard",
       "teamId": "GSW",
       "position": "SG",
@@ -3313,7 +3313,7 @@
       }
     },
     {
-      "id": "gsw13",
+      "id": "1627780",
       "name": "Gary Payton II",
       "teamId": "GSW",
       "position": "SG",
@@ -3335,7 +3335,7 @@
       }
     },
     {
-      "id": "gsw12",
+      "id": "1631218",
       "name": "Trayce Jackson-Davis",
       "teamId": "GSW",
       "position": "C",
@@ -3357,7 +3357,7 @@
       }
     },
     {
-      "id": "dal14",
+      "id": "1631204",
       "name": "Marcus Sasser",
       "teamId": "DAL",
       "position": "PG",
@@ -3379,7 +3379,7 @@
       }
     },
     {
-      "id": "hou01",
+      "id": "201142",
       "name": "Kevin Durant",
       "teamId": "HOU",
       "position": "SF",
@@ -3401,7 +3401,7 @@
       }
     },
     {
-      "id": "hou02",
+      "id": "1630578",
       "name": "Alperen Sengun",
       "teamId": "HOU",
       "position": "C",
@@ -3431,7 +3431,7 @@
       }
     },
     {
-      "id": "hou03",
+      "id": "1641708",
       "name": "Amen Thompson",
       "teamId": "HOU",
       "position": "PG",
@@ -3453,7 +3453,7 @@
       }
     },
     {
-      "id": "hou04",
+      "id": "1631095",
       "name": "Jabari Smith Jr.",
       "teamId": "HOU",
       "position": "PF",
@@ -3481,7 +3481,7 @@
       }
     },
     {
-      "id": "hou05",
+      "id": "1627832",
       "name": "Fred VanVleet",
       "teamId": "HOU",
       "position": "PG",
@@ -3503,7 +3503,7 @@
       }
     },
     {
-      "id": "hou06",
+      "id": "1642263",
       "name": "Reed Sheppard",
       "teamId": "HOU",
       "position": "SG",
@@ -3525,7 +3525,7 @@
       }
     },
     {
-      "id": "hou07",
+      "id": "1631106",
       "name": "Tari Eason",
       "teamId": "HOU",
       "position": "PF",
@@ -3549,7 +3549,7 @@
       }
     },
     {
-      "id": "hou08",
+      "id": "203500",
       "name": "Steven Adams",
       "teamId": "HOU",
       "position": "C",
@@ -3571,7 +3571,7 @@
       }
     },
     {
-      "id": "hou09",
+      "id": "203991",
       "name": "Clint Capela",
       "teamId": "HOU",
       "position": "C",
@@ -3593,7 +3593,7 @@
       }
     },
     {
-      "id": "hou10",
+      "id": "1629006",
       "name": "Josh Okogie",
       "teamId": "HOU",
       "position": "SG",
@@ -3615,7 +3615,7 @@
       }
     },
     {
-      "id": "hou11",
+      "id": "1628988",
       "name": "Aaron Holiday",
       "teamId": "HOU",
       "position": "PG",
@@ -3637,7 +3637,7 @@
       }
     },
     {
-      "id": "hou12",
+      "id": "1630256",
       "name": "Jae'Sean Tate",
       "teamId": "HOU",
       "position": "SF",
@@ -3659,7 +3659,7 @@
       }
     },
     {
-      "id": "hou13",
+      "id": "1631120",
       "name": "JD Davison",
       "teamId": "HOU",
       "position": "PG",
@@ -3681,7 +3681,7 @@
       }
     },
     {
-      "id": "ind01",
+      "id": "1630169",
       "name": "Tyrese Haliburton",
       "teamId": "IND",
       "position": "PG",
@@ -3707,7 +3707,7 @@
       }
     },
     {
-      "id": "ind02",
+      "id": "1627783",
       "name": "Pascal Siakam",
       "teamId": "IND",
       "position": "PF",
@@ -3731,7 +3731,7 @@
       }
     },
     {
-      "id": "ind03",
+      "id": "1627826",
       "name": "Ivica Zubac",
       "teamId": "IND",
       "position": "C",
@@ -3755,7 +3755,7 @@
       }
     },
     {
-      "id": "ind04",
+      "id": "1629614",
       "name": "Andrew Nembhard",
       "teamId": "IND",
       "position": "PG",
@@ -3781,7 +3781,7 @@
       }
     },
     {
-      "id": "ind05",
+      "id": "1630174",
       "name": "Aaron Nesmith",
       "teamId": "IND",
       "position": "SF",
@@ -3805,7 +3805,7 @@
       }
     },
     {
-      "id": "ind06",
+      "id": "1630167",
       "name": "Obi Toppin",
       "teamId": "IND",
       "position": "PF",
@@ -3829,7 +3829,7 @@
       }
     },
     {
-      "id": "ind07",
+      "id": "1641716",
       "name": "Jarace Walker",
       "teamId": "IND",
       "position": "PF",
@@ -3853,7 +3853,7 @@
       }
     },
     {
-      "id": "ind08",
+      "id": "204456",
       "name": "T.J. McConnell",
       "teamId": "IND",
       "position": "PG",
@@ -3875,7 +3875,7 @@
       }
     },
     {
-      "id": "ind09",
+      "id": "1630695",
       "name": "Micah Potter",
       "teamId": "IND",
       "position": "C",
@@ -3897,7 +3897,7 @@
       }
     },
     {
-      "id": "ind10",
+      "id": "1630643",
       "name": "Jay Huff",
       "teamId": "IND",
       "position": "C",
@@ -3919,7 +3919,7 @@
       }
     },
     {
-      "id": "ind11",
+      "id": "1631245",
       "name": "Quenton Jackson",
       "teamId": "IND",
       "position": "PG",
@@ -3941,7 +3941,7 @@
       }
     },
     {
-      "id": "ind12",
+      "id": "1641767",
       "name": "Ben Sheppard",
       "teamId": "IND",
       "position": "SG",
@@ -3965,7 +3965,7 @@
       }
     },
     {
-      "id": "ind13",
+      "id": "1642277",
       "name": "Johnny Furphy",
       "teamId": "IND",
       "position": "SG",
@@ -3989,7 +3989,7 @@
       }
     },
     {
-      "id": "gsw05",
+      "id": "203552",
       "name": "Seth Curry",
       "teamId": "GSW",
       "position": "SG",
@@ -4011,7 +4011,7 @@
       }
     },
     {
-      "id": "lac01",
+      "id": "1629636",
       "name": "Darius Garland",
       "teamId": "LAC",
       "position": "PG",
@@ -4037,7 +4037,7 @@
       }
     },
     {
-      "id": "lac02",
+      "id": "1627742",
       "name": "Brandon Ingram",
       "teamId": "LAC",
       "position": "SF",
@@ -4061,7 +4061,7 @@
       }
     },
     {
-      "id": "lac03",
+      "id": "1629060",
       "name": "Rui Hachimura",
       "teamId": "LAC",
       "position": "PF",
@@ -4087,7 +4087,7 @@
       }
     },
     {
-      "id": "lac04",
+      "id": "201572",
       "name": "Brook Lopez",
       "teamId": "LAC",
       "position": "C",
@@ -4109,7 +4109,7 @@
       }
     },
     {
-      "id": "lac05",
+      "id": "1641711",
       "name": "Gradey Dick",
       "teamId": "LAC",
       "position": "SG",
@@ -4133,7 +4133,7 @@
       }
     },
     {
-      "id": "lac06",
+      "id": "1627884",
       "name": "Derrick Jones Jr.",
       "teamId": "LAC",
       "position": "SF",
@@ -4155,7 +4155,7 @@
       }
     },
     {
-      "id": "lac07",
+      "id": "1627739",
       "name": "Kris Dunn",
       "teamId": "LAC",
       "position": "PG",
@@ -4177,7 +4177,7 @@
       }
     },
     {
-      "id": "lac08",
+      "id": "1630543",
       "name": "Isaiah Jackson",
       "teamId": "LAC",
       "position": "C",
@@ -4199,7 +4199,7 @@
       }
     },
     {
-      "id": "lac09",
+      "id": "1642353",
       "name": "Cam Christie",
       "teamId": "LAC",
       "position": "SG",
@@ -4221,7 +4221,7 @@
       }
     },
     {
-      "id": "lac10",
+      "id": "1641757",
       "name": "Jordan Miller",
       "teamId": "LAC",
       "position": "SF",
@@ -4243,7 +4243,7 @@
       }
     },
     {
-      "id": "lac11",
+      "id": "1642920",
       "name": "Kobe Sanders",
       "teamId": "LAC",
       "position": "SG",
@@ -4265,7 +4265,7 @@
       }
     },
     {
-      "id": "lac12",
+      "id": "1642949",
       "name": "Yanic Konan Niederhauser",
       "teamId": "LAC",
       "position": "C",
@@ -4287,7 +4287,7 @@
       }
     },
     {
-      "id": "lal01",
+      "id": "1629029",
       "name": "Luka Doncic",
       "teamId": "LAL",
       "position": "PG",
@@ -4313,7 +4313,7 @@
       }
     },
     {
-      "id": "lal02",
+      "id": "1630559",
       "name": "Austin Reaves",
       "teamId": "LAL",
       "position": "SG",
@@ -4339,7 +4339,7 @@
       }
     },
     {
-      "id": "lal03",
+      "id": "1629028",
       "name": "Deandre Ayton",
       "teamId": "LAL",
       "position": "C",
@@ -4361,7 +4361,7 @@
       }
     },
     {
-      "id": "lal04",
+      "id": "1629020",
       "name": "Jarred Vanderbilt",
       "teamId": "LAL",
       "position": "PF",
@@ -4385,7 +4385,7 @@
       }
     },
     {
-      "id": "lal05",
+      "id": "1631222",
       "name": "Jake LaRavia",
       "teamId": "LAL",
       "position": "SF",
@@ -4407,7 +4407,7 @@
       }
     },
     {
-      "id": "lal06",
+      "id": "1642261",
       "name": "Dalton Knecht",
       "teamId": "LAL",
       "position": "SG",
@@ -4431,7 +4431,7 @@
       }
     },
     {
-      "id": "lal07",
+      "id": "1629637",
       "name": "Jaxson Hayes",
       "teamId": "LAL",
       "position": "C",
@@ -4453,7 +4453,7 @@
       }
     },
     {
-      "id": "lal08",
+      "id": "1629216",
       "name": "Gabe Vincent",
       "teamId": "LAL",
       "position": "PG",
@@ -4475,7 +4475,7 @@
       }
     },
     {
-      "id": "lal09",
+      "id": "1641733",
       "name": "Nick Smith Jr.",
       "teamId": "LAL",
       "position": "PG",
@@ -4497,7 +4497,7 @@
       }
     },
     {
-      "id": "lal10",
+      "id": "1628467",
       "name": "Maxi Kleber",
       "teamId": "LAL",
       "position": "PF",
@@ -4519,7 +4519,7 @@
       }
     },
     {
-      "id": "lal11",
+      "id": "1628379",
       "name": "Luke Kennard",
       "teamId": "LAL",
       "position": "SG",
@@ -4541,7 +4541,7 @@
       }
     },
     {
-      "id": "lal12",
+      "id": "1642355",
       "name": "Bronny James",
       "teamId": "LAL",
       "position": "PG",
@@ -4563,7 +4563,7 @@
       }
     },
     {
-      "id": "lal13",
+      "id": "1642876",
       "name": "Adou Thiero",
       "teamId": "LAL",
       "position": "SF",
@@ -4585,7 +4585,7 @@
       }
     },
     {
-      "id": "por14",
+      "id": "1629630",
       "name": "Ja Morant",
       "teamId": "POR",
       "position": "PG",
@@ -4613,7 +4613,7 @@
       }
     },
     {
-      "id": "dal15",
+      "id": "1630583",
       "name": "Santi Aldama",
       "teamId": "DAL",
       "position": "PF",
@@ -4639,7 +4639,7 @@
       }
     },
     {
-      "id": "mem03",
+      "id": "1642907",
       "name": "Cedric Coward",
       "teamId": "MEM",
       "position": "SG",
@@ -4665,7 +4665,7 @@
       }
     },
     {
-      "id": "mem04",
+      "id": "1641713",
       "name": "GG Jackson II",
       "teamId": "MEM",
       "position": "PF",
@@ -4687,7 +4687,7 @@
       }
     },
     {
-      "id": "mem05",
+      "id": "1642377",
       "name": "Jaylen Wells",
       "teamId": "MEM",
       "position": "SG",
@@ -4711,7 +4711,7 @@
       }
     },
     {
-      "id": "mem06",
+      "id": "1641744",
       "name": "Zach Edey",
       "teamId": "MEM",
       "position": "C",
@@ -4735,7 +4735,7 @@
       }
     },
     {
-      "id": "mem07",
+      "id": "1642285",
       "name": "Cam Spencer",
       "teamId": "MEM",
       "position": "SG",
@@ -4757,7 +4757,7 @@
       }
     },
     {
-      "id": "mem08",
+      "id": "1630590",
       "name": "Scotty Pippen Jr.",
       "teamId": "MEM",
       "position": "PG",
@@ -4781,7 +4781,7 @@
       }
     },
     {
-      "id": "mem09",
+      "id": "1641707",
       "name": "Taylor Hendricks",
       "teamId": "MEM",
       "position": "PF",
@@ -4803,7 +4803,7 @@
       }
     },
     {
-      "id": "mem10",
+      "id": "1642914",
       "name": "Javon Small",
       "teamId": "MEM",
       "position": "PG",
@@ -4825,7 +4825,7 @@
       }
     },
     {
-      "id": "mem11",
+      "id": "203484",
       "name": "Kentavious Caldwell-Pope",
       "teamId": "MEM",
       "position": "SG",
@@ -4847,7 +4847,7 @@
       }
     },
     {
-      "id": "mem12",
+      "id": "1642383",
       "name": "Walter Clayton Jr.",
       "teamId": "MEM",
       "position": "PG",
@@ -4873,7 +4873,7 @@
       }
     },
     {
-      "id": "mem13",
+      "id": "1642366",
       "name": "Quinten Post",
       "teamId": "MEM",
       "position": "PF",
@@ -4895,7 +4895,7 @@
       }
     },
     {
-      "id": "mia01",
+      "id": "203507",
       "name": "Giannis Antetokounmpo",
       "teamId": "MIA",
       "position": "PF",
@@ -4921,7 +4921,7 @@
       }
     },
     {
-      "id": "mia02",
+      "id": "1628389",
       "name": "Bam Adebayo",
       "teamId": "MIA",
       "position": "C",
@@ -4945,7 +4945,7 @@
       }
     },
     {
-      "id": "mia03",
+      "id": "203952",
       "name": "Andrew Wiggins",
       "teamId": "MIA",
       "position": "SF",
@@ -4967,7 +4967,7 @@
       }
     },
     {
-      "id": "mia04",
+      "id": "1631107",
       "name": "Nikola Jovic",
       "teamId": "MIA",
       "position": "PF",
@@ -4995,7 +4995,7 @@
       }
     },
     {
-      "id": "mia05",
+      "id": "1630558",
       "name": "Davion Mitchell",
       "teamId": "MIA",
       "position": "PG",
@@ -5017,7 +5017,7 @@
       }
     },
     {
-      "id": "mia06",
+      "id": "1626171",
       "name": "Bobby Portis",
       "teamId": "MIA",
       "position": "PF",
@@ -5039,7 +5039,7 @@
       }
     },
     {
-      "id": "mia08",
+      "id": "203501",
       "name": "Tim Hardaway Jr.",
       "teamId": "MIA",
       "position": "SG",
@@ -5061,7 +5061,7 @@
       }
     },
     {
-      "id": "mia09",
+      "id": "1631323",
       "name": "Simone Fontecchio",
       "teamId": "MIA",
       "position": "SF",
@@ -5083,7 +5083,7 @@
       }
     },
     {
-      "id": "mia10",
+      "id": "1641796",
       "name": "Pelle Larsson",
       "teamId": "MIA",
       "position": "SG",
@@ -5105,7 +5105,7 @@
       }
     },
     {
-      "id": "mia11",
+      "id": "1630696",
       "name": "Dru Smith",
       "teamId": "MIA",
       "position": "SG",
@@ -5127,7 +5127,7 @@
       }
     },
     {
-      "id": "mia12",
+      "id": "1642443",
       "name": "Jahmir Young",
       "teamId": "MIA",
       "position": "PG",
@@ -5149,7 +5149,7 @@
       }
     },
     {
-      "id": "mia13",
+      "id": "1642066",
       "name": "Myron Gardner",
       "teamId": "MIA",
       "position": "SF",
@@ -5171,7 +5171,7 @@
       }
     },
     {
-      "id": "mia07",
+      "id": "1642884",
       "name": "Vladislav Goldin",
       "teamId": "MIA",
       "position": "C",
@@ -5193,7 +5193,7 @@
       }
     },
     {
-      "id": "mil01",
+      "id": "1629639",
       "name": "Tyler Herro",
       "teamId": "MIL",
       "position": "SG",
@@ -5217,7 +5217,7 @@
       }
     },
     {
-      "id": "mil02",
+      "id": "1626167",
       "name": "Myles Turner",
       "teamId": "MIL",
       "position": "C",
@@ -5243,7 +5243,7 @@
       }
     },
     {
-      "id": "mil03",
+      "id": "1642276",
       "name": "Kel'el Ware",
       "teamId": "MIL",
       "position": "C",
@@ -5267,7 +5267,7 @@
       }
     },
     {
-      "id": "mil04",
+      "id": "1631170",
       "name": "Jaime Jaquez Jr.",
       "teamId": "MIL",
       "position": "SF",
@@ -5289,7 +5289,7 @@
       }
     },
     {
-      "id": "mil05",
+      "id": "1629018",
       "name": "Gary Trent Jr.",
       "teamId": "MIL",
       "position": "SG",
@@ -5311,7 +5311,7 @@
       }
     },
     {
-      "id": "mil06",
+      "id": "1642857",
       "name": "Kasparas Jakucionis",
       "teamId": "MIL",
       "position": "PG",
@@ -5337,7 +5337,7 @@
       }
     },
     {
-      "id": "mil07",
+      "id": "1631260",
       "name": "A.J. Green",
       "teamId": "MIL",
       "position": "SG",
@@ -5361,7 +5361,7 @@
       }
     },
     {
-      "id": "mil08",
+      "id": "1631157",
       "name": "Ryan Rollins",
       "teamId": "MIL",
       "position": "PG",
@@ -5383,7 +5383,7 @@
       }
     },
     {
-      "id": "mil09",
+      "id": "1629645",
       "name": "Kevin Porter Jr.",
       "teamId": "MIL",
       "position": "PG",
@@ -5405,7 +5405,7 @@
       }
     },
     {
-      "id": "mil10",
+      "id": "1641748",
       "name": "Andre Jackson Jr.",
       "teamId": "MIL",
       "position": "SF",
@@ -5427,7 +5427,7 @@
       }
     },
     {
-      "id": "mil11",
+      "id": "1631172",
       "name": "Ousmane Dieng",
       "teamId": "MIL",
       "position": "SF",
@@ -5449,7 +5449,7 @@
       }
     },
     {
-      "id": "mil12",
+      "id": "1628502",
       "name": "Nigel Hayes-Davis",
       "teamId": "MIL",
       "position": "PF",
@@ -5471,7 +5471,7 @@
       }
     },
     {
-      "id": "mil13",
+      "id": "1643417",
       "name": "Nate Ament",
       "teamId": "MIL",
       "position": "SF",
@@ -5495,7 +5495,7 @@
       }
     },
     {
-      "id": "min01",
+      "id": "1630162",
       "name": "Anthony Edwards",
       "teamId": "MIN",
       "position": "SG",
@@ -5521,7 +5521,7 @@
       }
     },
     {
-      "id": "min02",
+      "id": "1630163",
       "name": "LaMelo Ball",
       "teamId": "MIN",
       "position": "PG",
@@ -5547,7 +5547,7 @@
       }
     },
     {
-      "id": "min03",
+      "id": "203497",
       "name": "Rudy Gobert",
       "teamId": "MIN",
       "position": "C",
@@ -5571,7 +5571,7 @@
       }
     },
     {
-      "id": "min04",
+      "id": "1630183",
       "name": "Jaden McDaniels",
       "teamId": "MIN",
       "position": "SF",
@@ -5597,7 +5597,7 @@
       }
     },
     {
-      "id": "min05",
+      "id": "1628978",
       "name": "Donte DiVincenzo",
       "teamId": "MIN",
       "position": "SG",
@@ -5621,7 +5621,7 @@
       }
     },
     {
-      "id": "min06",
+      "id": "1630182",
       "name": "Josh Green",
       "teamId": "MIN",
       "position": "SG",
@@ -5645,7 +5645,7 @@
       }
     },
     {
-      "id": "min07",
+      "id": "1630545",
       "name": "Terrence Shannon Jr.",
       "teamId": "MIN",
       "position": "SG",
@@ -5669,7 +5669,7 @@
       }
     },
     {
-      "id": "min08",
+      "id": "204060",
       "name": "Joe Ingles",
       "teamId": "MIN",
       "position": "SF",
@@ -5691,7 +5691,7 @@
       }
     },
     {
-      "id": "min09",
+      "id": "1641740",
       "name": "Jaylen Clark",
       "teamId": "MIN",
       "position": "SG",
@@ -5713,7 +5713,7 @@
       }
     },
     {
-      "id": "min10",
+      "id": "1630538",
       "name": "Bones Hyland",
       "teamId": "MIN",
       "position": "PG",
@@ -5735,7 +5735,7 @@
       }
     },
     {
-      "id": "min12",
+      "id": "1629659",
       "name": "Talen Horton-Tucker",
       "teamId": "MIN",
       "position": "SG",
@@ -5757,7 +5757,7 @@
       }
     },
     {
-      "id": "min13",
+      "id": "1642911",
       "name": "Rocco Zikarsky",
       "teamId": "MIN",
       "position": "C",
@@ -5779,7 +5779,7 @@
       }
     },
     {
-      "id": "min11",
+      "id": "1642399",
       "name": "Jesse Edwards",
       "teamId": "MIN",
       "position": "C",
@@ -5801,7 +5801,7 @@
       }
     },
     {
-      "id": "nop01",
+      "id": "1629627",
       "name": "Zion Williamson",
       "teamId": "NOP",
       "position": "PF",
@@ -5825,7 +5825,7 @@
       }
     },
     {
-      "id": "nop02",
+      "id": "1630530",
       "name": "Trey Murphy III",
       "teamId": "NOP",
       "position": "SF",
@@ -5851,7 +5851,7 @@
       }
     },
     {
-      "id": "nop03",
+      "id": "1627749",
       "name": "Dejounte Murray",
       "teamId": "NOP",
       "position": "PG",
@@ -5875,7 +5875,7 @@
       }
     },
     {
-      "id": "nop04",
+      "id": "1629673",
       "name": "Jordan Poole",
       "teamId": "NOP",
       "position": "SG",
@@ -5897,7 +5897,7 @@
       }
     },
     {
-      "id": "nop05",
+      "id": "1630180",
       "name": "Saddiq Bey",
       "teamId": "NOP",
       "position": "SF",
@@ -5921,7 +5921,7 @@
       }
     },
     {
-      "id": "nop06",
+      "id": "1642847",
       "name": "Jeremiah Fears",
       "teamId": "NOP",
       "position": "PG",
@@ -5947,7 +5947,7 @@
       }
     },
     {
-      "id": "nop07",
+      "id": "1630529",
       "name": "Herb Jones",
       "teamId": "NOP",
       "position": "SF",
@@ -5971,7 +5971,7 @@
       }
     },
     {
-      "id": "nop08",
+      "id": "1642274",
       "name": "Yves Missi",
       "teamId": "NOP",
       "position": "C",
@@ -5995,7 +5995,7 @@
       }
     },
     {
-      "id": "nop10",
+      "id": "1626172",
       "name": "Kevon Looney",
       "teamId": "NOP",
       "position": "C",
@@ -6017,7 +6017,7 @@
       }
     },
     {
-      "id": "nop11",
+      "id": "1630621",
       "name": "Hunter Dickinson",
       "teamId": "NOP",
       "position": "C",
@@ -6039,7 +6039,7 @@
       }
     },
     {
-      "id": "nop12",
+      "id": "1641722",
       "name": "Jordan Hawkins",
       "teamId": "NOP",
       "position": "SG",
@@ -6063,7 +6063,7 @@
       }
     },
     {
-      "id": "nop13",
+      "id": "1631255",
       "name": "Karlo Matkovic",
       "teamId": "NOP",
       "position": "PF",
@@ -6085,7 +6085,7 @@
       }
     },
     {
-      "id": "nop09",
+      "id": "1631121",
       "name": "Bryce McGowens",
       "teamId": "NOP",
       "position": "SG",
@@ -6107,7 +6107,7 @@
       }
     },
     {
-      "id": "nyk01",
+      "id": "1628973",
       "name": "Jalen Brunson",
       "teamId": "NYK",
       "position": "PG",
@@ -6131,7 +6131,7 @@
       }
     },
     {
-      "id": "nyk02",
+      "id": "1626157",
       "name": "Karl-Anthony Towns",
       "teamId": "NYK",
       "position": "C",
@@ -6153,7 +6153,7 @@
       }
     },
     {
-      "id": "nyk03",
+      "id": "1628384",
       "name": "OG Anunoby",
       "teamId": "NYK",
       "position": "SF",
@@ -6179,7 +6179,7 @@
       }
     },
     {
-      "id": "nyk04",
+      "id": "1628969",
       "name": "Mikal Bridges",
       "teamId": "NYK",
       "position": "SG",
@@ -6207,7 +6207,7 @@
       }
     },
     {
-      "id": "nyk05",
+      "id": "1628404",
       "name": "Josh Hart",
       "teamId": "NYK",
       "position": "PF",
@@ -6231,7 +6231,7 @@
       }
     },
     {
-      "id": "nyk06",
+      "id": "1630540",
       "name": "Miles McBride",
       "teamId": "NYK",
       "position": "PG",
@@ -6253,7 +6253,7 @@
       }
     },
     {
-      "id": "nyk07",
+      "id": "1630631",
       "name": "Jose Alvarado",
       "teamId": "NYK",
       "position": "PG",
@@ -6275,7 +6275,7 @@
       }
     },
     {
-      "id": "nyk08",
+      "id": "1629013",
       "name": "Landry Shamet",
       "teamId": "NYK",
       "position": "SG",
@@ -6303,7 +6303,7 @@
       }
     },
     {
-      "id": "nyk09",
+      "id": "203903",
       "name": "Jordan Clarkson",
       "teamId": "NYK",
       "position": "SG",
@@ -6325,7 +6325,7 @@
       }
     },
     {
-      "id": "nyk10",
+      "id": "1627824",
       "name": "Guerschon Yabusele",
       "teamId": "NYK",
       "position": "PF",
@@ -6347,7 +6347,7 @@
       }
     },
     {
-      "id": "nyk11",
+      "id": "1642278",
       "name": "Tyler Kolek",
       "teamId": "NYK",
       "position": "PG",
@@ -6369,7 +6369,7 @@
       }
     },
     {
-      "id": "nyk12",
+      "id": "1642359",
       "name": "Pacome Dadiet",
       "teamId": "NYK",
       "position": "SG",
@@ -6393,7 +6393,7 @@
       }
     },
     {
-      "id": "nyk13",
+      "id": "1642885",
       "name": "Mohamed Diawara",
       "teamId": "NYK",
       "position": "PF",
@@ -6415,7 +6415,7 @@
       }
     },
     {
-      "id": "det05",
+      "id": "1641752",
       "name": "Bobi Klintman",
       "teamId": "DET",
       "position": "PF",
@@ -6437,7 +6437,7 @@
       }
     },
     {
-      "id": "okc01",
+      "id": "1628983",
       "name": "Shai Gilgeous-Alexander",
       "teamId": "OKC",
       "position": "PG",
@@ -6465,7 +6465,7 @@
       }
     },
     {
-      "id": "okc02",
+      "id": "1631096",
       "name": "Chet Holmgren",
       "teamId": "OKC",
       "position": "C",
@@ -6493,7 +6493,7 @@
       }
     },
     {
-      "id": "okc03",
+      "id": "1631114",
       "name": "Jalen Williams",
       "teamId": "OKC",
       "position": "SF",
@@ -6521,7 +6521,7 @@
       }
     },
     {
-      "id": "okc04",
+      "id": "1628392",
       "name": "Isaiah Hartenstein",
       "teamId": "OKC",
       "position": "C",
@@ -6547,7 +6547,7 @@
       }
     },
     {
-      "id": "okc05",
+      "id": "1627936",
       "name": "Alex Caruso",
       "teamId": "OKC",
       "position": "SG",
@@ -6573,7 +6573,7 @@
       }
     },
     {
-      "id": "okc06",
+      "id": "1641717",
       "name": "Cason Wallace",
       "teamId": "OKC",
       "position": "SG",
@@ -6595,7 +6595,7 @@
       }
     },
     {
-      "id": "okc07",
+      "id": "1631119",
       "name": "Jaylin Williams",
       "teamId": "OKC",
       "position": "PF",
@@ -6617,7 +6617,7 @@
       }
     },
     {
-      "id": "okc08",
+      "id": "1629026",
       "name": "Kenrich Williams",
       "teamId": "OKC",
       "position": "PF",
@@ -6639,7 +6639,7 @@
       }
     },
     {
-      "id": "okc09",
+      "id": "1642260",
       "name": "Nikola Topic",
       "teamId": "OKC",
       "position": "PG",
@@ -6663,7 +6663,7 @@
       }
     },
     {
-      "id": "okc10",
+      "id": "1642850",
       "name": "Thomas Sorber",
       "teamId": "OKC",
       "position": "C",
@@ -6687,7 +6687,7 @@
       }
     },
     {
-      "id": "okc11",
+      "id": "1642272",
       "name": "Jared McCain",
       "teamId": "OKC",
       "position": "PG",
@@ -6711,7 +6711,7 @@
       }
     },
     {
-      "id": "okc12",
+      "id": "1642349",
       "name": "Ajay Mitchell",
       "teamId": "OKC",
       "position": "PG",
@@ -6735,7 +6735,7 @@
       }
     },
     {
-      "id": "okc13",
+      "id": "1643530",
       "name": "Aday Mara",
       "teamId": "OKC",
       "position": "C",
@@ -6757,7 +6757,7 @@
       }
     },
     {
-      "id": "orl01",
+      "id": "1631094",
       "name": "Paolo Banchero",
       "teamId": "ORL",
       "position": "PF",
@@ -6785,7 +6785,7 @@
       }
     },
     {
-      "id": "orl02",
+      "id": "1630532",
       "name": "Franz Wagner",
       "teamId": "ORL",
       "position": "SF",
@@ -6813,7 +6813,7 @@
       }
     },
     {
-      "id": "orl03",
+      "id": "1630217",
       "name": "Desmond Bane",
       "teamId": "ORL",
       "position": "SG",
@@ -6839,7 +6839,7 @@
       }
     },
     {
-      "id": "orl04",
+      "id": "1630591",
       "name": "Jalen Suggs",
       "teamId": "ORL",
       "position": "SG",
@@ -6865,7 +6865,7 @@
       }
     },
     {
-      "id": "orl05",
+      "id": "1628976",
       "name": "Wendell Carter Jr.",
       "teamId": "ORL",
       "position": "C",
@@ -6887,7 +6887,7 @@
       }
     },
     {
-      "id": "orl06",
+      "id": "1641710",
       "name": "Anthony Black",
       "teamId": "ORL",
       "position": "PG",
@@ -6911,7 +6911,7 @@
       }
     },
     {
-      "id": "orl07",
+      "id": "202696",
       "name": "Nikola Vucevic",
       "teamId": "ORL",
       "position": "C",
@@ -6933,7 +6933,7 @@
       }
     },
     {
-      "id": "orl08",
+      "id": "1628371",
       "name": "Jonathan Isaac",
       "teamId": "ORL",
       "position": "PF",
@@ -6955,7 +6955,7 @@
       }
     },
     {
-      "id": "orl09",
+      "id": "1629048",
       "name": "Goga Bitadze",
       "teamId": "ORL",
       "position": "C",
@@ -6979,7 +6979,7 @@
       }
     },
     {
-      "id": "orl10",
+      "id": "1641783",
       "name": "Tristan Da Silva",
       "teamId": "ORL",
       "position": "SF",
@@ -7003,7 +7003,7 @@
       }
     },
     {
-      "id": "orl11",
+      "id": "1642859",
       "name": "Jase Richardson",
       "teamId": "ORL",
       "position": "SG",
@@ -7029,7 +7029,7 @@
       }
     },
     {
-      "id": "orl12",
+      "id": "1642869",
       "name": "Noah Penda",
       "teamId": "ORL",
       "position": "SF",
@@ -7051,7 +7051,7 @@
       }
     },
     {
-      "id": "orl13",
+      "id": "1631288",
       "name": "Jamal Cain",
       "teamId": "ORL",
       "position": "SF",
@@ -7073,7 +7073,7 @@
       }
     },
     {
-      "id": "chi14",
+      "id": "1641801",
       "name": "Emanuel Miller",
       "teamId": "CHI",
       "position": "SF",
@@ -7095,7 +7095,7 @@
       }
     },
     {
-      "id": "lac13",
+      "id": "1642280",
       "name": "Trentyn Flowers",
       "teamId": "LAC",
       "position": "SF",
@@ -7117,7 +7117,7 @@
       }
     },
     {
-      "id": "phi01",
+      "id": "203954",
       "name": "Joel Embiid",
       "teamId": "PHI",
       "position": "C",
@@ -7139,7 +7139,7 @@
       }
     },
     {
-      "id": "phi02",
+      "id": "2544",
       "name": "LeBron James",
       "teamId": "PHI",
       "position": "SF",
@@ -7163,7 +7163,7 @@
       }
     },
     {
-      "id": "phi03",
+      "id": "1630178",
       "name": "Tyrese Maxey",
       "teamId": "PHI",
       "position": "PG",
@@ -7189,7 +7189,7 @@
       }
     },
     {
-      "id": "phi04",
+      "id": "1642845",
       "name": "VJ Edgecombe",
       "teamId": "PHI",
       "position": "SG",
@@ -7215,7 +7215,7 @@
       }
     },
     {
-      "id": "phi05",
+      "id": "1631230",
       "name": "Dominick Barlow",
       "teamId": "PHI",
       "position": "PF",
@@ -7237,7 +7237,7 @@
       }
     },
     {
-      "id": "phi06",
+      "id": "1631133",
       "name": "Jabari Walker",
       "teamId": "PHI",
       "position": "SF",
@@ -7259,7 +7259,7 @@
       }
     },
     {
-      "id": "phi07",
+      "id": "1630570",
       "name": "Trendon Watford",
       "teamId": "PHI",
       "position": "PF",
@@ -7281,7 +7281,7 @@
       }
     },
     {
-      "id": "phi08",
+      "id": "1631207",
       "name": "Dalen Terry",
       "teamId": "PHI",
       "position": "SG",
@@ -7303,7 +7303,7 @@
       }
     },
     {
-      "id": "phi09",
+      "id": "1642348",
       "name": "Justin Edwards",
       "teamId": "PHI",
       "position": "SG",
@@ -7325,7 +7325,7 @@
       }
     },
     {
-      "id": "phi10",
+      "id": "1641737",
       "name": "Adem Bona",
       "teamId": "PHI",
       "position": "C",
@@ -7347,7 +7347,7 @@
       }
     },
     {
-      "id": "phi11",
+      "id": "1641780",
       "name": "Johni Broome",
       "teamId": "PHI",
       "position": "PF",
@@ -7369,7 +7369,7 @@
       }
     },
     {
-      "id": "phi12",
+      "id": "1642889",
       "name": "LaBaron Philon Jr.",
       "teamId": "PHI",
       "position": "PG",
@@ -7391,7 +7391,7 @@
       }
     },
     {
-      "id": "phi13",
+      "id": "1642282",
       "name": "Hunter Sallis",
       "teamId": "PHI",
       "position": "SG",
@@ -7413,7 +7413,7 @@
       }
     },
     {
-      "id": "pho01",
+      "id": "1626164",
       "name": "Devin Booker",
       "teamId": "PHO",
       "position": "SG",
@@ -7439,7 +7439,7 @@
       }
     },
     {
-      "id": "pho02",
+      "id": "1630224",
       "name": "Jalen Green",
       "teamId": "PHO",
       "position": "SG",
@@ -7463,7 +7463,7 @@
       }
     },
     {
-      "id": "pho03",
+      "id": "1628970",
       "name": "Miles Bridges",
       "teamId": "PHO",
       "position": "PF",
@@ -7485,7 +7485,7 @@
       }
     },
     {
-      "id": "pho04",
+      "id": "1628415",
       "name": "Dillon Brooks",
       "teamId": "PHO",
       "position": "SF",
@@ -7507,7 +7507,7 @@
       }
     },
     {
-      "id": "pho05",
+      "id": "1631109",
       "name": "Mark Williams",
       "teamId": "PHO",
       "position": "C",
@@ -7529,7 +7529,7 @@
       }
     },
     {
-      "id": "pho06",
+      "id": "1642863",
       "name": "Khaman Maluach",
       "teamId": "PHO",
       "position": "C",
@@ -7555,7 +7555,7 @@
       }
     },
     {
-      "id": "pho07",
+      "id": "1642853",
       "name": "Rasheer Fleming",
       "teamId": "PHO",
       "position": "PF",
@@ -7579,7 +7579,7 @@
       }
     },
     {
-      "id": "pho08",
+      "id": "1643520",
       "name": "Koa Peat",
       "teamId": "PHO",
       "position": "PF",
@@ -7603,7 +7603,7 @@
       }
     },
     {
-      "id": "pho10",
+      "id": "1642346",
       "name": "Ryan Dunn",
       "teamId": "PHO",
       "position": "SF",
@@ -7627,7 +7627,7 @@
       }
     },
     {
-      "id": "pho11",
+      "id": "1631221",
       "name": "Collin Gillespie",
       "teamId": "PHO",
       "position": "PG",
@@ -7649,7 +7649,7 @@
       }
     },
     {
-      "id": "pho12",
+      "id": "1642345",
       "name": "Oso Ighodaro",
       "teamId": "PHO",
       "position": "C",
@@ -7671,7 +7671,7 @@
       }
     },
     {
-      "id": "pho13",
+      "id": "1630692",
       "name": "Jordan Goodwin",
       "teamId": "PHO",
       "position": "PG",
@@ -7693,7 +7693,7 @@
       }
     },
     {
-      "id": "pho09",
+      "id": "203995",
       "name": "Vasilije Micic",
       "teamId": "PHO",
       "position": "PG",
@@ -7715,7 +7715,7 @@
       }
     },
     {
-      "id": "por01",
+      "id": "203081",
       "name": "Damian Lillard",
       "teamId": "POR",
       "position": "PG",
@@ -7739,7 +7739,7 @@
       }
     },
     {
-      "id": "por02",
+      "id": "1630166",
       "name": "Deni Avdija",
       "teamId": "POR",
       "position": "SF",
@@ -7767,7 +7767,7 @@
       }
     },
     {
-      "id": "por03",
+      "id": "1631101",
       "name": "Shaedon Sharpe",
       "teamId": "POR",
       "position": "SG",
@@ -7791,7 +7791,7 @@
       }
     },
     {
-      "id": "por04",
+      "id": "1642270",
       "name": "Donovan Clingan",
       "teamId": "POR",
       "position": "C",
@@ -7815,7 +7815,7 @@
       }
     },
     {
-      "id": "por05",
+      "id": "201950",
       "name": "Jrue Holiday",
       "teamId": "POR",
       "position": "PG",
@@ -7837,7 +7837,7 @@
       }
     },
     {
-      "id": "por06",
+      "id": "1641739",
       "name": "Toumani Camara",
       "teamId": "POR",
       "position": "PF",
@@ -7861,7 +7861,7 @@
       }
     },
     {
-      "id": "por07",
+      "id": "1630703",
       "name": "Scoot Henderson",
       "teamId": "POR",
       "position": "PG",
@@ -7883,7 +7883,7 @@
       }
     },
     {
-      "id": "por08",
+      "id": "1631200",
       "name": "Kris Murray",
       "teamId": "POR",
       "position": "SF",
@@ -7905,7 +7905,7 @@
       }
     },
     {
-      "id": "por09",
+      "id": "1630249",
       "name": "Vit Krejci",
       "teamId": "POR",
       "position": "SF",
@@ -7927,7 +7927,7 @@
       }
     },
     {
-      "id": "mem14",
+      "id": "203924",
       "name": "Jerami Grant",
       "teamId": "MEM",
       "position": "PF",
@@ -7951,7 +7951,7 @@
       }
     },
     {
-      "id": "por11",
+      "id": "1629680",
       "name": "Matisse Thybulle",
       "teamId": "POR",
       "position": "SG",
@@ -7973,7 +7973,7 @@
       }
     },
     {
-      "id": "por12",
+      "id": "1629057",
       "name": "Robert Williams III",
       "teamId": "POR",
       "position": "C",
@@ -7995,7 +7995,7 @@
       }
     },
     {
-      "id": "por13",
+      "id": "1631126",
       "name": "Caleb Love",
       "teamId": "POR",
       "position": "PG",
@@ -8017,7 +8017,7 @@
       }
     },
     {
-      "id": "sac01",
+      "id": "1627734",
       "name": "Domantas Sabonis",
       "teamId": "SAC",
       "position": "C",
@@ -8041,7 +8041,7 @@
       }
     },
     {
-      "id": "sac02",
+      "id": "203897",
       "name": "Zach LaVine",
       "teamId": "SAC",
       "position": "SG",
@@ -8065,7 +8065,7 @@
       }
     },
     {
-      "id": "sac03",
+      "id": "201942",
       "name": "DeMar DeRozan",
       "teamId": "SAC",
       "position": "SF",
@@ -8087,7 +8087,7 @@
       }
     },
     {
-      "id": "sac04",
+      "id": "1628370",
       "name": "Malik Monk",
       "teamId": "SAC",
       "position": "SG",
@@ -8111,7 +8111,7 @@
       }
     },
     {
-      "id": "sac05",
+      "id": "1631099",
       "name": "Keegan Murray",
       "teamId": "SAC",
       "position": "PF",
@@ -8135,7 +8135,7 @@
       }
     },
     {
-      "id": "sac06",
+      "id": "201566",
       "name": "Russell Westbrook",
       "teamId": "SAC",
       "position": "PG",
@@ -8157,7 +8157,7 @@
       }
     },
     {
-      "id": "sac07",
+      "id": "1642875",
       "name": "Maxime Raynaud",
       "teamId": "SAC",
       "position": "C",
@@ -8179,7 +8179,7 @@
       }
     },
     {
-      "id": "sac08",
+      "id": "1642363",
       "name": "Nique Clifford",
       "teamId": "SAC",
       "position": "SG",
@@ -8203,7 +8203,7 @@
       }
     },
     {
-      "id": "sac09",
+      "id": "1630173",
       "name": "Precious Achiuwa",
       "teamId": "SAC",
       "position": "PF",
@@ -8225,7 +8225,7 @@
       }
     },
     {
-      "id": "sac10",
+      "id": "1626168",
       "name": "Trey Lyles",
       "teamId": "SAC",
       "position": "PF",
@@ -8247,7 +8247,7 @@
       }
     },
     {
-      "id": "sac11",
+      "id": "1641815",
       "name": "Isaiah Stevens",
       "teamId": "SAC",
       "position": "PG",
@@ -8269,7 +8269,7 @@
       }
     },
     {
-      "id": "sac12",
+      "id": "1641732",
       "name": "Colby Jones",
       "teamId": "SAC",
       "position": "SG",
@@ -8291,7 +8291,7 @@
       }
     },
     {
-      "id": "sac13",
+      "id": "1629234",
       "name": "Drew Eubanks",
       "teamId": "SAC",
       "position": "C",
@@ -8313,7 +8313,7 @@
       }
     },
     {
-      "id": "det11",
+      "id": "1631111",
       "name": "Wendell Moore Jr.",
       "teamId": "DET",
       "position": "SG",
@@ -8335,7 +8335,7 @@
       }
     },
     {
-      "id": "sas01",
+      "id": "1641705",
       "name": "Victor Wembanyama",
       "teamId": "SAS",
       "position": "C",
@@ -8365,7 +8365,7 @@
       }
     },
     {
-      "id": "sas02",
+      "id": "1628368",
       "name": "De'Aaron Fox",
       "teamId": "SAS",
       "position": "PG",
@@ -8393,7 +8393,7 @@
       }
     },
     {
-      "id": "sas03",
+      "id": "1630170",
       "name": "Devin Vassell",
       "teamId": "SAS",
       "position": "SG",
@@ -8419,7 +8419,7 @@
       }
     },
     {
-      "id": "sas04",
+      "id": "1642264",
       "name": "Stephon Castle",
       "teamId": "SAS",
       "position": "PG",
@@ -8445,7 +8445,7 @@
       }
     },
     {
-      "id": "sas05",
+      "id": "1642844",
       "name": "Dylan Harper",
       "teamId": "SAS",
       "position": "SG",
@@ -8471,7 +8471,7 @@
       }
     },
     {
-      "id": "sas06",
+      "id": "202699",
       "name": "Tobias Harris",
       "teamId": "SAS",
       "position": "PF",
@@ -8495,7 +8495,7 @@
       }
     },
     {
-      "id": "sas07",
+      "id": "1630577",
       "name": "Julian Champagnie",
       "teamId": "SAS",
       "position": "SF",
@@ -8521,7 +8521,7 @@
       }
     },
     {
-      "id": "sas08",
+      "id": "203084",
       "name": "Harrison Barnes",
       "teamId": "SAS",
       "position": "PF",
@@ -8543,7 +8543,7 @@
       }
     },
     {
-      "id": "sas09",
+      "id": "1629640",
       "name": "Keldon Johnson",
       "teamId": "SAS",
       "position": "SF",
@@ -8565,7 +8565,7 @@
       }
     },
     {
-      "id": "sas10",
+      "id": "1642868",
       "name": "Carter Bryant",
       "teamId": "SAS",
       "position": "PF",
@@ -8591,7 +8591,7 @@
       }
     },
     {
-      "id": "sas11",
+      "id": "1628436",
       "name": "Luke Kornet",
       "teamId": "SAS",
       "position": "C",
@@ -8613,7 +8613,7 @@
       }
     },
     {
-      "id": "sas12",
+      "id": "1642357",
       "name": "David Jones-Garcia",
       "teamId": "SAS",
       "position": "SF",
@@ -8635,7 +8635,7 @@
       }
     },
     {
-      "id": "sas13",
+      "id": "1643542",
       "name": "Tarris Reed Jr.",
       "teamId": "SAS",
       "position": "C",
@@ -8657,7 +8657,7 @@
       }
     },
     {
-      "id": "tor01",
+      "id": "202695",
       "name": "Kawhi Leonard",
       "teamId": "TOR",
       "position": "SF",
@@ -8679,7 +8679,7 @@
       }
     },
     {
-      "id": "tor02",
+      "id": "1630567",
       "name": "Scottie Barnes",
       "teamId": "TOR",
       "position": "PF",
@@ -8707,7 +8707,7 @@
       }
     },
     {
-      "id": "tor03",
+      "id": "1630193",
       "name": "Immanuel Quickley",
       "teamId": "TOR",
       "position": "PG",
@@ -8733,7 +8733,7 @@
       }
     },
     {
-      "id": "tor04",
+      "id": "1629628",
       "name": "RJ Barrett",
       "teamId": "TOR",
       "position": "SG",
@@ -8755,7 +8755,7 @@
       }
     },
     {
-      "id": "tor05",
+      "id": "1627751",
       "name": "Jakob Poeltl",
       "teamId": "TOR",
       "position": "C",
@@ -8777,7 +8777,7 @@
       }
     },
     {
-      "id": "tor06",
+      "id": "1642867",
       "name": "Collin Murray-Boyles",
       "teamId": "TOR",
       "position": "PF",
@@ -8801,7 +8801,7 @@
       }
     },
     {
-      "id": "tor07",
+      "id": "1642266",
       "name": "Ja'Kobe Walter",
       "teamId": "TOR",
       "position": "SG",
@@ -8825,7 +8825,7 @@
       }
     },
     {
-      "id": "tor08",
+      "id": "1642347",
       "name": "Jamal Shead",
       "teamId": "TOR",
       "position": "PG",
@@ -8847,7 +8847,7 @@
       }
     },
     {
-      "id": "tor09",
+      "id": "1630572",
       "name": "Sandro Mamukelashvili",
       "teamId": "TOR",
       "position": "PF",
@@ -8869,7 +8869,7 @@
       }
     },
     {
-      "id": "tor10",
+      "id": "1642419",
       "name": "Jamison Battle",
       "teamId": "TOR",
       "position": "SF",
@@ -8891,7 +8891,7 @@
       }
     },
     {
-      "id": "tor11",
+      "id": "1630534",
       "name": "Ochai Agbaji",
       "teamId": "TOR",
       "position": "SG",
@@ -8913,7 +8913,7 @@
       }
     },
     {
-      "id": "tor12",
+      "id": "1642367",
       "name": "Jonathan Mogbo",
       "teamId": "TOR",
       "position": "PF",
@@ -8935,7 +8935,7 @@
       }
     },
     {
-      "id": "tor13",
+      "id": "1630639",
       "name": "AJ Lawson",
       "teamId": "TOR",
       "position": "SG",
@@ -8957,7 +8957,7 @@
       }
     },
     {
-      "id": "uta01",
+      "id": "1628991",
       "name": "Jaren Jackson Jr.",
       "teamId": "UTA",
       "position": "PF",
@@ -8985,7 +8985,7 @@
       }
     },
     {
-      "id": "uta02",
+      "id": "1628374",
       "name": "Lauri Markkanen",
       "teamId": "UTA",
       "position": "SF",
@@ -9011,7 +9011,7 @@
       }
     },
     {
-      "id": "uta03",
+      "id": "1642846",
       "name": "Ace Bailey",
       "teamId": "UTA",
       "position": "SG",
@@ -9037,7 +9037,7 @@
       }
     },
     {
-      "id": "uta04",
+      "id": "1631117",
       "name": "Walker Kessler",
       "teamId": "UTA",
       "position": "C",
@@ -9061,7 +9061,7 @@
       }
     },
     {
-      "id": "uta05",
+      "id": "1641718",
       "name": "Keyonte George",
       "teamId": "UTA",
       "position": "PG",
@@ -9083,7 +9083,7 @@
       }
     },
     {
-      "id": "uta06",
+      "id": "1642262",
       "name": "Cody Williams",
       "teamId": "UTA",
       "position": "SG",
@@ -9105,7 +9105,7 @@
       }
     },
     {
-      "id": "uta07",
+      "id": "1642268",
       "name": "Isaiah Collier",
       "teamId": "UTA",
       "position": "PG",
@@ -9127,7 +9127,7 @@
       }
     },
     {
-      "id": "uta08",
+      "id": "1641729",
       "name": "Brice Sensabaugh",
       "teamId": "UTA",
       "position": "SF",
@@ -9149,7 +9149,7 @@
       }
     },
     {
-      "id": "uta09",
+      "id": "1642271",
       "name": "Kyle Filipowski",
       "teamId": "UTA",
       "position": "C",
@@ -9171,7 +9171,7 @@
       }
     },
     {
-      "id": "uta10",
+      "id": "1629723",
       "name": "John Konchar",
       "teamId": "UTA",
       "position": "SG",
@@ -9193,7 +9193,7 @@
       }
     },
     {
-      "id": "uta11",
+      "id": "1629004",
       "name": "Svi Mykhailiuk",
       "teamId": "UTA",
       "position": "SG",
@@ -9215,7 +9215,7 @@
       }
     },
     {
-      "id": "uta12",
+      "id": "1643016",
       "name": "Bez Mbeng",
       "teamId": "UTA",
       "position": "PG",
@@ -9237,7 +9237,7 @@
       }
     },
     {
-      "id": "uta13",
+      "id": "201567",
       "name": "Kevin Love",
       "teamId": "UTA",
       "position": "PF",
@@ -9259,7 +9259,7 @@
       }
     },
     {
-      "id": "was01",
+      "id": "1629027",
       "name": "Trae Young",
       "teamId": "WAS",
       "position": "PG",
@@ -9283,7 +9283,7 @@
       }
     },
     {
-      "id": "was02",
+      "id": "203076",
       "name": "Anthony Davis",
       "teamId": "WAS",
       "position": "PF",
@@ -9307,7 +9307,7 @@
       }
     },
     {
-      "id": "was03",
+      "id": "1642259",
       "name": "Alex Sarr",
       "teamId": "WAS",
       "position": "PF",
@@ -9331,7 +9331,7 @@
       }
     },
     {
-      "id": "was04",
+      "id": "1641731",
       "name": "Bilal Coulibaly",
       "teamId": "WAS",
       "position": "SF",
@@ -9355,7 +9355,7 @@
       }
     },
     {
-      "id": "was05",
+      "id": "1626156",
       "name": "D'Angelo Russell",
       "teamId": "WAS",
       "position": "PG",
@@ -9377,7 +9377,7 @@
       }
     },
     {
-      "id": "was06",
+      "id": "1630702",
       "name": "Jaden Hardy",
       "teamId": "WAS",
       "position": "SG",
@@ -9399,7 +9399,7 @@
       }
     },
     {
-      "id": "was07",
+      "id": "1642848",
       "name": "Tre Johnson",
       "teamId": "WAS",
       "position": "SG",
@@ -9425,7 +9425,7 @@
       }
     },
     {
-      "id": "was08",
+      "id": "1642267",
       "name": "Bub Carrington",
       "teamId": "WAS",
       "position": "PG",
@@ -9449,7 +9449,7 @@
       }
     },
     {
-      "id": "was09",
+      "id": "1642860",
       "name": "Will Riley",
       "teamId": "WAS",
       "position": "SF",
@@ -9473,7 +9473,7 @@
       }
     },
     {
-      "id": "was10",
+      "id": "1642273",
       "name": "Kyshawn George",
       "teamId": "WAS",
       "position": "SG",
@@ -9495,7 +9495,7 @@
       }
     },
     {
-      "id": "was11",
+      "id": "1630551",
       "name": "Justin Champagnie",
       "teamId": "WAS",
       "position": "SF",
@@ -9517,7 +9517,7 @@
       }
     },
     {
-      "id": "was12",
+      "id": "1641774",
       "name": "Tristan Vukcevic",
       "teamId": "WAS",
       "position": "C",
@@ -9539,7 +9539,7 @@
       }
     },
     {
-      "id": "was13",
+      "id": "1641926",
       "name": "Dexter Dennis",
       "teamId": "WAS",
       "position": "SG",
@@ -9561,7 +9561,7 @@
       }
     },
     {
-      "id": "bkn01",
+      "id": "1629008",
       "name": "Michael Porter Jr.",
       "teamId": "BKN",
       "position": "SF",
@@ -9585,7 +9585,7 @@
       }
     },
     {
-      "id": "bkn02",
+      "id": "1630560",
       "name": "Cam Thomas",
       "teamId": "BKN",
       "position": "SG",
@@ -9607,7 +9607,7 @@
       }
     },
     {
-      "id": "bkn03",
+      "id": "1630549",
       "name": "Day'Ron Sharpe",
       "teamId": "BKN",
       "position": "C",
@@ -9629,7 +9629,7 @@
       }
     },
     {
-      "id": "bkn04",
+      "id": "1641730",
       "name": "Noah Clowney",
       "teamId": "BKN",
       "position": "PF",
@@ -9651,7 +9651,7 @@
       }
     },
     {
-      "id": "bkn05",
+      "id": "1630533",
       "name": "Ziaire Williams",
       "teamId": "BKN",
       "position": "SF",
@@ -9673,7 +9673,7 @@
       }
     },
     {
-      "id": "bkn06",
+      "id": "1631169",
       "name": "Josh Minott",
       "teamId": "BKN",
       "position": "SF",
@@ -9695,7 +9695,7 @@
       }
     },
     {
-      "id": "bkn07",
+      "id": "1629611",
       "name": "Terance Mann",
       "teamId": "BKN",
       "position": "SG",
@@ -9717,7 +9717,7 @@
       }
     },
     {
-      "id": "bkn08",
+      "id": "1642962",
       "name": "Drake Powell",
       "teamId": "BKN",
       "position": "SG",
@@ -9741,7 +9741,7 @@
       }
     },
     {
-      "id": "bkn09",
+      "id": "1642856",
       "name": "Egor Demin",
       "teamId": "BKN",
       "position": "PG",
@@ -9765,7 +9765,7 @@
       }
     },
     {
-      "id": "bkn10",
+      "id": "1642849",
       "name": "Nolan Traore",
       "teamId": "BKN",
       "position": "PG",
@@ -9789,7 +9789,7 @@
       }
     },
     {
-      "id": "bkn11",
+      "id": "1643414",
       "name": "Mikel Brown Jr.",
       "teamId": "BKN",
       "position": "PG",
@@ -9811,7 +9811,7 @@
       }
     },
     {
-      "id": "bkn12",
+      "id": "1642874",
       "name": "Danny Wolf",
       "teamId": "BKN",
       "position": "C",
@@ -9835,7 +9835,7 @@
       }
     },
     {
-      "id": "bkn13",
+      "id": "1630592",
       "name": "Jalen Wilson",
       "teamId": "BKN",
       "position": "SF",
@@ -9857,7 +9857,7 @@
       }
     },
     {
-      "id": "bkn14",
+      "id": "203944",
       "name": "Julius Randle",
       "teamId": "BKN",
       "position": "PF",
@@ -9881,7 +9881,7 @@
       }
     },
     {
-      "id": "mem15",
+      "id": "1643409",
       "name": "Cameron Boozer",
       "teamId": "MEM",
       "position": "PF",
@@ -9909,7 +9909,7 @@
       }
     },
     {
-      "id": "phi14",
+      "id": "1627759",
       "name": "Jaylen Brown",
       "teamId": "PHI",
       "position": "SF",

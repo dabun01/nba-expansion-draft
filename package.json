@@ -3,18 +3,25 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "data:birthdates": "node scripts/addBirthDates.js"
+    "data:birthdates": "node scripts/addBirthDates.js",
+    "data:migrate-ids": "node scripts/migrateToNbaIds.js",
+    "data:import": "node scripts/importTeams.js"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "dotenv": "^17.4.2",
     "mongodb": "^7.6.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "react-router": "^8.4.0",
     "zustand": "^5.0.15"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 // importTeams.js
 // One-time (or re-runnable) script to load teams.json into MongoDB Atlas.
-// Run with: node importTeams.js
+// Run from anywhere with: node scripts/importTeams.js
 
 import { MongoClient } from "mongodb";
 import fs from "fs";
@@ -19,7 +19,7 @@ async function importData() {
     const playersCollection = db.collection("players");
     const configCollection = db.collection("config");
 
-    const raw = fs.readFileSync("./teams.json", "utf-8");
+    const raw = fs.readFileSync(new URL("../src/data/teams.json", import.meta.url), "utf-8");
     const data = JSON.parse(raw); // { salaryCapTotal, teams: [...], players: [...] }
 
     // Wipe existing data first so re-running this script doesn't create duplicates

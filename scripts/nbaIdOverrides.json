@@ -1,0 +1,19 @@
+{
+  "bos01": { "name": "Jayson Tatum",            "nbaId": "1628369" },
+  "bos03": { "name": "Derrick White",           "nbaId": "1628401" },
+  "chi03": { "name": "Nicolas Claxton",         "nbaId": "1629651" },
+  "cle01": { "name": "Donovan Mitchell",        "nbaId": "1628378" },
+  "det01": { "name": "Cade Cunningham",         "nbaId": "1630595" },
+  "gsw11": { "name": "Will Richard",            "nbaId": "1642954" },
+  "hou01": { "name": "Kevin Durant",            "nbaId": "201142" },
+  "lac04": { "name": "Brook Lopez",             "nbaId": "201572" },
+  "mil02": { "name": "Myles Turner",            "nbaId": "1626167" },
+  "min02": { "name": "LaMelo Ball",             "nbaId": "1630163" },
+  "okc01": { "name": "Shai Gilgeous-Alexander", "nbaId": "1628983" },
+  "okc07": { "name": "Jaylin Williams",         "nbaId": "1631119" },
+  "phi02": { "name": "LeBron James",            "nbaId": "2544" },
+  "phi14": { "name": "Jaylen Brown",            "nbaId": "1627759" },
+  "sas08": { "name": "Harrison Barnes",         "nbaId": "203084" },
+  "bkn02": { "name": "Cam Thomas",              "nbaId": "1630560" },
+  "mem04": { "name": "GG Jackson II",       "nbaId": "1641713" }
+}

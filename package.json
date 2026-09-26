@@ -16,6 +16,7 @@
     "data:import": "node scripts/importTeams.js"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "dotenv": "^17.4.2",
     "mongodb": "^7.6.0",
     "react": "^19.2.8",

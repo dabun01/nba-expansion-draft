@@ -1,12 +1,22 @@
 import { useEffect, useRef, useState } from "react";
 import { useDraftStore } from "../store/useDraftStore";
 import RosterTable from "../components/roster/RosterTable";
+import PlayerFilterBar from "../components/draft/PlayerFilterBar";
 import CapBreakdown from "../components/roster/CapBreakdown";
 import DraftTicker from "../components/draft/DraftTicker";
 import TeamLogo from "../components/TeamLogo";
 import { simulatedExpansionPick } from "../lib/draftEngine";
 
 const PICK_TIME_LIMIT = 90;
+
+// "Nikola Jokić" -> "nikola jokic", so searches ignore accents and case.
+function normalizeName(text) {
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
 
 function DraftTimer({ onExpire }) {
   const [secondsLeft, setSecondsLeft] = useState(PICK_TIME_LIMIT);
@@ -70,11 +80,33 @@ export default function DraftPage() {
   const draftedPlayerIds = useDraftStore((s) => s.draftedPlayerIds);
   const [pickQueue, setPickQueue] = useState([]);
   const [activeRosterViews, setActiveRosterViews] = useState({});
+  // Filters for the available-players table. They stay set between picks.
+  const [playerQuery, setPlayerQuery] = useState("");
+  const [filterTeamIds, setFilterTeamIds] = useState([]);
   const previousPickCount = useRef(picks.length);
 
   const currentPick = pickOrder[currentPickIndex];
   const isUserTurn = currentPick?.expansionTeamId === userExpansionTeamId;
   const available = currentPick ? getCurrentAvailablePlayers() : [];
+
+  // Chips only for teams that still have players this team can draft. A
+  // selected team that drops out of the pool simply stops filtering.
+  const poolTeams = teams
+    .filter((t) => available.some((p) => p.teamId === t.id))
+    .sort((a, b) => a.name.localeCompare(b.name));
+  const activeTeamIds = filterTeamIds.filter((id) =>
+    poolTeams.some((t) => t.id === id),
+  );
+  const query = normalizeName(playerQuery);
+  const shownPlayers = available.filter(
+    (p) =>
+      (activeTeamIds.length === 0 || activeTeamIds.includes(p.teamId)) &&
+      (!query || normalizeName(p.name).includes(query)),
+  );
+  const toggleFilterTeam = (teamId) =>
+    setFilterTeamIds((ids) =>
+      ids.includes(teamId) ? ids.filter((id) => id !== teamId) : [...ids, teamId],
+    );
 
   const handlePick = (playerId) => {
     makeUserPick(playerId);
@@ -239,15 +271,35 @@ export default function DraftPage() {
                     </p>
                   )}
                 </div>
+                {available.length > 0 ? (
+                  <PlayerFilterBar
+                    teams={poolTeams}
+                    selectedTeamIds={activeTeamIds}
+                    onToggleTeam={toggleFilterTeam}
+                    onClear={() => {
+                      setFilterTeamIds([]);
+                      setPlayerQuery("");
+                    }}
+                    query={playerQuery}
+                    onQueryChange={setPlayerQuery}
+                    shownCount={shownPlayers.length}
+                    totalCount={available.length}
+                  />
+                ) : null}
                 {available.length === 0 ? (
                   <p className="rounded-lg border border-tunnel-700 bg-tunnel-900 p-6 text-center text-sm text-ink-500">
                     No eligible players remain for this team &mdash; every
                     remaining franchise has already been drafted from, or the
                     pool is exhausted. No pick made this turn.
                   </p>
+                ) : shownPlayers.length === 0 ? (
+                  <p className="rounded-lg border border-tunnel-700 bg-tunnel-900 p-6 text-center text-sm text-ink-500">
+                    No available players match these filters.
+                  </p>
                 ) : (
                   <RosterTable
-                    players={available}
+                    players={shownPlayers}
+                    valuePool={available}
                     showTeam
                     onTogglePlayer={isUserTurn ? handlePick : null}
                     disabledIds={draftedPlayerIds}

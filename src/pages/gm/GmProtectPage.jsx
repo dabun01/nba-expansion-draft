@@ -71,11 +71,12 @@ function PlayerCard({ player, isProtected, isFull, onToggle }) {
           </p>
           <p className="mt-1 truncate font-mono text-xs text-ink-500">
             <span className="text-ink-100">{player.stats.pts.toFixed(1)}</span>{" "}
-            PTS{" "}
+            PTS{" | "}
+            <span className="text-ink-100">{player.stats.ast.toFixed(1)}</span>{" "}
+            AST{" | "}
             <span className="text-ink-100">{player.stats.reb.toFixed(1)}</span>{" "}
             REB{" "}
-            <span className="text-ink-100">{player.stats.ast.toFixed(1)}</span>{" "}
-            AST
+            
           </p>
           <p className="mt-1 truncate font-mono text-xs text-ink-500">
             {fmtMoney(salaryByYear[0])} · {yearsRemaining} yr

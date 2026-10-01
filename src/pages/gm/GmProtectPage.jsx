@@ -46,50 +46,58 @@ function PlayerCard({ player, isProtected, isFull, onToggle }) {
   const age = getAge(player.birthDate);
   const { salaryByYear, yearsRemaining } = player.contract;
 
+  // The whole card is the toggle, so a tap anywhere on it (easy on a phone)
+  // protects or unprotects the player. The pill is just its visual label.
   return (
-    <li
-      className={`flex items-center gap-3 rounded-xl border p-4 transition-colors ${
-        isProtected
-          ? "border-protect-500/70 bg-protect-500/10"
-          : "border-tunnel-800 bg-tunnel-900"
-      }`}
-    >
-      <div className="min-w-0 flex-1">
-        <p className="flex items-baseline gap-2">
-          <span className="truncate font-semibold">{player.name}</span>
-          <span className="shrink-0 font-mono text-xs text-ink-500">
-            {player.position}
-            {age !== null ? ` · ${age}y` : ""}
-          </span>
-        </p>
-        <p className="mt-1 truncate font-mono text-xs text-ink-500">
-          <span className="text-ink-100">{player.stats.pts.toFixed(1)}</span>{" "}
-          PTS{" "}
-          <span className="text-ink-100">{player.stats.reb.toFixed(1)}</span>{" "}
-          REB{" "}
-          <span className="text-ink-100">{player.stats.ast.toFixed(1)}</span>{" "}
-          AST
-        </p>
-        <p className="mt-1 truncate font-mono text-xs text-ink-500">
-          {fmtMoney(salaryByYear[0])} · {yearsRemaining} yr
-        </p>
-      </div>
+    <li>
       <button
         type="button"
         onClick={onToggle}
         disabled={!isProtected && isFull}
         aria-pressed={isProtected}
-        aria-label={`${isProtected ? "Unprotect" : "Protect"} ${player.name}`}
-        className={`flex shrink-0 items-center gap-1 rounded-full px-3.5 py-2.5 font-display text-sm font-semibold uppercase tracking-wider transition-colors disabled:cursor-not-allowed disabled:opacity-30 ${
+        className={`group flex w-full touch-manipulation items-center gap-3 rounded-xl border p-4 text-left transition-colors disabled:cursor-not-allowed ${
           isProtected
-            ? "bg-protect-500 text-tunnel-950 hover:bg-protect-500/85"
-            : "border border-tunnel-600 hover:border-tunnel-500"
+            ? "border-protect-500/70 bg-protect-500/10"
+            : "border-tunnel-800 bg-tunnel-900 enabled:hover:border-tunnel-600"
         }`}
       >
-        {isProtected ? <CheckIcon className="h-4 w-4" /> : null}
-        {/* Below 380px the check alone marks a protected player, leaving room for stats. */}
-        <span className={isProtected ? "hidden min-[380px]:inline" : undefined}>
-          {isProtected ? "Protected" : "Protect"}
+        <div className="min-w-0 flex-1">
+          <p className="flex items-baseline gap-2">
+            <span className="truncate font-semibold">{player.name}</span>
+            <span className="shrink-0 font-mono text-xs text-ink-500">
+              {player.position}
+              {age !== null ? ` · ${age}y` : ""}
+            </span>
+          </p>
+          <p className="mt-1 truncate font-mono text-xs text-ink-500">
+            <span className="text-ink-100">{player.stats.pts.toFixed(1)}</span>{" "}
+            PTS{" "}
+            <span className="text-ink-100">{player.stats.reb.toFixed(1)}</span>{" "}
+            REB{" "}
+            <span className="text-ink-100">{player.stats.ast.toFixed(1)}</span>{" "}
+            AST
+          </p>
+          <p className="mt-1 truncate font-mono text-xs text-ink-500">
+            {fmtMoney(salaryByYear[0])} · {yearsRemaining} yr
+          </p>
+        </div>
+        <span
+          className={`flex shrink-0 items-center gap-1 rounded-full px-3.5 py-2.5 font-display text-sm font-semibold uppercase tracking-wider transition-colors group-disabled:opacity-30 ${
+            isProtected
+              ? "bg-protect-500 text-tunnel-950 group-hover:bg-protect-500/85"
+              : "border border-tunnel-600 group-enabled:group-hover:border-tunnel-500"
+          }`}
+        >
+          {isProtected ? <CheckIcon className="h-4 w-4" /> : null}
+          {/* Below 380px the check alone marks a protected player, leaving room
+              for stats; the label stays readable to screen readers. */}
+          <span
+            className={
+              isProtected ? "sr-only min-[380px]:not-sr-only" : undefined
+            }
+          >
+            {isProtected ? "Protected" : "Protect"}
+          </span>
         </span>
       </button>
     </li>

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router";
 import AppShell from "./components/layout/AppShell";
+import DraftRulesButton from "./components/DraftRulesButton";
 import { useDraftStore } from "./store/useDraftStore";
 import SetupPage from "./pages/SetupPage";
 import ProtectionPage from "./pages/ProtectionPage";
@@ -58,13 +59,16 @@ export default function App() {
   }
 
   return (
-    <Routes>
-      <Route path="/" element={<Simulator />} />
-      <Route path="/gm" element={<GmHomePage />} />
-      <Route path="/gm/protect" element={<GmProtectPage />} />
-      <Route path="/gm/results/:teamId" element={<GmResultsPage />} />
-      <Route path="/gm/share" element={<GmSharePage />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Simulator />} />
+        <Route path="/gm" element={<GmHomePage />} />
+        <Route path="/gm/protect" element={<GmProtectPage />} />
+        <Route path="/gm/results/:teamId" element={<GmResultsPage />} />
+        <Route path="/gm/share" element={<GmSharePage />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+      <DraftRulesButton />
+    </>
   );
 }

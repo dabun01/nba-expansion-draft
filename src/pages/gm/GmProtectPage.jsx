@@ -136,7 +136,7 @@ function TeamPanel({
       aria-label={isClone ? undefined : team.name}
       aria-hidden={isClone || undefined}
       inert={isClone}
-      className="scrollbar-thin h-full w-full shrink-0 snap-center snap-always overflow-y-auto px-5 pb-6"
+      className="scrollbar-thin h-full w-full shrink-0 snap-center snap-always overflow-y-auto px-5 pb-24"
     >
       <div
         className="relative mt-2 overflow-hidden rounded-xl p-4"

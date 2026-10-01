@@ -80,7 +80,8 @@ export default function GmResultsPage() {
   // result for the previous team is never shown while the next one loads.
   const [result, setResult] = useState(null);
   const [shareNote, setShareNote] = useState(null);
-  const touchStart = useRef(null);
+  const dragStart = useRef(null);
+  const wheel = useRef({ dx: 0, idleTimer: null, lockedUntil: 0 });
 
   useEffect(() => {
     if (!team) return;
@@ -112,19 +113,45 @@ export default function GmResultsPage() {
   // replace: switching teams shouldn't stack up browser history entries.
   const goToTeam = (t) => navigate(`/gm/results/${t.id}`, { replace: true });
 
-  // A horizontal swipe of 60px+ that's mostly sideways switches team.
-  const handleTouchStart = (e) => {
-    const t = e.touches[0];
-    touchStart.current = { x: t.clientX, y: t.clientY };
+  // Swiping switches team. Three kinds of input reach this page:
+  //  - finger or mouse drag: pointer events. A drag of 60px+ that's mostly
+  //    sideways counts. touch-action: pan-y on <main> lets the browser keep
+  //    vertical scrolling while handing sideways finger moves to us.
+  //  - trackpad two-finger swipe: no pointer events at all, just horizontal
+  //    wheel events, handled below.
+  const swipe = (dx) => goToTeam(dx < 0 ? nextTeam : prevTeam);
+
+  const handlePointerDown = (e) => {
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    dragStart.current = { x: e.clientX, y: e.clientY };
   };
-  const handleTouchEnd = (e) => {
-    if (!canSwitch || !touchStart.current) return;
-    const t = e.changedTouches[0];
-    const dx = t.clientX - touchStart.current.x;
-    const dy = t.clientY - touchStart.current.y;
-    touchStart.current = null;
+  const handlePointerUp = (e) => {
+    const start = dragStart.current;
+    dragStart.current = null;
+    if (!canSwitch || !start) return;
+    const dx = e.clientX - start.x;
+    const dy = e.clientY - start.y;
     if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
-    goToTeam(dx < 0 ? nextTeam : prevTeam);
+    swipe(dx);
+  };
+
+  // A trackpad swipe arrives as a burst of small wheel events, followed by
+  // momentum events that keep coming after the fingers lift. Add up the
+  // sideways distance, switch once it passes 80px, then ignore input for
+  // 700ms so the momentum tail can't switch a second time.
+  const handleWheel = (e) => {
+    if (!canSwitch || Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return;
+    const w = wheel.current;
+    clearTimeout(w.idleTimer);
+    w.idleTimer = setTimeout(() => (w.dx = 0), 200);
+    if (e.timeStamp < w.lockedUntil) return;
+    w.dx += e.deltaX;
+    if (Math.abs(w.dx) < 80) return;
+    // Wheel deltaX is positive when the content would scroll right, i.e.
+    // the same direction as dragging a finger left: go to the next team.
+    swipe(-w.dx);
+    w.dx = 0;
+    w.lockedUntil = e.timeStamp + 700;
   };
 
   const backTo = selectedTeamIds.length > 0 ? "/gm/protect" : "/gm";
@@ -200,9 +227,11 @@ export default function GmResultsPage() {
       </header>
 
       <main
-        className="scrollbar-thin flex-1 overflow-y-auto px-5 pb-6"
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
+        className="scrollbar-thin flex-1 touch-pan-y overflow-y-auto overscroll-x-none px-5 pb-6"
+        onPointerDown={handlePointerDown}
+        onPointerUp={handlePointerUp}
+        onPointerCancel={() => (dragStart.current = null)}
+        onWheel={handleWheel}
       >
         {!team ? (
           <p className="mt-6 text-ink-300">No team called "{rawTeamId}".</p>

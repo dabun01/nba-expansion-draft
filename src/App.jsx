@@ -7,6 +7,7 @@ import ProtectionPage from "./pages/ProtectionPage";
 import DraftPage from "./pages/DraftPage";
 import RecapPage from "./pages/RecapPage";
 import GmHomePage from "./pages/gm/GmHomePage";
+import GmProtectPage from "./pages/gm/GmProtectPage";
 import GmResultsPage from "./pages/gm/GmResultsPage";
 
 const PAGES = {
@@ -59,6 +60,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Simulator />} />
       <Route path="/gm" element={<GmHomePage />} />
+      <Route path="/gm/protect" element={<GmProtectPage />} />
       <Route path="/gm/results/:teamId" element={<GmResultsPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

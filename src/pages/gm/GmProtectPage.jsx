@@ -138,14 +138,7 @@ function TeamPanel({
         }}
       >
         <div className="relative flex items-center gap-3">
-          {/* Padding keeps the square logo inside the circle so corners aren't clipped. */}
-          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white p-1.5">
-            <TeamLogo
-              team={team}
-              sizeClassName="h-full w-full"
-              showFrame={false}
-            />
-          </span>
+          <TeamLogo team={team} sizeClassName="h-14 w-14" showFrame={false} />
           <div className="min-w-0 flex-1">
             <p className="whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.2em] text-white/80">
               {team.conference} · {roster.length} players

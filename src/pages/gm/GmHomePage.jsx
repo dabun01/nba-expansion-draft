@@ -27,9 +27,9 @@ function CheckIcon({ className = "" }) {
 
 function HowItWorks({ onClose }) {
   const steps = [
-    "Pick the franchises you want to build protection lists for.",
-    "For each team, protect 8 players. Everyone else is exposed to the expansion draft.",
-    "Submit your lists and see how other GMs protected the same rosters.",
+    { title: "Pick your teams.", body: "Tap a team \u2014 it turns green when selected." },
+    { title: "Protect 8 players.", body: "Swipe left and right between your teams." },
+    { title: "Compare & share.", body: "See how other GMs protected, then share your lists." },
   ];
 
   return (
@@ -46,28 +46,38 @@ function HowItWorks({ onClose }) {
         aria-labelledby="how-it-works-title"
         className="relative w-full max-w-md rounded-t-2xl border border-tunnel-700 bg-tunnel-900 p-6 sm:rounded-2xl"
       >
+        <p className="mb-2 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-clock-500">
+          How it works
+        </p>
         <h2
           id="how-it-works-title"
-          className="mb-4 font-display text-2xl uppercase tracking-wide"
+          className="mb-2 font-display text-3xl font-bold uppercase leading-tight tracking-wide"
         >
-          How it works
+          Seattle &amp; Las Vegas are coming
         </h2>
-        <ol className="mb-6 space-y-3">
+        <p className="mb-5 text-ink-300">
+          You&rsquo;re the GM. Each franchise protects 8 players &mdash; everyone
+          else is exposed to the expansion draft.
+        </p>
+        <ol className="mb-6 space-y-4">
           {steps.map((step, i) => (
-            <li key={step} className="flex gap-3 text-sm text-ink-300">
-              <span className="font-mono font-semibold text-clock-500">
+            <li key={step.title} className="flex items-start gap-3">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-clock-500/15 font-mono text-sm font-semibold text-clock-500">
                 {i + 1}
               </span>
-              {step}
+              <p className="text-ink-300">
+                <strong className="font-semibold text-ink-100">{step.title}</strong>{" "}
+                {step.body}
+              </p>
             </li>
           ))}
         </ol>
         <button
           type="button"
           onClick={onClose}
-          className="w-full rounded-full bg-clock-500 py-3 font-display uppercase tracking-wide text-tunnel-950 transition-colors hover:bg-clock-400"
+          className="w-full rounded-full bg-clock-500 py-3.5 font-display font-bold uppercase tracking-wide text-tunnel-950 transition-colors hover:bg-clock-400"
         >
-          Got it
+          Got it &mdash; let&rsquo;s go
         </button>
       </div>
     </div>

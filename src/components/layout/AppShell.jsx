@@ -1,5 +1,6 @@
 import { cloneElement, useEffect, useState } from "react";
 import TeamSidebar from "../sidebar/TeamSidebar";
+import ModeSwitch from "../ModeSwitch";
 import { useDraftStore } from "../../store/useDraftStore";
 
 const PHASE_LABELS = {
@@ -177,6 +178,7 @@ export default function AppShell({ children }) {
               </div>
             ) : null}
           </div>
+          <ModeSwitch className="mr-3 shrink-0" />
           <button
             type="button"
             onClick={() => phase === "setup" && setIsSettingsOpen(true)}

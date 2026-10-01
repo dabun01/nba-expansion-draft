@@ -3,6 +3,7 @@ import { useNavigate } from "react-router";
 import { useDraftStore } from "../../store/useDraftStore";
 import { useGmStore } from "../../store/useGmStore";
 import TeamLogo from "../../components/TeamLogo";
+import ModeSwitch from "../../components/ModeSwitch";
 
 const CONFERENCE_FILTERS = [
   { id: "East", label: "Eastern" },
@@ -27,9 +28,18 @@ function CheckIcon({ className = "" }) {
 
 function HowItWorks({ onClose }) {
   const steps = [
-    { title: "Pick your teams.", body: "Tap a team it turns green when selected." },
-    { title: "Protect 8 players.", body: "Swipe left and right between your teams." },
-    { title: "Compare & share.", body: "See how other GMs protected, then share your lists." },
+    {
+      title: "Pick your teams.",
+      body: "Tap a team it turns green when selected.",
+    },
+    {
+      title: "Protect 8 players.",
+      body: "Swipe left and right between your teams.",
+    },
+    {
+      title: "Compare & share.",
+      body: "See how other GMs protected, then share your lists.",
+    },
   ];
 
   return (
@@ -56,8 +66,8 @@ function HowItWorks({ onClose }) {
           Seattle & Las Vegas are coming
         </h2>
         <p className="mb-5 text-ink-300">
-          You're the GM. Each franchise protects 8 players everyone
-          else is exposed to the expansion draft.
+          You're the GM. Each franchise protects 8 players everyone else is
+          exposed to the expansion draft.
         </p>
         <ol className="mb-6 space-y-4">
           {steps.map((step, i) => (
@@ -66,7 +76,9 @@ function HowItWorks({ onClose }) {
                 {i + 1}
               </span>
               <p className="text-ink-300">
-                <strong className="font-semibold text-ink-100">{step.title}</strong>{" "}
+                <strong className="font-semibold text-ink-100">
+                  {step.title}
+                </strong>{" "}
                 {step.body}
               </p>
             </li>
@@ -121,6 +133,7 @@ export default function GmHomePage() {
       </header>
 
       <main className="scrollbar-thin flex-1 overflow-y-auto px-5 pb-6 pt-6">
+        <ModeSwitch className="mb-6" />
         <p className="mb-2 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-clock-500">
           Step 1 of 3
         </p>
@@ -169,7 +182,12 @@ export default function GmHomePage() {
                     <CheckIcon className="h-4 w-4" />
                   </span>
                 ) : null}
-                <TeamLogo team={team} sizeClassName="h-20 w-20" className="mb-2" showFrame={false} />
+                <TeamLogo
+                  team={team}
+                  sizeClassName="h-20 w-20"
+                  className="mb-2"
+                  showFrame={false}
+                />
                 <p className="font-semibold leading-tight">{team.name}</p>
               </button>
             );
@@ -187,7 +205,9 @@ export default function GmHomePage() {
         <button
           type="button"
           onClick={() =>
-            allVisibleSelected ? deselectTeams(visibleIds) : selectTeams(visibleIds)
+            allVisibleSelected
+              ? deselectTeams(visibleIds)
+              : selectTeams(visibleIds)
           }
           className="rounded-full border border-tunnel-600 px-5 py-3 font-display text-sm font-semibold uppercase tracking-wider transition-colors hover:border-tunnel-500"
         >

@@ -13,11 +13,13 @@
     "preview": "vite preview",
     "data:birthdates": "node scripts/addBirthDates.js",
     "data:migrate-ids": "node scripts/migrateToNbaIds.js",
-    "data:import": "node scripts/importTeams.js"
+    "data:import": "node scripts/importTeams.js",
+    "data:indexes": "node scripts/createIndexes.js"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
     "dotenv": "^17.4.2",
+    "html-to-image": "^1.11.13",
     "mongodb": "^7.6.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",

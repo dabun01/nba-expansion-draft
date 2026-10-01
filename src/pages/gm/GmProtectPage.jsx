@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Link, Navigate, useLocation, useNavigate } from "react-router";
 import { useDraftStore } from "../../store/useDraftStore";
 import { useGmStore } from "../../store/useGmStore";
@@ -7,6 +7,7 @@ import { getTeamColors } from "../../lib/teamColors";
 import { getAge } from "../../lib/age";
 import { PROTECT_COUNT } from "../../lib/draftEngine";
 import { submitList } from "../../lib/gmApi";
+import { useLoopingCarousel } from "../../lib/useLoopingCarousel";
 
 const fmtMoney = (n) => `$${(n / 1_000_000).toFixed(1)}M`;
 
@@ -213,8 +214,6 @@ export default function GmProtectPage() {
   const submittedTeamIds = useGmStore((s) => s.submittedTeamIds);
   const markSubmitted = useGmStore((s) => s.markSubmitted);
   const clientId = useGmStore((s) => s.clientId);
-  const scrollerRef = useRef(null);
-  const settleTimer = useRef(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   // Tagged with the team so an error doesn't follow you to the next team.
   const [submitError, setSubmitError] = useState(null);
@@ -225,66 +224,16 @@ export default function GmProtectPage() {
   const n = teams.length;
 
   // Links from a results page pass { teamId } so we open on that team.
-  const [activeIndex, setActiveIndex] = useState(() =>
-    Math.max(
-      0,
-      teams.findIndex((t) => t.id === location.state?.teamId),
-    ),
+  const { scrollerProps, slots, index, goTo, looping } = useLoopingCarousel(
+    n,
+    teams.findIndex((t) => t.id === location.state?.teamId),
   );
-
-  // Endless swiping: with 2+ teams the scroller is
-  // [copy of last] [team 1] ... [team n] [copy of first],
-  // so swiping past either end lands on a copy that looks identical, and
-  // once the scroll settles we jump without animation to the real panel.
-  const looping = n > 1;
-  const offset = looping ? 1 : 0;
-
-  // Start on the chosen team's real panel, not the copy in front of it.
-  useLayoutEffect(() => {
-    const el = scrollerRef.current;
-    if (el) el.scrollLeft = (activeIndex + offset) * el.clientWidth;
-    // Only on first render; later moves scroll themselves.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
 
   if (n === 0) return <Navigate to="/gm" replace />;
 
-  const index = Math.min(activeIndex, teams.length - 1);
   const team = teams[index];
   const count = protections[team.id]?.length ?? 0;
   const isSubmitted = submittedTeamIds.includes(team.id);
-
-  // i may be -1 or n: that scrolls onto a copy, and settle() wraps it.
-  const goTo = (i) => {
-    const el = scrollerRef.current;
-    if (looping) {
-      el.scrollTo({ left: (i + offset) * el.clientWidth, behavior: "smooth" });
-    } else {
-      el.scrollTo({ left: 0, behavior: "instant" });
-    }
-    setActiveIndex((i + n) % n);
-  };
-
-  // If the scroll came to rest on a copy, swap to the real panel in place,
-  // carrying over how far down the list was scrolled.
-  const settle = () => {
-    const el = scrollerRef.current;
-    const pos = Math.round(el.scrollLeft / el.clientWidth);
-    const target = pos === 0 ? n : pos === n + 1 ? 1 : null;
-    if (!looping || target === null) return;
-    el.children[target].scrollTop = el.children[pos].scrollTop;
-    el.children[pos].scrollTop = 0;
-    el.scrollTo({ left: target * el.clientWidth, behavior: "instant" });
-  };
-
-  const handleScroll = (e) => {
-    const el = e.currentTarget;
-    const pos = Math.round(el.scrollLeft / el.clientWidth);
-    const real = (pos - offset + n) % n;
-    if (real !== index) setActiveIndex(real);
-    clearTimeout(settleTimer.current);
-    settleTimer.current = setTimeout(settle, 120);
-  };
 
   const handleSubmit = async () => {
     if (isSubmitting) return; // ignore a double tap while the first is in flight
@@ -356,24 +305,19 @@ export default function GmProtectPage() {
       </header>
 
       <main
-        ref={scrollerRef}
-        onScroll={handleScroll}
-        className="flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overflow-y-hidden [scrollbar-width:none]"
+        {...scrollerProps}
+        className="flex min-h-0 flex-1 snap-x snap-mandatory overflow-x-auto overflow-y-hidden overscroll-x-none [scrollbar-width:none]"
       >
-        {(looping ? [n - 1, ...teams.keys(), 0] : [0]).map((i, pos) => (
+        {slots.map(({ index: i, pos, isClone }) => (
           <TeamPanel
-            key={
-              looping && (pos === 0 || pos === n + 1)
-                ? `copy-${pos}`
-                : teams[i].id
-            }
+            key={isClone ? `copy-${pos}` : teams[i].id}
             team={teams[i]}
             prevTeam={teams[(i - 1 + n) % n]}
             nextTeam={teams[(i + 1) % n]}
             onPrev={() => goTo(i - 1)}
             onNext={() => goTo(i + 1)}
             showNav={looping}
-            isClone={looping && (pos === 0 || pos === n + 1)}
+            isClone={isClone}
           />
         ))}
       </main>

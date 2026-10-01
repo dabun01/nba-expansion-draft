@@ -97,7 +97,7 @@ function ShareCard({ team, players, cardRef }) {
         })}
       </ol>
       <div className="flex items-center justify-between gap-3 border-t border-tunnel-800 px-6 py-3.5">
-        <p className="font-display text-sm font-bold uppercase tracking-wide">
+        <p className="shrink-0 whitespace-nowrap font-display text-sm font-bold uppercase tracking-wide">
           Expansion Draft <span className="text-clock-500">GM</span>
         </p>
         <p className="truncate font-mono text-xs text-ink-500">
@@ -148,6 +148,9 @@ export default function GmSharePage() {
     shareTeams.findIndex((t) => t.id === location.state?.teamId),
   );
   const team = shareTeams[index];
+  const n = shareTeams.length;
+  const prevTeam = looping ? shareTeams[(index - 1 + n) % n] : null;
+  const nextTeam = looping ? shareTeams[(index + 1) % n] : null;
   const image = team ? images[team.id] : null;
 
   // Build the visible card's PNG ahead of time. Safari only opens the share
@@ -275,21 +278,33 @@ export default function GmSharePage() {
 
       <footer className="px-5 pb-[max(1rem,env(safe-area-inset-bottom))] pt-3">
         {looping ? (
-          <div className="mb-4 flex flex-col items-center gap-2">
+          <div className="mb-4 flex items-center justify-between font-mono text-sm text-ink-300">
+            <button
+              type="button"
+              onClick={() => goTo(index - 1)}
+              aria-label={`Previous team: ${prevTeam.name}`}
+              className="flex items-center gap-2 uppercase transition-colors hover:text-ink-100"
+            >
+              ‹ {prevTeam.abbreviation}
+            </button>
             <div className="flex gap-1.5" aria-hidden="true">
               {shareTeams.map((t, i) => (
-                <button
+                <span
                   key={t.id}
-                  type="button"
-                  tabIndex={-1}
-                  onClick={() => goTo(i)}
                   className={`h-1.5 rounded-full transition-all ${
                     i === index ? "w-5 bg-clock-500" : "w-1.5 bg-tunnel-600"
                   }`}
                 />
               ))}
             </div>
-            <p className="text-sm text-ink-500">Swipe for your other teams</p>
+            <button
+              type="button"
+              onClick={() => goTo(index + 1)}
+              aria-label={`Next team: ${nextTeam.name}`}
+              className="flex items-center gap-2 uppercase transition-colors hover:text-ink-100"
+            >
+              {nextTeam.abbreviation} ›
+            </button>
           </div>
         ) : null}
         {note ? (

@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { computeValueScores } from "../../lib/valueScore";
+import { useDraftStore } from "../../store/useDraftStore";
+import TeamLogo from "../TeamLogo";
 
 const fmtMoney = (n) => `$${(n / 1_000_000).toFixed(1)}M`;
 
@@ -33,6 +35,9 @@ const SORT_FIELDS = {
  * onTogglePlayer: (playerId) => void -- if provided, rows become clickable (manual protection / draft pick)
  * disabledIds: Set<string> -- rows shown but not clickable (e.g. already drafted)
  * showTeam: boolean -- shows a franchise column; use when the list spans multiple teams
+ * valuePool: Player[] -- the players Value is scored against (defaults to
+ *   `players`). Pass the full list when `players` is a filtered subset, so
+ *   filtering doesn't change anyone's Value.
  */
 export default function RosterTable({
   players,
@@ -40,9 +45,12 @@ export default function RosterTable({
   onTogglePlayer = null,
   disabledIds = null,
   showTeam = false,
+  valuePool = players,
 }) {
   const [sort, setSort] = useState({ field: null, direction: "asc" });
-  const valueScores = computeValueScores(players);
+  const teams = useDraftStore((s) => s.teams);
+  const valueScores = computeValueScores(valuePool);
+  const teamsById = new Map(teams.map((t) => [t.id, t]));
   const sortableFields = {
     ...SORT_FIELDS,
     valueScore: {
@@ -156,7 +164,16 @@ export default function RosterTable({
                 </td>
                 {showTeam && (
                   <td className="px-3 py-2.5 font-mono text-xs text-ink-500">
-                    {p.teamId}
+                    <span className="flex items-center gap-2">
+                      {teamsById.get(p.teamId) ? (
+                        <TeamLogo
+                          team={teamsById.get(p.teamId)}
+                          sizeClassName="h-6 w-6"
+                          showFrame={false}
+                        />
+                      ) : null}
+                      {p.teamId}
+                    </span>
                   </td>
                 )}
                 <td className="px-3 py-2.5 text-ink-500">{p.position}</td>

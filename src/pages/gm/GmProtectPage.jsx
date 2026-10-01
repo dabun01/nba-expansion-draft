@@ -123,9 +123,11 @@ function TeamPanel({
   const protectedIds = useGmStore((s) => s.protections[team.id]) ?? [];
   const toggleProtection = useGmStore((s) => s.toggleProtection);
 
+  // Highest scorers first.
   const roster = team.playerIds
     .map((id) => playersById.get(id))
-    .filter(Boolean);
+    .filter(Boolean)
+    .sort((a, b) => b.stats.pts - a.stats.pts);
   const [primary, secondary] = getTeamColors(team);
   const isFull = protectedIds.length >= PROTECT_COUNT;
 

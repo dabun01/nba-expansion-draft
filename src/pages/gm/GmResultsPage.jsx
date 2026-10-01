@@ -112,7 +112,7 @@ function ResultsPanel({ team, isClone, onBuild }) {
       aria-label={isClone ? undefined : `${team.name} results`}
       aria-hidden={isClone || undefined}
       inert={isClone}
-      className="scrollbar-thin h-full w-full shrink-0 snap-center snap-always overflow-y-auto px-5 pb-24"
+      className="scrollbar-thin h-full w-full shrink-0 snap-center snap-always overflow-y-auto px-5 pb-6"
     >
       <div
         className="mb-5 mt-1 flex items-center gap-3 rounded-xl p-4"

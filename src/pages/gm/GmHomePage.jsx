@@ -132,7 +132,7 @@ export default function GmHomePage() {
         </button>
       </header>
 
-      <main className="scrollbar-thin flex-1 overflow-y-auto px-5 pb-24 pt-6">
+      <main className="scrollbar-thin flex-1 overflow-y-auto px-5 pb-6 pt-6">
         <ModeSwitch className="mb-6" />
         <p className="mb-2 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-clock-500">
           Step 1 of 3

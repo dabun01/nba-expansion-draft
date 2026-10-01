@@ -181,11 +181,25 @@ export default function AppShell({ children }) {
             {PHASE_LABELS[phase] || phase}
           </button>
         </header>
-        <main className="flex-1 overflow-y-auto scrollbar-thin p-6 pb-24">
+        <main
+          className={`flex-1 overflow-y-auto scrollbar-thin p-6 ${phase === "setup" ? "pb-24" : ""}`}
+        >
           {page}
         </main>
       </div>
       {isInfoOpen ? <DraftRulesDialog onClose={closeInfo} /> : null}
+      {/* Floating ? to reopen the rules, on the setup screen only. */}
+      {phase === "setup" && !isInfoOpen ? (
+        <button
+          type="button"
+          onClick={() => setIsInfoOpen(true)}
+          aria-label="Draft rules"
+          title="Draft rules"
+          className="fixed bottom-6 right-6 z-30 flex h-12 w-12 items-center justify-center rounded-full border border-tunnel-600 bg-tunnel-800 font-display text-xl font-bold text-ink-100 shadow-lg shadow-black/40 transition-colors hover:border-clock-500 hover:text-clock-500"
+        >
+          ?
+        </button>
+      ) : null}
     </div>
   );
 }

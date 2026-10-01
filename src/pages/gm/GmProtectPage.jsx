@@ -141,12 +141,12 @@ function TeamPanel({
         <div className="relative flex items-center gap-3">
           <TeamLogo team={team} sizeClassName="h-14 w-14" showFrame={false} />
           <div className="min-w-0 flex-1">
-            <p className="whitespace-nowrap font-mono text-[11px] uppercase tracking-[0.2em] text-white/80">
-              {team.conference} · {roster.length} players
-            </p>
             <h2 className="font-display text-xl font-bold uppercase leading-tight tracking-wide text-white sm:text-2xl">
               {team.name}
             </h2>
+            <p className="mt-1 truncate font-mono text-[11px] uppercase tracking-[0.2em] text-white/80">
+              {team.conference === "East" ? "Eastern" : "Western"} Conference
+            </p>
           </div>
           <div className="shrink-0 text-right text-white">
             <p className="font-display text-3xl font-bold leading-none">

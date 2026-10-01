@@ -2,7 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router";
 import { useDraftStore } from "../../store/useDraftStore";
 import { useGmStore } from "../../store/useGmStore";
+import TeamLogo from "../../components/TeamLogo";
 import { getAge } from "../../lib/age";
+import { getTeamColors } from "../../lib/teamColors";
 import { fetchProtectionStats } from "../../lib/gmApi";
 
 // "Atlanta Hawks" -> "Hawks", "Portland Trail Blazers" -> "Blazers"
@@ -237,7 +239,23 @@ export default function GmResultsPage() {
           <p className="mt-6 text-ink-300">No team called "{rawTeamId}".</p>
         ) : (
           <>
-            <p className="mb-2 mt-1 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-clock-500">
+            <div
+              className="mb-5 mt-1 flex items-center gap-3 rounded-xl p-4"
+              style={{
+                backgroundColor: getTeamColors(team)[0],
+                boxShadow: `inset 0 -5px 0 ${getTeamColors(team)[1]}`,
+              }}
+            >
+              <TeamLogo
+                team={team}
+                sizeClassName="h-14 w-14"
+                showFrame={false}
+              />
+              <h2 className="min-w-0 font-display text-xl font-bold uppercase leading-tight tracking-wide text-white sm:text-2xl">
+                {team.name}
+              </h2>
+            </div>
+            <p className="mb-2 font-mono text-xs font-semibold uppercase tracking-[0.2em] text-clock-500">
               Community picks
             </p>
             <h1 className="mb-2 font-display text-3xl font-bold uppercase tracking-wide">

@@ -4,7 +4,6 @@ import { useDraftStore } from "../../store/useDraftStore";
 import { useGmStore } from "../../store/useGmStore";
 import TeamLogo from "../../components/TeamLogo";
 import { getTeamColors } from "../../lib/teamColors";
-import { computeValueScores } from "../../lib/valueScore";
 import { getAge } from "../../lib/age";
 import { PROTECT_COUNT } from "../../lib/draftEngine";
 
@@ -43,7 +42,7 @@ function ChartIcon({ className = "" }) {
   );
 }
 
-function PlayerCard({ player, value, isProtected, isFull, onToggle }) {
+function PlayerCard({ player, isProtected, isFull, onToggle }) {
   const age = getAge(player.birthDate);
   const { salaryByYear, yearsRemaining } = player.contract;
 
@@ -72,10 +71,7 @@ function PlayerCard({ player, value, isProtected, isFull, onToggle }) {
           AST
         </p>
         <p className="mt-1 truncate font-mono text-xs text-ink-500">
-          {fmtMoney(salaryByYear[0])} · {yearsRemaining} yr{" "}
-          <span className={value < 0 ? "text-exposed-500" : "text-clock-500"}>
-            VAL {value.toFixed(2)}
-          </span>
+          {fmtMoney(salaryByYear[0])} · {yearsRemaining} yr
         </p>
       </div>
       <button
@@ -108,7 +104,6 @@ function TeamPanel({ team, prevTeam, nextTeam, onPrev, onNext, showNav }) {
   const roster = team.playerIds
     .map((id) => playersById.get(id))
     .filter(Boolean);
-  const values = computeValueScores(roster);
   const [primary, secondary] = getTeamColors(team);
   const isFull = protectedIds.length >= PROTECT_COUNT;
 
@@ -181,7 +176,6 @@ function TeamPanel({ team, prevTeam, nextTeam, onPrev, onNext, showNav }) {
           <PlayerCard
             key={player.id}
             player={player}
-            value={values.get(player.id)?.valueScore ?? 0}
             isProtected={protectedIds.includes(player.id)}
             isFull={isFull}
             onToggle={() => toggleProtection(team.id, player.id)}

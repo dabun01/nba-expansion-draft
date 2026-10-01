@@ -27,7 +27,7 @@ function CheckIcon({ className = "" }) {
 
 function HowItWorks({ onClose }) {
   const steps = [
-    { title: "Pick your teams.", body: "Tap a team \u2014 it turns green when selected." },
+    { title: "Pick your teams.", body: "Tap a team it turns green when selected." },
     { title: "Protect 8 players.", body: "Swipe left and right between your teams." },
     { title: "Compare & share.", body: "See how other GMs protected, then share your lists." },
   ];
@@ -53,10 +53,10 @@ function HowItWorks({ onClose }) {
           id="how-it-works-title"
           className="mb-2 font-display text-3xl font-bold uppercase leading-tight tracking-wide"
         >
-          Seattle &amp; Las Vegas are coming
+          Seattle & Las Vegas are coming
         </h2>
         <p className="mb-5 text-ink-300">
-          You&rsquo;re the GM. Each franchise protects 8 players &mdash; everyone
+          You're the GM. Each franchise protects 8 players everyone
           else is exposed to the expansion draft.
         </p>
         <ol className="mb-6 space-y-4">
@@ -77,7 +77,7 @@ function HowItWorks({ onClose }) {
           onClick={onClose}
           className="w-full rounded-full bg-clock-500 py-3.5 font-display font-bold uppercase tracking-wide text-tunnel-950 transition-colors hover:bg-clock-400"
         >
-          Got it &mdash; let&rsquo;s go
+          Got it
         </button>
       </div>
     </div>
@@ -158,7 +158,7 @@ export default function GmHomePage() {
                 type="button"
                 onClick={() => toggleTeam(team.id)}
                 aria-pressed={selected}
-                className={`relative rounded-xl border-2 p-4 text-left transition-colors ${
+                className={`relative flex flex-col items-center rounded-xl border-2 p-4 text-center transition-colors ${
                   selected
                     ? "border-protect-500 bg-protect-500/10"
                     : "border-tunnel-800 bg-tunnel-900 hover:border-tunnel-600"
@@ -169,11 +169,8 @@ export default function GmHomePage() {
                     <CheckIcon className="h-4 w-4" />
                   </span>
                 ) : null}
-                <TeamLogo team={team} sizeClassName="h-14 w-14" className="mb-3" />
+                <TeamLogo team={team} sizeClassName="h-20 w-20" className="mb-2" />
                 <p className="font-semibold leading-tight">{team.name}</p>
-                <p className="mt-1 font-mono text-xs uppercase tracking-wider text-ink-500">
-                  {team.conference === "East" ? "Eastern" : "Western"} conf
-                </p>
               </button>
             );
           })}

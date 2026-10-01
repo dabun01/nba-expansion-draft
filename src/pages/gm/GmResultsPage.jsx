@@ -248,6 +248,12 @@ export default function GmResultsPage() {
     setTimeout(() => setShareNote(null), 2000);
   };
   const handleShare = async () => {
+    // Your own submitted teams go to the share-card screen (an image of
+    // your 8). Visitors share the results link instead.
+    if (submittedTeamIds.includes(activeTeam.id)) {
+      navigate("/gm/share", { state: { teamId: activeTeam.id } });
+      return;
+    }
     const url = `${window.location.origin}/gm/results/${activeTeam.id}`;
     const text = `How GMs protected the ${activeTeam.name} in the NBA expansion draft. Build your own list:`;
     if (navigator.share) {

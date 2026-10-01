@@ -9,6 +9,7 @@ import RecapPage from "./pages/RecapPage";
 import GmHomePage from "./pages/gm/GmHomePage";
 import GmProtectPage from "./pages/gm/GmProtectPage";
 import GmResultsPage from "./pages/gm/GmResultsPage";
+import GmSharePage from "./pages/gm/GmSharePage";
 
 const PAGES = {
   setup: SetupPage,
@@ -62,6 +63,7 @@ export default function App() {
       <Route path="/gm" element={<GmHomePage />} />
       <Route path="/gm/protect" element={<GmProtectPage />} />
       <Route path="/gm/results/:teamId" element={<GmResultsPage />} />
+      <Route path="/gm/share" element={<GmSharePage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

@@ -1,11 +1,12 @@
 import { useLayoutEffect, useRef, useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router";
+import { Link, Navigate, useLocation, useNavigate } from "react-router";
 import { useDraftStore } from "../../store/useDraftStore";
 import { useGmStore } from "../../store/useGmStore";
 import TeamLogo from "../../components/TeamLogo";
 import { getTeamColors } from "../../lib/teamColors";
 import { getAge } from "../../lib/age";
 import { PROTECT_COUNT } from "../../lib/draftEngine";
+import { submitList } from "../../lib/gmApi";
 
 const fmtMoney = (n) => `$${(n / 1_000_000).toFixed(1)}M`;
 
@@ -72,11 +73,14 @@ function PlayerCard({ player, isProtected, isFull, onToggle }) {
           <p className="mt-1 truncate font-mono text-xs text-ink-500">
             <span className="text-ink-100">{player.stats.pts.toFixed(1)}</span>{" "}
             PTS{" | "}
-            <span className="text-ink-100">{player.stats.ast.toFixed(1)}</span>{" "}
+            <span className="text-ink-100">
+              {player.stats.ast.toFixed(1)}
+            </span>{" "}
             AST{" | "}
-            <span className="text-ink-100">{player.stats.reb.toFixed(1)}</span>{" "}
+            <span className="text-ink-100">
+              {player.stats.reb.toFixed(1)}
+            </span>{" "}
             REB{" "}
-            
           </p>
           <p className="mt-1 truncate font-mono text-xs text-ink-500">
             {fmtMoney(salaryByYear[0])} · {yearsRemaining} yr
@@ -202,19 +206,31 @@ function TeamPanel({
 // between teams.
 export default function GmProtectPage() {
   const navigate = useNavigate();
+  const location = useLocation();
   const allTeams = useDraftStore((s) => s.teams);
   const selectedTeamIds = useGmStore((s) => s.selectedTeamIds);
   const protections = useGmStore((s) => s.protections);
   const submittedTeamIds = useGmStore((s) => s.submittedTeamIds);
   const markSubmitted = useGmStore((s) => s.markSubmitted);
+  const clientId = useGmStore((s) => s.clientId);
   const scrollerRef = useRef(null);
   const settleTimer = useRef(null);
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  // Tagged with the team so an error doesn't follow you to the next team.
+  const [submitError, setSubmitError] = useState(null);
 
   const teams = allTeams
     .filter((t) => selectedTeamIds.includes(t.id))
     .sort((a, b) => a.name.localeCompare(b.name));
   const n = teams.length;
+
+  // Links from a results page pass { teamId } so we open on that team.
+  const [activeIndex, setActiveIndex] = useState(() =>
+    Math.max(
+      0,
+      teams.findIndex((t) => t.id === location.state?.teamId),
+    ),
+  );
 
   // Endless swiping: with 2+ teams the scroller is
   // [copy of last] [team 1] ... [team n] [copy of first],
@@ -223,11 +239,13 @@ export default function GmProtectPage() {
   const looping = n > 1;
   const offset = looping ? 1 : 0;
 
-  // Start on the real first team, not the copy in front of it.
+  // Start on the chosen team's real panel, not the copy in front of it.
   useLayoutEffect(() => {
     const el = scrollerRef.current;
-    if (el && looping) el.scrollLeft = el.clientWidth;
-  }, [looping]);
+    if (el) el.scrollLeft = (activeIndex + offset) * el.clientWidth;
+    // Only on first render; later moves scroll themselves.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   if (n === 0) return <Navigate to="/gm" replace />;
 
@@ -268,8 +286,24 @@ export default function GmProtectPage() {
     settleTimer.current = setTimeout(settle, 120);
   };
 
-  const handleSubmit = () => {
-    // Saved locally for now; posting to /api/submissions comes with the API.
+  const handleSubmit = async () => {
+    if (isSubmitting) return; // ignore a double tap while the first is in flight
+    setIsSubmitting(true);
+    setSubmitError(null);
+    try {
+      await submitList({
+        teamId: team.id,
+        playerIds: protections[team.id],
+        clientId,
+      });
+    } catch (err) {
+      setSubmitError({ teamId: team.id, message: err.message });
+      return;
+    } finally {
+      setIsSubmitting(false);
+    }
+
+    // Only mark it submitted once the server has accepted it.
     markSubmitted(team.id);
     const nextOpen = teams.findIndex(
       (t, i) => i !== index && !submittedTeamIds.includes(t.id),
@@ -328,7 +362,11 @@ export default function GmProtectPage() {
       >
         {(looping ? [n - 1, ...teams.keys(), 0] : [0]).map((i, pos) => (
           <TeamPanel
-            key={looping && (pos === 0 || pos === n + 1) ? `copy-${pos}` : teams[i].id}
+            key={
+              looping && (pos === 0 || pos === n + 1)
+                ? `copy-${pos}`
+                : teams[i].id
+            }
             team={teams[i]}
             prevTeam={teams[(i - 1 + n) % n]}
             nextTeam={teams[(i + 1) % n]}
@@ -347,14 +385,26 @@ export default function GmProtectPage() {
             {nickname(team)} list submitted
           </p>
         ) : (
-          <button
-            type="button"
-            onClick={handleSubmit}
-            disabled={count < PROTECT_COUNT}
-            className="w-full rounded-full bg-clock-500 py-4 font-display font-bold uppercase tracking-wider text-tunnel-950 transition-colors hover:bg-clock-400 disabled:cursor-not-allowed disabled:bg-tunnel-700 disabled:text-ink-300"
-          >
-            Submit {nickname(team)} list · {count}/{PROTECT_COUNT}
-          </button>
+          <>
+            {submitError?.teamId === team.id ? (
+              <p
+                role="alert"
+                className="mb-3 text-center text-sm text-exposed-500"
+              >
+                {submitError.message}
+              </p>
+            ) : null}
+            <button
+              type="button"
+              onClick={handleSubmit}
+              disabled={count < PROTECT_COUNT || isSubmitting}
+              className="w-full rounded-full bg-clock-500 py-4 font-display font-bold uppercase tracking-wider text-tunnel-950 transition-colors hover:bg-clock-400 disabled:cursor-not-allowed disabled:bg-tunnel-700 disabled:text-ink-300"
+            >
+              {isSubmitting
+                ? "Submitting…"
+                : `Submit ${nickname(team)} list · ${count}/${PROTECT_COUNT}`}
+            </button>
+          </>
         )}
       </footer>
     </div>

@@ -169,7 +169,7 @@ export default function GmHomePage() {
                     <CheckIcon className="h-4 w-4" />
                   </span>
                 ) : null}
-                <TeamLogo team={team} sizeClassName="h-20 w-20" className="mb-2" />
+                <TeamLogo team={team} sizeClassName="h-20 w-20" className="mb-2" showFrame={false} />
                 <p className="font-semibold leading-tight">{team.name}</p>
               </button>
             );

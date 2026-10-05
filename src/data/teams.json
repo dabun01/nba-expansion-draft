@@ -250,10 +250,12 @@
         "1631106",
         "203500",
         "203991",
-        "1629006",
-        "1628988",
         "1630256",
-        "1631120"
+        "203935",
+        "1641763",
+        "1631131",
+        "203992",
+        "1642384"
       ]
     },
     {
@@ -491,7 +493,8 @@
         "1641783",
         "1642859",
         "1642869",
-        "1631288"
+        "1631288",
+        "1631120"
       ]
     },
     {
@@ -638,7 +641,8 @@
         "1629723",
         "1629004",
         "1643016",
-        "201567"
+        "201567",
+        "1629006"
       ]
     },
     {
@@ -3803,12 +3807,14 @@
       },
       "contract": {
         "salaryByYear": [
-          43902439
+          43902439,
+          46097561
         ],
         "optionType": [
-          null
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -3826,19 +3832,17 @@
       "contract": {
         "salaryByYear": [
           35642202,
-          38200000,
-          40800000,
-          43400000,
-          46000000
+          37339450,
+          39036697,
+          39036697
         ],
         "optionType": [
           null,
           null,
           null,
-          null,
           "player"
         ],
-        "yearsRemaining": 5
+        "yearsRemaining": 4
       }
     },
     {
@@ -3855,12 +3859,22 @@
       },
       "contract": {
         "salaryByYear": [
-          12258609
+          12258609,
+          35862069,
+          38731034,
+          41600000,
+          44468966,
+          47337931
         ],
         "optionType": [
+          "team",
+          null,
+          null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 6
       }
     },
     {
@@ -3878,17 +3892,19 @@
       "contract": {
         "salaryByYear": [
           23643411,
-          25300000,
-          27000000,
-          28700000
+          21751940,
+          23643411,
+          25534883,
+          27426355
         ],
         "optionType": [
           null,
           null,
           null,
-          "player"
+          null,
+          null
         ],
-        "yearsRemaining": 4
+        "yearsRemaining": 5
       }
     },
     {
@@ -3908,7 +3924,7 @@
           25000000
         ],
         "optionType": [
-          null
+          "player"
         ],
         "yearsRemaining": 1
       }
@@ -3927,12 +3943,14 @@
       },
       "contract": {
         "salaryByYear": [
-          11108880
+          11108880,
+          14041625
         ],
         "optionType": [
-          null
+          "team",
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -3949,14 +3967,20 @@
       },
       "contract": {
         "salaryByYear": [
-          8700000,
-          9400000
+          14051724,
+          15175862,
+          16300000,
+          17424138,
+          18548276
         ],
         "optionType": [
           null,
-          "team"
+          null,
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 5
       }
     },
     {
@@ -3973,12 +3997,14 @@
       },
       "contract": {
         "salaryByYear": [
-          13000000
+          13000000,
+          11869566
         ],
         "optionType": [
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -3995,18 +4021,20 @@
       },
       "contract": {
         "salaryByYear": [
-          10700000
+          7035000,
+          7370000
         ],
         "optionType": [
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
       "id": "1629006",
       "name": "Josh Okogie",
-      "teamId": "HOU",
+      "teamId": "UTA",
       "position": "SG",
       "birthDate": "1998-09-01",
       "stats": {
@@ -4018,28 +4046,6 @@
       "contract": {
         "salaryByYear": [
           8000000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1628988",
-      "name": "Aaron Holiday",
-      "teamId": "HOU",
-      "position": "PG",
-      "birthDate": "1996-09-30",
-      "stats": {
-        "pts": 5.5,
-        "reb": 1.0,
-        "ast": 1.1,
-        "fgPct": 0.417
-      },
-      "contract": {
-        "salaryByYear": [
-          2700000
         ],
         "optionType": [
           null
@@ -4061,7 +4067,7 @@
       },
       "contract": {
         "salaryByYear": [
-          4300000
+          2449421
         ],
         "optionType": [
           null
@@ -4070,9 +4076,123 @@
       }
     },
     {
+      "id": "203935",
+      "name": "Marcus Smart",
+      "teamId": "HOU",
+      "position": "PG",
+      "birthDate": "1994-03-06",
+      "stats": {
+        "pts": 9.3,
+        "reb": 2.8,
+        "ast": 3.0,
+        "fgPct": 0.395
+      },
+      "contract": {
+        "salaryByYear": [
+          6064000,
+          6367200
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1641763",
+      "name": "Julian Phillips",
+      "teamId": "HOU",
+      "position": "SF",
+      "birthDate": "2003-11-05",
+      "stats": {
+        "pts": 2.9,
+        "reb": 1.0,
+        "ast": 0.2,
+        "fgPct": 0.421
+      },
+      "contract": {
+        "salaryByYear": [
+          2537526
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1631131",
+      "name": "Oscar Tshiebwe",
+      "teamId": "HOU",
+      "position": "C",
+      "birthDate": "1999-11-27",
+      "stats": {
+        "pts": 7.8,
+        "reb": 6.6,
+        "ast": 1.2,
+        "fgPct": 0.634
+      },
+      "contract": {
+        "salaryByYear": [
+          2537526
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "203992",
+      "name": "Bogdan Bogdanovi\u0107",
+      "teamId": "HOU",
+      "position": "SG",
+      "birthDate": "1992-08-18",
+      "stats": {
+        "pts": 7.4,
+        "reb": 2.6,
+        "ast": 2.2,
+        "fgPct": 0.388
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642384",
+      "name": "Isaiah Crawford",
+      "teamId": "HOU",
+      "position": "SF",
+      "birthDate": "2001-11-01",
+      "stats": {
+        "pts": 2.0,
+        "reb": 1.1,
+        "ast": 0.4,
+        "fgPct": 0.429
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421,
+          2664401
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
       "id": "1631120",
       "name": "JD Davison",
-      "teamId": "HOU",
+      "teamId": "ORL",
       "position": "PG",
       "birthDate": "2002-10-03",
       "stats": {

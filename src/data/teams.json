@@ -3075,12 +3075,20 @@
       },
       "contract": {
         "salaryByYear": [
-          19449432
+          40160643,
+          36947792,
+          38955824,
+          40963856,
+          42971885
         ],
         "optionType": [
+          null,
+          null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 5
       }
     },
     {

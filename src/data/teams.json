@@ -445,9 +445,15 @@
         "1630529",
         "1642274",
         "1631121",
-        "1630621",
         "1631255",
-        "1642358"
+        "1642358",
+        "1630570",
+        "1631097",
+        "1642852",
+        "201599",
+        "1631132",
+        "1631216",
+        "1641723"
       ]
     },
     {
@@ -526,7 +532,6 @@
         "1642845",
         "1631230",
         "1631133",
-        "1630570",
         "1642348",
         "1641737",
         "1641780",
@@ -2805,10 +2810,10 @@
       "contract": {
         "salaryByYear": [
           3237120,
-          4200000
+          5493394
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -6651,7 +6656,7 @@
       "contract": {
         "salaryByYear": [
           42166510,
-          44800000
+          44886930
         ],
         "optionType": [
           null,
@@ -6700,8 +6705,8 @@
       },
       "contract": {
         "salaryByYear": [
-          28767536,
-          30700000
+          32785071,
+          30751504
         ],
         "optionType": [
           null,
@@ -6746,14 +6751,18 @@
       },
       "contract": {
         "salaryByYear": [
-          9500000,
-          10200000
+          6440678,
+          17129630,
+          18500000,
+          19870370
         ],
         "optionType": [
           null,
-          "player"
+          null,
+          null,
+          null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 4
       }
     },
     {
@@ -6770,13 +6779,13 @@
       },
       "contract": {
         "salaryByYear": [
-          8600000,
-          9000000,
-          9500000
+          7896240,
+          8271960,
+          10505389
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -6796,14 +6805,18 @@
       },
       "contract": {
         "salaryByYear": [
-          15400000,
-          16600000
+          14898786,
+          20858300,
+          22526964,
+          24195628
         ],
         "optionType": [
           null,
-          null
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 4
       }
     },
     {
@@ -6820,11 +6833,11 @@
       },
       "contract": {
         "salaryByYear": [
-          4800000,
-          6200000
+          3512760,
+          5595827
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -6845,28 +6858,6 @@
       "contract": {
         "salaryByYear": [
           2449421
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1630621",
-      "name": "Hunter Dickinson",
-      "teamId": "NOP",
-      "position": "C",
-      "birthDate": "2000-11-25",
-      "stats": {
-        "pts": 8.5,
-        "reb": 6.0,
-        "ast": 1.0,
-        "fgPct": 0.56
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
         ],
         "optionType": [
           null
@@ -6910,10 +6901,10 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          2296271
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -6932,12 +6923,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          2584539,
+          2934742
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -8029,7 +8022,7 @@
     {
       "id": "1630570",
       "name": "Trendon Watford",
-      "teamId": "PHI",
+      "teamId": "NOP",
       "position": "PF",
       "birthDate": "2000-11-09",
       "stats": {
@@ -8040,10 +8033,150 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          2449421
         ],
         "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1631097",
+      "name": "Bennedict Mathurin",
+      "teamId": "NOP",
+      "position": "SG",
+      "birthDate": "2002-06-19",
+      "stats": {
+        "pts": 17.6,
+        "reb": 5.4,
+        "ast": 2.4,
+        "fgPct": 0.43
+      },
+      "contract": {
+        "salaryByYear": [
+          7804878,
+          8195122
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1642852",
+      "name": "Derik Queen",
+      "teamId": "NOP",
+      "position": "C",
+      "birthDate": "2004-12-27",
+      "stats": {
+        "pts": 11.7,
+        "reb": 7.1,
+        "ast": 3.7,
+        "fgPct": 0.473
+      },
+      "contract": {
+        "salaryByYear": [
+          5416080,
+          5673840,
+          8107918
+        ],
+        "optionType": [
+          null,
+          "team",
           "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "201599",
+      "name": "DeAndre Jordan",
+      "teamId": "NOP",
+      "position": "C",
+      "birthDate": "1988-07-21",
+      "stats": {
+        "pts": 4.4,
+        "reb": 6.3,
+        "ast": 0.9,
+        "fgPct": 0.673
+      },
+      "contract": {
+        "salaryByYear": [
+          3876529,
+          4070355
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1631132",
+      "name": "Christian Koloko",
+      "teamId": "NOP",
+      "position": "C",
+      "birthDate": "2000-06-20",
+      "stats": {
+        "pts": 2.7,
+        "reb": 3.0,
+        "ast": 0.7,
+        "fgPct": 0.419
+      },
+      "contract": {
+        "salaryByYear": [
+          2625627
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1631216",
+      "name": "Caleb Houstan",
+      "teamId": "NOP",
+      "position": "SF",
+      "birthDate": "2003-01-09",
+      "stats": {
+        "pts": 2.3,
+        "reb": 0.6,
+        "ast": 0.2,
+        "fgPct": 0.397
+      },
+      "contract": {
+        "salaryByYear": [
+          2625627
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1641723",
+      "name": "Kobe Bufkin",
+      "teamId": "NOP",
+      "position": "PG",
+      "birthDate": "2003-09-21",
+      "stats": {
+        "pts": 2.9,
+        "reb": 0.8,
+        "ast": 0.6,
+        "fgPct": 0.354
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
         ],
         "yearsRemaining": 1
       }

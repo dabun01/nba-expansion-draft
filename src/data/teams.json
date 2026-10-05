@@ -644,8 +644,10 @@
         "1629640",
         "1642868",
         "1628436",
-        "1642357",
-        "1643542"
+        "1643542",
+        "1643519",
+        "1629162",
+        "1643007"
       ]
     },
     {
@@ -9947,18 +9949,20 @@
         "salaryByYear": [
           16868246,
           43500000,
-          46900000,
-          50400000,
-          53900000
+          46980000,
+          50460000,
+          53940000,
+          57420000
         ],
         "optionType": [
+          "team",
           null,
           null,
           null,
           null,
           "player"
         ],
-        "yearsRemaining": 5
+        "yearsRemaining": 6
       }
     },
     {
@@ -9975,10 +9979,10 @@
       },
       "contract": {
         "salaryByYear": [
-          49500000,
-          53500000,
-          57900000,
-          62300000
+          49800000,
+          53784000,
+          57768000,
+          61752000
         ],
         "optionType": [
           null,
@@ -10003,9 +10007,9 @@
       },
       "contract": {
         "salaryByYear": [
-          27500000,
-          29500000,
-          31500000
+          27000000,
+          24652174,
+          27000000
         ],
         "optionType": [
           null,
@@ -10030,15 +10034,13 @@
       "contract": {
         "salaryByYear": [
           10015920,
-          12800000,
-          16300000
+          12670139
         ],
         "optionType": [
-          null,
-          null,
+          "team",
           "team"
         ],
-        "yearsRemaining": 3
+        "yearsRemaining": 2
       }
     },
     {
@@ -10056,12 +10058,12 @@
       "contract": {
         "salaryByYear": [
           12989040,
-          13600000,
-          17400000
+          13607760,
+          17172994
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -10082,7 +10084,7 @@
       "contract": {
         "salaryByYear": [
           15044000,
-          15700000
+          15796200
         ],
         "optionType": [
           null,
@@ -10105,9 +10107,9 @@
       },
       "contract": {
         "salaryByYear": [
-          15350000,
+          13888889,
           15000000,
-          14600000
+          16111111
         ],
         "optionType": [
           null,
@@ -10153,7 +10155,7 @@
       },
       "contract": {
         "salaryByYear": [
-          18000000
+          17500000
         ],
         "optionType": [
           null
@@ -10176,12 +10178,12 @@
       "contract": {
         "salaryByYear": [
           5145360,
-          6600000,
-          8400000
+          5390640,
+          7983539
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -10201,34 +10203,16 @@
       },
       "contract": {
         "salaryByYear": [
-          7500000
+          10450000,
+          9900000,
+          9350000
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642357",
-      "name": "David Jones-Garcia",
-      "teamId": "SAS",
-      "position": "SF",
-      "birthDate": "2001-11-24",
-      "stats": {
-        "pts": 4.0,
-        "reb": 2.5,
-        "ast": 0.8,
-        "fgPct": 0.45
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -10245,7 +10229,85 @@
       },
       "contract": {
         "salaryByYear": [
-          3000000
+          3076920,
+          3230520,
+          3384480,
+          6102218
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1643519",
+      "name": "Jayden Quaintance",
+      "teamId": "SAS",
+      "position": "PF",
+      "birthDate": "2007-07-11",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          3902760,
+          4097880,
+          4292880,
+          6619621
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1629162",
+      "name": "Jordan McLaughlin",
+      "teamId": "SAS",
+      "position": "PG",
+      "birthDate": "1996-04-09",
+      "stats": {
+        "pts": 2.0,
+        "reb": 0.7,
+        "ast": 0.9,
+        "fgPct": 0.418
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643007",
+      "name": "Taelon Peter",
+      "teamId": "SAS",
+      "position": "SG",
+      "birthDate": "2002-02-27",
+      "stats": {
+        "pts": 4.5,
+        "reb": 1.6,
+        "ast": 1.1,
+        "fgPct": 0.38
+      },
+      "contract": {
+        "salaryByYear": [
+          2185116
         ],
         "optionType": [
           null

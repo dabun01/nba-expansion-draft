@@ -176,13 +176,12 @@
         "1631124",
         "1630192",
         "1641747",
-        "202685",
-        "1629618",
         "1642461",
-        "1631223",
-        "1641816",
-        "1642948",
-        "1641801"
+        "201942",
+        "1629022",
+        "1626145",
+        "1628963",
+        "1642350"
       ]
     },
     {
@@ -287,7 +286,8 @@
         "1641757",
         "1642920",
         "1642949",
-        "1642280"
+        "1642280",
+        "1629618"
       ]
     },
     {
@@ -557,7 +557,6 @@
       "playerIds": [
         "1627734",
         "203897",
-        "201942",
         "1628370",
         "1631099",
         "201566",
@@ -2787,28 +2786,6 @@
       }
     },
     {
-      "id": "1642948",
-      "name": "Ryan Nembhard",
-      "teamId": "DEN",
-      "position": "PG",
-      "birthDate": "2003-03-10",
-      "stats": {
-        "pts": 6.6,
-        "reb": 2.2,
-        "ast": 5.3,
-        "fgPct": 0.415
-      },
-      "contract": {
-        "salaryByYear": [
-          2150917
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "203999",
       "name": "Nikola Jokic",
       "teamId": "DEN",
@@ -2872,7 +2849,7 @@
       },
       "contract": {
         "salaryByYear": [
-          31978037,
+          33658037,
           34300000
         ],
         "optionType": [
@@ -3007,31 +2984,9 @@
       }
     },
     {
-      "id": "202685",
-      "name": "Jonas Valanciunas",
-      "teamId": "DEN",
-      "position": "C",
-      "birthDate": "1992-05-06",
-      "stats": {
-        "pts": 8.7,
-        "reb": 5.1,
-        "ast": 1.2,
-        "fgPct": 0.582
-      },
-      "contract": {
-        "salaryByYear": [
-          4500000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1629618",
       "name": "Jalen Pickett",
-      "teamId": "DEN",
+      "teamId": "LAC",
       "position": "SG",
       "birthDate": "1999-10-22",
       "stats": {
@@ -3064,51 +3019,7 @@
       },
       "contract": {
         "salaryByYear": [
-          1900000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1631223",
-      "name": "David Roddy",
-      "teamId": "DEN",
-      "position": "PF",
-      "birthDate": "2001-03-27",
-      "stats": {
-        "pts": 8.0,
-        "reb": 4.0,
-        "ast": 0.8,
-        "fgPct": 0.5
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1641816",
-      "name": "Hunter Tyson",
-      "teamId": "DEN",
-      "position": "PF",
-      "birthDate": "2000-06-13",
-      "stats": {
-        "pts": 2.2,
-        "reb": 1.7,
-        "ast": 0.8,
-        "fgPct": 0.269
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
+          6000000
         ],
         "optionType": [
           null
@@ -7507,28 +7418,6 @@
       }
     },
     {
-      "id": "1641801",
-      "name": "Emanuel Miller",
-      "teamId": "DEN",
-      "position": "SF",
-      "birthDate": "2000-06-19",
-      "stats": {
-        "pts": 3.0,
-        "reb": 2.0,
-        "ast": 0.6,
-        "fgPct": 0.46
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1642280",
       "name": "Trentyn Flowers",
       "teamId": "LAC",
@@ -8501,7 +8390,7 @@
     {
       "id": "201942",
       "name": "DeMar DeRozan",
-      "teamId": "SAC",
+      "teamId": "DEN",
       "position": "SF",
       "birthDate": "1989-08-07",
       "stats": {
@@ -8512,7 +8401,95 @@
       },
       "contract": {
         "salaryByYear": [
-          24570000
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1629022",
+      "name": "Lonnie Walker IV",
+      "teamId": "DEN",
+      "position": "SG",
+      "birthDate": "1998-12-14",
+      "stats": {
+        "pts": 10.0,
+        "reb": 2.3,
+        "ast": 1.5,
+        "fgPct": 0.422
+      },
+      "contract": {
+        "salaryByYear": [
+          3286399
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1626145",
+      "name": "Tyus Jones",
+      "teamId": "DEN",
+      "position": "PG",
+      "birthDate": "1996-05-10",
+      "stats": {
+        "pts": 3.0,
+        "reb": 1.1,
+        "ast": 2.4,
+        "fgPct": 0.349
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1628963",
+      "name": "Marvin Bagley III",
+      "teamId": "DEN",
+      "position": "PF",
+      "birthDate": "1999-03-14",
+      "stats": {
+        "pts": 10.5,
+        "reb": 6.1,
+        "ast": 1.4,
+        "fgPct": 0.618
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642350",
+      "name": "Trevon Brazile",
+      "teamId": "DEN",
+      "position": "PF",
+      "birthDate": "2003-01-07",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
         ],
         "optionType": [
           null

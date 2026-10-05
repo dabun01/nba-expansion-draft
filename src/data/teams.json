@@ -128,12 +128,15 @@
         "201935",
         "1631212",
         "1630241",
-        "1629731",
         "1642281",
         "1628418",
         "1641772",
         "1641854",
-        "1642878"
+        "1642878",
+        "1626209",
+        "1641715",
+        "1643509",
+        "1631215"
       ]
     },
     {
@@ -496,7 +499,8 @@
         "1641780",
         "1642889",
         "1642282",
-        "1627759"
+        "1627759",
+        "1629731"
       ]
     },
     {
@@ -2148,7 +2152,7 @@
       },
       "contract": {
         "salaryByYear": [
-          42000000,
+          50105628,
           45000000,
           48000000
         ],
@@ -2174,7 +2178,7 @@
       },
       "contract": {
         "salaryByYear": [
-          60500000,
+          50105628,
           65400000,
           70600000,
           76200000
@@ -2226,7 +2230,7 @@
       },
       "contract": {
         "salaryByYear": [
-          18000000
+          30647619
         ],
         "optionType": [
           null
@@ -2248,7 +2252,7 @@
       },
       "contract": {
         "salaryByYear": [
-          18600000,
+          20465116,
           21100000,
           23600000,
           24700000
@@ -2276,7 +2280,7 @@
       },
       "contract": {
         "salaryByYear": [
-          7500000
+          9160715
         ],
         "optionType": [
           null
@@ -2287,7 +2291,7 @@
     {
       "id": "1629731",
       "name": "Dean Wade",
-      "teamId": "CLE",
+      "teamId": "PHI",
       "position": "PF",
       "birthDate": "1996-11-20",
       "stats": {
@@ -2320,7 +2324,7 @@
       },
       "contract": {
         "salaryByYear": [
-          3200000,
+          3658560,
           4100000
         ],
         "optionType": [
@@ -2344,7 +2348,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2500000
+          2449421
         ],
         "optionType": [
           null
@@ -2390,7 +2394,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2000000
+          2411090
         ],
         "optionType": [
           null
@@ -2412,7 +2416,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2406000
+          2406205
         ],
         "optionType": [
           null
@@ -2434,7 +2438,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000,
+          2150917,
           2300000
         ],
         "optionType": [
@@ -2442,6 +2446,94 @@
           "team"
         ],
         "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1626209",
+      "name": "Mario Hezonja",
+      "teamId": "CLE",
+      "position": "SF",
+      "birthDate": "1995-02-25",
+      "stats": {
+        "pts": 4.8,
+        "reb": 3.5,
+        "ast": 0.9,
+        "fgPct": 0.409
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1641715",
+      "name": "Cam Whitmore",
+      "teamId": "CLE",
+      "position": "SF",
+      "birthDate": "2004-07-08",
+      "stats": {
+        "pts": 9.2,
+        "reb": 2.8,
+        "ast": 0.7,
+        "fgPct": 0.357
+      },
+      "contract": {
+        "salaryByYear": [
+          1819437
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643509",
+      "name": "Meleek Thomas",
+      "teamId": "CLE",
+      "position": "SG",
+      "birthDate": "2006-08-06",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1631215",
+      "name": "Khalifa Diop",
+      "teamId": "CLE",
+      "position": "C",
+      "birthDate": "2002-01-15",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
       }
     },
     {

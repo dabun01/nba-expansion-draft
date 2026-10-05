@@ -419,14 +419,15 @@
         "203497",
         "1630183",
         "1628978",
-        "1630182",
         "1630545",
-        "204060",
         "1641740",
         "1630538",
-        "1642399",
-        "1629659",
-        "1642911"
+        "1642262",
+        "1626168",
+        "1630245",
+        "1630228",
+        "1642866",
+        "1642912"
       ]
     },
     {
@@ -591,7 +592,6 @@
         "1642875",
         "1642363",
         "1630173",
-        "1626168",
         "1641815",
         "1641732",
         "1629234"
@@ -650,7 +650,6 @@
         "1628374",
         "1642846",
         "1641718",
-        "1642262",
         "1642268",
         "1641729",
         "1642271",
@@ -658,7 +657,8 @@
         "1629004",
         "201567",
         "1629006",
-        "1629637"
+        "1629637",
+        "1630182"
       ]
     },
     {
@@ -6431,8 +6431,8 @@
       "contract": {
         "salaryByYear": [
           48924624,
-          52200000,
-          55600000
+          52298736,
+          55672848
         ],
         "optionType": [
           null,
@@ -6457,8 +6457,8 @@
       "contract": {
         "salaryByYear": [
           40770520,
-          43500000,
-          46300000
+          43582280,
+          46394040
         ],
         "optionType": [
           null,
@@ -6506,9 +6506,9 @@
       },
       "contract": {
         "salaryByYear": [
-          26200000,
-          28000000,
-          29800000
+          26200001,
+          28006898,
+          29813790
         ],
         "optionType": [
           null,
@@ -6532,20 +6532,18 @@
       },
       "contract": {
         "salaryByYear": [
-          11600000,
-          12400000
+          12535000
         ],
         "optionType": [
-          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
       "id": "1630182",
       "name": "Josh Green",
-      "teamId": "MIN",
+      "teamId": "UTA",
       "position": "SG",
       "birthDate": "2000-11-16",
       "stats": {
@@ -6580,36 +6578,14 @@
       },
       "contract": {
         "salaryByYear": [
-          3200000,
-          4100000
+          2801640,
+          5054159
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
-      }
-    },
-    {
-      "id": "204060",
-      "name": "Joe Ingles",
-      "teamId": "MIN",
-      "position": "SF",
-      "birthDate": "1987-10-02",
-      "stats": {
-        "pts": 5.5,
-        "reb": 2.2,
-        "ast": 2.8,
-        "fgPct": 0.43
-      },
-      "contract": {
-        "salaryByYear": [
-          3500000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
       }
     },
     {
@@ -6626,12 +6602,16 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          3086420,
+          3333334,
+          3580246
         ],
         "optionType": [
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -6648,73 +6628,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1629659",
-      "name": "Talen Horton-Tucker",
-      "teamId": "MIN",
-      "position": "SG",
-      "birthDate": "2000-11-25",
-      "stats": {
-        "pts": 5.5,
-        "reb": 2.5,
-        "ast": 1.8,
-        "fgPct": 0.41
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642911",
-      "name": "Rocco Zikarsky",
-      "teamId": "MIN",
-      "position": "C",
-      "birthDate": "2006-07-11",
-      "stats": {
-        "pts": 3.0,
-        "reb": 3.5,
-        "ast": 0.3,
-        "fgPct": 0.52
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642399",
-      "name": "Jesse Edwards",
-      "teamId": "MIN",
-      "position": "C",
-      "birthDate": "2000-03-18",
-      "stats": {
-        "pts": 4.5,
-        "reb": 3.5,
-        "ast": 0.5,
-        "fgPct": 0.56
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
+          2845883
         ],
         "optionType": [
           null
@@ -9307,7 +9221,7 @@
     {
       "id": "1626168",
       "name": "Trey Lyles",
-      "teamId": "SAC",
+      "teamId": "MIN",
       "position": "PF",
       "birthDate": "1995-11-05",
       "stats": {
@@ -9318,7 +9232,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2400000
+          2449421
         ],
         "optionType": [
           null
@@ -10153,7 +10067,7 @@
     {
       "id": "1642262",
       "name": "Cody Williams",
-      "teamId": "UTA",
+      "teamId": "MIN",
       "position": "SG",
       "birthDate": "2004-11-20",
       "stats": {
@@ -10164,12 +10078,122 @@
       },
       "contract": {
         "salaryByYear": [
-          6015600
+          6015600,
+          7669890
         ],
         "optionType": [
-          null
+          "team",
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1630245",
+      "name": "Ayo Dosunmu",
+      "teamId": "MIN",
+      "position": "SG",
+      "birthDate": "2000-01-17",
+      "stats": {
+        "pts": 14.8,
+        "reb": 3.4,
+        "ast": 3.6,
+        "fgPct": 0.517
+      },
+      "contract": {
+        "salaryByYear": [
+          19310345,
+          20855173,
+          22400001,
+          23944829,
+          25489652
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 5
+      }
+    },
+    {
+      "id": "1630228",
+      "name": "Jonathan Kuminga",
+      "teamId": "MIN",
+      "position": "PF",
+      "birthDate": "2002-10-06",
+      "stats": {
+        "pts": 12.2,
+        "reb": 5.6,
+        "ast": 2.3,
+        "fgPct": 0.463
+      },
+      "contract": {
+        "salaryByYear": [
+          6064000,
+          6367200
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1642866",
+      "name": "Joan Beringer",
+      "teamId": "MIN",
+      "position": "C",
+      "birthDate": "2006-11-11",
+      "stats": {
+        "pts": 3.9,
+        "reb": 2.3,
+        "ast": 0.3,
+        "fgPct": 0.663
+      },
+      "contract": {
+        "salaryByYear": [
+          4411200,
+          4621200,
+          7098163
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1642912",
+      "name": "Isaiah Evans",
+      "teamId": "MIN",
+      "position": "SF",
+      "birthDate": "2005-12-06",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763,
+          2294370,
+          2694363,
+          2918152
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 4
       }
     },
     {

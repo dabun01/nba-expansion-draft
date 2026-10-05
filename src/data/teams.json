@@ -523,7 +523,9 @@
         "1642859",
         "1642869",
         "1631288",
-        "1631120"
+        "1631120",
+        "1631103",
+        "1628975"
       ]
     },
     {
@@ -4231,7 +4233,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2584539
+          2625627
         ],
         "optionType": [
           null
@@ -7639,18 +7641,20 @@
       },
       "contract": {
         "salaryByYear": [
-          41250000,
-          44300000,
-          47400000,
-          50400000
+          41500000,
+          44820000,
+          48140000,
+          51460000,
+          54780000
         ],
         "optionType": [
           null,
           null,
           null,
-          null
+          null,
+          "player"
         ],
-        "yearsRemaining": 4
+        "yearsRemaining": 5
       }
     },
     {
@@ -7668,9 +7672,9 @@
       "contract": {
         "salaryByYear": [
           41754690,
-          44700000,
-          47700000,
-          50700000
+          44847630,
+          47940570,
+          51033510
         ],
         "optionType": [
           null,
@@ -7696,8 +7700,8 @@
       "contract": {
         "salaryByYear": [
           39446090,
-          42200000,
-          45000000
+          42166510,
+          44886930
         ],
         "optionType": [
           null,
@@ -7722,15 +7726,17 @@
       "contract": {
         "salaryByYear": [
           32400000,
-          34700000,
-          37000000
+          29600000,
+          26800000,
+          26700000
         ],
         "optionType": [
           null,
           null,
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 3
+        "yearsRemaining": 4
       }
     },
     {
@@ -7747,12 +7753,16 @@
       },
       "contract": {
         "salaryByYear": [
-          18102000
+          18102000,
+          19550160,
+          20998320
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -7769,14 +7779,12 @@
       },
       "contract": {
         "salaryByYear": [
-          10106316,
-          13000000
+          10106316
         ],
         "optionType": [
-          null,
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -7793,7 +7801,7 @@
       },
       "contract": {
         "salaryByYear": [
-          3300000
+          2449421
         ],
         "optionType": [
           null
@@ -7815,7 +7823,7 @@
       },
       "contract": {
         "salaryByYear": [
-          14500000
+          2449421
         ],
         "optionType": [
           null
@@ -7837,14 +7845,12 @@
       },
       "contract": {
         "salaryByYear": [
-          6600000,
-          7100000
+          7608696
         ],
         "optionType": [
-          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -7862,10 +7868,10 @@
       "contract": {
         "salaryByYear": [
           3991200,
-          5100000
+          6138466
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -7886,12 +7892,12 @@
       "contract": {
         "salaryByYear": [
           3132360,
-          3300000,
-          5400000
+          3282000,
+          5910882
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -7911,12 +7917,16 @@
       },
       "contract": {
         "salaryByYear": [
-          2150917
+          2150917,
+          2525901,
+          2735698
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -7934,6 +7944,50 @@
       "contract": {
         "salaryByYear": [
           2584539
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1631103",
+      "name": "Malaki Branham",
+      "teamId": "ORL",
+      "position": "SG",
+      "birthDate": "2003-05-12",
+      "stats": {
+        "pts": 4.6,
+        "reb": 1.6,
+        "ast": 0.8,
+        "fgPct": 0.473
+      },
+      "contract": {
+        "salaryByYear": [
+          2537526
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1628975",
+      "name": "Jevon Carter",
+      "teamId": "ORL",
+      "position": "PG",
+      "birthDate": "1995-09-14",
+      "stats": {
+        "pts": 6.4,
+        "reb": 1.7,
+        "ast": 1.6,
+        "fgPct": 0.401
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
         ],
         "optionType": [
           null

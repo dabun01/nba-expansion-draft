@@ -344,13 +344,18 @@
         "1642285",
         "1630590",
         "1641707",
-        "1642914",
         "203484",
         "1642383",
         "1642366",
         "203924",
         "1643409",
-        "1641765"
+        "1641765",
+        "1641722",
+        "1631200",
+        "1630191",
+        "1629660",
+        "1643510",
+        "1642877"
       ]
     },
     {
@@ -435,7 +440,6 @@
         "1642274",
         "1631121",
         "1630621",
-        "1641722",
         "1631255",
         "1642358"
       ]
@@ -561,7 +565,6 @@
         "201950",
         "1641739",
         "1630703",
-        "1631200",
         "1630249",
         "1629057",
         "1631126",
@@ -5444,7 +5447,7 @@
       },
       "contract": {
         "salaryByYear": [
-          1002360
+          2497812
         ],
         "optionType": [
           null
@@ -5466,13 +5469,13 @@
       },
       "contract": {
         "salaryByYear": [
-          4200000,
-          4600000,
-          5900000
+          6001080,
+          6286920,
+          8342743
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -5492,10 +5495,10 @@
       },
       "contract": {
         "salaryByYear": [
-          2400000
+          2406205
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -5514,8 +5517,8 @@
       },
       "contract": {
         "salaryByYear": [
-          3900000,
-          5000000
+          2296271,
+          2486995
         ],
         "optionType": [
           null,
@@ -5538,11 +5541,11 @@
       },
       "contract": {
         "salaryByYear": [
-          8600000,
-          11200000
+          6332760,
+          8067937
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -5562,12 +5565,16 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          2411090,
+          2616754,
+          2830685
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -5584,8 +5591,8 @@
       },
       "contract": {
         "salaryByYear": [
-          8500000,
-          9200000
+          2461462,
+          2789215
         ],
         "optionType": [
           null,
@@ -5608,32 +5615,10 @@
       },
       "contract": {
         "salaryByYear": [
-          8000000
+          7805900
         ],
         "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642914",
-      "name": "Javon Small",
-      "teamId": "MEM",
-      "position": "PG",
-      "birthDate": "2002-12-19",
-      "stats": {
-        "pts": 9.7,
-        "reb": 3.1,
-        "ast": 3.7,
-        "fgPct": 0.465
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -5652,10 +5637,10 @@
       },
       "contract": {
         "salaryByYear": [
-          10500000
+          17744971
         ],
         "optionType": [
-          null
+          "player"
         ],
         "yearsRemaining": 1
       }
@@ -5674,13 +5659,13 @@
       },
       "contract": {
         "salaryByYear": [
-          4200000,
-          4400000,
-          4600000
+          4190520,
+          4390320,
+          6752312
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -5700,12 +5685,16 @@
       },
       "contract": {
         "salaryByYear": [
-          2400000
+          8285714,
+          8700000,
+          9114286
         ],
         "optionType": [
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -6855,7 +6844,7 @@
     {
       "id": "1641722",
       "name": "Jordan Hawkins",
-      "teamId": "NOP",
+      "teamId": "MEM",
       "position": "SG",
       "birthDate": "2002-04-29",
       "stats": {
@@ -6866,14 +6855,12 @@
       },
       "contract": {
         "salaryByYear": [
-          3900000,
-          5000000
+          7021895
         ],
         "optionType": [
-          null,
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -8749,7 +8736,7 @@
     {
       "id": "1631200",
       "name": "Kris Murray",
-      "teamId": "POR",
+      "teamId": "MEM",
       "position": "SF",
       "birthDate": "2000-08-19",
       "stats": {
@@ -8760,7 +8747,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2300000
+          5315004
         ],
         "optionType": [
           "team"
@@ -8804,12 +8791,12 @@
       },
       "contract": {
         "salaryByYear": [
-          29700000,
-          31700000
+          34206898,
+          36413790
         ],
         "optionType": [
           null,
-          null
+          "player"
         ],
         "yearsRemaining": 2
       }
@@ -10992,10 +10979,10 @@
       },
       "contract": {
         "salaryByYear": [
-          8500000,
-          8900000,
-          11200000,
-          13500000
+          11849760,
+          12441840,
+          13034880,
+          16476089
         ],
         "optionType": [
           null,
@@ -11004,6 +10991,108 @@
           "team"
         ],
         "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1630191",
+      "name": "Isaiah Stewart",
+      "teamId": "MEM",
+      "position": "PF",
+      "birthDate": "2001-05-22",
+      "stats": {
+        "pts": 10.0,
+        "reb": 5.0,
+        "ast": 1.1,
+        "fgPct": 0.55
+      },
+      "contract": {
+        "salaryByYear": [
+          15000000,
+          15000000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1629660",
+      "name": "Ty Jerome",
+      "teamId": "MEM",
+      "position": "SG",
+      "birthDate": "1997-07-08",
+      "stats": {
+        "pts": 19.7,
+        "reb": 2.8,
+        "ast": 5.7,
+        "fgPct": 0.46
+      },
+      "contract": {
+        "salaryByYear": [
+          9220050,
+          9659100
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1643510",
+      "name": "Karim L\u00f3pez",
+      "teamId": "MEM",
+      "position": "SF",
+      "birthDate": "2007-04-12",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          3746760,
+          3934320,
+          4121760,
+          6565964
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1642877",
+      "name": "Micah Peavy",
+      "teamId": "MEM",
+      "position": "SG",
+      "birthDate": "2001-07-16",
+      "stats": {
+        "pts": 4.3,
+        "reb": 1.9,
+        "ast": 1.0,
+        "fgPct": 0.385
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917,
+          2525901,
+          2735698
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
       }
     },
     {

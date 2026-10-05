@@ -151,14 +151,17 @@
         "1629655",
         "1630230",
         "1631108",
-        "202691",
         "1628997",
         "1641726",
-        "1642358",
-        "1641890",
-        "203939",
         "1631204",
-        "1630583"
+        "1630583",
+        "1642258",
+        "1643516",
+        "1643547",
+        "1641844",
+        "201580",
+        "1630619",
+        "1641765"
       ]
     },
     {
@@ -351,7 +354,8 @@
         "1630696",
         "1642443",
         "1642066",
-        "1630208"
+        "1630208",
+        "202691"
       ]
     },
     {
@@ -414,7 +418,8 @@
         "1626172",
         "1630621",
         "1641722",
-        "1631255"
+        "1631255",
+        "1642358"
       ]
     },
     {
@@ -2689,7 +2694,7 @@
     {
       "id": "202691",
       "name": "Klay Thompson",
-      "teamId": "DAL",
+      "teamId": "MIA",
       "position": "SF",
       "birthDate": "1990-02-08",
       "stats": {
@@ -2700,12 +2705,14 @@
       },
       "contract": {
         "salaryByYear": [
-          17460317
+          5600000,
+          5880000
         ],
         "optionType": [
-          null
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -2722,7 +2729,7 @@
       },
       "contract": {
         "salaryByYear": [
-          10001494,
+          10001493,
           10700000
         ],
         "optionType": [
@@ -2759,7 +2766,7 @@
     {
       "id": "1642358",
       "name": "AJ Johnson",
-      "teamId": "DAL",
+      "teamId": "NOP",
       "position": "SG",
       "birthDate": "2004-12-01",
       "stats": {
@@ -2795,50 +2802,6 @@
       "contract": {
         "salaryByYear": [
           2150917
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1641890",
-      "name": "Tyler Smith",
-      "teamId": "DAL",
-      "position": "PF",
-      "birthDate": "2004-11-02",
-      "stats": {
-        "pts": 4.7,
-        "reb": 2.8,
-        "ast": 0.4,
-        "fgPct": 0.42
-      },
-      "contract": {
-        "salaryByYear": [
-          1235000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "203939",
-      "name": "Dwight Powell",
-      "teamId": "DAL",
-      "position": "C",
-      "birthDate": "1991-07-20",
-      "stats": {
-        "pts": 3.3,
-        "reb": 4.1,
-        "ast": 1.1,
-        "fgPct": 0.644
-      },
-      "contract": {
-        "salaryByYear": [
-          3500000
         ],
         "optionType": [
           null
@@ -4952,7 +4915,7 @@
       },
       "contract": {
         "salaryByYear": [
-          10500000,
+          17007043,
           11200000,
           12000000
         ],
@@ -4962,6 +4925,174 @@
           null
         ],
         "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1642258",
+      "name": "Zaccharie Risacher",
+      "teamId": "DAL",
+      "position": "SF",
+      "birthDate": "2005-04-08",
+      "stats": {
+        "pts": 9.6,
+        "reb": 3.8,
+        "ast": 1.1,
+        "fgPct": 0.4
+      },
+      "contract": {
+        "salaryByYear": [
+          13826040,
+          13826040
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1643516",
+      "name": "Morez Johnson Jr.",
+      "teamId": "DAL",
+      "position": "PF",
+      "birthDate": "2006-01-25",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          6754800,
+          6754800,
+          6754800,
+          6754800
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1643547",
+      "name": "Sergio de Larrea",
+      "teamId": "DAL",
+      "position": "PG",
+      "birthDate": "2005-12-04",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          3182280,
+          3182280,
+          3182280,
+          3182280
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1641844",
+      "name": "Tarik Biberovic",
+      "teamId": "DAL",
+      "position": "SF",
+      "birthDate": "2001-01-28",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          3000000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "201580",
+      "name": "JaVale McGee",
+      "teamId": "DAL",
+      "position": "C",
+      "birthDate": "1988-01-19",
+      "stats": {
+        "pts": 7.6,
+        "reb": 5.0,
+        "ast": 0.4,
+        "fgPct": 0.58
+      },
+      "contract": {
+        "salaryByYear": [
+          2208856
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1630619",
+      "name": "Moussa Cisse",
+      "teamId": "DAL",
+      "position": "C",
+      "birthDate": "2002-09-10",
+      "stats": {
+        "pts": 4.5,
+        "reb": 5.7,
+        "ast": 0.2,
+        "fgPct": 0.541
+      },
+      "contract": {
+        "salaryByYear": [
+          2185116
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1641765",
+      "name": "Olivier-Maxence Prosper",
+      "teamId": "DAL",
+      "position": "SF",
+      "birthDate": "2002-07-03",
+      "stats": {
+        "pts": 10.0,
+        "reb": 3.5,
+        "ast": 1.0,
+        "fgPct": 0.679
+      },
+      "contract": {
+        "salaryByYear": [
+          1002360
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
       }
     },
     {

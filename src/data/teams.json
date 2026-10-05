@@ -255,7 +255,8 @@
         "1641763",
         "1631131",
         "203992",
-        "1642384"
+        "1642384",
+        "1643570"
       ]
     },
     {
@@ -272,11 +273,11 @@
         "1630167",
         "1641716",
         "204456",
-        "1630695",
         "1630643",
-        "1631245",
         "1641767",
-        "1642277"
+        "1642277",
+        "1626162",
+        "1626204"
       ]
     },
     {
@@ -558,7 +559,8 @@
         "1629680",
         "1629057",
         "1631126",
-        "1629630"
+        "1629630",
+        "1630695"
       ]
     },
     {
@@ -4190,6 +4192,34 @@
       }
     },
     {
+      "id": "1643570",
+      "name": "Bruce Thornton",
+      "teamId": "HOU",
+      "position": "PG",
+      "birthDate": "2003-09-14",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763,
+          2294370,
+          2694363,
+          2918152
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
       "id": "1631120",
       "name": "JD Davison",
       "teamId": "ORL",
@@ -4226,8 +4256,8 @@
       "contract": {
         "salaryByYear": [
           48924624,
-          52400000,
-          55700000
+          52298736,
+          55672848
         ],
         "optionType": [
           null,
@@ -4252,7 +4282,7 @@
       "contract": {
         "salaryByYear": [
           48924624,
-          51400000
+          52298736
         ],
         "optionType": [
           null,
@@ -4275,8 +4305,8 @@
       },
       "contract": {
         "salaryByYear": [
-          23000000,
-          24700000
+          20342140,
+          21790300
         ],
         "optionType": [
           null,
@@ -4299,16 +4329,14 @@
       },
       "contract": {
         "salaryByYear": [
-          18000000,
-          19500000,
-          21000000
+          19550160,
+          20998320
         ],
         "optionType": [
           null,
-          null,
           null
         ],
-        "yearsRemaining": 3
+        "yearsRemaining": 2
       }
     },
     {
@@ -4326,13 +4354,15 @@
       "contract": {
         "salaryByYear": [
           11000000,
-          11800000
+          19418000,
+          20971440
         ],
         "optionType": [
           null,
+          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 3
       }
     },
     {
@@ -4349,8 +4379,8 @@
       },
       "contract": {
         "salaryByYear": [
-          16000000,
-          17200000
+          15000000,
+          16025000
         ],
         "optionType": [
           null,
@@ -4373,14 +4403,12 @@
       },
       "contract": {
         "salaryByYear": [
-          8000000,
-          10500000
+          8478542
         ],
         "optionType": [
-          null,
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -4397,18 +4425,22 @@
       },
       "contract": {
         "salaryByYear": [
-          9000000
+          11000000,
+          11800000,
+          11800000
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
       "id": "1630695",
       "name": "Micah Potter",
-      "teamId": "IND",
+      "teamId": "POR",
       "position": "C",
       "birthDate": "1998-04-06",
       "stats": {
@@ -4441,34 +4473,14 @@
       },
       "contract": {
         "salaryByYear": [
-          6500000
+          2667944,
+          3005085
         ],
         "optionType": [
+          null,
           null
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1631245",
-      "name": "Quenton Jackson",
-      "teamId": "IND",
-      "position": "PG",
-      "birthDate": "1998-09-15",
-      "stats": {
-        "pts": 9.1,
-        "reb": 2.3,
-        "ast": 2.9,
-        "fgPct": 0.47
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -4485,14 +4497,12 @@
       },
       "contract": {
         "salaryByYear": [
-          3200000,
-          4100000
+          5031669
         ],
         "optionType": [
-          null,
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -4509,14 +4519,60 @@
       },
       "contract": {
         "salaryByYear": [
-          3000000,
-          3800000
+          2296271,
+          2486995
         ],
         "optionType": [
           null,
           "team"
         ],
         "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1626162",
+      "name": "Kelly Oubre Jr.",
+      "teamId": "IND",
+      "position": "SF",
+      "birthDate": "1995-12-09",
+      "stats": {
+        "pts": 14.1,
+        "reb": 5.0,
+        "ast": 1.6,
+        "fgPct": 0.467
+      },
+      "contract": {
+        "salaryByYear": [
+          8050000,
+          8450000
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1626204",
+      "name": "Larry Nance Jr.",
+      "teamId": "IND",
+      "position": "PF",
+      "birthDate": "1993-01-01",
+      "stats": {
+        "pts": 3.7,
+        "reb": 2.7,
+        "ast": 1.0,
+        "fgPct": 0.419
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
       }
     },
     {

@@ -194,8 +194,6 @@
         "1630595",
         "1631105",
         "1641709",
-        "1627747",
-        "1641752",
         "1629130",
         "1641842",
         "1628989",
@@ -203,7 +201,13 @@
         "1642450",
         "1642404",
         "1642449",
-        "1631111"
+        "1628381",
+        "1630198",
+        "1643536",
+        "1629750",
+        "1627752",
+        "1642578",
+        "1642924"
       ]
     },
     {
@@ -376,7 +380,8 @@
         "1641748",
         "1631172",
         "1628502",
-        "1643417"
+        "1643417",
+        "1627747"
       ]
     },
     {
@@ -3043,9 +3048,9 @@
       "contract": {
         "salaryByYear": [
           50105628,
-          54000000,
-          58000000,
-          62200000
+          53817156,
+          57528684,
+          61240212
         ],
         "optionType": [
           null,
@@ -3092,18 +3097,28 @@
       },
       "contract": {
         "salaryByYear": [
-          11117925
+          11117925,
+          26724138,
+          28862069,
+          31000000,
+          33137931,
+          35275862
         ],
         "optionType": [
+          "team",
+          null,
+          null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 6
       }
     },
     {
       "id": "1627747",
       "name": "Caris LeVert",
-      "teamId": "DET",
+      "teamId": "MIL",
       "position": "SG",
       "birthDate": "1994-08-25",
       "stats": {
@@ -3139,7 +3154,7 @@
       "contract": {
         "salaryByYear": [
           15992957,
-          17100000
+          15151222
         ],
         "optionType": [
           null,
@@ -3163,10 +3178,10 @@
       "contract": {
         "salaryByYear": [
           9069600,
-          11900000
+          11491183
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -3186,12 +3201,16 @@
       },
       "contract": {
         "salaryByYear": [
-          8333333
+          8333333,
+          9000000,
+          9666667
         ],
         "optionType": [
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -3208,14 +3227,12 @@
       },
       "contract": {
         "salaryByYear": [
-          5602689,
-          6000000
+          5602689
         ],
         "optionType": [
-          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -3235,7 +3252,7 @@
           4000000
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -3254,12 +3271,16 @@
       },
       "contract": {
         "salaryByYear": [
-          2150917
+          2150917,
+          2525901,
+          2735698
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -3279,7 +3300,173 @@
           2411090
         ],
         "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1628381",
+      "name": "John Collins",
+      "teamId": "DET",
+      "position": "PF",
+      "birthDate": "1997-09-23",
+      "stats": {
+        "pts": 13.6,
+        "reb": 5.3,
+        "ast": 1.0,
+        "fgPct": 0.552
+      },
+      "contract": {
+        "salaryByYear": [
+          17000000,
+          17000000,
+          17000000
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1630198",
+      "name": "Isaiah Joe",
+      "teamId": "DET",
+      "position": "SG",
+      "birthDate": "1999-07-02",
+      "stats": {
+        "pts": 11.1,
+        "reb": 2.5,
+        "ast": 1.3,
+        "fgPct": 0.455
+      },
+      "contract": {
+        "salaryByYear": [
+          11323006,
+          11323006
+        ],
+        "optionType": [
+          null,
           "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1643536",
+      "name": "Ebuka Okorie",
+      "teamId": "DET",
+      "position": "PG",
+      "birthDate": "2007-04-10",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          4481280,
+          4705440,
+          4929360,
+          7571497
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1629750",
+      "name": "Javonte Green",
+      "teamId": "DET",
+      "position": "SF",
+      "birthDate": "1993-07-23",
+      "stats": {
+        "pts": 6.9,
+        "reb": 2.8,
+        "ast": 0.7,
+        "fgPct": 0.447
+      },
+      "contract": {
+        "salaryByYear": [
+          3943679
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1627752",
+      "name": "Taurean Prince",
+      "teamId": "DET",
+      "position": "SF",
+      "birthDate": "1994-03-22",
+      "stats": {
+        "pts": 9.2,
+        "reb": 3.1,
+        "ast": 1.8,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          3815861
+        ],
+        "optionType": [
+          "player"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642578",
+      "name": "John Ukomadu",
+      "teamId": "DET",
+      "position": "SF",
+      "birthDate": "2001-10-30",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642924",
+      "name": "Brice Williams",
+      "teamId": "DET",
+      "position": "SG",
+      "birthDate": "2001-07-05",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
+        ],
+        "optionType": [
+          null
         ],
         "yearsRemaining": 1
       }
@@ -6761,28 +6948,6 @@
       }
     },
     {
-      "id": "1641752",
-      "name": "Bobi Klintman",
-      "teamId": "DET",
-      "position": "PF",
-      "birthDate": "2003-03-06",
-      "stats": {
-        "pts": 5.0,
-        "reb": 2.5,
-        "ast": 0.8,
-        "fgPct": 0.47
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1628983",
       "name": "Shai Gilgeous-Alexander",
       "teamId": "OKC",
@@ -8739,28 +8904,6 @@
       "contract": {
         "salaryByYear": [
           2087519
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1631111",
-      "name": "Wendell Moore Jr.",
-      "teamId": "DET",
-      "position": "SG",
-      "birthDate": "2001-09-18",
-      "stats": {
-        "pts": 3.8,
-        "reb": 1.8,
-        "ast": 1.2,
-        "fgPct": 0.42
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
         ],
         "optionType": [
           null

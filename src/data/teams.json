@@ -665,10 +665,13 @@
         "1642266",
         "1642347",
         "1642419",
-        "1642367",
-        "1630639",
         "1631218",
-        "1641748"
+        "1641748",
+        "1643512",
+        "203937",
+        "1642918",
+        "1643558",
+        "1642927"
       ]
     },
     {
@@ -684,12 +687,14 @@
         "1642268",
         "1641729",
         "1642271",
-        "1629723",
         "1629004",
-        "201567",
         "1629006",
         "1629637",
-        "1630182"
+        "1630182",
+        "1643408",
+        "203994",
+        "1628964",
+        "1631127"
       ]
     },
     {
@@ -702,15 +707,16 @@
         "203076",
         "1642259",
         "1641731",
-        "1626156",
         "1642848",
         "1642267",
         "1642860",
         "1642273",
         "1630551",
-        "1641774",
-        "1641926",
-        "1629028"
+        "1629028",
+        "1643407",
+        "1630544",
+        "203114",
+        "1630264"
       ]
     }
   ],
@@ -3791,10 +3797,10 @@
       },
       "contract": {
         "salaryByYear": [
-          2400000
+          2406205
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -4073,12 +4079,14 @@
       },
       "contract": {
         "salaryByYear": [
-          8000000
+          6000000,
+          6000000
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -5125,10 +5133,10 @@
       },
       "contract": {
         "salaryByYear": [
-          16600000
+          8104000
         ],
         "optionType": [
-          null
+          "player"
         ],
         "yearsRemaining": 1
       }
@@ -5217,12 +5225,14 @@
       },
       "contract": {
         "salaryByYear": [
-          4400000
+          6000000,
+          6000000
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -6243,7 +6253,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2221448
+          2537526
         ],
         "optionType": [
           null
@@ -6589,14 +6599,12 @@
       },
       "contract": {
         "salaryByYear": [
-          14679012,
-          15400000
+          14679012
         ],
         "optionType": [
-          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -10329,12 +10337,16 @@
       },
       "contract": {
         "salaryByYear": [
-          50300000
+          50300000,
+          56097561,
+          58902439
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -10352,9 +10364,9 @@
       "contract": {
         "salaryByYear": [
           41754690,
-          44800000,
-          47900000,
-          51000000
+          44847630,
+          47940570,
+          51033510
         ],
         "optionType": [
           null,
@@ -10427,12 +10439,18 @@
       },
       "contract": {
         "salaryByYear": [
-          19500000
+          19500000,
+          27300000,
+          29484000,
+          27300000
         ],
         "optionType": [
-          "player"
+          "player",
+          null,
+          null,
+          null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 4
       }
     },
     {
@@ -10450,13 +10468,15 @@
       "contract": {
         "salaryByYear": [
           6649560,
-          8500000
+          6966000,
+          8874684
         ],
         "optionType": [
           null,
+          "team",
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 3
       }
     },
     {
@@ -10474,10 +10494,10 @@
       "contract": {
         "salaryByYear": [
           3811800,
-          4800000
+          5870172
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -10500,7 +10520,7 @@
           2296271
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -10548,6 +10568,130 @@
       "contract": {
         "salaryByYear": [
           2296271
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643512",
+      "name": "Allen Graves",
+      "teamId": "TOR",
+      "position": "PF",
+      "birthDate": "2006-07-28",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          4065720,
+          4268880,
+          4472640,
+          6887866
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "203937",
+      "name": "Kyle Anderson",
+      "teamId": "TOR",
+      "position": "SF",
+      "birthDate": "1993-09-20",
+      "stats": {
+        "pts": 6.2,
+        "reb": 3.5,
+        "ast": 2.9,
+        "fgPct": 0.53
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642918",
+      "name": "Alijah Martin",
+      "teamId": "TOR",
+      "position": "SG",
+      "birthDate": "2001-12-26",
+      "stats": {
+        "pts": 2.2,
+        "reb": 0.9,
+        "ast": 0.5,
+        "fgPct": 0.32
+      },
+      "contract": {
+        "salaryByYear": [
+          2185116,
+          2571895
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1643558",
+      "name": "Jaden Bradley",
+      "teamId": "TOR",
+      "position": "PG",
+      "birthDate": "2003-09-14",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763,
+          2294370,
+          2694363,
+          2918152
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1642927",
+      "name": "Nate Bittle",
+      "teamId": "TOR",
+      "position": "C",
+      "birthDate": "2003-06-03",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
         ],
         "optionType": [
           null
@@ -10644,50 +10788,6 @@
       }
     },
     {
-      "id": "1642367",
-      "name": "Jonathan Mogbo",
-      "teamId": "TOR",
-      "position": "PF",
-      "birthDate": "2001-10-29",
-      "stats": {
-        "pts": 4.5,
-        "reb": 4.0,
-        "ast": 1.2,
-        "fgPct": 0.5
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1630639",
-      "name": "AJ Lawson",
-      "teamId": "TOR",
-      "position": "SG",
-      "birthDate": "2000-07-15",
-      "stats": {
-        "pts": 4.0,
-        "reb": 1.8,
-        "ast": 0.8,
-        "fgPct": 0.43
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1628991",
       "name": "Jaren Jackson Jr.",
       "teamId": "UTA",
@@ -10730,8 +10830,8 @@
       "contract": {
         "salaryByYear": [
           46113154,
-          49800000,
-          53500000
+          49824681,
+          53536209
         ],
         "optionType": [
           null,
@@ -10756,8 +10856,8 @@
       "contract": {
         "salaryByYear": [
           9523080,
-          9900000,
-          12600000
+          9976560,
+          12640302
         ],
         "optionType": [
           null,
@@ -10809,12 +10909,22 @@
       },
       "contract": {
         "salaryByYear": [
-          6563925
+          6563925,
+          28700000,
+          29848000,
+          31041920,
+          32283597,
+          33574941
         ],
         "optionType": [
+          "team",
+          null,
+          null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 6
       }
     },
     {
@@ -10963,12 +11073,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2763960
+          2763960,
+          4988948
         ],
         "optionType": [
-          null
+          "team",
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -10988,7 +11100,7 @@
           4862237
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -11007,34 +11119,14 @@
       },
       "contract": {
         "salaryByYear": [
+          3000000,
           3000000
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1629723",
-      "name": "John Konchar",
-      "teamId": "UTA",
-      "position": "SG",
-      "birthDate": "1996-03-22",
-      "stats": {
-        "pts": 3.2,
-        "reb": 3.1,
-        "ast": 1.3,
-        "fgPct": 0.521
-      },
-      "contract": {
-        "salaryByYear": [
-          6165000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -11051,7 +11143,107 @@
       },
       "contract": {
         "salaryByYear": [
-          3850000
+          3850000,
+          4025000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1643408",
+      "name": "Darryn Peterson",
+      "teamId": "UTA",
+      "position": "SG",
+      "birthDate": "2007-01-17",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          13195320,
+          13855320,
+          14515320,
+          18318335
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "203994",
+      "name": "Jusuf Nurki\u0107",
+      "teamId": "UTA",
+      "position": "C",
+      "birthDate": "1994-08-23",
+      "stats": {
+        "pts": 10.9,
+        "reb": 10.4,
+        "ast": 4.8,
+        "fgPct": 0.503
+      },
+      "contract": {
+        "salaryByYear": [
+          10576923,
+          11423077
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1628964",
+      "name": "Mo Bamba",
+      "teamId": "UTA",
+      "position": "C",
+      "birthDate": "1998-05-12",
+      "stats": {
+        "pts": 2.5,
+        "reb": 5.5,
+        "ast": 0.3,
+        "fgPct": 0.477
+      },
+      "contract": {
+        "salaryByYear": [
+          3286399,
+          3681991
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1631127",
+      "name": "Harrison Ingram",
+      "teamId": "UTA",
+      "position": "SF",
+      "birthDate": "2002-11-27",
+      "stats": {
+        "pts": 1.6,
+        "reb": 0.4,
+        "ast": 0.1,
+        "fgPct": 0.7
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
         ],
         "optionType": [
           null
@@ -11130,28 +11322,6 @@
       }
     },
     {
-      "id": "201567",
-      "name": "Kevin Love",
-      "teamId": "UTA",
-      "position": "PF",
-      "birthDate": "1988-09-07",
-      "stats": {
-        "pts": 6.5,
-        "reb": 5.0,
-        "ast": 1.8,
-        "fgPct": 0.42
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1629027",
       "name": "Trae Young",
       "teamId": "WAS",
@@ -11165,14 +11335,18 @@
       },
       "contract": {
         "salaryByYear": [
-          49500000,
-          52200000
+          49488300,
+          50478066,
+          54437130,
+          58396194
         ],
         "optionType": [
           null,
-          null
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 4
       }
     },
     {
@@ -11189,12 +11363,12 @@
       },
       "contract": {
         "salaryByYear": [
-          54126380,
-          56600000
+          58456566,
+          62786682
         ],
         "optionType": [
           null,
-          null
+          "player"
         ],
         "yearsRemaining": 2
       }
@@ -11214,10 +11388,10 @@
       "contract": {
         "salaryByYear": [
           12370680,
-          15700000
+          15611798
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -11237,34 +11411,10 @@
       },
       "contract": {
         "salaryByYear": [
-          9240012,
-          11800000
+          9240012
         ],
         "optionType": [
-          null,
           "team"
-        ],
-        "yearsRemaining": 2
-      }
-    },
-    {
-      "id": "1626156",
-      "name": "D'Angelo Russell",
-      "teamId": "WAS",
-      "position": "PG",
-      "birthDate": "1996-02-23",
-      "stats": {
-        "pts": 12.5,
-        "reb": 2.8,
-        "ast": 5.5,
-        "fgPct": 0.42
-      },
-      "contract": {
-        "salaryByYear": [
-          5969250
-        ],
-        "optionType": [
-          "player"
         ],
         "yearsRemaining": 1
       }
@@ -11308,12 +11458,12 @@
       "contract": {
         "salaryByYear": [
           8649600,
-          9200000,
-          11000000
+          9061680,
+          11490211
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -11334,10 +11484,10 @@
       "contract": {
         "salaryByYear": [
           4900560,
-          6200000
+          7257730
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -11358,13 +11508,15 @@
       "contract": {
         "salaryByYear": [
           3688320,
-          4800000
+          3864000,
+          6155352
         ],
         "optionType": [
           null,
+          "team",
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 3
       }
     },
     {
@@ -11381,12 +11533,14 @@
       },
       "contract": {
         "salaryByYear": [
-          3108000
+          3108000,
+          5435892
         ],
         "optionType": [
-          null
+          "team",
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -11403,51 +11557,109 @@
       },
       "contract": {
         "salaryByYear": [
-          2667944
+          2667944,
+          3005085
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
-      "id": "1641774",
-      "name": "Tristan Vukcevic",
+      "id": "1643407",
+      "name": "AJ Dybantsa",
       "teamId": "WAS",
-      "position": "C",
-      "birthDate": "2003-03-11",
+      "position": "SF",
+      "birthDate": "2007-01-29",
       "stats": {
-        "pts": 5.5,
-        "reb": 3.5,
-        "ast": 1.0,
-        "fgPct": 0.48
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
       },
       "contract": {
         "salaryByYear": [
-          1900000
+          14748000,
+          15485760,
+          16223040,
+          20457254
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team",
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 4
       }
     },
     {
-      "id": "1641926",
-      "name": "Dexter Dennis",
+      "id": "1630544",
+      "name": "Tre Mann",
       "teamId": "WAS",
-      "position": "SG",
-      "birthDate": "1999-02-09",
+      "position": "PG",
+      "birthDate": "2001-02-03",
       "stats": {
-        "pts": 3.5,
-        "reb": 1.8,
-        "ast": 1.0,
+        "pts": 5.5,
+        "reb": 1.7,
+        "ast": 1.6,
+        "fgPct": 0.36
+      },
+      "contract": {
+        "salaryByYear": [
+          8000000,
+          8000000
+        ],
+        "optionType": [
+          null,
+          "team"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "203114",
+      "name": "Khris Middleton",
+      "teamId": "WAS",
+      "position": "SF",
+      "birthDate": "1991-08-12",
+      "stats": {
+        "pts": 10.2,
+        "reb": 3.7,
+        "ast": 2.8,
         "fgPct": 0.42
       },
       "contract": {
         "salaryByYear": [
-          1900000
+          5591122,
+          5870678,
+          6150234
+        ],
+        "optionType": [
+          null,
+          null,
+          null
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1630264",
+      "name": "Anthony Gill",
+      "teamId": "WAS",
+      "position": "PF",
+      "birthDate": "1992-10-17",
+      "stats": {
+        "pts": 5.8,
+        "reb": 2.9,
+        "ast": 1.3,
+        "fgPct": 0.628
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
         ],
         "optionType": [
           null

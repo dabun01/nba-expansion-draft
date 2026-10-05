@@ -397,11 +397,15 @@
         "1631260",
         "1631157",
         "1629645",
-        "1641748",
         "1631172",
-        "1628502",
         "1643417",
-        "1627747"
+        "1627747",
+        "1628398",
+        "1643415",
+        "1630579",
+        "1631250",
+        "1631219",
+        "1642881"
       ]
     },
     {
@@ -632,7 +636,8 @@
         "1630534",
         "1642367",
         "1630639",
-        "1631218"
+        "1631218",
+        "1641748"
       ]
     },
     {
@@ -3133,14 +3138,12 @@
       },
       "contract": {
         "salaryByYear": [
-          14809200,
-          15800000
+          14809200
         ],
         "optionType": [
-          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -5983,14 +5986,12 @@
       },
       "contract": {
         "salaryByYear": [
-          33000000,
-          35700000
+          33000000
         ],
         "optionType": [
-          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -6007,14 +6008,14 @@
       },
       "contract": {
         "salaryByYear": [
-          27800000,
-          29200000,
-          30600000
+          26584164,
+          27850077,
+          29115990
         ],
         "optionType": [
           null,
           null,
-          null
+          "player"
         ],
         "yearsRemaining": 3
       }
@@ -6033,11 +6034,11 @@
       },
       "contract": {
         "salaryByYear": [
-          4200000,
-          5400000
+          4654920,
+          7135992
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -6060,7 +6061,7 @@
           5939141
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -6079,12 +6080,18 @@
       },
       "contract": {
         "salaryByYear": [
-          16400000
+          15200000,
+          16400000,
+          16400000,
+          16000000
         ],
         "optionType": [
+          null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 4
       }
     },
     {
@@ -6101,13 +6108,13 @@
       },
       "contract": {
         "salaryByYear": [
-          7302500,
-          7900000,
-          8500000
+          3841680,
+          4024440,
+          6205687
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -6127,14 +6134,18 @@
       },
       "contract": {
         "salaryByYear": [
-          10000000,
-          10700000
+          10044644,
+          10848215,
+          11651786,
+          12455355
         ],
         "optionType": [
           null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 4
       }
     },
     {
@@ -6151,12 +6162,14 @@
       },
       "contract": {
         "salaryByYear": [
+          4000000,
           4000000
         ],
         "optionType": [
+          null,
           "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -6173,10 +6186,10 @@
       },
       "contract": {
         "salaryByYear": [
-          8000000
+          5390700
         ],
         "optionType": [
-          null
+          "player"
         ],
         "yearsRemaining": 1
       }
@@ -6184,7 +6197,7 @@
     {
       "id": "1641748",
       "name": "Andre Jackson Jr.",
-      "teamId": "MIL",
+      "teamId": "TOR",
       "position": "SF",
       "birthDate": "2001-11-13",
       "stats": {
@@ -6217,34 +6230,16 @@
       },
       "contract": {
         "salaryByYear": [
-          4200000
+          5750000,
+          5750000,
+          5750000
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1628502",
-      "name": "Nigel Hayes-Davis",
-      "teamId": "MIL",
-      "position": "PF",
-      "birthDate": "1994-12-16",
-      "stats": {
-        "pts": 4.0,
-        "reb": 2.5,
-        "ast": 1.0,
-        "fgPct": 0.44
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -6261,14 +6256,164 @@
       },
       "contract": {
         "salaryByYear": [
-          3800000,
-          4000000
+          5502000,
+          5777280,
+          6052200,
+          8648594
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1628398",
+      "name": "Kyle Kuzma",
+      "teamId": "MIL",
+      "position": "PF",
+      "birthDate": "1995-07-24",
+      "stats": {
+        "pts": 13.0,
+        "reb": 4.5,
+        "ast": 2.7,
+        "fgPct": 0.492
+      },
+      "contract": {
+        "salaryByYear": [
+          20345152
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643415",
+      "name": "Brayden Burries",
+      "teamId": "MIL",
+      "position": "SG",
+      "birthDate": "2005-09-18",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          6417360,
+          6738000,
+          7058520,
+          8999614
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1630579",
+      "name": "Jericho Sims",
+      "teamId": "MIL",
+      "position": "C",
+      "birthDate": "1998-10-20",
+      "stats": {
+        "pts": 5.0,
+        "reb": 5.5,
+        "ast": 1.6,
+        "fgPct": 0.784
+      },
+      "contract": {
+        "salaryByYear": [
+          2801346
+        ],
+        "optionType": [
+          "player"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1631250",
+      "name": "Pete Nance",
+      "teamId": "MIL",
+      "position": "PF",
+      "birthDate": "2000-02-19",
+      "stats": {
+        "pts": 5.4,
+        "reb": 2.7,
+        "ast": 1.0,
+        "fgPct": 0.515
+      },
+      "contract": {
+        "salaryByYear": [
+          2537526,
+          2756912
         ],
         "optionType": [
           null,
           "team"
         ],
         "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1631219",
+      "name": "John Butler Jr.",
+      "teamId": "MIL",
+      "position": "SF",
+      "birthDate": "2002-12-04",
+      "stats": {
+        "pts": 2.4,
+        "reb": 0.9,
+        "ast": 0.6,
+        "fgPct": 0.321
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642881",
+      "name": "Bogoljub Markovi\u0107",
+      "teamId": "MIL",
+      "position": "PF",
+      "birthDate": "2005-07-12",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763,
+          2294370,
+          2694363,
+          2918152
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 4
       }
     },
     {

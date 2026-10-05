@@ -89,7 +89,9 @@
         "1642883",
         "1626192",
         "1642862",
-        "1631217"
+        "1631217",
+        "1643419",
+        "1643515"
       ]
     },
     {
@@ -1444,7 +1446,7 @@
       },
       "contract": {
         "salaryByYear": [
-          26811593,
+          22839506,
           24666667,
           22521740
         ],
@@ -1498,7 +1500,7 @@
       },
       "contract": {
         "salaryByYear": [
-          18100000,
+          18125000,
           19400000
         ],
         "optionType": [
@@ -1642,7 +1644,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2400000
+          2411090
         ],
         "optionType": [
           null
@@ -1664,7 +1666,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2400000
+          2411090
         ],
         "optionType": [
           null
@@ -1686,7 +1688,7 @@
       },
       "contract": {
         "salaryByYear": [
-          3800000
+          3815861
         ],
         "optionType": [
           null
@@ -1708,7 +1710,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2900000
+          2902080
         ],
         "optionType": [
           null
@@ -1730,12 +1732,68 @@
       },
       "contract": {
         "salaryByYear": [
-          2500000
+          2461462
         ],
         "optionType": [
           null
         ],
         "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643419",
+      "name": "Hannes Steinbach",
+      "teamId": "CHO",
+      "position": "PF",
+      "birthDate": "2006-05-01",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          5227200,
+          5227200,
+          5227200,
+          5227200
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1643515",
+      "name": "Christian Anderson Jr.",
+      "teamId": "CHO",
+      "position": "PG",
+      "birthDate": "2006-04-02",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          4257480,
+          4257480,
+          4257480,
+          4257480
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
       }
     },
     {

@@ -277,7 +277,8 @@
         "1641767",
         "1642277",
         "1626162",
-        "1626204"
+        "1626204",
+        "1631245"
       ]
     },
     {
@@ -4568,6 +4569,28 @@
       "contract": {
         "salaryByYear": [
           2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1631245",
+      "name": "Quenton Jackson",
+      "teamId": "IND",
+      "position": "PG",
+      "birthDate": "1998-09-15",
+      "stats": {
+        "pts": 9.1,
+        "reb": 2.3,
+        "ast": 2.9,
+        "fgPct": 0.47
+      },
+      "contract": {
+        "salaryByYear": [
+          2200000
         ],
         "optionType": [
           null

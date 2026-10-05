@@ -19,7 +19,9 @@
         "1642269",
         "1642854",
         "1631243",
-        "1627827"
+        "1627827",
+        "1643412",
+        "1643544"
       ]
     },
     {
@@ -757,7 +759,7 @@
       },
       "contract": {
         "salaryByYear": [
-          16100000,
+          16120000,
           16880000
         ],
         "optionType": [
@@ -807,7 +809,7 @@
       },
       "contract": {
         "salaryByYear": [
-          17722222
+          18222222
         ],
         "optionType": [
           null
@@ -829,7 +831,7 @@
       },
       "contract": {
         "salaryByYear": [
-          9028038,
+          9224300,
           8168226,
           8168226
         ],
@@ -973,16 +975,72 @@
       },
       "contract": {
         "salaryByYear": [
-          12700000,
-          12700000,
-          12700000,
-          12700000
+          13335000,
+          13335000,
+          13335000,
+          13335000
         ],
         "optionType": [
           null,
           null,
           null,
           null
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1643412",
+      "name": "Kingston Flemings",
+      "teamId": "ATL",
+      "position": "PG",
+      "birthDate": "2007-01-03",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          7348680,
+          7348680,
+          7348680,
+          7348680
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1643544",
+      "name": "Zuby Ejiofor",
+      "teamId": "ATL",
+      "position": "PF",
+      "birthDate": "2004-04-20",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          3453360,
+          3453360,
+          3453360,
+          3453360
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
         ],
         "yearsRemaining": 4
       }

@@ -227,8 +227,12 @@
         "1630611",
         "1642954",
         "1627780",
-        "1631218",
-        "203552"
+        "1631207",
+        "1642865",
+        "1629646",
+        "1630314",
+        "1627777",
+        "1642893"
       ]
     },
     {
@@ -503,7 +507,6 @@
         "1631230",
         "1631133",
         "1630570",
-        "1631207",
         "1642348",
         "1641737",
         "1641780",
@@ -614,7 +617,8 @@
         "1642419",
         "1630534",
         "1642367",
-        "1630639"
+        "1630639",
+        "1631218"
       ]
     },
     {
@@ -3493,12 +3497,16 @@
       },
       "contract": {
         "salaryByYear": [
-          62587158
+          62587158,
+          55700000,
+          60156000
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -3515,14 +3523,12 @@
       },
       "contract": {
         "salaryByYear": [
-          56832773,
-          61200000
+          56832773
         ],
         "optionType": [
-          null,
-          "player"
+          null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -3539,14 +3545,12 @@
       },
       "contract": {
         "salaryByYear": [
-          18000000,
-          20500000
+          27678571
         ],
         "optionType": [
-          null,
-          "player"
+          null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -3563,12 +3567,12 @@
       },
       "contract": {
         "salaryByYear": [
-          30700000,
-          32900000
+          19512195,
+          20487805
         ],
         "optionType": [
           null,
-          null
+          "player"
         ],
         "yearsRemaining": 2
       }
@@ -3587,12 +3591,14 @@
       },
       "contract": {
         "salaryByYear": [
-          12500000
+          12500000,
+          13425925
         ],
         "optionType": [
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -3609,14 +3615,12 @@
       },
       "contract": {
         "salaryByYear": [
-          5679459,
-          6200000
+          5679459
         ],
         "optionType": [
-          null,
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -3633,12 +3637,14 @@
       },
       "contract": {
         "salaryByYear": [
-          6822000
+          6822000,
+          7163100
         ],
         "optionType": [
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -3655,12 +3661,14 @@
       },
       "contract": {
         "salaryByYear": [
-          3451779
+          5477000,
+          5750850
         ],
         "optionType": [
-          null
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -3677,12 +3685,16 @@
       },
       "contract": {
         "salaryByYear": [
-          4629630
+          4629630,
+          5000000,
+          5370370
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -3699,12 +3711,16 @@
       },
       "contract": {
         "salaryByYear": [
-          2150917
+          2150917,
+          2525901,
+          2735698
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -3721,7 +3737,7 @@
       },
       "contract": {
         "salaryByYear": [
-          8700000
+          2449421
         ],
         "optionType": [
           null
@@ -3732,7 +3748,7 @@
     {
       "id": "1631218",
       "name": "Trayce Jackson-Davis",
-      "teamId": "GSW",
+      "teamId": "TOR",
       "position": "C",
       "birthDate": "2000-02-22",
       "stats": {
@@ -4381,28 +4397,6 @@
           "team"
         ],
         "yearsRemaining": 2
-      }
-    },
-    {
-      "id": "203552",
-      "name": "Seth Curry",
-      "teamId": "GSW",
-      "position": "SG",
-      "birthDate": "1990-08-23",
-      "stats": {
-        "pts": 7.1,
-        "reb": 1.2,
-        "ast": 1.0,
-        "fgPct": 0.49
-      },
-      "contract": {
-        "salaryByYear": [
-          2300000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
       }
     },
     {
@@ -7780,7 +7774,7 @@
     {
       "id": "1631207",
       "name": "Dalen Terry",
-      "teamId": "PHI",
+      "teamId": "GSW",
       "position": "SG",
       "birthDate": "2002-07-12",
       "stats": {
@@ -7791,7 +7785,123 @@
       },
       "contract": {
         "salaryByYear": [
-          2584539
+          1357763
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642865",
+      "name": "Yaxel Lendeborg",
+      "teamId": "GSW",
+      "position": "PF",
+      "birthDate": "2002-09-30",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          6096240,
+          6401280,
+          6706200,
+          8899128
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1629646",
+      "name": "Charles Bassey",
+      "teamId": "GSW",
+      "position": "C",
+      "birthDate": "2000-10-28",
+      "stats": {
+        "pts": 5.8,
+        "reb": 4.4,
+        "ast": 0.5,
+        "fgPct": 0.635
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1630314",
+      "name": "Brandon Williams",
+      "teamId": "GSW",
+      "position": "PG",
+      "birthDate": "1999-11-22",
+      "stats": {
+        "pts": 13.0,
+        "reb": 2.9,
+        "ast": 3.9,
+        "fgPct": 0.472
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1627777",
+      "name": "Georges Niang",
+      "teamId": "GSW",
+      "position": "PF",
+      "birthDate": "1993-06-17",
+      "stats": {
+        "pts": 7.4,
+        "reb": 2.5,
+        "ast": 1.0,
+        "fgPct": 0.445
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642893",
+      "name": "Alex Toohey",
+      "teamId": "GSW",
+      "position": "SF",
+      "birthDate": "2004-05-05",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          2185116
         ],
         "optionType": [
           null

@@ -181,7 +181,8 @@
         "1629022",
         "1626145",
         "1628963",
-        "1642350"
+        "1642350",
+        "1642948"
       ]
     },
     {
@@ -8490,6 +8491,28 @@
       "contract": {
         "salaryByYear": [
           1357763
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642948",
+      "name": "Ryan Nembhard",
+      "teamId": "DEN",
+      "position": "PG",
+      "birthDate": "2003-03-10",
+      "stats": {
+        "pts": 6.6,
+        "reb": 2.2,
+        "ast": 5.3,
+        "fgPct": 0.415
+      },
+      "contract": {
+        "salaryByYear": [
+          2150917
         ],
         "optionType": [
           null

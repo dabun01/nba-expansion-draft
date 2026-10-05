@@ -299,8 +299,11 @@
         "1641757",
         "1642920",
         "1642949",
-        "1642280",
-        "1629618"
+        "1629622",
+        "1643413",
+        "203078",
+        "201587",
+        "1642530"
       ]
     },
     {
@@ -3001,28 +3004,6 @@
       }
     },
     {
-      "id": "1629618",
-      "name": "Jalen Pickett",
-      "teamId": "LAC",
-      "position": "SG",
-      "birthDate": "1999-10-22",
-      "stats": {
-        "pts": 5.2,
-        "reb": 2.3,
-        "ast": 2.3,
-        "fgPct": 0.422
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1642461",
       "name": "Spencer Jones",
       "teamId": "DEN",
@@ -4612,16 +4593,14 @@
       },
       "contract": {
         "salaryByYear": [
-          37000000,
-          39600000,
-          42200000
+          42166510,
+          44886930
         ],
         "optionType": [
           null,
-          null,
           null
         ],
-        "yearsRemaining": 3
+        "yearsRemaining": 2
       }
     },
     {
@@ -4638,8 +4617,8 @@
       },
       "contract": {
         "salaryByYear": [
-          36200000,
-          41900000
+          40000000,
+          41904762
         ],
         "optionType": [
           null,
@@ -4662,16 +4641,14 @@
       },
       "contract": {
         "salaryByYear": [
-          17000000,
-          18200000,
-          19400000
+          14000000,
+          14000000
         ],
         "optionType": [
           null,
-          null,
-          null
+          "team"
         ],
-        "yearsRemaining": 3
+        "yearsRemaining": 2
       }
     },
     {
@@ -4688,10 +4665,10 @@
       },
       "contract": {
         "salaryByYear": [
-          9100000
+          9187500
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -4710,14 +4687,12 @@
       },
       "contract": {
         "salaryByYear": [
-          4500000,
-          5800000
+          7131511
         ],
         "optionType": [
-          null,
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -4734,7 +4709,7 @@
       },
       "contract": {
         "salaryByYear": [
-          10500000
+          10476190
         ],
         "optionType": [
           null
@@ -4756,7 +4731,7 @@
       },
       "contract": {
         "salaryByYear": [
-          5600000
+          5684800
         ],
         "optionType": [
           null
@@ -4778,12 +4753,14 @@
       },
       "contract": {
         "salaryByYear": [
-          5000000
+          7000000,
+          6400000
         ],
         "optionType": [
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -4800,12 +4777,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2300000
+          2296271,
+          2486995
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -4822,12 +4801,16 @@
       },
       "contract": {
         "salaryByYear": [
-          2400000
+          5300000,
+          5000000,
+          5000000
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -4844,12 +4827,18 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          2622139,
+          2753246,
+          2884353,
+          3019474
         ],
         "optionType": [
-          null
+          null,
+          null,
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 4
       }
     },
     {
@@ -4866,7 +4855,129 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          2880960,
+          3018480,
+          5448356
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1629622",
+      "name": "Max Strus",
+      "teamId": "LAC",
+      "position": "SF",
+      "birthDate": "1996-03-28",
+      "stats": {
+        "pts": 11.2,
+        "reb": 5.4,
+        "ast": 2.0,
+        "fgPct": 0.427
+      },
+      "contract": {
+        "salaryByYear": [
+          16660836
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643413",
+      "name": "Keaton Wagler",
+      "teamId": "LAC",
+      "position": "SG",
+      "birthDate": "2007-02-03",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          9674760,
+          10158240,
+          10641960,
+          13483364
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "203078",
+      "name": "Bradley Beal",
+      "teamId": "LAC",
+      "position": "SG",
+      "birthDate": "1993-06-28",
+      "stats": {
+        "pts": 8.2,
+        "reb": 0.8,
+        "ast": 1.7,
+        "fgPct": 0.464
+      },
+      "contract": {
+        "salaryByYear": [
+          6424800,
+          6746040
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "201587",
+      "name": "Nicolas Batum",
+      "teamId": "LAC",
+      "position": "PF",
+      "birthDate": "1988-12-14",
+      "stats": {
+        "pts": 4.0,
+        "reb": 2.5,
+        "ast": 0.9,
+        "fgPct": 0.403
+      },
+      "contract": {
+        "salaryByYear": [
+          5881680
+        ],
+        "optionType": [
+          "team"
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642530",
+      "name": "Yuki Kawamura",
+      "teamId": "LAC",
+      "position": "PG",
+      "birthDate": "2001-05-02",
+      "stats": {
+        "pts": 3.4,
+        "reb": 1.8,
+        "ast": 2.6,
+        "fgPct": 0.341
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
         ],
         "optionType": [
           null
@@ -7777,28 +7888,6 @@
       "contract": {
         "salaryByYear": [
           2584539
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642280",
-      "name": "Trentyn Flowers",
-      "teamId": "LAC",
-      "position": "SF",
-      "birthDate": "2005-03-08",
-      "stats": {
-        "pts": 3.5,
-        "reb": 2.0,
-        "ast": 0.5,
-        "fgPct": 0.43
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
         ],
         "optionType": [
           null

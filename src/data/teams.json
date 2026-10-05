@@ -499,7 +499,9 @@
         "1642850",
         "1642272",
         "1642349",
-        "1643530"
+        "1643530",
+        "1642892",
+        "1643754"
       ]
     },
     {
@@ -7252,17 +7254,19 @@
       "contract": {
         "salaryByYear": [
           40806150,
-          60600000,
-          65400000,
-          70300000
+          61005000,
+          65885400,
+          70765800,
+          75646200
         ],
         "optionType": [
           null,
           null,
           null,
+          null,
           "player"
         ],
-        "yearsRemaining": 4
+        "yearsRemaining": 5
       }
     },
     {
@@ -7279,18 +7283,20 @@
       },
       "contract": {
         "salaryByYear": [
-          41250000,
-          44300000,
-          47400000,
-          50400000
+          41500000,
+          44820000,
+          48140000,
+          51460000,
+          54780000
         ],
         "optionType": [
           null,
           null,
           null,
+          null,
           null
         ],
-        "yearsRemaining": 4
+        "yearsRemaining": 5
       }
     },
     {
@@ -7307,18 +7313,20 @@
       },
       "contract": {
         "salaryByYear": [
-          41250000,
-          44300000,
-          47400000,
-          50400000
+          41500000,
+          44820000,
+          48140000,
+          51460000,
+          54780000
         ],
         "optionType": [
           null,
           null,
           null,
+          null,
           null
         ],
-        "yearsRemaining": 4
+        "yearsRemaining": 5
       }
     },
     {
@@ -7337,7 +7345,7 @@
         "salaryByYear": [
           23148148,
           25000000,
-          26800000
+          26851852
         ],
         "optionType": [
           null,
@@ -7362,8 +7370,8 @@
       "contract": {
         "salaryByYear": [
           19550160,
-          20900000,
-          22400000
+          20998320,
+          22446480
         ],
         "optionType": [
           null,
@@ -7390,7 +7398,7 @@
           7420806
         ],
         "optionType": [
-          null
+          "team"
         ],
         "yearsRemaining": 1
       }
@@ -7409,12 +7417,14 @@
       },
       "contract": {
         "salaryByYear": [
+          7774648,
           7774648
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -7431,10 +7441,10 @@
       },
       "contract": {
         "salaryByYear": [
-          7200000
+          5000000
         ],
         "optionType": [
-          "team"
+          null
         ],
         "yearsRemaining": 1
       }
@@ -7454,10 +7464,10 @@
       "contract": {
         "salaryByYear": [
           5429760,
-          6900000
+          7482210
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -7477,14 +7487,16 @@
       },
       "contract": {
         "salaryByYear": [
-          4900000,
-          6300000
+          4887720,
+          5120400,
+          7849573
         ],
         "optionType": [
           null,
+          "team",
           "team"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 3
       }
     },
     {
@@ -7502,10 +7514,10 @@
       "contract": {
         "salaryByYear": [
           4422600,
-          5700000
+          6784268
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -7526,7 +7538,7 @@
       "contract": {
         "salaryByYear": [
           2850000,
-          3700000
+          2850000
         ],
         "optionType": [
           null,
@@ -7549,7 +7561,63 @@
       },
       "contract": {
         "salaryByYear": [
-          5800000
+          5791680,
+          6081480,
+          6371160,
+          8779459
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1642892",
+      "name": "Bennett Stirtz",
+      "teamId": "OKC",
+      "position": "PG",
+      "birthDate": "2003-10-03",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          4717320,
+          4953240,
+          5189400,
+          7960540
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1643754",
+      "name": "Christoph Tilly",
+      "teamId": "OKC",
+      "position": "C",
+      "birthDate": "2003-01-28",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
         ],
         "optionType": [
           null

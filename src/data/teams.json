@@ -20,7 +20,8 @@
         "1631243",
         "1627827",
         "1643412",
-        "1643544"
+        "1643544",
+        "1630592"
       ]
     },
     {
@@ -53,10 +54,8 @@
       "conference": "East",
       "playerIds": [
         "1629008",
-        "1630560",
         "1630549",
         "1641730",
-        "1630533",
         "1631169",
         "1629611",
         "1642962",
@@ -64,8 +63,11 @@
         "1642849",
         "1643414",
         "1642874",
-        "1630592",
-        "203944"
+        "203944",
+        "1631165",
+        "1629021",
+        "1642879",
+        "1643538"
       ]
     },
     {
@@ -127,7 +129,6 @@
         "1629731",
         "1642281",
         "1628418",
-        "1631165",
         "1641772",
         "1641854",
         "1642878"
@@ -300,7 +301,8 @@
         "1628379",
         "1642355",
         "1642876",
-        "1631117"
+        "1631117",
+        "1630533"
       ]
     },
     {
@@ -904,14 +906,12 @@
       },
       "contract": {
         "salaryByYear": [
-          2449421,
-          7370897
+          2449421
         ],
         "optionType": [
-          null,
-          "team"
+          null
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 1
       }
     },
     {
@@ -2237,7 +2237,7 @@
     {
       "id": "1631165",
       "name": "Keon Ellis",
-      "teamId": "CLE",
+      "teamId": "BKN",
       "position": "SG",
       "birthDate": "2000-01-08",
       "stats": {
@@ -2248,7 +2248,7 @@
       },
       "contract": {
         "salaryByYear": [
-          6500000,
+          8780488,
           6900000
         ],
         "optionType": [
@@ -9690,7 +9690,7 @@
       },
       "contract": {
         "salaryByYear": [
-          40800000,
+          40806150,
           43600000
         ],
         "optionType": [
@@ -9698,28 +9698,6 @@
           null
         ],
         "yearsRemaining": 2
-      }
-    },
-    {
-      "id": "1630560",
-      "name": "Cam Thomas",
-      "teamId": "BKN",
-      "position": "SG",
-      "birthDate": "2001-10-13",
-      "stats": {
-        "pts": 24.5,
-        "reb": 3.0,
-        "ast": 3.5,
-        "fgPct": 0.44
-      },
-      "contract": {
-        "salaryByYear": [
-          5993172
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
       }
     },
     {
@@ -9736,7 +9714,7 @@
       },
       "contract": {
         "salaryByYear": [
-          6250000
+          10000000
         ],
         "optionType": [
           "team"
@@ -9769,7 +9747,7 @@
     {
       "id": "1630533",
       "name": "Ziaire Williams",
-      "teamId": "BKN",
+      "teamId": "LAL",
       "position": "SF",
       "birthDate": "2001-09-12",
       "stats": {
@@ -9802,7 +9780,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2500000
+          4500000
         ],
         "optionType": [
           "team"
@@ -9824,7 +9802,7 @@
       },
       "contract": {
         "salaryByYear": [
-          8500000
+          15500000
         ],
         "optionType": [
           null
@@ -9846,7 +9824,7 @@
       },
       "contract": {
         "salaryByYear": [
-          3372240,
+          3540600,
           4193040
         ],
         "optionType": [
@@ -9918,7 +9896,7 @@
       },
       "contract": {
         "salaryByYear": [
-          8800000
+          8787000
         ],
         "optionType": [
           null
@@ -9940,7 +9918,7 @@
       },
       "contract": {
         "salaryByYear": [
-          3540600,
+          2941440,
           4200000
         ],
         "optionType": [
@@ -9953,7 +9931,7 @@
     {
       "id": "1630592",
       "name": "Jalen Wilson",
-      "teamId": "BKN",
+      "teamId": "ATL",
       "position": "SF",
       "birthDate": "2000-11-04",
       "stats": {
@@ -9986,7 +9964,7 @@
       },
       "contract": {
         "salaryByYear": [
-          30000000,
+          33333334,
           32200000
         ],
         "optionType": [
@@ -9994,6 +9972,82 @@
           "player"
         ],
         "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1629021",
+      "name": "Moritz Wagner",
+      "teamId": "BKN",
+      "position": "C",
+      "birthDate": "1997-04-26",
+      "stats": {
+        "pts": 6.9,
+        "reb": 3.2,
+        "ast": 0.8,
+        "fgPct": 0.495
+      },
+      "contract": {
+        "salaryByYear": [
+          9268293
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642879",
+      "name": "Ben Saraf",
+      "teamId": "BKN",
+      "position": "PG",
+      "birthDate": "2006-04-14",
+      "stats": {
+        "pts": 7.5,
+        "reb": 2.1,
+        "ast": 3.3,
+        "fgPct": 0.448
+      },
+      "contract": {
+        "salaryByYear": [
+          3028560,
+          3028560,
+          3028560
+        ],
+        "optionType": [
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1643538",
+      "name": "Joshua Jefferson",
+      "teamId": "BKN",
+      "position": "PF",
+      "birthDate": "2003-11-21",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          2969520,
+          2969520,
+          2969520,
+          2969520
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
       }
     },
     {

@@ -303,7 +303,8 @@
         "1643413",
         "203078",
         "201587",
-        "1642530"
+        "1642530",
+        "1642394"
       ]
     },
     {
@@ -317,15 +318,17 @@
         "1629020",
         "1631222",
         "1642261",
-        "1629637",
-        "1629216",
-        "1641733",
-        "1628467",
-        "1628379",
         "1642355",
         "1642876",
         "1631117",
-        "1630533"
+        "1630533",
+        "1630572",
+        "1630702",
+        "1626172",
+        "1629680",
+        "1629656",
+        "1629012",
+        "1643418"
       ]
     },
     {
@@ -431,7 +434,6 @@
         "1630529",
         "1642274",
         "1631121",
-        "1626172",
         "1630621",
         "1641722",
         "1631255",
@@ -542,7 +544,8 @@
         "1642346",
         "1631221",
         "1642345",
-        "1630692"
+        "1630692",
+        "1628379"
       ]
     },
     {
@@ -560,7 +563,6 @@
         "1630703",
         "1631200",
         "1630249",
-        "1629680",
         "1629057",
         "1631126",
         "1629630",
@@ -622,7 +624,6 @@
         "1642867",
         "1642266",
         "1642347",
-        "1630572",
         "1642419",
         "1630534",
         "1642367",
@@ -648,7 +649,8 @@
         "1629004",
         "1643016",
         "201567",
-        "1629006"
+        "1629006",
+        "1629637"
       ]
     },
     {
@@ -662,7 +664,6 @@
         "1642259",
         "1641731",
         "1626156",
-        "1630702",
         "1642848",
         "1642267",
         "1642860",
@@ -4986,6 +4987,34 @@
       }
     },
     {
+      "id": "1642394",
+      "name": "Baba Miller",
+      "teamId": "LAC",
+      "position": "PF",
+      "birthDate": "2004-02-07",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1705630,
+          2294370,
+          2694363,
+          2918152
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
       "id": "1629029",
       "name": "Luka Doncic",
       "teamId": "LAL",
@@ -4999,9 +5028,9 @@
       },
       "contract": {
         "salaryByYear": [
-          49500000,
-          53400000,
-          57400000
+          49800000,
+          53784000,
+          57768000
         ],
         "optionType": [
           null,
@@ -5025,16 +5054,18 @@
       },
       "contract": {
         "salaryByYear": [
-          41250000,
-          44300000,
-          47300000
+          41240250,
+          44539470,
+          47838690,
+          51137910
         ],
         "optionType": [
           null,
           null,
+          null,
           "player"
         ],
-        "yearsRemaining": 3
+        "yearsRemaining": 4
       }
     },
     {
@@ -5074,11 +5105,11 @@
       "contract": {
         "salaryByYear": [
           12428571,
-          13500000
+          13285714
         ],
         "optionType": [
           null,
-          null
+          "player"
         ],
         "yearsRemaining": 2
       }
@@ -5120,10 +5151,10 @@
       "contract": {
         "salaryByYear": [
           4201080,
-          5300000
+          6452860
         ],
         "optionType": [
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 2
@@ -5132,7 +5163,7 @@
     {
       "id": "1629637",
       "name": "Jaxson Hayes",
-      "teamId": "LAL",
+      "teamId": "UTA",
       "position": "C",
       "birthDate": "2000-05-23",
       "stats": {
@@ -5152,75 +5183,9 @@
       }
     },
     {
-      "id": "1629216",
-      "name": "Gabe Vincent",
-      "teamId": "LAL",
-      "position": "PG",
-      "birthDate": "1996-06-14",
-      "stats": {
-        "pts": 5.5,
-        "reb": 1.8,
-        "ast": 2.2,
-        "fgPct": 0.4
-      },
-      "contract": {
-        "salaryByYear": [
-          5000000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1641733",
-      "name": "Nick Smith Jr.",
-      "teamId": "LAL",
-      "position": "PG",
-      "birthDate": "2004-04-18",
-      "stats": {
-        "pts": 5.0,
-        "reb": 1.5,
-        "ast": 1.8,
-        "fgPct": 0.42
-      },
-      "contract": {
-        "salaryByYear": [
-          2497812
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1628467",
-      "name": "Maxi Kleber",
-      "teamId": "LAL",
-      "position": "PF",
-      "birthDate": "1992-01-29",
-      "stats": {
-        "pts": 4.0,
-        "reb": 3.0,
-        "ast": 0.8,
-        "fgPct": 0.4
-      },
-      "contract": {
-        "salaryByYear": [
-          4000000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1628379",
       "name": "Luke Kennard",
-      "teamId": "LAL",
+      "teamId": "PHO",
       "position": "SG",
       "birthDate": "1996-06-24",
       "stats": {
@@ -5253,12 +5218,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2296271
+          2296271,
+          2486995
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -5275,12 +5242,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2150917
+          2150917,
+          2525901
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -6842,7 +6811,7 @@
     {
       "id": "1626172",
       "name": "Kevon Looney",
-      "teamId": "NOP",
+      "teamId": "LAL",
       "position": "C",
       "birthDate": "1996-02-06",
       "stats": {
@@ -6853,7 +6822,7 @@
       },
       "contract": {
         "salaryByYear": [
-          3500000
+          2449421
         ],
         "optionType": [
           null
@@ -8848,7 +8817,7 @@
     {
       "id": "1629680",
       "name": "Matisse Thybulle",
-      "teamId": "POR",
+      "teamId": "LAL",
       "position": "SG",
       "birthDate": "1997-03-04",
       "stats": {
@@ -8859,7 +8828,7 @@
       },
       "contract": {
         "salaryByYear": [
-          2900000
+          2449421
         ],
         "optionType": [
           null
@@ -9832,7 +9801,7 @@
     {
       "id": "1630572",
       "name": "Sandro Mamukelashvili",
-      "teamId": "TOR",
+      "teamId": "LAL",
       "position": "PF",
       "birthDate": "1999-05-23",
       "stats": {
@@ -9843,12 +9812,18 @@
       },
       "contract": {
         "salaryByYear": [
-          2200000
+          13000000,
+          12350000,
+          13000000,
+          13650000
         ],
         "optionType": [
-          null
+          null,
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 4
       }
     },
     {
@@ -10033,14 +10008,18 @@
       },
       "contract": {
         "salaryByYear": [
-          15500000,
-          16700000
+          30232558,
+          31744186,
+          33255814,
+          34767442
         ],
         "optionType": [
           null,
-          null
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 4
       }
     },
     {
@@ -10362,7 +10341,7 @@
     {
       "id": "1630702",
       "name": "Jaden Hardy",
-      "teamId": "WAS",
+      "teamId": "LAL",
       "position": "SG",
       "birthDate": "2002-07-05",
       "stats": {
@@ -10373,12 +10352,14 @@
       },
       "contract": {
         "salaryByYear": [
+          6000000,
           6000000
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -10625,12 +10606,92 @@
       },
       "contract": {
         "salaryByYear": [
-          6250000
+          2449421
         ],
         "optionType": [
-          "team"
+          null
         ],
         "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1629656",
+      "name": "Quentin Grimes",
+      "teamId": "LAL",
+      "position": "SG",
+      "birthDate": "2000-05-08",
+      "stats": {
+        "pts": 13.4,
+        "reb": 3.6,
+        "ast": 3.3,
+        "fgPct": 0.45
+      },
+      "contract": {
+        "salaryByYear": [
+          13953489,
+          14651163,
+          15348837,
+          16046511
+        ],
+        "optionType": [
+          null,
+          null,
+          null,
+          "player"
+        ],
+        "yearsRemaining": 4
+      }
+    },
+    {
+      "id": "1629012",
+      "name": "Collin Sexton",
+      "teamId": "LAL",
+      "position": "PG",
+      "birthDate": "1999-01-04",
+      "stats": {
+        "pts": 15.4,
+        "reb": 2.3,
+        "ast": 3.3,
+        "fgPct": 0.485
+      },
+      "contract": {
+        "salaryByYear": [
+          9366000,
+          9834300
+        ],
+        "optionType": [
+          null,
+          null
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1643418",
+      "name": "Cameron Carr",
+      "teamId": "LAL",
+      "position": "SG",
+      "birthDate": "2004-11-21",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          3315360,
+          3481080,
+          3646800,
+          6378253
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
       }
     },
     {

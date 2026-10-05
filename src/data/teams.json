@@ -113,8 +113,7 @@
         "1627741",
         "1643410",
         "1642855",
-        "1643517",
-        "1641815"
+        "1643517"
       ]
     },
     {
@@ -9890,28 +9889,6 @@
       "contract": {
         "salaryByYear": [
           2449421
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1641815",
-      "name": "Isaiah Stevens",
-      "teamId": "CHI",
-      "position": "PG",
-      "birthDate": "2000-11-01",
-      "stats": {
-        "pts": 4.5,
-        "reb": 1.5,
-        "ast": 2.5,
-        "fgPct": 0.42
-      },
-      "contract": {
-        "salaryByYear": [
-          2301587
         ],
         "optionType": [
           null

@@ -11,7 +11,14 @@ export default async function handler(req, res) {
 
   try {
     const db = await getDb();
-    const teams = await db.collection("teams").find({}).toArray();
+    // Without .sort(), Mongo returns documents in "natural" storage order,
+    // which isn't guaranteed and can change over time. Sort explicitly so
+    // the sidebar is always alphabetical.
+    const teams = await db
+      .collection("teams")
+      .find({})
+      .sort({ name: 1 })
+      .toArray();
     res.status(200).json(teams);
   } catch (err) {
     console.error("Failed to fetch teams:", err);

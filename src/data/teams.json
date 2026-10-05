@@ -159,9 +159,7 @@
         "1643516",
         "1643547",
         "1641844",
-        "201580",
-        "1630619",
-        "1641765"
+        "1630619"
       ]
     },
     {
@@ -332,7 +330,8 @@
         "1642383",
         "1642366",
         "203924",
-        "1643409"
+        "1643409",
+        "1641765"
       ]
     },
     {
@@ -985,7 +984,7 @@
         "pts": 3.3,
         "reb": 2.5,
         "ast": 1.0,
-        "fgPct": 0.435
+        "fgPct": 0.333
       },
       "contract": {
         "salaryByYear": [
@@ -2463,7 +2462,7 @@
         "pts": 4.8,
         "reb": 3.5,
         "ast": 0.9,
-        "fgPct": 0.409
+        "fgPct": 0.417
       },
       "contract": {
         "salaryByYear": [
@@ -2485,7 +2484,7 @@
         "pts": 9.2,
         "reb": 2.8,
         "ast": 0.7,
-        "fgPct": 0.357
+        "fgPct": 0.456
       },
       "contract": {
         "salaryByYear": [
@@ -4937,7 +4936,7 @@
         "pts": 9.6,
         "reb": 3.8,
         "ast": 1.1,
-        "fgPct": 0.4
+        "fgPct": 0.455
       },
       "contract": {
         "salaryByYear": [
@@ -5030,28 +5029,6 @@
       }
     },
     {
-      "id": "201580",
-      "name": "JaVale McGee",
-      "teamId": "DAL",
-      "position": "C",
-      "birthDate": "1988-01-19",
-      "stats": {
-        "pts": 7.6,
-        "reb": 5.0,
-        "ast": 0.4,
-        "fgPct": 0.58
-      },
-      "contract": {
-        "salaryByYear": [
-          2208856
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
-      }
-    },
-    {
       "id": "1630619",
       "name": "Moussa Cisse",
       "teamId": "DAL",
@@ -5061,7 +5038,7 @@
         "pts": 4.5,
         "reb": 5.7,
         "ast": 0.2,
-        "fgPct": 0.541
+        "fgPct": 0.574
       },
       "contract": {
         "salaryByYear": [
@@ -5076,14 +5053,14 @@
     {
       "id": "1641765",
       "name": "Olivier-Maxence Prosper",
-      "teamId": "DAL",
+      "teamId": "MEM",
       "position": "SF",
       "birthDate": "2002-07-03",
       "stats": {
         "pts": 10.0,
         "reb": 3.5,
         "ast": 1.0,
-        "fgPct": 0.679
+        "fgPct": 0.549
       },
       "contract": {
         "salaryByYear": [
@@ -10325,7 +10302,7 @@
         "pts": 6.9,
         "reb": 3.2,
         "ast": 0.8,
-        "fgPct": 0.495
+        "fgPct": 0.426
       },
       "contract": {
         "salaryByYear": [
@@ -10347,7 +10324,7 @@
         "pts": 7.5,
         "reb": 2.1,
         "ast": 3.3,
-        "fgPct": 0.448
+        "fgPct": 0.396
       },
       "contract": {
         "salaryByYear": [

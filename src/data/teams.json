@@ -344,7 +344,6 @@
         "1642285",
         "1630590",
         "1641707",
-        "203484",
         "1642383",
         "1642366",
         "203924",
@@ -542,11 +541,16 @@
         "1631133",
         "1642348",
         "1641737",
-        "1641780",
         "1642889",
-        "1642282",
         "1627759",
-        "1629731"
+        "1629731",
+        "203484",
+        "1629014",
+        "1630574",
+        "1641794",
+        "1643148",
+        "1642392",
+        "1629605"
       ]
     },
     {
@@ -2345,12 +2349,18 @@
       },
       "contract": {
         "salaryByYear": [
-          6500000
+          9000000,
+          9450000,
+          9900000,
+          10350000
         ],
         "optionType": [
+          null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 4
       }
     },
     {
@@ -5640,7 +5650,7 @@
     {
       "id": "203484",
       "name": "Kentavious Caldwell-Pope",
-      "teamId": "MEM",
+      "teamId": "PHI",
       "position": "SG",
       "birthDate": "1993-02-18",
       "stats": {
@@ -5651,10 +5661,10 @@
       },
       "contract": {
         "salaryByYear": [
-          17744971
+          2449421
         ],
         "optionType": [
-          "player"
+          null
         ],
         "yearsRemaining": 1
       }
@@ -8009,12 +8019,16 @@
       },
       "contract": {
         "salaryByYear": [
-          57985752
+          58100000,
+          62748000,
+          67396000
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -8031,8 +8045,8 @@
       },
       "contract": {
         "salaryByYear": [
-          15900000,
-          16700000
+          3876529,
+          4070355
         ],
         "optionType": [
           null,
@@ -8056,8 +8070,8 @@
       "contract": {
         "salaryByYear": [
           40770520,
-          43500000,
-          46300000
+          43582280,
+          46394040
         ],
         "optionType": [
           null,
@@ -8082,12 +8096,12 @@
       "contract": {
         "salaryByYear": [
           11663880,
-          13800000,
-          15900000
+          12219720,
+          15445727
         ],
         "optionType": [
           null,
-          null,
+          "team",
           "team"
         ],
         "yearsRemaining": 3
@@ -8451,12 +8465,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2411090
+          2411090,
+          2616754
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -8473,34 +8489,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2296271
+          2296271,
+          2486995
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1641780",
-      "name": "Johni Broome",
-      "teamId": "PHI",
-      "position": "PF",
-      "birthDate": "2002-07-19",
-      "stats": {
-        "pts": 4.5,
-        "reb": 3.8,
-        "ast": 0.6,
-        "fgPct": 0.47
-      },
-      "contract": {
-        "salaryByYear": [
-          2150000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -8517,34 +8513,18 @@
       },
       "contract": {
         "salaryByYear": [
-          3500000
+          3597120,
+          3776760,
+          3956760,
+          6508871
         ],
         "optionType": [
-          null
+          null,
+          null,
+          "team",
+          "team"
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642282",
-      "name": "Hunter Sallis",
-      "teamId": "PHI",
-      "position": "SG",
-      "birthDate": "2003-03-26",
-      "stats": {
-        "pts": 4.0,
-        "reb": 1.8,
-        "ast": 1.0,
-        "fgPct": 0.43
-      },
-      "contract": {
-        "salaryByYear": [
-          1900000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 4
       }
     },
     {
@@ -11627,6 +11607,140 @@
           null
         ],
         "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1629014",
+      "name": "Anfernee Simons",
+      "teamId": "PHI",
+      "position": "SG",
+      "birthDate": "1999-06-08",
+      "stats": {
+        "pts": 14.3,
+        "reb": 2.5,
+        "ast": 2.4,
+        "fgPct": 0.44
+      },
+      "contract": {
+        "salaryByYear": [
+          6000000,
+          6300000
+        ],
+        "optionType": [
+          null,
+          "player"
+        ],
+        "yearsRemaining": 2
+      }
+    },
+    {
+      "id": "1630574",
+      "name": "Ariel Hukporti",
+      "teamId": "PHI",
+      "position": "C",
+      "birthDate": "2002-04-12",
+      "stats": {
+        "pts": 2.2,
+        "reb": 2.9,
+        "ast": 0.5,
+        "fgPct": 0.563
+      },
+      "contract": {
+        "salaryByYear": [
+          3400000
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1641794",
+      "name": "Dillon Jones",
+      "teamId": "PHI",
+      "position": "SF",
+      "birthDate": "2001-10-29",
+      "stats": {
+        "pts": 1.3,
+        "reb": 1.0,
+        "ast": 0.6,
+        "fgPct": 0.373
+      },
+      "contract": {
+        "salaryByYear": [
+          2449421
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643148",
+      "name": "Saint Thomas",
+      "teamId": "PHI",
+      "position": "PF",
+      "birthDate": "2003-05-01",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1642392",
+      "name": "Jameer Nelson Jr.",
+      "teamId": "PHI",
+      "position": "SG",
+      "birthDate": "2001-08-07",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1629605",
+      "name": "Tacko Fall",
+      "teamId": "PHI",
+      "position": "C",
+      "birthDate": "1995-12-10",
+      "stats": {
+        "pts": 2.2,
+        "reb": 2.4,
+        "ast": 0.2,
+        "fgPct": 0.673
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
       }
     }
   ]

@@ -370,15 +370,16 @@
         "1631107",
         "1630558",
         "1626171",
-        "1642884",
         "203501",
         "1631323",
         "1641796",
         "1630696",
-        "1642443",
         "1642066",
         "1630208",
-        "202691"
+        "202691",
+        "1643016",
+        "1643553",
+        "1643727"
       ]
     },
     {
@@ -650,7 +651,6 @@
         "1642271",
         "1629723",
         "1629004",
-        "1643016",
         "201567",
         "1629006",
         "1629637"
@@ -2157,7 +2157,7 @@
       },
       "contract": {
         "salaryByYear": [
-          5000000
+          2449421
         ],
         "optionType": [
           null
@@ -5712,15 +5712,13 @@
       "contract": {
         "salaryByYear": [
           58456566,
-          62800000,
-          67200000
+          62786682
         ],
         "optionType": [
           null,
-          null,
           "player"
         ],
-        "yearsRemaining": 3
+        "yearsRemaining": 2
       }
     },
     {
@@ -5737,14 +5735,16 @@
       },
       "contract": {
         "salaryByYear": [
-          49500000,
-          53400000
+          49800000,
+          53784000,
+          57768000
         ],
         "optionType": [
           null,
+          null,
           "player"
         ],
-        "yearsRemaining": 2
+        "yearsRemaining": 3
       }
     },
     {
@@ -5761,12 +5761,16 @@
       },
       "contract": {
         "salaryByYear": [
-          30169644
+          30169644,
+          16346154,
+          17653846
         ],
         "optionType": [
+          "player",
+          null,
           "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 3
       }
     },
     {
@@ -5784,8 +5788,8 @@
       "contract": {
         "salaryByYear": [
           16200000,
-          14900000,
-          15000000,
+          14904000,
+          15096000,
           16200000
         ],
         "optionType": [
@@ -5833,12 +5837,14 @@
       },
       "contract": {
         "salaryByYear": [
-          14521414
+          14521414,
+          15597074
         ],
         "optionType": [
-          null
+          null,
+          "player"
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -5855,7 +5861,7 @@
       },
       "contract": {
         "salaryByYear": [
-          7500000
+          6500000
         ],
         "optionType": [
           null
@@ -5877,7 +5883,7 @@
       },
       "contract": {
         "salaryByYear": [
-          8250000
+          2449421
         ],
         "optionType": [
           null
@@ -5899,12 +5905,20 @@
       },
       "contract": {
         "salaryByYear": [
-          2296271
+          2296271,
+          13392857,
+          14464286,
+          15535714,
+          16607143
         ],
         "optionType": [
+          "team",
+          null,
+          null,
+          null,
           null
         ],
-        "yearsRemaining": 1
+        "yearsRemaining": 5
       }
     },
     {
@@ -5921,34 +5935,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2584539
+          2584539,
+          2934742
         ],
         "optionType": [
-          null
+          null,
+          "team"
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642443",
-      "name": "Jahmir Young",
-      "teamId": "MIA",
-      "position": "PG",
-      "birthDate": "2000-10-07",
-      "stats": {
-        "pts": 4.5,
-        "reb": 1.5,
-        "ast": 1.8,
-        "fgPct": 0.42
-      },
-      "contract": {
-        "salaryByYear": [
-          2411090
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -5965,34 +5959,14 @@
       },
       "contract": {
         "salaryByYear": [
-          2584539
+          2150917,
+          2525901
         ],
         "optionType": [
+          null,
           null
         ],
-        "yearsRemaining": 1
-      }
-    },
-    {
-      "id": "1642884",
-      "name": "Vladislav Goldin",
-      "teamId": "MIA",
-      "position": "C",
-      "birthDate": "2001-05-12",
-      "stats": {
-        "pts": 6.5,
-        "reb": 5.0,
-        "ast": 0.8,
-        "fgPct": 0.56
-      },
-      "contract": {
-        "salaryByYear": [
-          2200000
-        ],
-        "optionType": [
-          null
-        ],
-        "yearsRemaining": 1
+        "yearsRemaining": 2
       }
     },
     {
@@ -10166,7 +10140,7 @@
     {
       "id": "1643016",
       "name": "Bez Mbeng",
-      "teamId": "UTA",
+      "teamId": "MIA",
       "position": "PG",
       "birthDate": "2003-05-02",
       "stats": {
@@ -10177,7 +10151,55 @@
       },
       "contract": {
         "salaryByYear": [
-          2150917
+          2185116
+        ],
+        "optionType": [
+          null
+        ],
+        "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643553",
+      "name": "Ryan Conwell",
+      "teamId": "MIA",
+      "position": "SG",
+      "birthDate": "2004-06-15",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763,
+          2294370,
+          2694363
+        ],
+        "optionType": [
+          null,
+          null,
+          "team"
+        ],
+        "yearsRemaining": 3
+      }
+    },
+    {
+      "id": "1643727",
+      "name": "J'Vonne Hadley",
+      "teamId": "MIA",
+      "position": "SF",
+      "birthDate": "2002-04-03",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          1357763
         ],
         "optionType": [
           null

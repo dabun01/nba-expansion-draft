@@ -16,7 +16,6 @@
         "1629652",
         "1630598",
         "1629111",
-        "1642269",
         "1642854",
         "1631243",
         "1627827",
@@ -42,7 +41,9 @@
         "1631199",
         "1641775",
         "1629011",
-        "201144"
+        "201144",
+        "1642269",
+        "1643416"
       ]
     },
     {
@@ -892,7 +893,7 @@
     {
       "id": "1642269",
       "name": "Devin Carter",
-      "teamId": "ATL",
+      "teamId": "BOS",
       "position": "PG",
       "birthDate": "2002-03-18",
       "stats": {
@@ -903,7 +904,7 @@
       },
       "contract": {
         "salaryByYear": [
-          5158080,
+          2449421,
           7370897
         ],
         "optionType": [
@@ -1289,7 +1290,7 @@
       },
       "contract": {
         "salaryByYear": [
-          3100000,
+          3150752,
           3300000,
           3500000,
           3800000
@@ -1377,6 +1378,34 @@
           null
         ],
         "yearsRemaining": 1
+      }
+    },
+    {
+      "id": "1643416",
+      "name": "Chris Cenac Jr.",
+      "teamId": "BOS",
+      "position": "PF",
+      "birthDate": "2007-02-01",
+      "stats": {
+        "pts": 0,
+        "reb": 0,
+        "ast": 0,
+        "fgPct": 0
+      },
+      "contract": {
+        "salaryByYear": [
+          2988120,
+          2988120,
+          2988120,
+          2988120
+        ],
+        "optionType": [
+          null,
+          null,
+          "team",
+          "team"
+        ],
+        "yearsRemaining": 4
       }
     },
     {
